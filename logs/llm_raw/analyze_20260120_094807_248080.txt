@@ -1,0 +1,181 @@
+}
+
+
+Return JSON in the required schema. If you cannot provide 2 valid evidence items, you must still provide probable_root_causes and proposed_fix_plan as hypothesis-only guidance and explicitly say so in verification_rule.
+
+```json
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [
+    {
+      "evidence_id": "E#",
+      "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...) "
+    }
+  ],
+  "probable_root_causes": [
+    "ONE complete sentence, max 140 chars"
+  ],
+  "proposed_fix_plan": [
+    "ONE complete sentence, max 140 chars"
+  ],
+  "verification_rule": "string",
+  "requested_event_keys": ["string(optional)"],
+  "requested_event_types": ["string(optional)"]
+}
+```
+
+
+```json
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [
+    {
+      "evidence_id": "E#",
+      "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...) "
+    }
+  ],
+  "probable_root_causes": [
+    "ONE complete sentence, max 140 chars"
+  ],
+  "proposed_fix_plan": [
+    "ONE complete sentence, max 140 chars"
+  ],
+  "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=only_one_evidence_item).",
+  "requested_event_keys": ["string(optional)"],
+  "requested_event_types": ["string(optional)"]
+}
+```
+
+
+```json
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [
+    {
+      "evidence_id": "E#",
+      "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...) "
+    },
+    {
+      "evidence_id": "E#",
+      "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...) "
+    }
+  ],
+  "probable_root_causes": [
+    "ONE complete sentence, max 140 chars"
+  ],
+  "proposed_fix_plan": [
+    "ONE complete sentence, max 140 chars"
+  ],
+  "verification_rule": "string",
+  "requested_event_keys": ["string(optional)"],
+  "requested_event_types": ["string(optional)"]
+}
+```
+
+
+```json
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [
+    {
+      "evidence_id": "E#",
+      "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...) "
+    },
+    {
+      "evidence_id": "E#",
+      "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...) "
+    }
+  ],
+  "probable_root_causes": [
+    "ONE complete sentence, max 140 chars"
+  ],
+  "proposed_fix_plan": [
+    "ONE complete sentence, max 140 chars"
+  ],
+  "verification_rule": "string",
+  "requested_event_keys": ["string(optional)"],
+  "requested_event_types": ["string(optional)"]
+}
+```
+
+
+```json
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [
+    {
+      "evidence_id": "E#",
+      "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...) "
+    },
+    {
+      "evidence_id": "E#",
+      "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...) "
+    }
+  ],
+  "probable_root_causes": [
+    "ONE complete sentence, max 140 chars"
+  ],
+  "proposed_fix_plan": [
+    "ONE complete sentence, max 140 chars"
+  ],
+  "verification_rule": "string",
+  "requested_event_keys": ["string(optional)"],
+  "requested_event_types": ["string(optional)"]
+}
+```
+
+
+```json
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [
+    {
+      "evidence_id": "E#",
+      "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...) "
+    },
+    {
+      "evidence_id": "E#",
+      "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...) "
+    }
+  ],
+  "probable_root_causes": [
+    "ONE complete sentence, max 140 chars"
+  ],
+  "proposed_fix_plan": [
+    "ONE complete sentence, max 140 chars"
+  ],
+  "verification_rule": "string",
+  "requested_event_keys": ["string(optional)"],
+  "requested_event_types": ["string(optional)"]
+}
+```
+
+
+```json
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [
+    {
+      "evidence_id": "E#",
+      "claim": "

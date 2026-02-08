@@ -1,0 +1,121 @@
+]
+
+JSON OUTPUT:
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "claim": "The procedure had no system versions."
+    },
+    {
+      "evidence_id": "E2",
+      "claim": "There were 4 occurrences of Error ID 1: General system error."
+    },
+    {
+      "evidence_id": "E3",
+      "claim": "The Magnetic Ablation Catheter D-1395-04-S was used."
+    },
+    {
+      "evidence_id": "E4",
+      "claim": "The Ultrasound Catheter D1139108F was used."
+    },
+    {
+      "evidence_id": "E5",
+      "claim": "The Contact Force Ablation Catheter D135107 was used."
+    },
+    {
+      "evidence_id": "E6",
+      "claim": "The General Purpose Catheter 6DYNTP001 GFUB3573 was used."
+    },
+    {
+      "evidence_id": "E7",
+      "claim": "An unknown catheter was used."
+    },
+    {
+      "evidence_id": "E8",
+      "claim": "The Mapping Catheter D-1609-02-S was used."
+    },
+    {
+      "evidence_id": "E9",
+      "claim": "Another unknown catheter was used."
+    },
+    {
+      "evidence_id": "E10",
+      "claim": "The General Purpose Catheter FARAWAVE 31mm was used."
+    },
+    {
+      "evidence_id": "E11",
+      "claim": "The General Purpose Catheter FARAWAVE 31mm Basket Model was used."
+    },
+    {
+      "evidence_id": "E12",
+      "claim": "The General Purpose Catheter FARAWAVE 31mm Flower Model was used."
+    },
+    {
+      "evidence_id": "E13",
+      "claim": "There were 2362 error and warning events."
+    },
+    {
+      "evidence_id": "E14",
+      "claim": "There were 5 occurrences of Error ID 1: General system error in PC-001933281."
+    },
+    {
+      "evidence_id": "E15",
+      "claim": "There were 3 occurrences of Error ID 1: General system error in PC-001882522."
+    },
+    {
+      "evidence_id": "E16",
+      "claim": "There were 1022 error and warning events in PC-001933281."
+    },
+    {
+      "evidence_id": "E17",
+      "claim": "There were 1484 error and warning events in PC-001882522."
+    }
+  ],
+  "probable_root_causes": [
+    "The catheter may have caused the error.",
+    "The catheter's capabilities may have caused the error.",
+    "The catheter's electrodes may have caused the error.",
+    "The catheter's thermocouples may have caused the error.",
+    "The catheter's first occurrence may have caused the error.",
+    "The catheter's last occurrence may have caused the error.",
+    "The catheter's total events may have caused the error.",
+    "The catheter's total duration may have caused the error.",
+    "The catheter's extra information may have caused the error.",
+    "The catheter's clinical category may have caused the error.",
+    "The catheter's part number may have caused the error.",
+    "The catheter's capabilities may have caused the error.",
+    "The catheter's electrodes may have caused the error.",
+    "The catheter's thermocouples may have caused the error.",
+    "The catheter's first occurrence may have caused the error.",
+    "The catheter's last occurrence may have caused the error.",
+    "The catheter's total events may have caused the error.",
+    "The catheter's total duration may have caused the error.",
+    "The catheter's extra information may have caused the error.",
+    "The catheter's clinical category may have caused the error.",
+    "The catheter's part number may have caused the error.",
+    "The catheter's capabilities may have caused the error.",
+    "The catheter's electrodes may have caused the error.",
+    "The catheter's thermocouples may have caused the error.",
+    "The catheter's first occurrence may have caused the error.",
+    "The catheter's last occurrence may have caused the error.",
+    "The catheter's total events may have caused the error.",
+    "The catheter's total duration may have caused the error.",
+    "The catheter's extra information may have caused the error.",
+    "The catheter's clinical category may have caused the error.",
+    "The catheter's part number may have caused the error.",
+    "The catheter's capabilities may have caused the error.",
+    "The catheter's electrodes may have caused the error.",
+    "The catheter's thermocouples may have caused the error.",
+    "The catheter's first occurrence may have caused the error.",
+    "The catheter's last occurrence may have caused the error.",
+    "The catheter's total events may have caused the error.",
+    "The catheter's total duration may have caused the error.",
+    "The catheter's extra information may have caused the error.",
+    "The catheter's clinical category may have caused the error.",
+    "The catheter's part number may have caused the error.",
+    "The catheter's capabilities

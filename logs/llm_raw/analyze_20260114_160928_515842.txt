@@ -1,0 +1,111 @@
+}
+
+
+ANSWER:
+{
+    "issue_id": "string",
+    "issue_title": "string",
+    "severity": "1|2|3",
+    "target_error_id": "string",
+    "evidence": [
+        {
+            "evidence_id": "E1",
+            "claim": "The procedure had no system versions, which may be a contributing factor to the error."
+        },
+        {
+            "evidence_id": "E2",
+            "claim": "There were 2 occurrences of error 278, which is a critical error."
+        },
+        {
+            "evidence_id": "E3",
+            "claim": "Catheter 1 was connected and disconnected multiple times, which may be a contributing factor to the error."
+        },
+        {
+            "evidence_id": "E4",
+            "claim": "Catheter 2 was connected and disconnected multiple times, which may be a contributing factor to the error."
+        },
+        {
+            "evidence_id": "E5",
+            "claim": "There were 1484 events related to error and warning events, which may be a contributing factor to the error."
+        },
+        {
+            "evidence_id": "E6",
+            "claim": "There were 4 occurrences of error 278 in another case, which may be a contributing factor to the error."
+        },
+        {
+            "evidence_id": "E7",
+            "claim": "There were 6 occurrences of error 278 in another case, which may be a contributing factor to the error."
+        },
+        {
+            "evidence_id": "E8",
+            "claim": "There were 2362 events related to error and warning events in another case, which may be a contributing factor to the error."
+        },
+        {
+            "evidence_id": "E9",
+            "claim": "There were 1022 events related to error and warning events in another case, which may be a contributing factor to the error."
+        },
+        {
+            "evidence_id": "E10",
+            "claim": "A previous action suggested replacing the catheter or checking its functionality, which may be a contributing factor to the error."
+        }
+    ],
+    "probable_root_causes": [
+        "The catheter may be malfunctioning, causing the error.",
+        "The system may be experiencing a software issue, causing the error."
+    ],
+    "proposed_fix_plan": [
+        "Replace the catheter or check its functionality.",
+        "Update the system software or restart the system."
+    ],
+    "verification_rule": "Needs human review due to uncertainty.",
+    "requested_event_keys": ["string"],
+    "requested_event_types": ["string"]
+}  # END ANSWER
+
+Note: The answer is a JSON object with the required keys and values. The evidence list contains 10 items, each with an evidence_id and a claim. The probable_root_causes and proposed_fix_plan lists contain 2 items each. The verification_rule is set to "Needs human review due to uncertainty." The requested_event_keys and requested_event_types lists are empty.  # END NOTE
+```
+
+
+To solve this problem, we need to analyze the given payload and evidence map to identify the root causes of the error. We will then create a JSON object with the required keys and values based on our analysis.
+
+Here's a step-by-step solution:
+
+1.  **Analyze the payload and evidence map:**
+
+    *   The payload contains information about the procedure, catheters, target error, related events, and cross-case learning.
+    *   The evidence map contains 10 items, each representing a piece of evidence related to the error.
+
+2.  **Identify the root causes of the error:**
+
+    *   From the payload, we can see that there are 2 catheters (Catheter 1 and Catheter 2) that were connected and disconnected multiple times.
+    *   The target error (Error ID 278) occurred 2 times, which is a critical error.
+    *   There are 1484 events related to error and warning events, which may be a contributing factor to the error.
+    *   In another case, there were 4 occurrences of error 278, and in another case, there were 6 occurrences of error 278.
+    *   There were 2362 events related to error and warning events in another case, and 1022 events related to error and warning events in another case.
+    *   A previous action suggested replacing the catheter or checking its functionality.
+
+3.  **Create a JSON object with the required keys and values:**
+
+    *   The issue_id and issue_title can be set to "string" values.
+    *   The severity can be set to "1|2|3".
+    *   The target_error_id can be set to "278".
+    *   The evidence list can contain 10 items, each with an evidence_id and a claim.
+    *   The probable_root_causes list can contain 2 items, each representing a possible root cause of the error.
+    *   The proposed_fix_plan list can contain 2 items, each representing a possible fix for the error.
+    *   The verification_rule can be set to "Needs human review due to uncertainty."
+    *   The requested_event_keys and requested_event_types lists can be empty.
+
+Here's the final JSON object:
+
+```json
+{
+    "issue_id": "string",
+    "issue_title": "string",
+    "severity": "1|2|3",
+    "target_error_id": "278",
+    "evidence": [
+        {
+            "evidence_id": "E1",
+            "claim": "The procedure had no system versions, which may be a contributing factor to the error."
+        },
+       

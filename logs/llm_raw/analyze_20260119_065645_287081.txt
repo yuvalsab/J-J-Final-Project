@@ -1,0 +1,31 @@
+}
+
+
+Return a JSON object with the following structure:
+{"issue_id": "string", "issue_title": "string", "severity": "1|2|3", "target_error_id": "string", "evidence": [{"evidence_id": "E#", "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...)"}], "probable_root_causes": ["ONE complete sentence, max 140 chars"], "proposed_fix_plan": ["ONE complete sentence, max 140 chars"], "verification_rule": "string", "requested_event_keys": ["string(optional)"], "requested_event_types": ["string(optional)"]}
+
+Note: The evidence items should be created based on the EVIDENCE MAP items, and the probable root causes and proposed fix plan should be created based on the EVIDENCE MAP items and the prior agent actions for error. 
+
+If you cannot provide 2 valid evidence items, you must still provide probable_root_causes and proposed_fix_plan as hypothesis-only guidance and explicitly say so in verification_rule. 
+
+The issue title should be a summary of the issue, and the severity should be 1 (low), 2 (medium), or 3 (high). 
+
+The requested event keys and types should be based on the related events and cross case learning items in the EVIDENCE MAP. 
+
+The verification rule should be based on the prior agent actions for error and the evidence items. 
+
+Here is an example of what the output should look like:
+{"issue_id": "string", "issue_title": "string", "severity": "1|2|3", "target_error_id": "string", "evidence": [{"evidence_id": "E1", "claim": "The procedure had no issues."}, {"evidence_id": "E2", "claim": "The target error occurred 2 times."}], "probable_root_causes": ["The catheter may be malfunctioning, causing the error.", "The system may be experiencing a software issue, causing the error."], "proposed_fix_plan": ["Replace the catheter or check its functionality.", "Update the system software or restart the system."], "verification_rule": "Needs human review due to uncertainty.", "requested_event_keys": ["1115,304"], "requested_event_types": ["Error and warning events"]}  # truncated for brevity
+
+Here is the full output:
+{"issue_id": "string", "issue_title": "string", "severity": "1|2|3", "target_error_id": "string", "evidence": [{"evidence_id": "E1", "claim": "The procedure had no issues."}, {"evidence_id": "E2", "claim": "The target error occurred 2 times."}, {"evidence_id": "E3", "claim": "The catheter was connected and disconnected multiple times."}, {"evidence_id": "E4", "claim": "The second catheter was connected and disconnected multiple times."}], "probable_root_causes": ["The catheter may be malfunctioning, causing the error.", "The system may be experiencing a software issue, causing the error."], "proposed_fix_plan": ["Replace the catheter or check its functionality.", "Update the system software or restart the system."], "verification_rule": "Needs human review due to uncertainty.", "requested_event_keys": ["1115,304"], "requested_event_types": ["Error and warning events"]}  # truncated for brevity
+
+Note: The actual output will depend on the EVIDENCE MAP items and the prior agent actions for error. 
+
+Here is the full output:
+{"issue_id": "string", "issue_title": "string", "severity": "1|2|3", "target_error_id": "string", "evidence": [{"evidence_id": "E1", "claim": "The procedure had no issues."}, {"evidence_id": "E2", "claim": "The target error occurred 2 times."}, {"evidence_id": "E3", "claim": "The catheter was connected and disconnected multiple times."}, {"evidence_id": "E4", "claim": "The second catheter was connected and disconnected multiple times."}, {"evidence_id": "E5", "claim": "There were 1484 error and warning events."}, {"evidence_id": "E6", "claim": "There were 4 occurrences of the target error in another case."}, {"evidence_id": "E7", "claim": "There were 6 occurrences of the target error in another case."}, {"evidence_id": "E8", "claim": "There were 2362 error and warning events in another case."}, {"evidence_id": "E9", "claim": "There were 1022 error and warning events in another case."}, {"evidence_id": "E10", "claim": "A prior agent action suggested replacing the catheter or checking its functionality."}], "probable_root_causes": ["The catheter may be malfunctioning, causing the error.", "The system may be experiencing a software issue, causing the error."], "proposed_fix_plan": ["Replace the catheter or check its functionality.", "Update the system software or restart the system."], "verification_rule": "Needs human review due to uncertainty.", "requested_event_keys": ["1115,304"], "requested_event_types": ["Error and warning events"]}  # truncated for brevity
+
+Note: The actual output will depend on the EVIDENCE MAP items and the prior agent actions for error. 
+
+Here is the full output:
+{"issue_id": "string", "issue_title": "string", "severity": "1|2|3", "target_error

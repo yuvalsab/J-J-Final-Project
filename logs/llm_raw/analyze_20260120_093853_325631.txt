@@ -1,0 +1,127 @@
+}
+
+
+Return a JSON object with the following structure:
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [
+    {
+      "evidence_id": "E#",
+      "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...)"},
+    {
+      "evidence_id": "E#",
+      "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...)"}
+  ],
+  "probable_root_causes": [
+    "ONE complete sentence, max 140 chars"
+  ],
+  "proposed_fix_plan": [
+    "ONE complete sentence, max 140 chars"
+  ],
+  "verification_rule": "string",
+  "requested_event_keys": ["string(optional)"],
+  "requested_event_types": ["string(optional)"]
+} 
+
+Note: The evidence_id in the evidence array should be a unique identifier for each evidence item, and the claim should be a complete sentence summarizing the evidence. The probable_root_causes and proposed_fix_plan should be a list of sentences summarizing the probable root causes and proposed fix plan, respectively. The verification_rule should be a string indicating the status of the investigation, and the requested_event_keys and requested_event_types should be lists of strings representing the event keys and types that are required for further investigation. 
+
+Also, please note that the output should be in JSON format and should not contain any extra text or markdown. 
+
+Here is a sample output:
+{
+  "issue_id": "PC-001927524",
+  "issue_title": "Target Error 278",
+  "severity": "2",
+  "target_error_id": "278",
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "claim": "The procedure was not properly configured."
+    },
+    {
+      "evidence_id": "E2",
+      "claim": "The target error 278 occurred 4 times with a total duration of 36:04:26."
+    },
+    {
+      "evidence_id": "E3",
+      "claim": "Catheter D-1395-04-S was used during the procedure."
+    }
+  ],
+  "probable_root_causes": [
+    "The root cause of the error is the incorrect configuration of the procedure."
+  ],
+  "proposed_fix_plan": [
+    "Reconfigure the procedure to fix the error."
+  ],
+  "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=no_evidence_array).",
+  "requested_event_keys": ["1115,304"],
+  "requested_event_types": ["Error and warning events"]
+} 
+
+Please note that the output should be in JSON format and should not contain any extra text or markdown. 
+
+Also, note that the evidence_id in the evidence array should be a unique identifier for each evidence item, and the claim should be a complete sentence summarizing the evidence. The probable_root_causes and proposed_fix_plan should be a list of sentences summarizing the probable root causes and proposed fix plan, respectively. The verification_rule should be a string indicating the status of the investigation, and the requested_event_keys and requested_event_types should be lists of strings representing the event keys and types that are required for further investigation. 
+
+Please provide the JSON output based on the given EVIDENCE MAP. 
+
+Here is the JSON output:
+{
+  "issue_id": "PC-001927524",
+  "issue_title": "Target Error 278",
+  "severity": "2",
+  "target_error_id": "278",
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "claim": "The procedure was not properly configured."
+    },
+    {
+      "evidence_id": "E2",
+      "claim": "The target error 278 occurred 4 times with a total duration of 36:04:26."
+    },
+    {
+      "evidence_id": "E3",
+      "claim": "Catheter D-1395-04-S was used during the procedure."
+    },
+    {
+      "evidence_id": "E4",
+      "claim": "Catheter D1139108F was used during the procedure."
+    },
+    {
+      "evidence_id": "E5",
+      "claim": "Catheter D135107 was used during the procedure."
+    },
+    {
+      "evidence_id": "E6",
+      "claim": "Catheter 6DYNTP001 GFUB3573 was used during the procedure."
+    },
+    {
+      "evidence_id": "E7",
+      "claim": "Catheter N/A was used during the procedure."
+    },
+    {
+      "evidence_id": "E8",
+      "claim": "Catheter D-1609-02-S was used during the procedure."
+    },
+    {
+      "evidence_id": "E9",
+      "claim": "Catheter Unknown was used during the procedure."
+    },
+    {
+      "evidence_id": "E10",
+      "claim": "Catheter FARAWAVE 31mm was used during the procedure."
+    },
+    {
+      "evidence_id": "E11",
+      "claim": "Catheter FARAWAVE 31mm Basket Model was used during the procedure."
+    },
+    {
+      "evidence_id": "E12",
+      "claim": "Catheter FARAWAVE 31mm Flower Model was used during the procedure."
+    },
+    {
+      "evidence_id": "E13",
+      "claim": "Related event 1115,304 occurred during the procedure."

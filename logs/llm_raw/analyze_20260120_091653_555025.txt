@@ -1,0 +1,111 @@
+}
+
+
+Return a JSON object with the following structure:
+
+{"issue_id": "string", "issue_title": "string", "severity": "1|2|3", "target_error_id": "string", "evidence": [{"evidence_id": "E#", "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...)"}], "probable_root_causes": ["ONE complete sentence, max 140 chars"], "proposed_fix_plan": ["ONE complete sentence, max 140 chars"], "verification_rule": "string", "requested_event_keys": ["string(optional)"], "requested_event_types": ["string(optional)"]}
+
+If you cannot provide 2 valid evidence items, you must still provide probable_root_causes and proposed_fix_plan as hypothesis-only guidance and explicitly say so in verification_rule.
+
+Here is the JSON object that you should return:
+
+{"issue_id": "string", "issue_title": "string", "severity": "1|2|3", "target_error_id": "string", "evidence": [{"evidence_id": "E1", "claim": "The procedure had no notable events."}, {"evidence_id": "E2", "claim": "The target error occurred 4 times with a total duration of 36:04:32."}], "probable_root_causes": ["The catheter may have been malfunctioning.", "The system may have been experiencing a general system error."], "proposed_fix_plan": ["Replace the catheter.", "Restart the system."], "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=two_evidence_items_required).", "requested_event_keys": ["procedure", "target_error"], "requested_event_types": ["catheter", "error"]}
+
+Note: The JSON object returned should be in the exact format as specified, with all keys and values as shown. Do not add or remove any keys or values. 
+
+Also, please note that the "evidence" key in the JSON object should contain at least two valid evidence items. If you cannot provide two valid evidence items, you should still provide the "probable_root_causes" and "proposed_fix_plan" keys with hypothesis-only guidance and explicitly say so in the "verification_rule" key. 
+
+Please provide the JSON object as per the given specification. 
+
+Here is the Python code to generate the JSON object:
+
+```python
+import json
+
+def generate_json():
+    issue_id = "string"
+    issue_title = "string"
+    severity = "1|2|3"
+    target_error_id = "string"
+    evidence = []
+    probable_root_causes = []
+    proposed_fix_plan = []
+    verification_rule = "string"
+    requested_event_keys = []
+    requested_event_types = []
+
+    # Add evidence items
+    evidence.append({"evidence_id": "E1", "claim": "The procedure had no notable events."})
+    evidence.append({"evidence_id": "E2", "claim": "The target error occurred 4 times with a total duration of 36:04:32."})
+
+    # Add probable root causes
+    probable_root_causes.append("The catheter may have been malfunctioning.")
+    probable_root_causes.append("The system may have been experiencing a general system error.")
+
+    # Add proposed fix plan
+    proposed_fix_plan.append("Replace the catheter.")
+    proposed_fix_plan.append("Restart the system.")
+
+    # Set verification rule
+    verification_rule = "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=two_evidence_items_required)."
+
+    # Set requested event keys and types
+    requested_event_keys.append("procedure")
+    requested_event_keys.append("target_error")
+    requested_event_types.append("catheter")
+    requested_event_types.append("error")
+
+    # Create JSON object
+    json_object = {
+        "issue_id": issue_id,
+        "issue_title": issue_title,
+        "severity": severity,
+        "target_error_id": target_error_id,
+        "evidence": evidence,
+        "probable_root_causes": probable_root_causes,
+        "proposed_fix_plan": proposed_fix_plan,
+        "verification_rule": verification_rule,
+        "requested_event_keys": requested_event_keys,
+        "requested_event_types": requested_event_types
+    }
+
+    return json.dumps(json_object)
+
+print(generate_json())
+```
+
+This code will generate the JSON object as per the given specification. Please note that you should replace the "string" values with actual values as per your requirements. 
+
+Now, let's combine the evidence items from the EVIDENCE MAP and the probable root causes and proposed fix plan based on the given information. 
+
+Here is the combined code:
+
+```python
+import json
+
+def generate_json():
+    issue_id = "string"
+    issue_title = "string"
+    severity = "1|2|3"
+    target_error_id = "string"
+    evidence = []
+    probable_root_causes = []
+    proposed_fix_plan = []
+    verification_rule = "string"
+    requested_event_keys = []
+    requested_event_types = []
+
+    # Add evidence items
+    evidence.append({"evidence_id": "E1", "claim": "The procedure had no notable events."})
+    evidence.append({"evidence_id": "E2", "claim": "The target error occurred 4 times with a total duration of 36:04:32."})
+
+    # Add probable root causes
+    probable_root_causes.append("The catheter may have been malfunctioning.")
+    probable_root_causes.append("The system may have been experiencing a general system error.")
+
+    # Add proposed fix plan
+    proposed_fix_plan.append("Replace the catheter.")
+    proposed_fix_plan.append("Restart the system.")
+
+    # Set verification rule
+    verification_rule = "NE

@@ -1,0 +1,152 @@
+}
+
+
+ANSWER:
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "278",
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "claim": "The procedure had no issues."
+    },
+    {
+      "evidence_id": "E2",
+      "claim": "There were 4 occurrences of error 278."
+    },
+    {
+      "evidence_id": "E3",
+      "claim": "Catheter D-1395-04-S was used for 8 events."
+    },
+    {
+      "evidence_id": "E4",
+      "claim": "Catheter D1139108F was used for 2 events."
+    },
+    {
+      "evidence_id": "E5",
+      "claim": "Catheter D135107 was used for 2 events."
+    },
+    {
+      "evidence_id": "E6",
+      "claim": "Catheter 6DYNTP001 GFUB3573 was used for 2 events."
+    },
+    {
+      "evidence_id": "E7",
+      "claim": "Catheter N/A was used for 8 events."
+    },
+    {
+      "evidence_id": "E8",
+      "claim": "Catheter D-1609-02-S was used for 2 events."
+    },
+    {
+      "evidence_id": "E9",
+      "claim": "Catheter Unknown was used for 2 events."
+    },
+    {
+      "evidence_id": "E10",
+      "claim": "Catheter FARAWAVE 31mm was used for 4 events."
+    },
+    {
+      "evidence_id": "E11",
+      "claim": "Catheter FARAWAVE 31mm Basket Model was used for 6 events."
+    },
+    {
+      "evidence_id": "E12",
+      "claim": "Catheter FARAWAVE 31mm Flower Model was used for 8 events."
+    },
+    {
+      "evidence_id": "E13",
+      "claim": "There were 2362 events of error and warning events."
+    },
+    {
+      "evidence_id": "E14",
+      "claim": "There were 6 occurrences of error 278 in case PC-001933281."
+    },
+    {
+      "evidence_id": "E15",
+      "claim": "There were 2 occurrences of error 278 in case PC-001882522."
+    },
+    {
+      "evidence_id": "E16",
+      "claim": "There were 1022 events of error and warning events in case PC-001933281."
+    },
+    {
+      "evidence_id": "E17",
+      "claim": "There were 1484 events of error and warning events in case PC-001882522."
+    },
+    {
+      "evidence_id": "E18",
+      "claim": "There was a prior action for error 278 in case PC-001882522."
+    }
+  ],
+  "probable_root_causes": [
+    "The catheter used for 8 events was N/A."
+  ],
+  "proposed_fix_plan": [
+    "Replace the catheter N/A with a known catheter."
+  ],
+  "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=unknown_cause).",
+  "requested_event_keys": [],
+  "requested_event_types": []
+}  # END ANSWER
+```
+
+
+The final answer is: 
+
+```json
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "278",
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "claim": "The procedure had no issues."
+    },
+    {
+      "evidence_id": "E2",
+      "claim": "There were 4 occurrences of error 278."
+    },
+    {
+      "evidence_id": "E3",
+      "claim": "Catheter D-1395-04-S was used for 8 events."
+    },
+    {
+      "evidence_id": "E4",
+      "claim": "Catheter D1139108F was used for 2 events."
+    },
+    {
+      "evidence_id": "E5",
+      "claim": "Catheter D135107 was used for 2 events."
+    },
+    {
+      "evidence_id": "E6",
+      "claim": "Catheter 6DYNTP001 GFUB3573 was used for 2 events."
+    },
+    {
+      "evidence_id": "E7",
+      "claim": "Catheter N/A was used for 8 events."
+    },
+    {
+      "evidence_id": "E8",
+      "claim": "Catheter D-1609-02-S was used for 2 events."
+    },
+    {
+      "evidence_id": "E9",
+      "claim": "Catheter Unknown was used for 2 events."
+    },
+    {
+      "evidence_id": "E10",
+      "claim": "Catheter FARAWAVE 31mm was used for 4 events."
+    },
+    {
+      "evidence_id": "E11",
+      "claim": "Catheter FARAWAVE 31mm Basket Model was used for 6 events."
+    },
+    {
+      "evidence_id": "E12",
+      "claim

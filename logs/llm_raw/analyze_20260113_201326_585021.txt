@@ -1,0 +1,109 @@
+}
+
+SELECT EVIDENCE ITEMS TO RETURN:
+E1, E2, E3, E4, E5, E6, E7, E8, E9, E10, E11, E12, E13, E14, E15, E16, E17
+
+RETURN JSON OBJECT:
+{"issue_id": "string", "issue_title": "string", "severity": "1|2|3", "target_error_id": "string", "evidence": [{"evidence_id": "E#", "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...)"}], "probable_root_causes": ["ONE complete sentence, max 140 chars"], "proposed_fix_plan": ["ONE complete sentence, max 140 chars"], "verification_rule": "string", "requested_event_keys": ["string(optional)"], "requested_event_types": ["string(optional)"]}  # NO JSONP
+```json
+{
+  "issue_id": "PC-001927524",
+  "issue_title": "General system error",
+  "severity": "2",
+  "target_error_id": "1",
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "claim": "The procedure had no system versions, indicating potential issues with the system's configuration."
+    },
+    {
+      "evidence_id": "E2",
+      "claim": "There were 4 occurrences of the error ID 1: General system error, indicating a recurring issue with the system's functionality."
+    },
+    {
+      "evidence_id": "E3",
+      "claim": "The Magnetic Ablation Catheter had 8 events, indicating potential issues with the catheter's functionality."
+    },
+    {
+      "evidence_id": "E4",
+      "claim": "The Ultrasound Catheter had 2 events, indicating potential issues with the catheter's functionality."
+    },
+    {
+      "evidence_id": "E5",
+      "claim": "The Contact Force Ablation Catheter had 2 events, indicating potential issues with the catheter's functionality."
+    },
+    {
+      "evidence_id": "E6",
+      "claim": "The General Purpose Catheter had 2 events, indicating potential issues with the catheter's functionality."
+    },
+    {
+      "evidence_id": "E7",
+      "claim": "The Unknown Catheter had 8 events, indicating potential issues with the catheter's functionality."
+    },
+    {
+      "evidence_id": "E8",
+      "claim": "The Mapping Catheter had 2 events, indicating potential issues with the catheter's functionality."
+    },
+    {
+      "evidence_id": "E9",
+      "claim": "The General Purpose Catheter had 2 events, indicating potential issues with the catheter's functionality."
+    },
+    {
+      "evidence_id": "E10",
+      "claim": "The General Purpose Catheter had 4 events, indicating potential issues with the catheter's functionality."
+    },
+    {
+      "evidence_id": "E11",
+      "claim": "The General Purpose Catheter had 6 events, indicating potential issues with the catheter's functionality."
+    },
+    {
+      "evidence_id": "E12",
+      "claim": "The General Purpose Catheter had 8 events, indicating potential issues with the catheter's functionality."
+    },
+    {
+      "evidence_id": "E13",
+      "claim": "There were 2362 events of Error and warning events, indicating potential issues with the system's functionality."
+    },
+    {
+      "evidence_id": "E14",
+      "claim": "There were 5 occurrences of the error ID 1: General system error in another case, indicating a recurring issue with the system's functionality."
+    },
+    {
+      "evidence_id": "E15",
+      "claim": "There were 3 occurrences of the error ID 1: General system error in another case, indicating a recurring issue with the system's functionality."
+    },
+    {
+      "evidence_id": "E16",
+      "claim": "There were 1022 events of Error and warning events in another case, indicating potential issues with the system's functionality."
+    },
+    {
+      "evidence_id": "E17",
+      "claim": "There were 1484 events of Error and warning events in another case, indicating potential issues with the system's functionality."
+    }
+  ],
+  "probable_root_causes": [
+    "The system's configuration may be causing the issue.",
+    "The catheters' functionality may be causing the issue.",
+    "The system's functionality may be causing the issue."
+  ],
+  "proposed_fix_plan": [
+    "Check the system's configuration and update it if necessary.",
+    "Check the catheters' functionality and update them if necessary.",
+    "Check the system's functionality and update it if necessary."
+  ],
+  "verification_rule": "The system's configuration, catheters' functionality, and system's functionality need to be checked and updated if necessary.",
+  "requested_event_keys": [],
+  "requested_event_types": []
+}
+} 
+```json
+```json
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [{"evidence_id": "E#", "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...)"}],
+  "probable_root_causes": ["ONE complete sentence, max 140 chars"],
+  "proposed_fix_plan": ["ONE complete sentence, max 140 chars"],
+  "verification_rule": "string",

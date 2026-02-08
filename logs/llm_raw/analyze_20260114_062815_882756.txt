@@ -1,0 +1,170 @@
+]
+
+JSON OUTPUT:
+{"issue_id": "string", "issue_title": "string", "severity": "1|2|3", "target_error_id": "string", "evidence": [{"evidence_id": "E#", "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...)"}], "probable_root_causes": ["ONE complete sentence, max 140 chars"], "proposed_fix_plan": ["ONE complete sentence, max 140 chars"], "verification_rule": "string", "requested_event_keys": ["string(optional)"], "requested_event_types": ["string(optional)"]}  # JSON schema
+
+Please provide the JSON output based on the provided EVIDENCE MAP and PAYLOAD. 
+
+Note: The JSON output should be a single valid JSON object. If you cannot provide 2 valid evidence items, you must still provide probable_root_causes and proposed_fix_plan as hypothesis-only guidance and explicitly say so in verification_rule. 
+
+Also, please note that the JSON output should not contain any extra text or markdown. Only the JSON object is required. 
+
+Please provide the JSON output in the format specified in the JSON schema. 
+
+Please do not provide any explanations or descriptions. 
+
+Please provide the JSON output as a single valid JSON object. 
+
+Please do not invent facts. 
+
+Please use only the information found in the EVIDENCE MAP items below. 
+
+Please provide the JSON output in the format specified in the JSON schema. 
+
+Please do not provide any extra text or markdown. 
+
+Please provide the JSON output as a single valid JSON object. 
+
+Please do not invent facts. 
+
+Please use only the information found in the EVIDENCE MAP items below. 
+
+Please provide the JSON output in the format specified in the JSON schema. 
+
+Please do not provide any extra text or markdown. 
+
+Please provide the JSON output as a single valid JSON object. 
+
+Please do not invent facts. 
+
+Please use only the information found in the EVIDENCE MAP items below. 
+
+Please provide the JSON output in the format specified in the JSON schema. 
+
+Please do not provide any extra text or markdown. 
+
+Please provide the JSON output as a single valid JSON object. 
+
+Please do not invent facts. 
+
+Please use only the information found in the EVIDENCE MAP items below. 
+
+Please provide the JSON output in the format specified in the JSON schema. 
+
+Please do not provide any extra text or markdown. 
+
+Please provide the JSON output as a single valid JSON object. 
+
+Please do not invent facts. 
+
+Please use only the information found in the EVIDENCE MAP items below. 
+
+Please provide the JSON output in the format specified in the JSON schema. 
+
+Please do not provide any extra text or markdown. 
+
+Please provide the JSON output as a single valid JSON object. 
+
+Please do not invent facts. 
+
+Please use only the information found in the EVIDENCE MAP items below. 
+
+Please provide the JSON output in the format specified in the JSON schema. 
+
+Please do not provide any extra text or markdown. 
+
+Please provide the JSON output as a single valid JSON object. 
+
+Please do not invent facts. 
+
+Please use only the information found in the EVIDENCE MAP items below. 
+
+Please provide the JSON output in the format specified in the JSON schema. 
+
+Please do not provide any extra text or markdown. 
+
+Please provide the JSON output as a single valid JSON object. 
+
+Please do not invent facts. 
+
+Please use only the information found in the EVIDENCE MAP items below. 
+
+Please provide the JSON output in the format specified in the JSON schema. 
+
+Please do not provide any extra text or markdown. 
+
+Please provide the JSON output as a single valid JSON object. 
+
+Please do not invent facts. 
+
+Please use only the information found in the EVIDENCE MAP items below. 
+
+Please provide the JSON output in the format specified in the JSON schema. 
+
+Please do not provide any extra text or markdown. 
+
+Please provide the JSON output as a single valid JSON object. 
+
+Please do not invent facts. 
+
+Please use only the information found in the EVIDENCE MAP items below. 
+
+Please provide the JSON output in the format specified in the JSON schema. 
+
+Please do not provide any extra text or markdown. 
+
+Please provide the JSON output as a single valid JSON object. 
+
+Please do not invent facts. 
+
+Please use only the information found in the EVIDENCE MAP items below. 
+
+Please provide the JSON output in the format specified in the JSON schema. 
+
+Please do not provide any extra text or markdown. 
+
+Please provide the JSON output as a single valid JSON object. 
+
+Please do not invent facts. 
+
+Please use only the information found in the EVIDENCE MAP items below. 
+
+Please provide the JSON output in the format specified in the JSON schema. 
+
+Please do not provide any extra text or markdown. 
+
+Please provide the JSON output as a single valid JSON object. 
+
+Please do not invent facts. 
+
+Please use only the information found in the EVIDENCE MAP items below. 
+
+Please provide the JSON output in the format specified in the JSON schema. 
+
+Please do not provide any extra text or markdown. 
+
+Please provide the JSON output as a single valid JSON object. 
+
+Please do not invent facts. 
+
+Please use only the information found in the EVIDENCE MAP items below. 
+
+Please provide the JSON output in the format specified in the JSON schema. 
+
+Please do not provide any extra text or markdown. 
+
+Please provide the JSON output as a single valid JSON object. 
+
+Please do not invent facts. 
+
+Please use only the information found in the EVIDENCE MAP items below. 
+
+Please provide the JSON output in the format specified in the JSON schema. 
+
+Please do not provide any extra text or markdown. 
+
+Please provide the JSON output as a single valid JSON object. 
+
+Please do not invent facts. 
+
+Please use

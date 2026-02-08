@@ -1,0 +1,153 @@
+}
+
+
+Return the JSON object as described in the prompt. 
+
+Here is the JSON object:
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "claim": "The procedure was not properly configured."
+    },
+    {
+      "evidence_id": "E2",
+      "claim": "There were 3 occurrences of the target error within a 3:53:15 duration."
+    },
+    {
+      "evidence_id": "E3",
+      "claim": "The QDOT MICRO Catheter, DF (Part: D135318) was connected and disconnected multiple times."
+    },
+    {
+      "evidence_id": "E4",
+      "claim": "The DecaNav Catheter was connected and disconnected multiple times."
+    },
+    {
+      "evidence_id": "E5",
+      "claim": "There were 1484 related events within a 3:53:15 duration."
+    },
+    {
+      "evidence_id": "E6",
+      "claim": "There were 4 occurrences of the target error in another case."
+    },
+    {
+      "evidence_id": "E7",
+      "claim": "There were 5 occurrences of the target error in another case."
+    },
+    {
+      "evidence_id": "E8",
+      "claim": "There were 2362 related events in another case."
+    },
+    {
+      "evidence_id": "E9",
+      "claim": "There were 1022 related events in another case."
+    },
+    {
+      "evidence_id": "E10",
+      "claim": "A prior action was taken to investigate the target error."
+    }
+  ],
+  "probable_root_causes": [
+    "The procedure was not properly configured.",
+    "The catheter was not properly connected or disconnected.",
+    "There were related events that may have contributed to the error."
+  ],
+  "proposed_fix_plan": [
+    "Re-configure the procedure to ensure proper setup.",
+    "Verify the catheter connection and disconnection process.",
+    "Investigate and address the related events."
+  ],
+  "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=insufficient_evidence).",
+  "requested_event_keys": [],
+  "requested_event_types": []
+}  # Removed the last two keys as they are optional
+```
+
+
+The final answer is: 
+
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "claim": "The procedure was not properly configured."
+    },
+    {
+      "evidence_id": "E2",
+      "claim": "There were 3 occurrences of the target error within a 3:53:15 duration."
+    },
+    {
+      "evidence_id": "E3",
+      "claim": "The QDOT MICRO Catheter, DF (Part: D135318) was connected and disconnected multiple times."
+    },
+    {
+      "evidence_id": "E4",
+      "claim": "The DecaNav Catheter was connected and disconnected multiple times."
+    },
+    {
+      "evidence_id": "E5",
+      "claim": "There were 1484 related events within a 3:53:15 duration."
+    },
+    {
+      "evidence_id": "E6",
+      "claim": "There were 4 occurrences of the target error in another case."
+    },
+    {
+      "evidence_id": "E7",
+      "claim": "There were 5 occurrences of the target error in another case."
+    },
+    {
+      "evidence_id": "E8",
+      "claim": "There were 2362 related events in another case."
+    },
+    {
+      "evidence_id": "E9",
+      "claim": "There were 1022 related events in another case."
+    },
+    {
+      "evidence_id": "E10",
+      "claim": "A prior action was taken to investigate the target error."
+    }
+  ],
+  "probable_root_causes": [
+    "The procedure was not properly configured.",
+    "The catheter was not properly connected or disconnected.",
+    "There were related events that may have contributed to the error."
+  ],
+  "proposed_fix_plan": [
+    "Re-configure the procedure to ensure proper setup.",
+    "Verify the catheter connection and disconnection process.",
+    "Investigate and address the related events."
+  ],
+  "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=insufficient_evidence)."
+}  # Removed the last two keys as they are optional
+```
+
+
+The final answer is: 
+
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "claim": "The procedure was not properly configured."
+    },
+    {
+      "evidence_id": "E2",
+      "claim": "There were 3 occurrences of the target error within a 3:53:15 duration."
+    },
+    {
+      "evidence_id": "E3",
+      "claim": "The QDOT MICRO Catheter, DF (Part: D135318) was connected and disconnected multiple times."

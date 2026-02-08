@@ -1,0 +1,87 @@
+}
+
+RETURN:
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "278",
+  "evidence": [
+    {"evidence_id": "E1", "claim": "The procedure was not properly configured."},
+    {"evidence_id": "E2", "claim": "Error 278 occurred 4 times."},
+    {"evidence_id": "E3", "claim": "Catheter D-1395-04-S was used."},
+    {"evidence_id": "E4", "claim": "Catheter D1139108F was used."},
+    {"evidence_id": "E5", "claim": "Catheter D135107 was used."},
+    {"evidence_id": "E6", "claim": "Catheter 6DYNTP001 GFUB3573 was used."},
+    {"evidence_id": "E7", "claim": "Catheter with unknown part number was used."},
+    {"evidence_id": "E8", "claim": "Catheter D-1609-02-S was used."},
+    {"evidence_id": "E9", "claim": "Catheter with unknown capabilities was used."},
+    {"evidence_id": "E10", "claim": "Catheter FARAWAVE 31mm was used."},
+    {"evidence_id": "E11", "claim": "Catheter FARAWAVE 31mm Basket Model was used."},
+    {"evidence_id": "E12", "claim": "Catheter FARAWAVE 31mm Flower Model was used."},
+    {"evidence_id": "E13", "claim": "Related event 1115,304 occurred."},
+    {"evidence_id": "E14", "claim": "Error 278 occurred 6 times in another case."},
+    {"evidence_id": "E15", "claim": "Error 278 occurred 2 times in another case."},
+    {"evidence_id": "E16", "claim": "Related event 1115,304 occurred in another case."},
+    {"evidence_id": "E17", "claim": "Related event 1115,304 occurred in another case."}
+  ],
+  "probable_root_causes": [
+    "The procedure was not properly configured.",
+    "Error 278 occurred 4 times.",
+    "Catheter D-1395-04-S was used.",
+    "Catheter D1139108F was used.",
+    "Catheter D135107 was used.",
+    "Catheter 6DYNTP001 GFUB3573 was used.",
+    "Catheter with unknown part number was used.",
+    "Catheter D-1609-02-S was used.",
+    "Catheter with unknown capabilities was used.",
+    "Catheter FARAWAVE 31mm was used.",
+    "Catheter FARAWAVE 31mm Basket Model was used.",
+    "Catheter FARAWAVE 31mm Flower Model was used.",
+    "Related event 1115,304 occurred.",
+    "Error 278 occurred 6 times in another case.",
+    "Error 278 occurred 2 times in another case.",
+    "Related event 1115,304 occurred in another case.",
+    "Related event 1115,304 occurred in another case."
+  ],
+  "proposed_fix_plan": [
+    "Reconfigure the procedure.",
+    "Investigate and fix error 278.",
+    "Replace catheter D-1395-04-S.",
+    "Replace catheter D1139108F.",
+    "Replace catheter D135107.",
+    "Replace catheter 6DYNTP001 GFUB3573.",
+    "Replace catheter with unknown part number.",
+    "Replace catheter D-1609-02-S.",
+    "Replace catheter with unknown capabilities.",
+    "Replace catheter FARAWAVE 31mm.",
+    "Replace catheter FARAWAVE 31mm Basket Model.",
+    "Replace catheter FARAWAVE 31mm Flower Model.",
+    "Investigate related event 1115,304.",
+    "Investigate and fix error 278 in another case.",
+    "Investigate and fix error 278 in another case.",
+    "Investigate related event 1115,304 in another case.",
+    "Investigate related event 1115,304 in another case."
+  ],
+  "verification_rule": "This is a hypothesis-only guidance.",
+  "requested_event_keys": [],
+  "requested_event_types": []
+}  # END RETURN
+```
+The final answer is: 
+
+```
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "278",
+  "evidence": [
+    {"evidence_id": "E1", "claim": "The procedure was not properly configured."},
+    {"evidence_id": "E2", "claim": "Error 278 occurred 4 times."},
+    {"evidence_id": "E3", "claim": "Catheter D-1395-04-S was used."},
+    {"evidence_id": "E4", "claim": "Catheter D1139108F was used."},
+    {"evidence_id": "E5", "claim": "Catheter D135107 was used."},
+    {"evidence_id": "E6", "claim": "Catheter 6DYNTP001 GFUB3573 was used."},
+    {"evidence_id": "E7", "claim": "Catheter with unknown part number was used."},
+    {"e

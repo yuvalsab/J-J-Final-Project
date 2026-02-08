@@ -1,0 +1,26 @@
+{
+  "max_iters": 3,
+  "limit_errors": 250,
+  "limit_events": 250,
+  "limit_catheters": 50,
+
+  "weight_freq": 10.0,
+  "weight_dur": 0.0166666667,
+  "weight_recency": 1.0,
+
+  "evidence_max_items": 40,
+  "evidence_item_max_tokens": 420,
+  "evidence_head_ratio": 0.7,
+
+  "related_events_limit": 25,
+  "more_events_after_fail_limit": 45,
+  "fetch_by_keys_types_limit": 35,
+  "cross_case_limit": 6,
+
+  "llm_model": "llama3",
+  "llm_temperature": 0.2,
+  "llm_timeout_s": 3600,
+  "llm_retries": 2,
+
+  "parallelism": 20
+}

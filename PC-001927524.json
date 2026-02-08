@@ -1,0 +1,804 @@
+{
+  "lightning_name": "PC-001927524",
+  "procedure_id": "PC-001927524",
+  "run_timestamp_utc": "2026-01-25T10:42:54.566017",
+  "config": {
+    "weight_freq": 10.0,
+    "weight_dur": 0.0166666667,
+    "weight_recency": 1.0,
+    "evidence_item_max_tokens": 420,
+    "max_iters": 3
+  },
+  "evidence_map": [
+    {
+      "id": "E1",
+      "label": "procedure",
+      "text": "{\"procedure_id\": null, \"start_time\": null, \"end_time\": null, \"system_versions\": null, \"uls_mode\": null, \"cpu_gpu\": null, \"notes\": null}"
+    },
+    {
+      "id": "E2",
+      "label": "target_error",
+      "text": "{\"error_id\": \"1\", \"event_type\": \"Error ID 1: General system error\", \"error_frequency\": \"4 occurrences\", \"total_events\": \"8 (Raw events)\", \"total_duration\": \"36:04:32\", \"first_occurrence\": \"2025.07.23_19.04.10.487\", \"last_occurrence\": \"2025.07.25_07.08.42.475\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 4 actual error occurrences (from 8 events)\", \"• Error occurrence #1\", \"• Error occurrence #2\", \"• Error occurrence #3\", \"• Error occurrence #4\"]}}"
+    },
+    {
+      "id": "E3",
+      "label": "catheter_1",
+      "text": "{\"part_number\": \"D-1395-04-S\", \"clinical_category\": \"🔥 Magnetic Ablation Catheter\", \"capabilities\": \"Mapping | FAM | Magnetic Sensing | Temperature Sensing | Electrodes (6) | Thermocouples (6)\", \"electrodes\": \"6\", \"thermocouples\": \"6\", \"first_occurrence\": \"2025.07.25_08.23.45.737\", \"last_occurrence\": \"2025.07.25_09.40.02.455\", \"total_events\": \"8\", \"total_duration\": \"01:16:17\", \"extra\": {}}"
+    },
+    {
+      "id": "E4",
+      "label": "catheter_2",
+      "text": "{\"part_number\": \"D1139108F\", \"clinical_category\": \"📡 Ultrasound Catheter\", \"capabilities\": \"Ultrasound Imaging | ICE | 8F\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.58.00.274\", \"last_occurrence\": \"2025.07.25_09.41.15.703\", \"total_events\": \"2\", \"total_duration\": \"01:43:15\", \"extra\": {}}"
+    },
+    {
+      "id": "E5",
+      "label": "catheter_3",
+      "text": "{\"part_number\": \"D135107\", \"clinical_category\": \"🔥 Contact Force Ablation Catheter\", \"capabilities\": \"Ablation | Contact Force Sensing | Temperature Monitoring | Micro Electrodes (4) | Thermocouple (1)\", \"electrodes\": \"4\", \"thermocouples\": \"1\", \"first_occurrence\": \"2025.07.25_09.12.30.419\", \"last_occurrence\": \"2025.07.25_10.00.43.900\", \"total_events\": \"2\", \"total_duration\": \"00:48:13\", \"extra\": {}}"
+    },
+    {
+      "id": "E6",
+      "label": "catheter_4",
+      "text": "{\"part_number\": \"6DYNTP001 GFUB3573\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.20.01.400\", \"last_occurrence\": \"2025.07.25_10.00.43.902\", \"total_events\": \"2\", \"total_duration\": \"02:40:42\", \"extra\": {}}"
+    },
+    {
+      "id": "E7",
+      "label": "catheter_5",
+      "text": "{\"part_number\": \"N/A\", \"clinical_category\": \"Unknown\", \"capabilities\": \"Unknown\", \"electrodes\": \"Unknown\", \"thermocouples\": \"Unknown\", \"first_occurrence\": \"2025.07.25_08.23.45.761\", \"last_occurrence\": \"2025.07.25_09.40.02.458\", \"total_events\": \"8\", \"total_duration\": \"01:16:17\", \"extra\": {}}"
+    },
+    {
+      "id": "E8",
+      "label": "catheter_6",
+      "text": "{\"part_number\": \"D-1609-02-S\", \"clinical_category\": \"🗺️ Mapping Catheter\", \"capabilities\": \"Mapping &#124; FAM &#124; Magnetic Sensing &#124; Electrodes (52)\", \"electrodes\": \"52\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.18.43.192\", \"last_occurrence\": \"2025.07.25_09.40.21.907\", \"total_events\": \"2\", \"total_duration\": \"01:21:38\", \"extra\": {}}"
+    },
+    {
+      "id": "E9",
+      "label": "catheter_7",
+      "text": "{\"part_number\": \"Unknown\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Magnetic Sensing\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.18.43.145\", \"last_occurrence\": \"2025.07.25_09.40.21.904\", \"total_events\": \"2\", \"total_duration\": \"01:21:38\", \"extra\": {}}"
+    },
+    {
+      "id": "E10",
+      "label": "catheter_8",
+      "text": "{\"part_number\": \"FARAWAVE 31mm\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.20.28.453\", \"last_occurrence\": \"2025.07.25_08.37.06.258\", \"total_events\": \"4\", \"total_duration\": \"01:16:38\", \"extra\": {}}"
+    },
+    {
+      "id": "E11",
+      "label": "catheter_9",
+      "text": "{\"part_number\": \"FARAWAVE 31mm Basket Model\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.45.43.440\", \"last_occurrence\": \"2025.07.25_08.55.58.713\", \"total_events\": \"6\", \"total_duration\": \"00:10:15\", \"extra\": {}}"
+    },
+    {
+      "id": "E12",
+      "label": "catheter_10",
+      "text": "{\"part_number\": \"FARAWAVE 31mm Flower Model\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.37.09.334\", \"last_occurrence\": \"2025.07.25_10.00.43.910\", \"total_events\": \"8\", \"total_duration\": \"01:23:34\", \"extra\": {}}"
+    },
+    {
+      "id": "E13",
+      "label": "related_event_1",
+      "text": "{\"event_key\": \"1115,304\", \"event_type\": \"Error and warning events\", \"total_events\": \"2362\", \"total_duration\": \"38:51:54\", \"first_occurrence\": \"2025.07.23_19.04.10.487\", \"last_occurrence\": \"2025.07.25_09.56.04.533\", \"extra\": {}}"
+    },
+    {
+      "id": "E14",
+      "label": "cross_error_1",
+      "text": "{\"error_ids\": \"1\", \"lightning_name\": \"PC-001933281\", \"actual_error_occurrences\": \"5\", \"created_at\": \"2025-12-14 09:54:02.070000\", \"error_frequency\": \"5 occurrences\", \"error_id\": \"1\", \"event_ids\": \"1\", \"event_type\": \"Error ID 1: General system error\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 5 actual error occurrences (from 9 events)\", \"• Session 1: 2025.08.01_10.22.15.453 to 2025.08.01_10.22.43.040 (Duration: 00:00:28) (Frequency: 1)\", \"• Session 2: 2025.08.01_10.24.02.726 to 2025.08.01_10.24.04.725 (Duration: 00:00:02) (Frequency: 1)\", \"• Session 3: 2025.08.01_11.25.09.842 to 2025.08.01_11.25.42.667 (Duration: 00:00:33) (Frequency: 1)\", \"• Session 4: 2025.08.01_11.27.03.023 to 2025.08.\n...[TRUNCATED_MIDDLE]...\n: 1)\", \"• Event 5: 2025.08.01_11.44.11.958 - Error occurrence #5 (ongoing) (Frequency: 1)\"]}, \"first_occurrence\": \"2025.08.01_10.22.15.453\", \"last_occurrence\": \"2025.08.01_11.44.11.958\", \"total_duration\": \"01:21:56\", \"total_events\": \"9 (Raw events)\", \"updated_at\": \"2025-12-14 09:54:02.070000\"}"
+    },
+    {
+      "id": "E15",
+      "label": "cross_error_2",
+      "text": "{\"lightning_name\": \"PC-001882522\", \"error_ids\": \"1\", \"actual_error_occurrences\": \"3\", \"created_at\": \"2025-12-15 09:02:16.807000\", \"error_frequency\": \"3 occurrences\", \"error_id\": \"1\", \"event_ids\": \"1\", \"event_type\": \"Error ID 1: General system error\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 3 actual error occurrences (from 5 events)\", \"• Session 1: 2025.05.27_07.12.38.898 to 2025.05.27_07.13.03.740 (Duration: 00:00:25) (Frequency: 1)\", \"• Session 2: 2025.05.27_07.14.01.641 to 2025.05.27_07.14.01.645 (Duration: 00:00:00) (Frequency: 1)\", \"• Event 3: 2025.05.27_11.05.53.180 - Error occurrence #3 (ongoing) (Frequency: 1)\"]}, \"first_occurrence\": \"2025.05.27_07.12.38.898\", \"last_occurrence\": \"2025.05.27_11.05.53.180\", \"total_duration\": \"03:53:15\", \"total_events\": \"5 (Raw events)\", \"updated_at\": \"2025-12-15 09:02:16.807000\"}"
+    },
+    {
+      "id": "E16",
+      "label": "cross_event_1",
+      "text": "{\"lightning_name\": \"PC-001933281\", \"event_type\": \"Error and warning events\", \"total_events\": \"1022\", \"first_occurrence\": \"2025.08.01_10.22.15.453\", \"last_occurrence\": \"2025.08.01_11.44.11.959\", \"event_ids\": [\"1115\", \"304\"], \"error_ids\": [\"1\", \"1003\", \"1008\", \"1009\", \"101\", \"1011\", \"1049\", \"105\", \"1050\", \"1052\", \"1053\", \"1054\", \"106\", \"2\", \"200\", \"202\", \"210\", \"215\", \"216\", \"228\", \"229\", \"255\", \"258\", \"260\", \"2604\", \"2607\", \"2608\", \"261\", \"2611\", \"268\", \"278\", \"279\", \"280\", \"3\", \"318\", \"319\", \"337\", \"370\", \"371\", \"374\", \"382\", \"400\", \"401\", \"410\", \"417\", \"439\", \"6951\", \"80\", \"81\", \"84\", \"85\", \"86\", \"88\", \"89\", \"912\", \"946\", \"947\", \"948\", \"95\", \"982\", \"983\", \"985\", \"988\", \"996\"], \"\n...[TRUNCATED_MIDDLE]...\n.08.01_11.33.26.203 (Duration: 00:06:23)\", \"• Session 11: 2025.08.01_11.41.24.107 to 2025.08.01_11.44.11.959 (Duration: 00:02:47)\"], \"extra\": {}, \"created_at\": \"2025-12-14 09:54:09.917000\", \"updated_at\": \"2025-12-14 09:54:09.917000\", \"event_key\": \"1115,304\"}"
+    },
+    {
+      "id": "E17",
+      "label": "cross_event_2",
+      "text": "{\"lightning_name\": \"PC-001882522\", \"event_type\": \"Error and warning events\", \"total_events\": \"1484\", \"first_occurrence\": \"2025.05.27_07.12.38.898\", \"last_occurrence\": \"2025.05.27_11.05.53.180\", \"event_ids\": [\"1115\", \"304\"], \"error_ids\": [\"1\", \"1008\", \"1009\", \"105\", \"1052\", \"1053\", \"1054\", \"106\", \"1201\", \"1210\", \"139\", \"1500\", \"2\", \"200\", \"210\", \"215\", \"216\", \"218\", \"228\", \"229\", \"255\", \"258\", \"2606\", \"2607\", \"2608\", \"261\", \"2611\", \"268\", \"278\", \"279\", \"3\", \"318\", \"319\", \"370\", \"371\", \"382\", \"400\", \"401\", \"503\", \"505\", \"80\", \"85\", \"86\", \"88\", \"89\", \"901\", \"912\", \"940\", \"942\", \"95\", \"982\", \"996\"], \"total_duration\": \"03:53:15\", \"event_sessions\": [\"• Session 1: 2025.05.27_07.12.38.898 to 202\n...[TRUNCATED_MIDDLE]...\n.05.27_11.03.25.971 (Duration: 00:00:49)\", \"• Session 39: 2025.05.27_11.05.37.002 to 2025.05.27_11.05.53.180 (Duration: 00:00:16)\"], \"extra\": {}, \"created_at\": \"2025-12-15 09:02:24.782000\", \"updated_at\": \"2025-12-15 09:02:24.782000\", \"event_key\": \"1115,304\"}"
+    }
+  ],
+  "evidence_map_by_case": {
+    "case1": [
+      {
+        "id": "E1",
+        "label": "procedure",
+        "text": "{\"procedure_id\": null, \"start_time\": null, \"end_time\": null, \"system_versions\": null, \"uls_mode\": null, \"cpu_gpu\": null, \"notes\": null}"
+      },
+      {
+        "id": "E2",
+        "label": "target_error",
+        "text": "{\"error_id\": \"1\", \"event_type\": \"Error ID 1: General system error\", \"error_frequency\": \"4 occurrences\", \"total_events\": \"8 (Raw events)\", \"total_duration\": \"36:04:32\", \"first_occurrence\": \"2025.07.23_19.04.10.487\", \"last_occurrence\": \"2025.07.25_07.08.42.475\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 4 actual error occurrences (from 8 events)\", \"• Error occurrence #1\", \"• Error occurrence #2\", \"• Error occurrence #3\", \"• Error occurrence #4\"]}}"
+      },
+      {
+        "id": "E3",
+        "label": "catheter_1",
+        "text": "{\"part_number\": \"D-1395-04-S\", \"clinical_category\": \"🔥 Magnetic Ablation Catheter\", \"capabilities\": \"Mapping | FAM | Magnetic Sensing | Temperature Sensing | Electrodes (6) | Thermocouples (6)\", \"electrodes\": \"6\", \"thermocouples\": \"6\", \"first_occurrence\": \"2025.07.25_08.23.45.737\", \"last_occurrence\": \"2025.07.25_09.40.02.455\", \"total_events\": \"8\", \"total_duration\": \"01:16:17\", \"extra\": {}}"
+      },
+      {
+        "id": "E4",
+        "label": "catheter_2",
+        "text": "{\"part_number\": \"D1139108F\", \"clinical_category\": \"📡 Ultrasound Catheter\", \"capabilities\": \"Ultrasound Imaging | ICE | 8F\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.58.00.274\", \"last_occurrence\": \"2025.07.25_09.41.15.703\", \"total_events\": \"2\", \"total_duration\": \"01:43:15\", \"extra\": {}}"
+      },
+      {
+        "id": "E5",
+        "label": "catheter_3",
+        "text": "{\"part_number\": \"D135107\", \"clinical_category\": \"🔥 Contact Force Ablation Catheter\", \"capabilities\": \"Ablation | Contact Force Sensing | Temperature Monitoring | Micro Electrodes (4) | Thermocouple (1)\", \"electrodes\": \"4\", \"thermocouples\": \"1\", \"first_occurrence\": \"2025.07.25_09.12.30.419\", \"last_occurrence\": \"2025.07.25_10.00.43.900\", \"total_events\": \"2\", \"total_duration\": \"00:48:13\", \"extra\": {}}"
+      },
+      {
+        "id": "E6",
+        "label": "catheter_4",
+        "text": "{\"part_number\": \"6DYNTP001 GFUB3573\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.20.01.400\", \"last_occurrence\": \"2025.07.25_10.00.43.902\", \"total_events\": \"2\", \"total_duration\": \"02:40:42\", \"extra\": {}}"
+      },
+      {
+        "id": "E7",
+        "label": "catheter_5",
+        "text": "{\"part_number\": \"N/A\", \"clinical_category\": \"Unknown\", \"capabilities\": \"Unknown\", \"electrodes\": \"Unknown\", \"thermocouples\": \"Unknown\", \"first_occurrence\": \"2025.07.25_08.23.45.761\", \"last_occurrence\": \"2025.07.25_09.40.02.458\", \"total_events\": \"8\", \"total_duration\": \"01:16:17\", \"extra\": {}}"
+      },
+      {
+        "id": "E8",
+        "label": "catheter_6",
+        "text": "{\"part_number\": \"D-1609-02-S\", \"clinical_category\": \"🗺️ Mapping Catheter\", \"capabilities\": \"Mapping &#124; FAM &#124; Magnetic Sensing &#124; Electrodes (52)\", \"electrodes\": \"52\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.18.43.192\", \"last_occurrence\": \"2025.07.25_09.40.21.907\", \"total_events\": \"2\", \"total_duration\": \"01:21:38\", \"extra\": {}}"
+      },
+      {
+        "id": "E9",
+        "label": "catheter_7",
+        "text": "{\"part_number\": \"Unknown\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Magnetic Sensing\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.18.43.145\", \"last_occurrence\": \"2025.07.25_09.40.21.904\", \"total_events\": \"2\", \"total_duration\": \"01:21:38\", \"extra\": {}}"
+      },
+      {
+        "id": "E10",
+        "label": "catheter_8",
+        "text": "{\"part_number\": \"FARAWAVE 31mm\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.20.28.453\", \"last_occurrence\": \"2025.07.25_08.37.06.258\", \"total_events\": \"4\", \"total_duration\": \"01:16:38\", \"extra\": {}}"
+      },
+      {
+        "id": "E11",
+        "label": "catheter_9",
+        "text": "{\"part_number\": \"FARAWAVE 31mm Basket Model\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.45.43.440\", \"last_occurrence\": \"2025.07.25_08.55.58.713\", \"total_events\": \"6\", \"total_duration\": \"00:10:15\", \"extra\": {}}"
+      },
+      {
+        "id": "E12",
+        "label": "catheter_10",
+        "text": "{\"part_number\": \"FARAWAVE 31mm Flower Model\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.37.09.334\", \"last_occurrence\": \"2025.07.25_10.00.43.910\", \"total_events\": \"8\", \"total_duration\": \"01:23:34\", \"extra\": {}}"
+      },
+      {
+        "id": "E13",
+        "label": "related_event_1",
+        "text": "{\"event_key\": \"1115,304\", \"event_type\": \"Error and warning events\", \"total_events\": \"2362\", \"total_duration\": \"38:51:54\", \"first_occurrence\": \"2025.07.23_19.04.10.487\", \"last_occurrence\": \"2025.07.25_09.56.04.533\", \"extra\": {}}"
+      },
+      {
+        "id": "E14",
+        "label": "cross_error_1",
+        "text": "{\"error_ids\": \"1\", \"lightning_name\": \"PC-001933281\", \"actual_error_occurrences\": \"5\", \"created_at\": \"2025-12-14 09:54:02.070000\", \"error_frequency\": \"5 occurrences\", \"error_id\": \"1\", \"event_ids\": \"1\", \"event_type\": \"Error ID 1: General system error\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 5 actual error occurrences (from 9 events)\", \"• Session 1: 2025.08.01_10.22.15.453 to 2025.08.01_10.22.43.040 (Duration: 00:00:28) (Frequency: 1)\", \"• Session 2: 2025.08.01_10.24.02.726 to 2025.08.01_10.24.04.725 (Duration: 00:00:02) (Frequency: 1)\", \"• Session 3: 2025.08.01_11.25.09.842 to 2025.08.01_11.25.42.667 (Duration: 00:00:33) (Frequency: 1)\", \"• Session 4: 2025.08.01_11.27.03.023 to 2025.08.\n...[TRUNCATED_MIDDLE]...\n: 1)\", \"• Event 5: 2025.08.01_11.44.11.958 - Error occurrence #5 (ongoing) (Frequency: 1)\"]}, \"first_occurrence\": \"2025.08.01_10.22.15.453\", \"last_occurrence\": \"2025.08.01_11.44.11.958\", \"total_duration\": \"01:21:56\", \"total_events\": \"9 (Raw events)\", \"updated_at\": \"2025-12-14 09:54:02.070000\"}"
+      },
+      {
+        "id": "E15",
+        "label": "cross_error_2",
+        "text": "{\"lightning_name\": \"PC-001882522\", \"error_ids\": \"1\", \"actual_error_occurrences\": \"3\", \"created_at\": \"2025-12-15 09:02:16.807000\", \"error_frequency\": \"3 occurrences\", \"error_id\": \"1\", \"event_ids\": \"1\", \"event_type\": \"Error ID 1: General system error\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 3 actual error occurrences (from 5 events)\", \"• Session 1: 2025.05.27_07.12.38.898 to 2025.05.27_07.13.03.740 (Duration: 00:00:25) (Frequency: 1)\", \"• Session 2: 2025.05.27_07.14.01.641 to 2025.05.27_07.14.01.645 (Duration: 00:00:00) (Frequency: 1)\", \"• Event 3: 2025.05.27_11.05.53.180 - Error occurrence #3 (ongoing) (Frequency: 1)\"]}, \"first_occurrence\": \"2025.05.27_07.12.38.898\", \"last_occurrence\": \"2025.05.27_11.05.53.180\", \"total_duration\": \"03:53:15\", \"total_events\": \"5 (Raw events)\", \"updated_at\": \"2025-12-15 09:02:16.807000\"}"
+      },
+      {
+        "id": "E16",
+        "label": "cross_event_1",
+        "text": "{\"lightning_name\": \"PC-001933281\", \"event_type\": \"Error and warning events\", \"total_events\": \"1022\", \"first_occurrence\": \"2025.08.01_10.22.15.453\", \"last_occurrence\": \"2025.08.01_11.44.11.959\", \"event_ids\": [\"1115\", \"304\"], \"error_ids\": [\"1\", \"1003\", \"1008\", \"1009\", \"101\", \"1011\", \"1049\", \"105\", \"1050\", \"1052\", \"1053\", \"1054\", \"106\", \"2\", \"200\", \"202\", \"210\", \"215\", \"216\", \"228\", \"229\", \"255\", \"258\", \"260\", \"2604\", \"2607\", \"2608\", \"261\", \"2611\", \"268\", \"278\", \"279\", \"280\", \"3\", \"318\", \"319\", \"337\", \"370\", \"371\", \"374\", \"382\", \"400\", \"401\", \"410\", \"417\", \"439\", \"6951\", \"80\", \"81\", \"84\", \"85\", \"86\", \"88\", \"89\", \"912\", \"946\", \"947\", \"948\", \"95\", \"982\", \"983\", \"985\", \"988\", \"996\"], \"\n...[TRUNCATED_MIDDLE]...\n.08.01_11.33.26.203 (Duration: 00:06:23)\", \"• Session 11: 2025.08.01_11.41.24.107 to 2025.08.01_11.44.11.959 (Duration: 00:02:47)\"], \"extra\": {}, \"created_at\": \"2025-12-14 09:54:09.917000\", \"updated_at\": \"2025-12-14 09:54:09.917000\", \"event_key\": \"1115,304\"}"
+      },
+      {
+        "id": "E17",
+        "label": "cross_event_2",
+        "text": "{\"lightning_name\": \"PC-001882522\", \"event_type\": \"Error and warning events\", \"total_events\": \"1484\", \"first_occurrence\": \"2025.05.27_07.12.38.898\", \"last_occurrence\": \"2025.05.27_11.05.53.180\", \"event_ids\": [\"1115\", \"304\"], \"error_ids\": [\"1\", \"1008\", \"1009\", \"105\", \"1052\", \"1053\", \"1054\", \"106\", \"1201\", \"1210\", \"139\", \"1500\", \"2\", \"200\", \"210\", \"215\", \"216\", \"218\", \"228\", \"229\", \"255\", \"258\", \"2606\", \"2607\", \"2608\", \"261\", \"2611\", \"268\", \"278\", \"279\", \"3\", \"318\", \"319\", \"370\", \"371\", \"382\", \"400\", \"401\", \"503\", \"505\", \"80\", \"85\", \"86\", \"88\", \"89\", \"901\", \"912\", \"940\", \"942\", \"95\", \"982\", \"996\"], \"total_duration\": \"03:53:15\", \"event_sessions\": [\"• Session 1: 2025.05.27_07.12.38.898 to 202\n...[TRUNCATED_MIDDLE]...\n.05.27_11.03.25.971 (Duration: 00:00:49)\", \"• Session 39: 2025.05.27_11.05.37.002 to 2025.05.27_11.05.53.180 (Duration: 00:00:16)\"], \"extra\": {}, \"created_at\": \"2025-12-15 09:02:24.782000\", \"updated_at\": \"2025-12-15 09:02:24.782000\", \"event_key\": \"1115,304\"}"
+      }
+    ],
+    "case2": [
+      {
+        "id": "E1",
+        "label": "procedure",
+        "text": "{\"procedure_id\": null, \"start_time\": null, \"end_time\": null, \"system_versions\": null, \"uls_mode\": null, \"cpu_gpu\": null, \"notes\": null}"
+      },
+      {
+        "id": "E2",
+        "label": "target_error",
+        "text": "{\"error_id\": \"278\", \"event_type\": \"Error ID 278: Unknown error 278\", \"error_frequency\": \"4 occurrences\", \"total_events\": \"8 (Raw events)\", \"total_duration\": \"36:04:26\", \"first_occurrence\": \"2025.07.23_19.04.44.136\", \"last_occurrence\": \"2025.07.25_07.09.10.889\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 4 actual error occurrences (from 8 events)\", \"• Error occurrence #1\", \"• Error occurrence #2\", \"• Error occurrence #3\", \"• Error occurrence #4\"]}}"
+      },
+      {
+        "id": "E3",
+        "label": "catheter_1",
+        "text": "{\"part_number\": \"D-1395-04-S\", \"clinical_category\": \"🔥 Magnetic Ablation Catheter\", \"capabilities\": \"Mapping | FAM | Magnetic Sensing | Temperature Sensing | Electrodes (6) | Thermocouples (6)\", \"electrodes\": \"6\", \"thermocouples\": \"6\", \"first_occurrence\": \"2025.07.25_08.23.45.737\", \"last_occurrence\": \"2025.07.25_09.40.02.455\", \"total_events\": \"8\", \"total_duration\": \"01:16:17\", \"extra\": {}}"
+      },
+      {
+        "id": "E4",
+        "label": "catheter_2",
+        "text": "{\"part_number\": \"D1139108F\", \"clinical_category\": \"📡 Ultrasound Catheter\", \"capabilities\": \"Ultrasound Imaging | ICE | 8F\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.58.00.274\", \"last_occurrence\": \"2025.07.25_09.41.15.703\", \"total_events\": \"2\", \"total_duration\": \"01:43:15\", \"extra\": {}}"
+      },
+      {
+        "id": "E5",
+        "label": "catheter_3",
+        "text": "{\"part_number\": \"D135107\", \"clinical_category\": \"🔥 Contact Force Ablation Catheter\", \"capabilities\": \"Ablation | Contact Force Sensing | Temperature Monitoring | Micro Electrodes (4) | Thermocouple (1)\", \"electrodes\": \"4\", \"thermocouples\": \"1\", \"first_occurrence\": \"2025.07.25_09.12.30.419\", \"last_occurrence\": \"2025.07.25_10.00.43.900\", \"total_events\": \"2\", \"total_duration\": \"00:48:13\", \"extra\": {}}"
+      },
+      {
+        "id": "E6",
+        "label": "catheter_4",
+        "text": "{\"part_number\": \"6DYNTP001 GFUB3573\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.20.01.400\", \"last_occurrence\": \"2025.07.25_10.00.43.902\", \"total_events\": \"2\", \"total_duration\": \"02:40:42\", \"extra\": {}}"
+      },
+      {
+        "id": "E7",
+        "label": "catheter_5",
+        "text": "{\"part_number\": \"N/A\", \"clinical_category\": \"Unknown\", \"capabilities\": \"Unknown\", \"electrodes\": \"Unknown\", \"thermocouples\": \"Unknown\", \"first_occurrence\": \"2025.07.25_08.23.45.761\", \"last_occurrence\": \"2025.07.25_09.40.02.458\", \"total_events\": \"8\", \"total_duration\": \"01:16:17\", \"extra\": {}}"
+      },
+      {
+        "id": "E8",
+        "label": "catheter_6",
+        "text": "{\"part_number\": \"D-1609-02-S\", \"clinical_category\": \"🗺️ Mapping Catheter\", \"capabilities\": \"Mapping &#124; FAM &#124; Magnetic Sensing &#124; Electrodes (52)\", \"electrodes\": \"52\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.18.43.192\", \"last_occurrence\": \"2025.07.25_09.40.21.907\", \"total_events\": \"2\", \"total_duration\": \"01:21:38\", \"extra\": {}}"
+      },
+      {
+        "id": "E9",
+        "label": "catheter_7",
+        "text": "{\"part_number\": \"Unknown\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Magnetic Sensing\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.18.43.145\", \"last_occurrence\": \"2025.07.25_09.40.21.904\", \"total_events\": \"2\", \"total_duration\": \"01:21:38\", \"extra\": {}}"
+      },
+      {
+        "id": "E10",
+        "label": "catheter_8",
+        "text": "{\"part_number\": \"FARAWAVE 31mm\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.20.28.453\", \"last_occurrence\": \"2025.07.25_08.37.06.258\", \"total_events\": \"4\", \"total_duration\": \"01:16:38\", \"extra\": {}}"
+      },
+      {
+        "id": "E11",
+        "label": "catheter_9",
+        "text": "{\"part_number\": \"FARAWAVE 31mm Basket Model\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.45.43.440\", \"last_occurrence\": \"2025.07.25_08.55.58.713\", \"total_events\": \"6\", \"total_duration\": \"00:10:15\", \"extra\": {}}"
+      },
+      {
+        "id": "E12",
+        "label": "catheter_10",
+        "text": "{\"part_number\": \"FARAWAVE 31mm Flower Model\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.37.09.334\", \"last_occurrence\": \"2025.07.25_10.00.43.910\", \"total_events\": \"8\", \"total_duration\": \"01:23:34\", \"extra\": {}}"
+      },
+      {
+        "id": "E13",
+        "label": "related_event_1",
+        "text": "{\"event_key\": \"1115,304\", \"event_type\": \"Error and warning events\", \"total_events\": \"2362\", \"total_duration\": \"38:51:54\", \"first_occurrence\": \"2025.07.23_19.04.10.487\", \"last_occurrence\": \"2025.07.25_09.56.04.533\", \"extra\": {}}"
+      },
+      {
+        "id": "E14",
+        "label": "cross_error_1",
+        "text": "{\"lightning_name\": \"PC-001933281\", \"error_ids\": \"278\", \"actual_error_occurrences\": \"6\", \"created_at\": \"2025-12-14 09:54:05.835000\", \"error_frequency\": \"6 occurrences\", \"error_id\": \"278\", \"event_ids\": \"278\", \"event_type\": \"Error ID 278: Unknown error 278\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 6 actual error occurrences (from 12 events)\", \"• Session 1: 2025.08.01_10.22.43.040 to 2025.08.01_10.24.02.726 (Duration: 00:01:19) (Frequency: 1)\", \"• Session 2: 2025.08.01_10.24.04.725 to 2025.08.01_10.24.05.252 (Duration: 00:00:01) (Frequency: 1)\", \"• Session 3: 2025.08.01_10.24.09.607 to 2025.08.01_10.24.09.805 (Duration: 00:00:00) (Frequency: 1)\", \"• Session 4: 2025.08.01_11.25.06.873 to 2025.08\n...[TRUNCATED_MIDDLE]...\n_11.43.58.873 to 2025.08.01_11.44.11.958 (Duration: 00:00:13) (Frequency: 1)\"]}, \"first_occurrence\": \"2025.08.01_10.22.43.040\", \"last_occurrence\": \"2025.08.01_11.44.11.958\", \"total_duration\": \"01:21:28\", \"total_events\": \"12 (Raw events)\", \"updated_at\": \"2025-12-14 09:54:05.835000\"}"
+      },
+      {
+        "id": "E15",
+        "label": "cross_error_2",
+        "text": "{\"error_ids\": \"278\", \"lightning_name\": \"PC-001882522\", \"actual_error_occurrences\": \"2\", \"created_at\": \"2025-12-15 09:02:21.942000\", \"error_frequency\": \"2 occurrences\", \"error_id\": \"278\", \"event_ids\": \"278\", \"event_type\": \"Error ID 278: Unknown error 278\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 2 actual error occurrences (from 4 events)\", \"• Session 1: 2025.05.27_07.14.20.738 to 2025.05.27_07.14.20.788 (Duration: 00:00:00) (Frequency: 1)\", \"• Session 2: 2025.05.27_11.05.50.463 to 2025.05.27_11.05.53.180 (Duration: 00:00:03) (Frequency: 1)\"]}, \"first_occurrence\": \"2025.05.27_07.14.20.738\", \"last_occurrence\": \"2025.05.27_11.05.53.180\", \"total_duration\": \"03:51:33\", \"total_events\": \"4 (Raw events)\", \"updated_at\": \"2025-12-15 09:02:21.942000\"}"
+      },
+      {
+        "id": "E16",
+        "label": "cross_event_1",
+        "text": "{\"lightning_name\": \"PC-001933281\", \"event_type\": \"Error and warning events\", \"total_events\": \"1022\", \"first_occurrence\": \"2025.08.01_10.22.15.453\", \"last_occurrence\": \"2025.08.01_11.44.11.959\", \"event_ids\": [\"1115\", \"304\"], \"error_ids\": [\"1\", \"1003\", \"1008\", \"1009\", \"101\", \"1011\", \"1049\", \"105\", \"1050\", \"1052\", \"1053\", \"1054\", \"106\", \"2\", \"200\", \"202\", \"210\", \"215\", \"216\", \"228\", \"229\", \"255\", \"258\", \"260\", \"2604\", \"2607\", \"2608\", \"261\", \"2611\", \"268\", \"278\", \"279\", \"280\", \"3\", \"318\", \"319\", \"337\", \"370\", \"371\", \"374\", \"382\", \"400\", \"401\", \"410\", \"417\", \"439\", \"6951\", \"80\", \"81\", \"84\", \"85\", \"86\", \"88\", \"89\", \"912\", \"946\", \"947\", \"948\", \"95\", \"982\", \"983\", \"985\", \"988\", \"996\"], \"\n...[TRUNCATED_MIDDLE]...\n.08.01_11.33.26.203 (Duration: 00:06:23)\", \"• Session 11: 2025.08.01_11.41.24.107 to 2025.08.01_11.44.11.959 (Duration: 00:02:47)\"], \"extra\": {}, \"created_at\": \"2025-12-14 09:54:09.917000\", \"updated_at\": \"2025-12-14 09:54:09.917000\", \"event_key\": \"1115,304\"}"
+      },
+      {
+        "id": "E17",
+        "label": "cross_event_2",
+        "text": "{\"lightning_name\": \"PC-001882522\", \"event_type\": \"Error and warning events\", \"total_events\": \"1484\", \"first_occurrence\": \"2025.05.27_07.12.38.898\", \"last_occurrence\": \"2025.05.27_11.05.53.180\", \"event_ids\": [\"1115\", \"304\"], \"error_ids\": [\"1\", \"1008\", \"1009\", \"105\", \"1052\", \"1053\", \"1054\", \"106\", \"1201\", \"1210\", \"139\", \"1500\", \"2\", \"200\", \"210\", \"215\", \"216\", \"218\", \"228\", \"229\", \"255\", \"258\", \"2606\", \"2607\", \"2608\", \"261\", \"2611\", \"268\", \"278\", \"279\", \"3\", \"318\", \"319\", \"370\", \"371\", \"382\", \"400\", \"401\", \"503\", \"505\", \"80\", \"85\", \"86\", \"88\", \"89\", \"901\", \"912\", \"940\", \"942\", \"95\", \"982\", \"996\"], \"total_duration\": \"03:53:15\", \"event_sessions\": [\"• Session 1: 2025.05.27_07.12.38.898 to 202\n...[TRUNCATED_MIDDLE]...\n.05.27_11.03.25.971 (Duration: 00:00:49)\", \"• Session 39: 2025.05.27_11.05.37.002 to 2025.05.27_11.05.53.180 (Duration: 00:00:16)\"], \"extra\": {}, \"created_at\": \"2025-12-15 09:02:24.782000\", \"updated_at\": \"2025-12-15 09:02:24.782000\", \"event_key\": \"1115,304\"}"
+      }
+    ]
+  },
+  "case1": {
+    "decision": {
+      "issue_id": "string",
+      "issue_title": "string",
+      "severity": "1|2|3",
+      "target_error_id": "string",
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "claim": "The procedure was performed with an unknown catheter."
+        },
+        {
+          "evidence_id": "E2",
+          "claim": "The target error ID 1 was encountered 4 times."
+        }
+      ],
+      "probable_root_causes": [
+        "The catheter may be malfunctioning or not properly connected.",
+        "The system may be experiencing a general system error."
+      ],
+      "suspect_catheters": [
+        "D-1395-04-S",
+        "D1139108F",
+        "D135107",
+        "6DYNTP001 GFUB3573",
+        "N/A",
+        "D-1609-02-S",
+        "Unknown",
+        "FARAWAVE 31mm",
+        "FARAWAVE 31mm Basket Model",
+        "FARAWAVE 31mm Flower Model"
+      ],
+      "proposed_fix_plan": [
+        "Replace the catheter with a known good one.",
+        "Check the system for any errors or issues."
+      ],
+      "verification_rule": "This is a hypothesis-only guidance.",
+      "requested_event_keys": [],
+      "requested_event_types": [],
+      "evidence_map": [
+        {
+          "id": "E1",
+          "label": "procedure",
+          "text": "{\"procedure_id\": null, \"start_time\": null, \"end_time\": null, \"system_versions\": null, \"uls_mode\": null, \"cpu_gpu\": null, \"notes\": null}"
+        },
+        {
+          "id": "E2",
+          "label": "target_error",
+          "text": "{\"error_id\": \"1\", \"event_type\": \"Error ID 1: General system error\", \"error_frequency\": \"4 occurrences\", \"total_events\": \"8 (Raw events)\", \"total_duration\": \"36:04:32\", \"first_occurrence\": \"2025.07.23_19.04.10.487\", \"last_occurrence\": \"2025.07.25_07.08.42.475\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 4 actual error occurrences (from 8 events)\", \"• Error occurrence #1\", \"• Error occurrence #2\", \"• Error occurrence #3\", \"• Error occurrence #4\"]}}"
+        },
+        {
+          "id": "E3",
+          "label": "catheter_1",
+          "text": "{\"part_number\": \"D-1395-04-S\", \"clinical_category\": \"🔥 Magnetic Ablation Catheter\", \"capabilities\": \"Mapping | FAM | Magnetic Sensing | Temperature Sensing | Electrodes (6) | Thermocouples (6)\", \"electrodes\": \"6\", \"thermocouples\": \"6\", \"first_occurrence\": \"2025.07.25_08.23.45.737\", \"last_occurrence\": \"2025.07.25_09.40.02.455\", \"total_events\": \"8\", \"total_duration\": \"01:16:17\", \"extra\": {}}"
+        },
+        {
+          "id": "E4",
+          "label": "catheter_2",
+          "text": "{\"part_number\": \"D1139108F\", \"clinical_category\": \"📡 Ultrasound Catheter\", \"capabilities\": \"Ultrasound Imaging | ICE | 8F\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.58.00.274\", \"last_occurrence\": \"2025.07.25_09.41.15.703\", \"total_events\": \"2\", \"total_duration\": \"01:43:15\", \"extra\": {}}"
+        },
+        {
+          "id": "E5",
+          "label": "catheter_3",
+          "text": "{\"part_number\": \"D135107\", \"clinical_category\": \"🔥 Contact Force Ablation Catheter\", \"capabilities\": \"Ablation | Contact Force Sensing | Temperature Monitoring | Micro Electrodes (4) | Thermocouple (1)\", \"electrodes\": \"4\", \"thermocouples\": \"1\", \"first_occurrence\": \"2025.07.25_09.12.30.419\", \"last_occurrence\": \"2025.07.25_10.00.43.900\", \"total_events\": \"2\", \"total_duration\": \"00:48:13\", \"extra\": {}}"
+        },
+        {
+          "id": "E6",
+          "label": "catheter_4",
+          "text": "{\"part_number\": \"6DYNTP001 GFUB3573\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.20.01.400\", \"last_occurrence\": \"2025.07.25_10.00.43.902\", \"total_events\": \"2\", \"total_duration\": \"02:40:42\", \"extra\": {}}"
+        },
+        {
+          "id": "E7",
+          "label": "catheter_5",
+          "text": "{\"part_number\": \"N/A\", \"clinical_category\": \"Unknown\", \"capabilities\": \"Unknown\", \"electrodes\": \"Unknown\", \"thermocouples\": \"Unknown\", \"first_occurrence\": \"2025.07.25_08.23.45.761\", \"last_occurrence\": \"2025.07.25_09.40.02.458\", \"total_events\": \"8\", \"total_duration\": \"01:16:17\", \"extra\": {}}"
+        },
+        {
+          "id": "E8",
+          "label": "catheter_6",
+          "text": "{\"part_number\": \"D-1609-02-S\", \"clinical_category\": \"🗺️ Mapping Catheter\", \"capabilities\": \"Mapping &#124; FAM &#124; Magnetic Sensing &#124; Electrodes (52)\", \"electrodes\": \"52\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.18.43.192\", \"last_occurrence\": \"2025.07.25_09.40.21.907\", \"total_events\": \"2\", \"total_duration\": \"01:21:38\", \"extra\": {}}"
+        },
+        {
+          "id": "E9",
+          "label": "catheter_7",
+          "text": "{\"part_number\": \"Unknown\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Magnetic Sensing\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.18.43.145\", \"last_occurrence\": \"2025.07.25_09.40.21.904\", \"total_events\": \"2\", \"total_duration\": \"01:21:38\", \"extra\": {}}"
+        },
+        {
+          "id": "E10",
+          "label": "catheter_8",
+          "text": "{\"part_number\": \"FARAWAVE 31mm\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.20.28.453\", \"last_occurrence\": \"2025.07.25_08.37.06.258\", \"total_events\": \"4\", \"total_duration\": \"01:16:38\", \"extra\": {}}"
+        },
+        {
+          "id": "E11",
+          "label": "catheter_9",
+          "text": "{\"part_number\": \"FARAWAVE 31mm Basket Model\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.45.43.440\", \"last_occurrence\": \"2025.07.25_08.55.58.713\", \"total_events\": \"6\", \"total_duration\": \"00:10:15\", \"extra\": {}}"
+        },
+        {
+          "id": "E12",
+          "label": "catheter_10",
+          "text": "{\"part_number\": \"FARAWAVE 31mm Flower Model\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.37.09.334\", \"last_occurrence\": \"2025.07.25_10.00.43.910\", \"total_events\": \"8\", \"total_duration\": \"01:23:34\", \"extra\": {}}"
+        },
+        {
+          "id": "E13",
+          "label": "related_event_1",
+          "text": "{\"event_key\": \"1115,304\", \"event_type\": \"Error and warning events\", \"total_events\": \"2362\", \"total_duration\": \"38:51:54\", \"first_occurrence\": \"2025.07.23_19.04.10.487\", \"last_occurrence\": \"2025.07.25_09.56.04.533\", \"extra\": {}}"
+        },
+        {
+          "id": "E14",
+          "label": "cross_error_1",
+          "text": "{\"error_ids\": \"1\", \"lightning_name\": \"PC-001933281\", \"actual_error_occurrences\": \"5\", \"created_at\": \"2025-12-14 09:54:02.070000\", \"error_frequency\": \"5 occurrences\", \"error_id\": \"1\", \"event_ids\": \"1\", \"event_type\": \"Error ID 1: General system error\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 5 actual error occurrences (from 9 events)\", \"• Session 1: 2025.08.01_10.22.15.453 to 2025.08.01_10.22.43.040 (Duration: 00:00:28) (Frequency: 1)\", \"• Session 2: 2025.08.01_10.24.02.726 to 2025.08.01_10.24.04.725 (Duration: 00:00:02) (Frequency: 1)\", \"• Session 3: 2025.08.01_11.25.09.842 to 2025.08.01_11.25.42.667 (Duration: 00:00:33) (Frequency: 1)\", \"• Session 4: 2025.08.01_11.27.03.023 to 2025.08.\n...[TRUNCATED_MIDDLE]...\n: 1)\", \"• Event 5: 2025.08.01_11.44.11.958 - Error occurrence #5 (ongoing) (Frequency: 1)\"]}, \"first_occurrence\": \"2025.08.01_10.22.15.453\", \"last_occurrence\": \"2025.08.01_11.44.11.958\", \"total_duration\": \"01:21:56\", \"total_events\": \"9 (Raw events)\", \"updated_at\": \"2025-12-14 09:54:02.070000\"}"
+        },
+        {
+          "id": "E15",
+          "label": "cross_error_2",
+          "text": "{\"lightning_name\": \"PC-001882522\", \"error_ids\": \"1\", \"actual_error_occurrences\": \"3\", \"created_at\": \"2025-12-15 09:02:16.807000\", \"error_frequency\": \"3 occurrences\", \"error_id\": \"1\", \"event_ids\": \"1\", \"event_type\": \"Error ID 1: General system error\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 3 actual error occurrences (from 5 events)\", \"• Session 1: 2025.05.27_07.12.38.898 to 2025.05.27_07.13.03.740 (Duration: 00:00:25) (Frequency: 1)\", \"• Session 2: 2025.05.27_07.14.01.641 to 2025.05.27_07.14.01.645 (Duration: 00:00:00) (Frequency: 1)\", \"• Event 3: 2025.05.27_11.05.53.180 - Error occurrence #3 (ongoing) (Frequency: 1)\"]}, \"first_occurrence\": \"2025.05.27_07.12.38.898\", \"last_occurrence\": \"2025.05.27_11.05.53.180\", \"total_duration\": \"03:53:15\", \"total_events\": \"5 (Raw events)\", \"updated_at\": \"2025-12-15 09:02:16.807000\"}"
+        },
+        {
+          "id": "E16",
+          "label": "cross_event_1",
+          "text": "{\"lightning_name\": \"PC-001933281\", \"event_type\": \"Error and warning events\", \"total_events\": \"1022\", \"first_occurrence\": \"2025.08.01_10.22.15.453\", \"last_occurrence\": \"2025.08.01_11.44.11.959\", \"event_ids\": [\"1115\", \"304\"], \"error_ids\": [\"1\", \"1003\", \"1008\", \"1009\", \"101\", \"1011\", \"1049\", \"105\", \"1050\", \"1052\", \"1053\", \"1054\", \"106\", \"2\", \"200\", \"202\", \"210\", \"215\", \"216\", \"228\", \"229\", \"255\", \"258\", \"260\", \"2604\", \"2607\", \"2608\", \"261\", \"2611\", \"268\", \"278\", \"279\", \"280\", \"3\", \"318\", \"319\", \"337\", \"370\", \"371\", \"374\", \"382\", \"400\", \"401\", \"410\", \"417\", \"439\", \"6951\", \"80\", \"81\", \"84\", \"85\", \"86\", \"88\", \"89\", \"912\", \"946\", \"947\", \"948\", \"95\", \"982\", \"983\", \"985\", \"988\", \"996\"], \"\n...[TRUNCATED_MIDDLE]...\n.08.01_11.33.26.203 (Duration: 00:06:23)\", \"• Session 11: 2025.08.01_11.41.24.107 to 2025.08.01_11.44.11.959 (Duration: 00:02:47)\"], \"extra\": {}, \"created_at\": \"2025-12-14 09:54:09.917000\", \"updated_at\": \"2025-12-14 09:54:09.917000\", \"event_key\": \"1115,304\"}"
+        },
+        {
+          "id": "E17",
+          "label": "cross_event_2",
+          "text": "{\"lightning_name\": \"PC-001882522\", \"event_type\": \"Error and warning events\", \"total_events\": \"1484\", \"first_occurrence\": \"2025.05.27_07.12.38.898\", \"last_occurrence\": \"2025.05.27_11.05.53.180\", \"event_ids\": [\"1115\", \"304\"], \"error_ids\": [\"1\", \"1008\", \"1009\", \"105\", \"1052\", \"1053\", \"1054\", \"106\", \"1201\", \"1210\", \"139\", \"1500\", \"2\", \"200\", \"210\", \"215\", \"216\", \"218\", \"228\", \"229\", \"255\", \"258\", \"2606\", \"2607\", \"2608\", \"261\", \"2611\", \"268\", \"278\", \"279\", \"3\", \"318\", \"319\", \"370\", \"371\", \"382\", \"400\", \"401\", \"503\", \"505\", \"80\", \"85\", \"86\", \"88\", \"89\", \"901\", \"912\", \"940\", \"942\", \"95\", \"982\", \"996\"], \"total_duration\": \"03:53:15\", \"event_sessions\": [\"• Session 1: 2025.05.27_07.12.38.898 to 202\n...[TRUNCATED_MIDDLE]...\n.05.27_11.03.25.971 (Duration: 00:00:49)\", \"• Session 39: 2025.05.27_11.05.37.002 to 2025.05.27_11.05.53.180 (Duration: 00:00:16)\"], \"extra\": {}, \"created_at\": \"2025-12-15 09:02:24.782000\", \"updated_at\": \"2025-12-15 09:02:24.782000\", \"event_key\": \"1115,304\"}"
+        }
+      ],
+      "status": "SUCCESS"
+    },
+    "verify": {
+      "verified": true,
+      "method": "AgentResolutions",
+      "resolution": {
+        "lightning_name": "PC-001927524",
+        "timestamp": "2026-01-25 10:05:35.579000",
+        "type": "AI_RESOLVED",
+        "target_error_id": "string",
+        "issue_id": "string",
+        "issue_title": "string",
+        "source": "agent"
+      }
+    },
+    "action_doc": {
+      "lightning_name": "PC-001927524",
+      "timestamp": "2026-01-25 10:05:35.579043",
+      "type": "AI_ACTION",
+      "status": "SUCCESS",
+      "human_alert": false,
+      "issue_id": "string",
+      "issue_title": "string",
+      "severity": "1|2|3",
+      "target_error_id": "string",
+      "plan": [
+        {
+          "step": "Replace the catheter with a known good one.",
+          "status": "Open"
+        },
+        {
+          "step": "Check the system for any errors or issues.",
+          "status": "Open"
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "claim": "The procedure was performed with an unknown catheter."
+        },
+        {
+          "evidence_id": "E2",
+          "claim": "The target error ID 1 was encountered 4 times."
+        }
+      ],
+      "root_causes": [
+        "The catheter may be malfunctioning or not properly connected.",
+        "The system may be experiencing a general system error."
+      ],
+      "verification_rule": "This is a hypothesis-only guidance.",
+      "missing_evidence": null,
+      "suggested_next_queries": null,
+      "verified_findings": null,
+      "quality_meta": null,
+      "suspect_catheters": [
+        "D-1395-04-S",
+        "D1139108F",
+        "D135107",
+        "6DYNTP001 GFUB3573",
+        "N/A",
+        "D-1609-02-S",
+        "Unknown",
+        "FARAWAVE 31mm",
+        "FARAWAVE 31mm Basket Model",
+        "FARAWAVE 31mm Flower Model"
+      ],
+      "source": "llama3",
+      "_id": "6975eaef3f5a152759527d79"
+    },
+    "resolution_doc": {
+      "lightning_name": "PC-001927524",
+      "timestamp": "2026-01-25 10:05:35.579043",
+      "type": "AI_RESOLVED",
+      "target_error_id": "string",
+      "issue_id": "string",
+      "issue_title": "string",
+      "source": "agent",
+      "_id": "6975eaef3f5a152759527d7a"
+    },
+    "related_events": [
+      {
+        "event_key": "1115,304",
+        "event_type": "Error and warning events",
+        "total_events": "2362",
+        "total_duration": "38:51:54",
+        "first_occurrence": "2025.07.23_19.04.10.487",
+        "last_occurrence": "2025.07.25_09.56.04.533",
+        "extra": {}
+      }
+    ],
+    "evidence_map": [
+      {
+        "id": "E1",
+        "label": "procedure",
+        "text": "{\"procedure_id\": null, \"start_time\": null, \"end_time\": null, \"system_versions\": null, \"uls_mode\": null, \"cpu_gpu\": null, \"notes\": null}"
+      },
+      {
+        "id": "E2",
+        "label": "target_error",
+        "text": "{\"error_id\": \"1\", \"event_type\": \"Error ID 1: General system error\", \"error_frequency\": \"4 occurrences\", \"total_events\": \"8 (Raw events)\", \"total_duration\": \"36:04:32\", \"first_occurrence\": \"2025.07.23_19.04.10.487\", \"last_occurrence\": \"2025.07.25_07.08.42.475\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 4 actual error occurrences (from 8 events)\", \"• Error occurrence #1\", \"• Error occurrence #2\", \"• Error occurrence #3\", \"• Error occurrence #4\"]}}"
+      },
+      {
+        "id": "E3",
+        "label": "catheter_1",
+        "text": "{\"part_number\": \"D-1395-04-S\", \"clinical_category\": \"🔥 Magnetic Ablation Catheter\", \"capabilities\": \"Mapping | FAM | Magnetic Sensing | Temperature Sensing | Electrodes (6) | Thermocouples (6)\", \"electrodes\": \"6\", \"thermocouples\": \"6\", \"first_occurrence\": \"2025.07.25_08.23.45.737\", \"last_occurrence\": \"2025.07.25_09.40.02.455\", \"total_events\": \"8\", \"total_duration\": \"01:16:17\", \"extra\": {}}"
+      },
+      {
+        "id": "E4",
+        "label": "catheter_2",
+        "text": "{\"part_number\": \"D1139108F\", \"clinical_category\": \"📡 Ultrasound Catheter\", \"capabilities\": \"Ultrasound Imaging | ICE | 8F\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.58.00.274\", \"last_occurrence\": \"2025.07.25_09.41.15.703\", \"total_events\": \"2\", \"total_duration\": \"01:43:15\", \"extra\": {}}"
+      },
+      {
+        "id": "E5",
+        "label": "catheter_3",
+        "text": "{\"part_number\": \"D135107\", \"clinical_category\": \"🔥 Contact Force Ablation Catheter\", \"capabilities\": \"Ablation | Contact Force Sensing | Temperature Monitoring | Micro Electrodes (4) | Thermocouple (1)\", \"electrodes\": \"4\", \"thermocouples\": \"1\", \"first_occurrence\": \"2025.07.25_09.12.30.419\", \"last_occurrence\": \"2025.07.25_10.00.43.900\", \"total_events\": \"2\", \"total_duration\": \"00:48:13\", \"extra\": {}}"
+      },
+      {
+        "id": "E6",
+        "label": "catheter_4",
+        "text": "{\"part_number\": \"6DYNTP001 GFUB3573\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.20.01.400\", \"last_occurrence\": \"2025.07.25_10.00.43.902\", \"total_events\": \"2\", \"total_duration\": \"02:40:42\", \"extra\": {}}"
+      },
+      {
+        "id": "E7",
+        "label": "catheter_5",
+        "text": "{\"part_number\": \"N/A\", \"clinical_category\": \"Unknown\", \"capabilities\": \"Unknown\", \"electrodes\": \"Unknown\", \"thermocouples\": \"Unknown\", \"first_occurrence\": \"2025.07.25_08.23.45.761\", \"last_occurrence\": \"2025.07.25_09.40.02.458\", \"total_events\": \"8\", \"total_duration\": \"01:16:17\", \"extra\": {}}"
+      },
+      {
+        "id": "E8",
+        "label": "catheter_6",
+        "text": "{\"part_number\": \"D-1609-02-S\", \"clinical_category\": \"🗺️ Mapping Catheter\", \"capabilities\": \"Mapping &#124; FAM &#124; Magnetic Sensing &#124; Electrodes (52)\", \"electrodes\": \"52\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.18.43.192\", \"last_occurrence\": \"2025.07.25_09.40.21.907\", \"total_events\": \"2\", \"total_duration\": \"01:21:38\", \"extra\": {}}"
+      },
+      {
+        "id": "E9",
+        "label": "catheter_7",
+        "text": "{\"part_number\": \"Unknown\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Magnetic Sensing\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.18.43.145\", \"last_occurrence\": \"2025.07.25_09.40.21.904\", \"total_events\": \"2\", \"total_duration\": \"01:21:38\", \"extra\": {}}"
+      },
+      {
+        "id": "E10",
+        "label": "catheter_8",
+        "text": "{\"part_number\": \"FARAWAVE 31mm\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.20.28.453\", \"last_occurrence\": \"2025.07.25_08.37.06.258\", \"total_events\": \"4\", \"total_duration\": \"01:16:38\", \"extra\": {}}"
+      },
+      {
+        "id": "E11",
+        "label": "catheter_9",
+        "text": "{\"part_number\": \"FARAWAVE 31mm Basket Model\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.45.43.440\", \"last_occurrence\": \"2025.07.25_08.55.58.713\", \"total_events\": \"6\", \"total_duration\": \"00:10:15\", \"extra\": {}}"
+      },
+      {
+        "id": "E12",
+        "label": "catheter_10",
+        "text": "{\"part_number\": \"FARAWAVE 31mm Flower Model\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.37.09.334\", \"last_occurrence\": \"2025.07.25_10.00.43.910\", \"total_events\": \"8\", \"total_duration\": \"01:23:34\", \"extra\": {}}"
+      },
+      {
+        "id": "E13",
+        "label": "related_event_1",
+        "text": "{\"event_key\": \"1115,304\", \"event_type\": \"Error and warning events\", \"total_events\": \"2362\", \"total_duration\": \"38:51:54\", \"first_occurrence\": \"2025.07.23_19.04.10.487\", \"last_occurrence\": \"2025.07.25_09.56.04.533\", \"extra\": {}}"
+      },
+      {
+        "id": "E14",
+        "label": "cross_error_1",
+        "text": "{\"error_ids\": \"1\", \"lightning_name\": \"PC-001933281\", \"actual_error_occurrences\": \"5\", \"created_at\": \"2025-12-14 09:54:02.070000\", \"error_frequency\": \"5 occurrences\", \"error_id\": \"1\", \"event_ids\": \"1\", \"event_type\": \"Error ID 1: General system error\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 5 actual error occurrences (from 9 events)\", \"• Session 1: 2025.08.01_10.22.15.453 to 2025.08.01_10.22.43.040 (Duration: 00:00:28) (Frequency: 1)\", \"• Session 2: 2025.08.01_10.24.02.726 to 2025.08.01_10.24.04.725 (Duration: 00:00:02) (Frequency: 1)\", \"• Session 3: 2025.08.01_11.25.09.842 to 2025.08.01_11.25.42.667 (Duration: 00:00:33) (Frequency: 1)\", \"• Session 4: 2025.08.01_11.27.03.023 to 2025.08.\n...[TRUNCATED_MIDDLE]...\n: 1)\", \"• Event 5: 2025.08.01_11.44.11.958 - Error occurrence #5 (ongoing) (Frequency: 1)\"]}, \"first_occurrence\": \"2025.08.01_10.22.15.453\", \"last_occurrence\": \"2025.08.01_11.44.11.958\", \"total_duration\": \"01:21:56\", \"total_events\": \"9 (Raw events)\", \"updated_at\": \"2025-12-14 09:54:02.070000\"}"
+      },
+      {
+        "id": "E15",
+        "label": "cross_error_2",
+        "text": "{\"lightning_name\": \"PC-001882522\", \"error_ids\": \"1\", \"actual_error_occurrences\": \"3\", \"created_at\": \"2025-12-15 09:02:16.807000\", \"error_frequency\": \"3 occurrences\", \"error_id\": \"1\", \"event_ids\": \"1\", \"event_type\": \"Error ID 1: General system error\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 3 actual error occurrences (from 5 events)\", \"• Session 1: 2025.05.27_07.12.38.898 to 2025.05.27_07.13.03.740 (Duration: 00:00:25) (Frequency: 1)\", \"• Session 2: 2025.05.27_07.14.01.641 to 2025.05.27_07.14.01.645 (Duration: 00:00:00) (Frequency: 1)\", \"• Event 3: 2025.05.27_11.05.53.180 - Error occurrence #3 (ongoing) (Frequency: 1)\"]}, \"first_occurrence\": \"2025.05.27_07.12.38.898\", \"last_occurrence\": \"2025.05.27_11.05.53.180\", \"total_duration\": \"03:53:15\", \"total_events\": \"5 (Raw events)\", \"updated_at\": \"2025-12-15 09:02:16.807000\"}"
+      },
+      {
+        "id": "E16",
+        "label": "cross_event_1",
+        "text": "{\"lightning_name\": \"PC-001933281\", \"event_type\": \"Error and warning events\", \"total_events\": \"1022\", \"first_occurrence\": \"2025.08.01_10.22.15.453\", \"last_occurrence\": \"2025.08.01_11.44.11.959\", \"event_ids\": [\"1115\", \"304\"], \"error_ids\": [\"1\", \"1003\", \"1008\", \"1009\", \"101\", \"1011\", \"1049\", \"105\", \"1050\", \"1052\", \"1053\", \"1054\", \"106\", \"2\", \"200\", \"202\", \"210\", \"215\", \"216\", \"228\", \"229\", \"255\", \"258\", \"260\", \"2604\", \"2607\", \"2608\", \"261\", \"2611\", \"268\", \"278\", \"279\", \"280\", \"3\", \"318\", \"319\", \"337\", \"370\", \"371\", \"374\", \"382\", \"400\", \"401\", \"410\", \"417\", \"439\", \"6951\", \"80\", \"81\", \"84\", \"85\", \"86\", \"88\", \"89\", \"912\", \"946\", \"947\", \"948\", \"95\", \"982\", \"983\", \"985\", \"988\", \"996\"], \"\n...[TRUNCATED_MIDDLE]...\n.08.01_11.33.26.203 (Duration: 00:06:23)\", \"• Session 11: 2025.08.01_11.41.24.107 to 2025.08.01_11.44.11.959 (Duration: 00:02:47)\"], \"extra\": {}, \"created_at\": \"2025-12-14 09:54:09.917000\", \"updated_at\": \"2025-12-14 09:54:09.917000\", \"event_key\": \"1115,304\"}"
+      },
+      {
+        "id": "E17",
+        "label": "cross_event_2",
+        "text": "{\"lightning_name\": \"PC-001882522\", \"event_type\": \"Error and warning events\", \"total_events\": \"1484\", \"first_occurrence\": \"2025.05.27_07.12.38.898\", \"last_occurrence\": \"2025.05.27_11.05.53.180\", \"event_ids\": [\"1115\", \"304\"], \"error_ids\": [\"1\", \"1008\", \"1009\", \"105\", \"1052\", \"1053\", \"1054\", \"106\", \"1201\", \"1210\", \"139\", \"1500\", \"2\", \"200\", \"210\", \"215\", \"216\", \"218\", \"228\", \"229\", \"255\", \"258\", \"2606\", \"2607\", \"2608\", \"261\", \"2611\", \"268\", \"278\", \"279\", \"3\", \"318\", \"319\", \"370\", \"371\", \"382\", \"400\", \"401\", \"503\", \"505\", \"80\", \"85\", \"86\", \"88\", \"89\", \"901\", \"912\", \"940\", \"942\", \"95\", \"982\", \"996\"], \"total_duration\": \"03:53:15\", \"event_sessions\": [\"• Session 1: 2025.05.27_07.12.38.898 to 202\n...[TRUNCATED_MIDDLE]...\n.05.27_11.03.25.971 (Duration: 00:00:49)\", \"• Session 39: 2025.05.27_11.05.37.002 to 2025.05.27_11.05.53.180 (Duration: 00:00:16)\"], \"extra\": {}, \"created_at\": \"2025-12-15 09:02:24.782000\", \"updated_at\": \"2025-12-15 09:02:24.782000\", \"event_key\": \"1115,304\"}"
+      }
+    ]
+  },
+  "case2": {
+    "decision": {
+      "status": "NEEDS_HUMAN_REVIEW",
+      "human_alert": true,
+      "issue_id": "PC-001927524-ERR-278",
+      "issue_title": "Target Error 278",
+      "severity": 2,
+      "target_error_id": "278",
+      "evidence": [
+        {
+          "evidence_id": "E2",
+          "claim": "Error ID 278: Unknown error 278 occurred 4 times with a total duration of 36:04:26."
+        }
+      ],
+      "suspect_catheters": [
+        "D-1395-04-S",
+        "D1139108F",
+        "D135107",
+        "6DYNTP001 GFUB3573",
+        "D-1609-02-S",
+        "Unknown",
+        "FARAWAVE 31mm",
+        "FARAWAVE 31mm Basket Model",
+        "FARAWAVE 31mm Flower Model"
+      ],
+      "probable_root_causes": [
+        "The catheter's magnetic sensing capabilities may be malfunctioning, causing the error."
+      ],
+      "proposed_fix_plan": [
+        "Replace the catheter with a new one and re-run the procedure."
+      ],
+      "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=insufficient_valid_evidence_refs).",
+      "missing_evidence": [],
+      "suggested_next_queries": [
+        "Fetch raw log snippets around first and last occurrences for this error_id.",
+        "Extract nearest events before/after each occurrence with subsystem, ULS mode, and catheter markers.",
+        "Compare patterns across similar cases where the same error_id appears."
+      ],
+      "verified_findings": [],
+      "requested_event_keys": [],
+      "requested_event_types": [],
+      "quality_meta": {
+        "reason": "insufficient_valid_evidence_refs",
+        "used_ok": [
+          "E2"
+        ],
+        "min": 2
+      }
+    },
+    "verify": {
+      "verified": true,
+      "method": "AgentResolutions",
+      "resolution": {
+        "lightning_name": "PC-001927524",
+        "timestamp": "2026-01-25 10:42:54.164000",
+        "type": "AI_NEEDS_HUMAN_REVIEW",
+        "target_error_id": "278",
+        "issue_id": "PC-001927524-ERR-278",
+        "issue_title": "Target Error 278",
+        "source": "agent"
+      }
+    },
+    "action_doc": {
+      "lightning_name": "PC-001927524",
+      "timestamp": "2026-01-25 10:42:54.164996",
+      "type": "AI_ACTION",
+      "status": "NEEDS_HUMAN_REVIEW",
+      "human_alert": true,
+      "issue_id": "PC-001927524-ERR-278",
+      "issue_title": "Target Error 278",
+      "severity": 2,
+      "target_error_id": "278",
+      "plan": [
+        {
+          "step": "Replace the catheter with a new one and re-run the procedure.",
+          "status": "Open"
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "E2",
+          "claim": "Error ID 278: Unknown error 278 occurred 4 times with a total duration of 36:04:26."
+        }
+      ],
+      "root_causes": [
+        "The catheter's magnetic sensing capabilities may be malfunctioning, causing the error."
+      ],
+      "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=insufficient_valid_evidence_refs).",
+      "missing_evidence": [],
+      "suggested_next_queries": [
+        "Fetch raw log snippets around first and last occurrences for this error_id.",
+        "Extract nearest events before/after each occurrence with subsystem, ULS mode, and catheter markers.",
+        "Compare patterns across similar cases where the same error_id appears."
+      ],
+      "verified_findings": [],
+      "quality_meta": {
+        "reason": "insufficient_valid_evidence_refs",
+        "used_ok": [
+          "E2"
+        ],
+        "min": 2
+      },
+      "suspect_catheters": [
+        "D-1395-04-S",
+        "D1139108F",
+        "D135107",
+        "6DYNTP001 GFUB3573",
+        "D-1609-02-S",
+        "Unknown",
+        "FARAWAVE 31mm",
+        "FARAWAVE 31mm Basket Model",
+        "FARAWAVE 31mm Flower Model"
+      ],
+      "source": "llama3",
+      "_id": "6975f3ae3f5a152759527d7b"
+    },
+    "resolution_doc": {
+      "lightning_name": "PC-001927524",
+      "timestamp": "2026-01-25 10:42:54.164996",
+      "type": "AI_NEEDS_HUMAN_REVIEW",
+      "target_error_id": "278",
+      "issue_id": "PC-001927524-ERR-278",
+      "issue_title": "Target Error 278",
+      "source": "agent",
+      "_id": "6975f3ae3f5a152759527d7c"
+    },
+    "related_events": [
+      {
+        "event_key": "1115,304",
+        "event_type": "Error and warning events",
+        "total_events": "2362",
+        "total_duration": "38:51:54",
+        "first_occurrence": "2025.07.23_19.04.10.487",
+        "last_occurrence": "2025.07.25_09.56.04.533",
+        "extra": {}
+      }
+    ],
+    "evidence_map": [
+      {
+        "id": "E1",
+        "label": "procedure",
+        "text": "{\"procedure_id\": null, \"start_time\": null, \"end_time\": null, \"system_versions\": null, \"uls_mode\": null, \"cpu_gpu\": null, \"notes\": null}"
+      },
+      {
+        "id": "E2",
+        "label": "target_error",
+        "text": "{\"error_id\": \"278\", \"event_type\": \"Error ID 278: Unknown error 278\", \"error_frequency\": \"4 occurrences\", \"total_events\": \"8 (Raw events)\", \"total_duration\": \"36:04:26\", \"first_occurrence\": \"2025.07.23_19.04.44.136\", \"last_occurrence\": \"2025.07.25_07.09.10.889\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 4 actual error occurrences (from 8 events)\", \"• Error occurrence #1\", \"• Error occurrence #2\", \"• Error occurrence #3\", \"• Error occurrence #4\"]}}"
+      },
+      {
+        "id": "E3",
+        "label": "catheter_1",
+        "text": "{\"part_number\": \"D-1395-04-S\", \"clinical_category\": \"🔥 Magnetic Ablation Catheter\", \"capabilities\": \"Mapping | FAM | Magnetic Sensing | Temperature Sensing | Electrodes (6) | Thermocouples (6)\", \"electrodes\": \"6\", \"thermocouples\": \"6\", \"first_occurrence\": \"2025.07.25_08.23.45.737\", \"last_occurrence\": \"2025.07.25_09.40.02.455\", \"total_events\": \"8\", \"total_duration\": \"01:16:17\", \"extra\": {}}"
+      },
+      {
+        "id": "E4",
+        "label": "catheter_2",
+        "text": "{\"part_number\": \"D1139108F\", \"clinical_category\": \"📡 Ultrasound Catheter\", \"capabilities\": \"Ultrasound Imaging | ICE | 8F\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.58.00.274\", \"last_occurrence\": \"2025.07.25_09.41.15.703\", \"total_events\": \"2\", \"total_duration\": \"01:43:15\", \"extra\": {}}"
+      },
+      {
+        "id": "E5",
+        "label": "catheter_3",
+        "text": "{\"part_number\": \"D135107\", \"clinical_category\": \"🔥 Contact Force Ablation Catheter\", \"capabilities\": \"Ablation | Contact Force Sensing | Temperature Monitoring | Micro Electrodes (4) | Thermocouple (1)\", \"electrodes\": \"4\", \"thermocouples\": \"1\", \"first_occurrence\": \"2025.07.25_09.12.30.419\", \"last_occurrence\": \"2025.07.25_10.00.43.900\", \"total_events\": \"2\", \"total_duration\": \"00:48:13\", \"extra\": {}}"
+      },
+      {
+        "id": "E6",
+        "label": "catheter_4",
+        "text": "{\"part_number\": \"6DYNTP001 GFUB3573\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.20.01.400\", \"last_occurrence\": \"2025.07.25_10.00.43.902\", \"total_events\": \"2\", \"total_duration\": \"02:40:42\", \"extra\": {}}"
+      },
+      {
+        "id": "E7",
+        "label": "catheter_5",
+        "text": "{\"part_number\": \"N/A\", \"clinical_category\": \"Unknown\", \"capabilities\": \"Unknown\", \"electrodes\": \"Unknown\", \"thermocouples\": \"Unknown\", \"first_occurrence\": \"2025.07.25_08.23.45.761\", \"last_occurrence\": \"2025.07.25_09.40.02.458\", \"total_events\": \"8\", \"total_duration\": \"01:16:17\", \"extra\": {}}"
+      },
+      {
+        "id": "E8",
+        "label": "catheter_6",
+        "text": "{\"part_number\": \"D-1609-02-S\", \"clinical_category\": \"🗺️ Mapping Catheter\", \"capabilities\": \"Mapping &#124; FAM &#124; Magnetic Sensing &#124; Electrodes (52)\", \"electrodes\": \"52\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.18.43.192\", \"last_occurrence\": \"2025.07.25_09.40.21.907\", \"total_events\": \"2\", \"total_duration\": \"01:21:38\", \"extra\": {}}"
+      },
+      {
+        "id": "E9",
+        "label": "catheter_7",
+        "text": "{\"part_number\": \"Unknown\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Magnetic Sensing\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.18.43.145\", \"last_occurrence\": \"2025.07.25_09.40.21.904\", \"total_events\": \"2\", \"total_duration\": \"01:21:38\", \"extra\": {}}"
+      },
+      {
+        "id": "E10",
+        "label": "catheter_8",
+        "text": "{\"part_number\": \"FARAWAVE 31mm\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_07.20.28.453\", \"last_occurrence\": \"2025.07.25_08.37.06.258\", \"total_events\": \"4\", \"total_duration\": \"01:16:38\", \"extra\": {}}"
+      },
+      {
+        "id": "E11",
+        "label": "catheter_9",
+        "text": "{\"part_number\": \"FARAWAVE 31mm Basket Model\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.45.43.440\", \"last_occurrence\": \"2025.07.25_08.55.58.713\", \"total_events\": \"6\", \"total_duration\": \"00:10:15\", \"extra\": {}}"
+      },
+      {
+        "id": "E12",
+        "label": "catheter_10",
+        "text": "{\"part_number\": \"FARAWAVE 31mm Flower Model\", \"clinical_category\": \"🔧 General Purpose Catheter\", \"capabilities\": \"Basic Catheter\", \"electrodes\": \"0\", \"thermocouples\": \"0\", \"first_occurrence\": \"2025.07.25_08.37.09.334\", \"last_occurrence\": \"2025.07.25_10.00.43.910\", \"total_events\": \"8\", \"total_duration\": \"01:23:34\", \"extra\": {}}"
+      },
+      {
+        "id": "E13",
+        "label": "related_event_1",
+        "text": "{\"event_key\": \"1115,304\", \"event_type\": \"Error and warning events\", \"total_events\": \"2362\", \"total_duration\": \"38:51:54\", \"first_occurrence\": \"2025.07.23_19.04.10.487\", \"last_occurrence\": \"2025.07.25_09.56.04.533\", \"extra\": {}}"
+      },
+      {
+        "id": "E14",
+        "label": "cross_error_1",
+        "text": "{\"lightning_name\": \"PC-001933281\", \"error_ids\": \"278\", \"actual_error_occurrences\": \"6\", \"created_at\": \"2025-12-14 09:54:05.835000\", \"error_frequency\": \"6 occurrences\", \"error_id\": \"278\", \"event_ids\": \"278\", \"event_type\": \"Error ID 278: Unknown error 278\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 6 actual error occurrences (from 12 events)\", \"• Session 1: 2025.08.01_10.22.43.040 to 2025.08.01_10.24.02.726 (Duration: 00:01:19) (Frequency: 1)\", \"• Session 2: 2025.08.01_10.24.04.725 to 2025.08.01_10.24.05.252 (Duration: 00:00:01) (Frequency: 1)\", \"• Session 3: 2025.08.01_10.24.09.607 to 2025.08.01_10.24.09.805 (Duration: 00:00:00) (Frequency: 1)\", \"• Session 4: 2025.08.01_11.25.06.873 to 2025.08\n...[TRUNCATED_MIDDLE]...\n_11.43.58.873 to 2025.08.01_11.44.11.958 (Duration: 00:00:13) (Frequency: 1)\"]}, \"first_occurrence\": \"2025.08.01_10.22.43.040\", \"last_occurrence\": \"2025.08.01_11.44.11.958\", \"total_duration\": \"01:21:28\", \"total_events\": \"12 (Raw events)\", \"updated_at\": \"2025-12-14 09:54:05.835000\"}"
+      },
+      {
+        "id": "E15",
+        "label": "cross_error_2",
+        "text": "{\"error_ids\": \"278\", \"lightning_name\": \"PC-001882522\", \"actual_error_occurrences\": \"2\", \"created_at\": \"2025-12-15 09:02:21.942000\", \"error_frequency\": \"2 occurrences\", \"error_id\": \"278\", \"event_ids\": \"278\", \"event_type\": \"Error ID 278: Unknown error 278\", \"extra\": {\"event_sessions\": [\"• SUMMARY: 2 actual error occurrences (from 4 events)\", \"• Session 1: 2025.05.27_07.14.20.738 to 2025.05.27_07.14.20.788 (Duration: 00:00:00) (Frequency: 1)\", \"• Session 2: 2025.05.27_11.05.50.463 to 2025.05.27_11.05.53.180 (Duration: 00:00:03) (Frequency: 1)\"]}, \"first_occurrence\": \"2025.05.27_07.14.20.738\", \"last_occurrence\": \"2025.05.27_11.05.53.180\", \"total_duration\": \"03:51:33\", \"total_events\": \"4 (Raw events)\", \"updated_at\": \"2025-12-15 09:02:21.942000\"}"
+      },
+      {
+        "id": "E16",
+        "label": "cross_event_1",
+        "text": "{\"lightning_name\": \"PC-001933281\", \"event_type\": \"Error and warning events\", \"total_events\": \"1022\", \"first_occurrence\": \"2025.08.01_10.22.15.453\", \"last_occurrence\": \"2025.08.01_11.44.11.959\", \"event_ids\": [\"1115\", \"304\"], \"error_ids\": [\"1\", \"1003\", \"1008\", \"1009\", \"101\", \"1011\", \"1049\", \"105\", \"1050\", \"1052\", \"1053\", \"1054\", \"106\", \"2\", \"200\", \"202\", \"210\", \"215\", \"216\", \"228\", \"229\", \"255\", \"258\", \"260\", \"2604\", \"2607\", \"2608\", \"261\", \"2611\", \"268\", \"278\", \"279\", \"280\", \"3\", \"318\", \"319\", \"337\", \"370\", \"371\", \"374\", \"382\", \"400\", \"401\", \"410\", \"417\", \"439\", \"6951\", \"80\", \"81\", \"84\", \"85\", \"86\", \"88\", \"89\", \"912\", \"946\", \"947\", \"948\", \"95\", \"982\", \"983\", \"985\", \"988\", \"996\"], \"\n...[TRUNCATED_MIDDLE]...\n.08.01_11.33.26.203 (Duration: 00:06:23)\", \"• Session 11: 2025.08.01_11.41.24.107 to 2025.08.01_11.44.11.959 (Duration: 00:02:47)\"], \"extra\": {}, \"created_at\": \"2025-12-14 09:54:09.917000\", \"updated_at\": \"2025-12-14 09:54:09.917000\", \"event_key\": \"1115,304\"}"
+      },
+      {
+        "id": "E17",
+        "label": "cross_event_2",
+        "text": "{\"lightning_name\": \"PC-001882522\", \"event_type\": \"Error and warning events\", \"total_events\": \"1484\", \"first_occurrence\": \"2025.05.27_07.12.38.898\", \"last_occurrence\": \"2025.05.27_11.05.53.180\", \"event_ids\": [\"1115\", \"304\"], \"error_ids\": [\"1\", \"1008\", \"1009\", \"105\", \"1052\", \"1053\", \"1054\", \"106\", \"1201\", \"1210\", \"139\", \"1500\", \"2\", \"200\", \"210\", \"215\", \"216\", \"218\", \"228\", \"229\", \"255\", \"258\", \"2606\", \"2607\", \"2608\", \"261\", \"2611\", \"268\", \"278\", \"279\", \"3\", \"318\", \"319\", \"370\", \"371\", \"382\", \"400\", \"401\", \"503\", \"505\", \"80\", \"85\", \"86\", \"88\", \"89\", \"901\", \"912\", \"940\", \"942\", \"95\", \"982\", \"996\"], \"total_duration\": \"03:53:15\", \"event_sessions\": [\"• Session 1: 2025.05.27_07.12.38.898 to 202\n...[TRUNCATED_MIDDLE]...\n.05.27_11.03.25.971 (Duration: 00:00:49)\", \"• Session 39: 2025.05.27_11.05.37.002 to 2025.05.27_11.05.53.180 (Duration: 00:00:16)\"], \"extra\": {}, \"created_at\": \"2025-12-15 09:02:24.782000\", \"updated_at\": \"2025-12-15 09:02:24.782000\", \"event_key\": \"1115,304\"}"
+      }
+    ]
+  }
+}

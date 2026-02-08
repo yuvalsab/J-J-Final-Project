@@ -1,0 +1,105 @@
+}
+
+
+Return a JSON object with the following structure:
+{"issue_id": "string", "issue_title": "string", "severity": "1|2|3", "target_error_id": "string", "evidence": [{"evidence_id": "E#", "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...)"}], "probable_root_causes": ["ONE complete sentence, max 140 chars"], "proposed_fix_plan": ["ONE complete sentence, max 140 chars"], "verification_rule": "string", "requested_event_keys": ["string(optional)"], "requested_event_types": ["string(optional)"]}
+
+Please note that the output should be a single JSON object, and the keys should be as specified in the schema. The values for the keys should be filled in based on the evidence map and the payload. 
+
+Also, please note that the output should be in strict JSON format, without any extra text or markdown. 
+
+If you are unable to provide 2 valid evidence items, you should still provide probable_root_causes and proposed_fix_plan as hypothesis-only guidance and explicitly say so in verification_rule. 
+
+Please fill in the values for the keys based on the evidence map and the payload. 
+
+Here is the output in JSON format:
+
+```json
+{
+  "issue_id": "PC-001927524",
+  "issue_title": "General system error",
+  "severity": "2",
+  "target_error_id": "1",
+  "evidence": [
+    {"evidence_id": "E2", "claim": "The target error is a general system error with 4 occurrences."}
+  ],
+  "probable_root_causes": [
+    "The catheter 1 (D-1395-04-S) has been used for 8 events with a total duration of 01:16:17."
+  ],
+  "proposed_fix_plan": [
+    "Replace the catheter 1 (D-1395-04-S) with a new one."
+  ],
+  "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=two_evidence_items_required).",
+  "requested_event_keys": ["1115,304"],
+  "requested_event_types": ["Error and warning events"]
+}
+```
+
+
+Please note that the output should be a single JSON object, and the keys should be as specified in the schema. The values for the keys should be filled in based on the evidence map and the payload. 
+
+Also, please note that the output should be in strict JSON format, without any extra text or markdown. 
+
+If you are unable to provide 2 valid evidence items, you should still provide probable_root_causes and proposed_fix_plan as hypothesis-only guidance and explicitly say so in verification_rule. 
+
+Please fill in the values for the keys based on the evidence map and the payload. 
+
+Here is the output in JSON format:
+
+```json
+{
+  "issue_id": "PC-001927524",
+  "issue_title": "General system error",
+  "severity": "2",
+  "target_error_id": "1",
+  "evidence": [
+    {"evidence_id": "E2", "claim": "The target error is a general system error with 4 occurrences."}
+  ],
+  "probable_root_causes": [
+    "The catheter 1 (D-1395-04-S) has been used for 8 events with a total duration of 01:16:17."
+  ],
+  "proposed_fix_plan": [
+    "Replace the catheter 1 (D-1395-04-S) with a new one."
+  ],
+  "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=two_evidence_items_required).",
+  "requested_event_keys": ["1115,304"],
+  "requested_event_types": ["Error and warning events"]
+}
+```
+
+
+Please note that the output should be a single JSON object, and the keys should be as specified in the schema. The values for the keys should be filled in based on the evidence map and the payload. 
+
+Also, please note that the output should be in strict JSON format, without any extra text or markdown. 
+
+If you are unable to provide 2 valid evidence items, you should still provide probable_root_causes and proposed_fix_plan as hypothesis-only guidance and explicitly say so in verification_rule. 
+
+Please fill in the values for the keys based on the evidence map and the payload. 
+
+Here is the output in JSON format:
+
+```json
+{
+  "issue_id": "PC-001927524",
+  "issue_title": "General system error",
+  "severity": "2",
+  "target_error_id": "1",
+  "evidence": [
+    {"evidence_id": "E2", "claim": "The target error is a general system error with 4 occurrences."}
+  ],
+  "probable_root_causes": [
+    "The catheter 1 (D-1395-04-S) has been used for 8 events with a total duration of 01:16:17."
+  ],
+  "proposed_fix_plan": [
+    "Replace the catheter 1 (D-1395-04-S) with a new one."
+  ],
+  "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=two_evidence_items_required).",
+  "requested_event_keys": ["1115,304"],
+  "requested_event_types": ["Error and warning events"]
+}
+```
+
+
+Please note that the output should be a single JSON object, and the keys should be as specified in the schema. The values for the keys should be filled in based on the evidence map and the payload. 
+
+Also, please note that the output

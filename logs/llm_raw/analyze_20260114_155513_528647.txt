@@ -1,0 +1,203 @@
+}
+
+
+RETURN JSON OBJECT:
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E2",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E3",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E4",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E5",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E6",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E7",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E8",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E9",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E10",
+      "claim": "string"
+    }
+  ],
+  "probable_root_causes": [
+    "string"
+  ],
+  "proposed_fix_plan": [
+    "string"
+  ],
+  "verification_rule": "string",
+  "requested_event_keys": [
+    "string"
+  ],
+  "requested_event_types": [
+    "string"
+  ]
+}  |  {
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E2",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E3",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E4",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E5",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E6",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E7",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E8",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E9",
+      "claim": "string"
+    },
+    {
+      "evidence_id": "E10",
+      "claim": "string"
+    }
+  ],
+  "probable_root_causes": [
+    "string"
+  ],
+  "proposed_fix_plan": [
+    "string"
+  ],
+  "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=low_evidence_count).",
+  "requested_event_keys": [
+    "string"
+  ],
+  "requested_event_types": [
+    "string"
+  ]
+}  |  {
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [],
+  "probable_root_causes": [
+    "string"
+  ],
+  "proposed_fix_plan": [
+    "string"
+  ],
+  "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=low_evidence_count).",
+  "requested_event_keys": [
+    "string"
+  ],
+  "requested_event_types": [
+    "string"
+  ]
+}  |  {
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [],
+  "probable_root_causes": [
+    "string"
+  ],
+  "proposed_fix_plan": [
+    "string"
+  ],
+  "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=low_evidence_count).",
+  "requested_event_keys": [
+    "string"
+  ],
+  "requested_event_types": [
+    "string"
+  ]
+}  |  {
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [],
+  "probable_root_causes": [
+    "string"
+  ],
+  "proposed_fix_plan": [
+    "string"
+  ],
+  "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=low_evidence_count).",
+  "requested_event_keys": [
+    "string"
+  ],
+  "requested_event_types": [
+    "string"
+  ]
+}  |  {
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [],
+  "probable_root_causes": [
+    "string"
+  ],
+  "proposed_fix_plan": [
+    "string"
+  ],
+  "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=low_evidence_count).",
+  "requested_event_keys": [
+    "string"
+  ],
+  "requested_event_types": [
+    "string"
+  ]
+}  |  {
+  "issue_id": "string",
+  "

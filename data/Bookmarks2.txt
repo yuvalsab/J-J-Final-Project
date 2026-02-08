@@ -1,0 +1,1979 @@
+RAW DATA ANALYSIS - STRUCTURED EVENT BREAKDOWN
+============================================================
+
+
+ABLATION EVENTS:
+===============
+Total Events: 36
+Ablation Sessions: 18 (from 36 events)
+Event Type: Ablation procedure events
+First Occurrence: 2025.05.27_09.54.48.823
+Last Occurrence: 2025.05.27_10.58.39.507
+Event IDs: 12
+Total Duration: 01:03:51
+
+Event Sessions:
+• SUMMARY: 18 actual ablation sessions (from 36 events)
+• Session 1: 2025.05.27_09.54.48.823 to 2025.05.27_09.55.48.850 (Duration: 00:01:00)
+• Session 2: 2025.05.27_09.57.29.203 to 2025.05.27_09.57.43.486 (Duration: 00:00:14)
+• Session 3: 2025.05.27_09.57.58.737 to 2025.05.27_09.58.58.737 (Duration: 00:01:00)
+• Session 4: 2025.05.27_09.59.09.598 to 2025.05.27_10.00.09.625 (Duration: 00:01:00)
+• Session 5: 2025.05.27_10.04.00.558 to 2025.05.27_10.04.45.150 (Duration: 00:00:45)
+• Session 6: 2025.05.27_10.04.50.529 to 2025.05.27_10.05.20.270 (Duration: 00:00:30)
+• Session 7: 2025.05.27_10.05.34.559 to 2025.05.27_10.06.27.781 (Duration: 00:00:53)
+• Session 8: 2025.05.27_10.07.50.269 to 2025.05.27_10.07.54.119 (Duration: 00:00:04)
+• Session 9: 2025.05.27_10.08.20.895 to 2025.05.27_10.08.41.814 (Duration: 00:00:21)
+• Session 10: 2025.05.27_10.08.46.106 to 2025.05.27_10.09.01.644 (Duration: 00:00:15)
+• Session 11: 2025.05.27_10.14.46.011 to 2025.05.27_10.15.27.042 (Duration: 00:00:41)
+• Session 12: 2025.05.27_10.15.57.693 to 2025.05.27_10.16.57.748 (Duration: 00:01:00)
+• Session 13: 2025.05.27_10.21.07.225 to 2025.05.27_10.21.53.527 (Duration: 00:00:46)
+• Session 14: 2025.05.27_10.21.57.020 to 2025.05.27_10.22.22.069 (Duration: 00:00:25)
+• Session 15: 2025.05.27_10.25.56.301 to 2025.05.27_10.26.34.359 (Duration: 00:00:38)
+• Session 16: 2025.05.27_10.27.47.519 to 2025.05.27_10.28.47.472 (Duration: 00:01:00)
+• Session 17: 2025.05.27_10.56.39.146 to 2025.05.27_10.57.39.143 (Duration: 00:01:00)
+• Session 18: 2025.05.27_10.57.42.351 to 2025.05.27_10.58.39.507 (Duration: 00:00:57)
+
+
+PACING EVENTS:
+=============
+Total Events: 55
+Pacing Sessions: 12 (from 55 events)
+Event Type: Pacing procedure events
+First Occurrence: 2025.05.27_07.14.01.642
+Last Occurrence: 2025.05.27_11.05.52.784
+Event IDs: 130, 131, 132, 17
+Total Duration: 03:51:51
+
+Event Sessions:
+• SUMMARY: 12 actual pacing sessions (from 55 events)
+• Session 1: 2025.05.27_09.29.25.436 to 2025.05.27_09.29.29.947 (Duration: 00:00:04)
+• Session 2: 2025.05.27_09.29.34.786 to 2025.05.27_09.33.06.247 (Duration: 00:03:32)
+• Session 3: 2025.05.27_09.40.08.247 to 2025.05.27_09.40.26.247 (Duration: 00:00:18)
+• Session 4: 2025.05.27_09.47.38.797 to 2025.05.27_09.48.21.297 (Duration: 00:00:43)
+• Session 5: 2025.05.27_09.52.12.537 to 2025.05.27_09.52.21.048 (Duration: 00:00:09)
+• Session 6: 2025.05.27_09.53.29.998 to 2025.05.27_09.53.51.998 (Duration: 00:00:22)
+• Session 7: 2025.05.27_10.11.43.089 to 2025.05.27_10.11.53.589 (Duration: 00:00:10)
+• Session 8: 2025.05.27_10.12.57.749 to 2025.05.27_10.13.14.739 (Duration: 00:00:17)
+• Session 9: 2025.05.27_10.14.08.139 to 2025.05.27_10.14.17.639 (Duration: 00:00:09)
+• Session 10: 2025.05.27_10.19.44.139 to 2025.05.27_10.21.01.600 (Duration: 00:01:17)
+• Session 11: 2025.05.27_10.54.02.251 to 2025.05.27_10.54.12.251 (Duration: 00:00:10)
+• Session 12: 2025.05.27_10.54.12.251 to 2025.05.27_10.54.18.751 (Duration: 00:00:06)
+
+
+MAGNETIC SENSOR EVENTS:
+======================
+Total Events: 51
+Channels Monitored: 24
+Critical Channels (18-20): Ch18: DISCONNECTED, Ch19: DISCONNECTED, Ch20: DISCONNECTED
+Event Type: Magnetic sensor status and impedance events
+First Occurrence: 2025.05.27_07.14.16.074
+Last Occurrence: 2025.05.27_11.05.37.225
+⚠️  ERROR 105 CORRELATION: Channel 18: DISCONNECTED at 2025.05.27_10.32.06.429; Channel 19: DISCONNECTED at 2025.05.27_10.32.06.429; Channel 20: DISCONNECTED at 2025.05.27_10.32.06.429; Channel 20: SHORTED at 2025.05.27_10.32.54.700; Channel 18: SHORTED at 2025.05.27_10.32.54.834; Channel 19: SHORTED at 2025.05.27_10.32.54.834; Channel 18: DISCONNECTED at 2025.05.27_10.37.35.890; Channel 19: DISCONNECTED at 2025.05.27_10.37.35.890; Channel 20: DISCONNECTED at 2025.05.27_10.37.35.890
+Event IDs: 22
+Total Duration: 03:51:21
+
+Event Sessions:
+• SUMMARY: 24 channels monitored ⚠️ ERROR 105 CORRELATION DETECTED
+• Event 1: 2025.05.27_07.14.16.074 - Channel 0
+• Event 2: 2025.05.27_07.14.16.274 - Channel 1
+• Event 3: 2025.05.27_07.14.16.474 - Channel 2
+• Event 4: 2025.05.27_07.14.16.640 - Channel 3
+• Event 5: 2025.05.27_07.14.16.840 - Channel 4
+• Event 6: 2025.05.27_07.14.17.940 - Channel 5
+• Event 7: 2025.05.27_07.14.18.609 - Channel 6
+• Event 8: 2025.05.27_07.14.18.841 - Channel 7
+• Event 9: 2025.05.27_07.14.18.874 - Channel 8
+• Event 10: 2025.05.27_07.14.19.941 - Channel 9
+• Event 11: 2025.05.27_07.14.20.484 - Channel 10
+• Event 12: 2025.05.27_07.14.20.541 - Channel 11
+• Event 13: 2025.05.27_07.14.20.585 - Channel 12
+• Event 14: 2025.05.27_07.14.20.585 - Channel 13
+• Event 15: 2025.05.27_07.14.20.608 - Channel 14
+• Event 16: 2025.05.27_07.14.20.652 - Channel 15
+• Event 17: 2025.05.27_07.14.20.652 - Channel 16
+• Event 18: 2025.05.27_07.14.20.652 - Channel 17
+• Session 19: 2025.05.27_09.18.23.095 to 2025.05.27_10.39.07.723 (Duration: 01:20:44)
+•   Impedance Timeline (Channel 18):
+• Event 21: 2025.05.27_09.18.23.095 -     First reading: 551.684631 (Range: None, Variance: None)
+• Event 22: 2025.05.27_10.32.54.834 -     Min value: 290.778595 (Range: None, Variance: None)
+• Event 23: 2025.05.27_10.32.06.429 -     Max value: 1938.608154 (Range: None, Variance: None)
+• Event 24: 2025.05.27_10.39.07.723 -     Last reading: 517.570801 (Range: None, Variance: None)
+•   Coil State Changes (Channel 18):
+• Event 26: 2025.05.27_09.18.23.095 -     State: OK (Code: 0)
+• Event 27: 2025.05.27_10.32.06.429 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 28: 2025.05.27_10.32.14.700 -     State: OK (Code: 0)
+• Event 29: 2025.05.27_10.32.54.834 -     ⚠️ State: SHORTED (Code: 1)
+• Event 30: 2025.05.27_10.33.46.200 -     State: OK (Code: 0)
+• Event 31: 2025.05.27_10.37.35.890 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 32: 2025.05.27_10.39.07.723 -     State: OK (Code: 0)
+•   ⚠️ CRITICAL EVENTS (Error 105 Risk - Channel 18):
+• Event 34: 2025.05.27_10.32.06.429 -     🚨 DISCONNECTED: Impedance=1938.608154, Range=None, Variance=None
+• Event 35: 2025.05.27_10.32.54.834 -     🚨 SHORTED: Impedance=290.778595, Range=None, Variance=None
+• Event 36: 2025.05.27_10.37.35.890 -     🚨 DISCONNECTED: Impedance=1781.808594, Range=None, Variance=None
+• Session 37: 2025.05.27_09.18.23.095 to 2025.05.27_10.39.07.723 (Duration: 01:20:44)
+•   Impedance Timeline (Channel 19):
+• Event 39: 2025.05.27_09.18.23.095 -     First reading: 551.101440 (Range: None, Variance: None)
+• Event 40: 2025.05.27_10.32.54.834 -     Min value: 291.036499 (Range: None, Variance: None)
+• Event 41: 2025.05.27_10.32.06.429 -     Max value: 2002.920532 (Range: None, Variance: None)
+• Event 42: 2025.05.27_10.39.07.723 -     Last reading: 521.020630 (Range: None, Variance: None)
+•   Coil State Changes (Channel 19):
+• Event 44: 2025.05.27_09.18.23.095 -     State: OK (Code: 0)
+• Event 45: 2025.05.27_10.32.06.429 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 46: 2025.05.27_10.32.14.723 -     State: OK (Code: 0)
+• Event 47: 2025.05.27_10.32.54.834 -     ⚠️ State: SHORTED (Code: 1)
+• Event 48: 2025.05.27_10.33.46.200 -     State: OK (Code: 0)
+• Event 49: 2025.05.27_10.37.35.890 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 50: 2025.05.27_10.39.07.723 -     State: OK (Code: 0)
+•   ⚠️ CRITICAL EVENTS (Error 105 Risk - Channel 19):
+• Event 52: 2025.05.27_10.32.06.429 -     🚨 DISCONNECTED: Impedance=2002.920532, Range=None, Variance=None
+• Event 53: 2025.05.27_10.32.54.834 -     🚨 SHORTED: Impedance=291.036499, Range=None, Variance=None
+• Event 54: 2025.05.27_10.37.35.890 -     🚨 DISCONNECTED: Impedance=1907.522339, Range=None, Variance=None
+• Session 55: 2025.05.27_09.18.23.095 to 2025.05.27_10.39.07.767 (Duration: 01:20:44)
+•   Impedance Timeline (Channel 20):
+• Event 57: 2025.05.27_09.18.23.095 -     First reading: 438.893066 (Range: None, Variance: None)
+• Event 58: 2025.05.27_10.32.54.700 -     Min value: 294.633667 (Range: None, Variance: None)
+• Event 59: 2025.05.27_10.32.06.429 -     Max value: 1886.943359 (Range: None, Variance: None)
+• Event 60: 2025.05.27_10.39.07.767 -     Last reading: 436.574524 (Range: None, Variance: None)
+•   Coil State Changes (Channel 20):
+• Event 62: 2025.05.27_09.18.23.095 -     State: OK (Code: 0)
+• Event 63: 2025.05.27_10.32.06.429 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 64: 2025.05.27_10.32.14.523 -     State: OK (Code: 0)
+• Event 65: 2025.05.27_10.32.54.700 -     ⚠️ State: SHORTED (Code: 1)
+• Event 66: 2025.05.27_10.33.46.200 -     State: OK (Code: 0)
+• Event 67: 2025.05.27_10.37.35.890 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 68: 2025.05.27_10.39.07.767 -     State: OK (Code: 0)
+•   ⚠️ CRITICAL EVENTS (Error 105 Risk - Channel 20):
+• Event 70: 2025.05.27_10.32.06.429 -     🚨 DISCONNECTED: Impedance=1886.943359, Range=None, Variance=None
+• Event 71: 2025.05.27_10.32.54.700 -     🚨 SHORTED: Impedance=294.633667, Range=None, Variance=None
+• Event 72: 2025.05.27_10.37.35.890 -     🚨 DISCONNECTED: Impedance=1719.564331, Range=None, Variance=None
+• Session 73: 2025.05.27_09.19.14.653 to 2025.05.27_11.05.37.002 (Duration: 01:46:23)
+•   Impedance Timeline (Channel 24):
+• Event 75: 2025.05.27_09.19.14.653 -     First reading: 247.402710 (Range: None, Variance: None)
+• Event 76: 2025.05.27_09.34.12.225 -     Min value: 17.659229 (Range: None, Variance: None)
+• Event 77: 2025.05.27_09.34.22.589 -     Max value: 263.557831 (Range: None, Variance: None)
+• Event 78: 2025.05.27_11.05.37.002 -     Last reading: 24.946089 (Range: None, Variance: None)
+•   Coil State Changes (Channel 24):
+• Event 80: 2025.05.27_09.19.14.653 -     State: OK (Code: 0)
+• Event 81: 2025.05.27_09.34.12.225 -     State: SHORTED (Code: 1)
+• Event 82: 2025.05.27_09.34.22.589 -     State: OK (Code: 0)
+• Event 83: 2025.05.27_11.05.37.002 -     State: SHORTED (Code: 1)
+• Session 84: 2025.05.27_09.19.14.653 to 2025.05.27_11.05.37.225 (Duration: 01:46:23)
+•   Impedance Timeline (Channel 25):
+• Event 86: 2025.05.27_09.19.14.653 -     First reading: 244.291183 (Range: None, Variance: None)
+• Event 87: 2025.05.27_09.34.12.325 -     Min value: 15.025054 (Range: None, Variance: None)
+• Event 88: 2025.05.27_09.34.22.589 -     Max value: 260.985443 (Range: None, Variance: None)
+• Event 89: 2025.05.27_11.05.37.225 -     Last reading: 17.778679 (Range: None, Variance: None)
+•   Coil State Changes (Channel 25):
+• Event 91: 2025.05.27_09.19.14.653 -     State: OK (Code: 0)
+• Event 92: 2025.05.27_09.34.12.325 -     State: SHORTED (Code: 1)
+• Event 93: 2025.05.27_09.34.22.589 -     State: OK (Code: 0)
+• Event 94: 2025.05.27_11.05.37.225 -     State: SHORTED (Code: 1)
+• Session 95: 2025.05.27_09.19.14.653 to 2025.05.27_11.05.37.225 (Duration: 01:46:23)
+•   Impedance Timeline (Channel 26):
+• Event 97: 2025.05.27_09.19.14.653 -     First reading: 243.627060 (Range: None, Variance: None)
+• Event 98: 2025.05.27_09.34.22.589 -     Max value: 264.928406 (Range: None, Variance: None)
+• Event 99: 2025.05.27_11.05.37.225 -     Last reading: 17.873220 (Range: None, Variance: None)
+•   Coil State Changes (Channel 26):
+• Event 101: 2025.05.27_09.19.14.653 -     State: OK (Code: 0)
+• Event 102: 2025.05.27_09.34.11.986 -     State: SHORTED (Code: 1)
+• Event 103: 2025.05.27_09.34.22.589 -     State: OK (Code: 0)
+• Event 104: 2025.05.27_11.05.37.225 -     State: SHORTED (Code: 1)
+
+
+ERROR EVENTS:
+============
+Total Events: 1484
+Event Type: Error and warning events
+First Occurrence: 2025.05.27_07.12.38.898
+Last Occurrence: 2025.05.27_11.05.53.180
+Event IDs: 1115, 304
+Error IDs: 1, 1008, 1009, 105, 1052, 1053, 1054, 106, 1201, 1210, 139, 1500, 2, 200, 210, 215, 216, 218, 228, 229, 255, 258, 2606, 2607, 2608, 261, 2611, 268, 278, 279, 3, 318, 319, 370, 371, 382, 400, 401, 503, 505, 80, 85, 86, 88, 89, 901, 912, 940, 942, 95, 982, 996
+Total Duration: 03:53:15
+
+Event Sessions:
+• Session 1: 2025.05.27_07.12.38.898 to 2025.05.27_07.15.00.539 (Duration: 00:02:22)
+• Session 2: 2025.05.27_08.24.17.892 to 2025.05.27_08.24.18.970 (Duration: 00:00:01)
+• Session 3: 2025.05.27_08.25.26.576 to 2025.05.27_08.25.27.592 (Duration: 00:00:01)
+• Session 4: 2025.05.27_08.27.08.211 to 2025.05.27_08.27.22.930 (Duration: 00:00:14)
+• Session 5: 2025.05.27_08.51.45.945 to 2025.05.27_08.52.33.245 (Duration: 00:00:48)
+• Session 6: 2025.05.27_08.54.08.646 to 2025.05.27_08.54.11.925 (Duration: 00:00:03)
+• Session 7: 2025.05.27_08.57.11.853 to 2025.05.27_08.58.26.897 (Duration: 00:01:15)
+• Session 8: 2025.05.27_09.00.45.479 to 2025.05.27_09.01.04.987 (Duration: 00:00:19)
+• Session 9: 2025.05.27_09.18.06.398 to 2025.05.27_09.18.27.280 (Duration: 00:00:21)
+• Session 10: 2025.05.27_09.20.21.275 to 2025.05.27_09.21.07.399 (Duration: 00:00:46)
+• Session 11: 2025.05.27_09.24.09.439 to 2025.05.27_09.24.09.815 (Duration: 00:00:00)
+• Session 12: 2025.05.27_09.25.24.252 to 2025.05.27_09.26.01.328 (Duration: 00:00:37)
+• Session 13: 2025.05.27_09.33.56.678 to 2025.05.27_09.34.25.878 (Duration: 00:00:29)
+• Session 14: 2025.05.27_09.35.31.474 to 2025.05.27_09.36.16.049 (Duration: 00:00:45)
+• Session 15: 2025.05.27_09.37.26.447 to 2025.05.27_09.37.45.873 (Duration: 00:00:19)
+• Event 16: 2025.05.27_09.39.19.245 - Error/Warning status change - system
+• Session 17: 2025.05.27_09.42.34.479 to 2025.05.27_09.43.34.397 (Duration: 00:01:00)
+• Session 18: 2025.05.27_09.46.28.448 to 2025.05.27_09.46.29.748 (Duration: 00:00:01)
+• Session 19: 2025.05.27_09.47.51.047 to 2025.05.27_09.49.48.440 (Duration: 00:01:57)
+• Session 20: 2025.05.27_09.51.42.847 to 2025.05.27_09.51.54.659 (Duration: 00:00:12)
+• Session 21: 2025.05.27_09.53.34.748 to 2025.05.27_09.53.36.391 (Duration: 00:00:02)
+• Session 22: 2025.05.27_09.54.47.453 to 2025.05.27_09.55.53.233 (Duration: 00:01:06)
+• Session 23: 2025.05.27_10.02.25.742 to 2025.05.27_10.03.26.198 (Duration: 00:01:01)
+• Session 24: 2025.05.27_10.06.12.968 to 2025.05.27_10.06.13.522 (Duration: 00:00:01)
+• Session 25: 2025.05.27_10.08.42.049 to 2025.05.27_10.09.21.219 (Duration: 00:00:39)
+• Session 26: 2025.05.27_10.15.55.643 to 2025.05.27_10.16.24.000 (Duration: 00:00:29)
+• Session 27: 2025.05.27_10.17.56.144 to 2025.05.27_10.17.56.210 (Duration: 00:00:00)
+• Session 28: 2025.05.27_10.27.17.800 to 2025.05.27_10.27.19.449 (Duration: 00:00:02)
+• Session 29: 2025.05.27_10.29.09.090 to 2025.05.27_10.29.22.850 (Duration: 00:00:13)
+• Session 30: 2025.05.27_10.31.10.745 to 2025.05.27_10.42.34.505 (Duration: 00:11:24)
+• Session 31: 2025.05.27_10.43.48.972 to 2025.05.27_10.44.56.932 (Duration: 00:01:08)
+• Session 32: 2025.05.27_10.46.08.270 to 2025.05.27_10.47.50.595 (Duration: 00:01:42)
+• Session 33: 2025.05.27_10.48.58.901 to 2025.05.27_10.49.08.851 (Duration: 00:00:10)
+• Session 34: 2025.05.27_10.53.05.827 to 2025.05.27_10.53.06.433 (Duration: 00:00:01)
+• Session 35: 2025.05.27_10.54.48.631 to 2025.05.27_10.55.58.135 (Duration: 00:01:10)
+• Session 36: 2025.05.27_10.58.41.254 to 2025.05.27_10.58.44.059 (Duration: 00:00:03)
+• Session 37: 2025.05.27_11.00.13.870 to 2025.05.27_11.00.13.880 (Duration: 00:00:00)
+• Session 38: 2025.05.27_11.02.36.836 to 2025.05.27_11.03.25.971 (Duration: 00:00:49)
+• Session 39: 2025.05.27_11.05.37.002 to 2025.05.27_11.05.53.180 (Duration: 00:00:16)
+
+
+CATHETER EVENTS:
+===============
+Total Events: 111
+Event Type: Catheter connection and management events
+First Occurrence: 2025.05.27_07.12.38.483
+Last Occurrence: 2025.05.27_11.07.02.373
+Catheter IDs: 18091 (QDOT MICRO™ Catheter, DF (Part: D135318)), 18107 (THERMOCOOL SMARTTOUCH® SF-5D Catheter, Micro Electrodes (Part: D135107)), 587 (DecaNav™ (Part: D1105887)), 6097 (QDOT MICRO™ Catheter, DF (Part: D135318))
+Total Duration: 03:54:24
+
+Event Sessions:
+• Session 1: 2025.05.27_07.12.38.483 to 2025.05.27_07.14.00.686 (Duration: 00:01:22)
+• Session 2: 2025.05.27_08.56.18.158 to 2025.05.27_08.56.18.175 (Duration: 00:00:00)
+• Session 3: 2025.05.27_09.18.01.343 to 2025.05.27_09.18.01.379 (Duration: 00:00:00)
+• Session 4: 2025.05.27_09.19.09.592 to 2025.05.27_09.19.09.598 (Duration: 00:00:00)
+• Event 5: 2025.05.27_09.20.14.377 - User Action: Mapping Connector Changed - system
+• Session 6: 2025.05.27_09.34.14.397 to 2025.05.27_09.34.22.353 (Duration: 00:00:08)
+• Event 7: 2025.05.27_09.37.45.649 - User Action: Mapping Connector Changed - system
+• Session 8: 2025.05.27_09.54.48.402 to 2025.05.27_09.55.48.963 (Duration: 00:01:00)
+• Session 9: 2025.05.27_09.57.29.303 to 2025.05.27_10.00.09.717 (Duration: 00:02:40)
+• Session 10: 2025.05.27_10.04.00.659 to 2025.05.27_10.06.27.884 (Duration: 00:02:27)
+• Session 11: 2025.05.27_10.07.50.384 to 2025.05.27_10.09.01.717 (Duration: 00:01:11)
+• Session 12: 2025.05.27_10.14.46.117 to 2025.05.27_10.16.57.837 (Duration: 00:02:11)
+• Session 13: 2025.05.27_10.21.07.318 to 2025.05.27_10.22.22.160 (Duration: 00:01:15)
+• Session 14: 2025.05.27_10.25.56.384 to 2025.05.27_10.26.34.458 (Duration: 00:00:38)
+• Session 15: 2025.05.27_10.27.47.611 to 2025.05.27_10.28.47.582 (Duration: 00:01:00)
+• Session 16: 2025.05.27_10.32.57.667 to 2025.05.27_10.33.41.591 (Duration: 00:00:44)
+• Session 17: 2025.05.27_10.37.44.055 to 2025.05.27_10.38.44.995 (Duration: 00:01:00)
+• Session 18: 2025.05.27_10.56.39.244 to 2025.05.27_10.58.39.614 (Duration: 00:02:00)
+• Session 19: 2025.05.27_11.05.38.439 to 2025.05.27_11.05.53.266 (Duration: 00:00:15)
+• Event 20: 2025.05.27_11.07.02.373 - Communication Connection State Changed - system
+
+
+MAPPING EVENTS:
+==============
+Total Events: 1948
+Event Type: Mapping and data acquisition events
+First Occurrence: 2025.05.27_07.13.20.705
+Last Occurrence: 2025.05.27_11.01.46.999
+Event IDs: 1101, 240, 601
+Total Duration: 03:48:26
+
+Event Sessions:
+• Event 1: 2025.05.27_07.13.20.705 - Mapping annotation configuration - user
+• Session 2: 2025.05.27_08.56.18.175 to 2025.05.27_08.56.41.189 (Duration: 00:00:23)
+• Session 3: 2025.05.27_09.02.00.045 to 2025.05.27_09.02.00.829 (Duration: 00:00:00)
+• Session 4: 2025.05.27_09.13.29.477 to 2025.05.27_09.13.41.869 (Duration: 00:00:12)
+• Event 5: 2025.05.27_09.18.01.374 - Mapping annotation configuration - user
+• Session 6: 2025.05.27_09.20.14.303 to 2025.05.27_09.21.33.511 (Duration: 00:01:19)
+• Session 7: 2025.05.27_09.24.09.040 to 2025.05.27_09.26.14.934 (Duration: 00:02:05)
+• Session 8: 2025.05.27_09.27.51.066 to 2025.05.27_09.28.59.728 (Duration: 00:01:08)
+• Session 9: 2025.05.27_09.30.32.256 to 2025.05.27_09.30.42.359 (Duration: 00:00:10)
+• Session 10: 2025.05.27_09.33.33.347 to 2025.05.27_09.38.11.262 (Duration: 00:04:38)
+• Session 11: 2025.05.27_09.39.15.704 to 2025.05.27_09.39.20.150 (Duration: 00:00:05)
+• Session 12: 2025.05.27_09.41.20.847 to 2025.05.27_09.43.51.035 (Duration: 00:02:31)
+• Session 13: 2025.05.27_09.49.07.695 to 2025.05.27_09.50.43.000 (Duration: 00:01:36)
+• Session 14: 2025.05.27_09.52.43.621 to 2025.05.27_09.53.29.320 (Duration: 00:00:46)
+• Session 15: 2025.05.27_09.54.50.341 to 2025.05.27_09.55.53.228 (Duration: 00:01:03)
+• Session 16: 2025.05.27_09.57.30.743 to 2025.05.27_10.00.22.114 (Duration: 00:02:52)
+• Session 17: 2025.05.27_10.01.50.162 to 2025.05.27_10.02.03.166 (Duration: 00:00:13)
+• Session 18: 2025.05.27_10.04.02.041 to 2025.05.27_10.06.29.554 (Duration: 00:02:27)
+• Session 19: 2025.05.27_10.07.39.877 to 2025.05.27_10.09.52.425 (Duration: 00:02:13)
+• Event 20: 2025.05.27_10.13.00.355 - User Action: [FAM] Acquisition - system
+• Session 21: 2025.05.27_10.14.47.542 to 2025.05.27_10.17.55.576 (Duration: 00:03:08)
+• Session 22: 2025.05.27_10.19.06.195 to 2025.05.27_10.19.06.397 (Duration: 00:00:00)
+• Session 23: 2025.05.27_10.21.09.742 to 2025.05.27_10.22.46.251 (Duration: 00:01:37)
+• Session 24: 2025.05.27_10.23.56.501 to 2025.05.27_10.24.05.723 (Duration: 00:00:09)
+• Session 25: 2025.05.27_10.25.57.842 to 2025.05.27_10.26.36.189 (Duration: 00:00:39)
+• Session 26: 2025.05.27_10.27.47.474 to 2025.05.27_10.28.48.766 (Duration: 00:01:01)
+• Session 27: 2025.05.27_10.35.22.224 to 2025.05.27_10.35.41.223 (Duration: 00:00:19)
+• Session 28: 2025.05.27_10.45.06.166 to 2025.05.27_10.45.12.133 (Duration: 00:00:06)
+• Session 29: 2025.05.27_10.46.20.829 to 2025.05.27_10.46.49.985 (Duration: 00:00:29)
+• Session 30: 2025.05.27_10.49.02.591 to 2025.05.27_10.49.30.023 (Duration: 00:00:28)
+• Session 31: 2025.05.27_10.51.49.132 to 2025.05.27_10.53.24.001 (Duration: 00:01:35)
+• Session 32: 2025.05.27_10.54.56.766 to 2025.05.27_10.59.02.689 (Duration: 00:04:06)
+• Event 33: 2025.05.27_11.00.23.170 - Mapping annotation configuration - user
+• Event 34: 2025.05.27_11.01.46.999 - Mapping annotation configuration - user
+
+
+HARDWARE EVENTS:
+===============
+Total Events: 24
+Event Type: Hardware and system events
+First Occurrence: 2025.05.27_07.12.39.011
+Last Occurrence: 2025.05.27_11.05.38.439
+Event IDs: 232, 233, 235, 24
+Total Duration: 03:52:59
+
+Event Sessions:
+• Session 1: 2025.05.27_07.12.39.011 to 2025.05.27_07.14.03.310 (Duration: 00:01:24)
+• Session 2: 2025.05.27_08.27.05.482 to 2025.05.27_08.27.20.814 (Duration: 00:00:15)
+• Session 3: 2025.05.27_09.17.56.897 to 2025.05.27_09.19.07.245 (Duration: 00:01:11)
+• Session 4: 2025.05.27_09.34.14.397 to 2025.05.27_09.34.19.914 (Duration: 00:00:05)
+• Session 5: 2025.05.27_10.32.57.667 to 2025.05.27_10.33.37.337 (Duration: 00:00:40)
+• Session 6: 2025.05.27_10.37.44.055 to 2025.05.27_10.38.40.349 (Duration: 00:00:56)
+• Event 7: 2025.05.27_11.05.38.439 - Devices list - system
+
+
+PATCH EVENTS:
+============
+Total Events: 48
+Event Type: Patch and positioning events
+First Occurrence: 2025.05.27_07.13.00.802
+Last Occurrence: 2025.05.27_11.07.02.377
+Event IDs: 11, 13, 14
+Total Duration: 03:54:02
+
+Event Sessions:
+• Session 1: 2025.05.27_07.13.00.802 to 2025.05.27_07.14.10.220 (Duration: 00:01:10)
+• Event 2: 2025.05.27_08.57.59.096 - Location pad disconnected - system
+• Event 3: 2025.05.27_09.20.21.274 - Location pad connected - system
+• Session 4: 2025.05.27_11.05.52.786 to 2025.05.27_11.05.52.790 (Duration: 00:00:00)
+• Session 5: 2025.05.27_11.07.02.373 to 2025.05.27_11.07.02.377 (Duration: 00:00:00)
+
+
+QDOT MICRO™ CATHETER, DF:
+========================
+Total Events: 13
+Event Type: QDOT MICRO™ Catheter, DF (IDs: 18091, 6097)
+First Occurrence: 2025.05.27_09.18.01.348
+Last Occurrence: 2025.05.27_11.05.52.779
+Catheter IDs: 18091, 6097
+Total Duration: 01:47:51
+
+Event Sessions:
+• Event 1: 2025.05.27_09.18.01.348 - QDOT MICRO™ Catheter, DF (Part: D135318) connected - system
+• Session 2: 2025.05.27_09.18.01.348 to 2025.05.27_10.32.57.667 (Duration: 01:14:56)
+• Event 3: 2025.05.27_09.18.01.379 - QDOT MICRO™ Catheter, DF (Part: D135318) connected - system
+• Session 4: 2025.05.27_09.18.01.379 to 2025.05.27_10.32.57.669 (Duration: 01:14:56)
+• Event 5: 2025.05.27_10.32.57.667 - QDOT MICRO™ Catheter, DF (Part: D135318) disconnected - system
+• Event 6: 2025.05.27_10.32.57.669 - QDOT MICRO™ Catheter, DF (Part: D135318) disconnected - system
+• Event 7: 2025.05.27_10.33.41.572 - QDOT MICRO™ Catheter, DF (Part: D135318) connected - system
+• Session 8: 2025.05.27_10.33.41.572 to 2025.05.27_10.37.44.055 (Duration: 00:04:03)
+• Event 9: 2025.05.27_10.33.41.591 - QDOT MICRO™ Catheter, DF (Part: D135318) connected - system
+• Session 10: 2025.05.27_10.33.41.591 to 2025.05.27_10.37.44.058 (Duration: 00:04:03)
+• Event 11: 2025.05.27_10.37.44.055 - QDOT MICRO™ Catheter, DF (Part: D135318) disconnected - system
+• Event 12: 2025.05.27_10.37.44.058 - QDOT MICRO™ Catheter, DF (Part: D135318) disconnected - system
+• Event 13: 2025.05.27_10.38.44.981 - QDOT MICRO™ Catheter, DF (Part: D135318) connected - system
+• Event 14: 2025.05.27_10.38.44.981 - QDOT MICRO™ Catheter, DF (Part: D135318) connected (still active) - system
+• Event 15: 2025.05.27_10.38.44.995 - QDOT MICRO™ Catheter, DF (Part: D135318) connected - system
+• Session 16: 2025.05.27_10.38.44.995 to 2025.05.27_11.05.52.779 (Duration: 00:27:08)
+• Event 17: 2025.05.27_11.05.52.768 - QDOT MICRO™ Catheter, DF (Part: D135318) connected - system
+• Event 18: 2025.05.27_11.05.52.770 - QDOT MICRO™ Catheter, DF (Part: D135318) disconnected - system
+• Event 19: 2025.05.27_11.05.52.779 - QDOT MICRO™ Catheter, DF (Part: D135318) disconnected - system
+
+
+CATHETER ID 18107 - THERMOCOOL SMARTTOUCH® SF-5D CATHETER, MICRO ELECTRODES (PART: D135107):
+===========================================================================================
+Total Events: 3
+Event Type: THERMOCOOL SMARTTOUCH® SF-5D Catheter, Micro Electrodes (Part: D135107) (ID: 18107)
+First Occurrence: 2025.05.27_10.33.04.256
+Last Occurrence: 2025.05.27_11.05.52.785
+Catheter ID: 18107 | Part Number: D135107
+Total Duration: 00:32:48
+
+Event Sessions:
+• Event 1: 2025.05.27_10.33.04.256 - THERMOCOOL SMARTTOUCH® SF-5D Catheter, Micro Electrodes (Part: D135107) disconnected - system
+• Event 2: 2025.05.27_11.05.52.769 - THERMOCOOL SMARTTOUCH® SF-5D Catheter, Micro Electrodes (Part: D135107) connected - system
+• Event 3: 2025.05.27_11.05.52.785 - THERMOCOOL SMARTTOUCH® SF-5D Catheter, Micro Electrodes (Part: D135107) disconnected - system
+
+
+CATHETER ID 587 - DECANAV™ (PART: D1105887):
+===========================================
+Total Events: 4
+Event Type: DecaNav™ (Part: D1105887) (ID: 587)
+First Occurrence: 2025.05.27_09.19.09.598
+Last Occurrence: 2025.05.27_11.05.38.439
+Catheter ID: 587 | Part Number: D1105887
+Total Duration: 01:46:29
+
+Event Sessions:
+• Event 1: 2025.05.27_09.19.09.598 - Catheter Connected - system [Catheter: 587 - {'name': 'DecaNav™', 'part_number': 'D1105887'}]
+• Event 2: 2025.05.27_09.34.14.397 - Catheter disconnected - system [Catheter: 587 - {'name': 'DecaNav™', 'part_number': 'D1105887'}]
+• Event 3: 2025.05.27_09.34.22.353 - Catheter Connected - system [Catheter: 587 - {'name': 'DecaNav™', 'part_number': 'D1105887'}]
+• Event 4: 2025.05.27_11.05.38.439 - Catheter disconnected - system [Catheter: 587 - {'name': 'DecaNav™', 'part_number': 'D1105887'}]
+
+
+ERROR ID 1:
+==========
+Total Events: 5 (Raw events)
+Actual Error Occurrences: 3
+Event Type: Error ID 1: General system error
+First Occurrence: 2025.05.27_07.12.38.898
+Last Occurrence: 2025.05.27_11.05.53.180
+Error Frequency: 3 occurrences
+Event IDs: 1
+Error IDs: 1
+Total Duration: 03:53:15
+
+Event Sessions:
+• SUMMARY: 3 actual error occurrences (from 5 events)
+• Session 1: 2025.05.27_07.12.38.898 to 2025.05.27_07.13.03.740 (Duration: 00:00:25) (Frequency: 1)
+• Session 2: 2025.05.27_07.14.01.641 to 2025.05.27_07.14.01.645 (Duration: 00:00:00) (Frequency: 1)
+• Event 3: 2025.05.27_11.05.53.180 - Error occurrence #3 (ongoing) (Frequency: 1)
+
+
+ERROR ID 1008:
+=============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 1008: Unknown error 1008
+First Occurrence: 2025.05.27_07.14.26.654
+Last Occurrence: 2025.05.27_08.51.45.945
+Error Frequency: 1 occurrences
+Event IDs: 1008
+Error IDs: 1008
+Total Duration: 01:37:19
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Session 1: 2025.05.27_07.14.26.654 to 2025.05.27_08.51.45.945 (Duration: 01:37:19) (Frequency: 1)
+
+
+ERROR ID 1009:
+=============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 1009: Unknown error 1009
+First Occurrence: 2025.05.27_07.14.26.654
+Last Occurrence: 2025.05.27_08.54.11.916
+Error Frequency: 1 occurrences
+Event IDs: 1009
+Error IDs: 1009
+Total Duration: 01:39:45
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Session 1: 2025.05.27_07.14.26.654 to 2025.05.27_08.54.11.916 (Duration: 01:39:45) (Frequency: 1)
+
+
+ERROR ID 105:
+============
+Total Events: 6 (Raw events)
+Actual Error Occurrences: 3
+Event Type: Error ID 105: MAP: catheter sensor error
+First Occurrence: 2025.05.27_10.32.06.429
+Last Occurrence: 2025.05.27_10.37.44.163
+Error Frequency: 3 occurrences
+Event IDs: 105
+Error IDs: 105
+Total Duration: 00:05:38
+
+Event Sessions:
+• SUMMARY: 3 actual error occurrences (from 6 events)
+• Session 1: 2025.05.27_10.32.06.429 to 2025.05.27_10.32.14.524 (Duration: 00:00:08) (Frequency: 1)
+• Session 2: 2025.05.27_10.32.54.700 to 2025.05.27_10.32.57.817 (Duration: 00:00:03) (Frequency: 1)
+• Session 3: 2025.05.27_10.37.35.891 to 2025.05.27_10.37.44.163 (Duration: 00:00:09) (Frequency: 1)
+
+
+ERROR ID 1052:
+=============
+Total Events: 6 (Raw events)
+Actual Error Occurrences: 3
+Event Type: Error ID 1052: Unknown error 1052
+First Occurrence: 2025.05.27_07.14.20.633
+Last Occurrence: 2025.05.27_08.52.33.245
+Error Frequency: 3 occurrences
+Event IDs: 1052
+Error IDs: 1052
+Total Duration: 01:38:13
+
+Event Sessions:
+• SUMMARY: 3 actual error occurrences (from 6 events)
+• Session 1: 2025.05.27_07.14.20.633 to 2025.05.27_07.14.20.738 (Duration: 00:00:00) (Frequency: 1)
+• Session 2: 2025.05.27_07.14.20.788 to 2025.05.27_08.25.26.576 (Duration: 01:11:06) (Frequency: 1)
+• Session 3: 2025.05.27_08.25.27.592 to 2025.05.27_08.52.33.245 (Duration: 00:27:06) (Frequency: 1)
+
+
+ERROR ID 1053:
+=============
+Total Events: 6 (Raw events)
+Actual Error Occurrences: 3
+Event Type: Error ID 1053: Unknown error 1053
+First Occurrence: 2025.05.27_07.14.18.858
+Last Occurrence: 2025.05.27_08.54.08.646
+Error Frequency: 3 occurrences
+Event IDs: 1053
+Error IDs: 1053
+Total Duration: 01:39:50
+
+Event Sessions:
+• SUMMARY: 3 actual error occurrences (from 6 events)
+• Session 1: 2025.05.27_07.14.18.858 to 2025.05.27_07.14.20.738 (Duration: 00:00:02) (Frequency: 1)
+• Session 2: 2025.05.27_07.14.20.788 to 2025.05.27_08.24.17.892 (Duration: 01:09:57) (Frequency: 1)
+• Session 3: 2025.05.27_08.24.18.970 to 2025.05.27_08.54.08.646 (Duration: 00:29:50) (Frequency: 1)
+
+
+ERROR ID 1054:
+=============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 1054: Unknown error 1054
+First Occurrence: 2025.05.27_08.54.11.916
+Last Occurrence: 2025.05.27_08.54.11.925
+Error Frequency: 1 occurrences
+Event IDs: 1054
+Error IDs: 1054
+Total Duration: 00:00:00
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Session 1: 2025.05.27_08.54.11.916 to 2025.05.27_08.54.11.925 (Duration: 00:00:00) (Frequency: 1)
+
+
+ERROR ID 106:
+============
+Total Events: 482 (Raw events)
+Actual Error Occurrences: 241
+Event Type: Error ID 106: Force Catheter sensor error (QDOT/SMARTTOUCH)
+First Occurrence: 2025.05.27_10.29.22.850
+Last Occurrence: 2025.05.27_10.37.44.055
+Error Frequency: 241 occurrences
+Event IDs: 106
+Error IDs: 106
+Total Duration: 00:08:22
+
+Event Sessions:
+• SUMMARY: 241 actual error occurrences (from 482 events)
+• Session 1: 2025.05.27_10.29.22.850 to 2025.05.27_10.32.06.500 (Duration: 00:02:44) (Frequency: 1)
+• Session 2: 2025.05.27_10.32.11.743 to 2025.05.27_10.32.54.450 (Duration: 00:00:43) (Frequency: 1)
+• Session 3: 2025.05.27_10.32.54.900 to 2025.05.27_10.32.55.020 (Duration: 00:00:01) (Frequency: 1)
+• Session 4: 2025.05.27_10.33.57.894 to 2025.05.27_10.33.57.951 (Duration: 00:00:00) (Frequency: 1)
+• Session 5: 2025.05.27_10.33.58.106 to 2025.05.27_10.33.58.150 (Duration: 00:00:00) (Frequency: 1)
+• Session 6: 2025.05.27_10.33.58.944 to 2025.05.27_10.33.59.000 (Duration: 00:00:01) (Frequency: 1)
+• Session 7: 2025.05.27_10.33.59.450 to 2025.05.27_10.33.59.500 (Duration: 00:00:00) (Frequency: 1)
+• Session 8: 2025.05.27_10.33.59.901 to 2025.05.27_10.33.59.950 (Duration: 00:00:00) (Frequency: 1)
+• Session 9: 2025.05.27_10.34.00.150 to 2025.05.27_10.34.00.200 (Duration: 00:00:00) (Frequency: 1)
+• Session 10: 2025.05.27_10.34.00.944 to 2025.05.27_10.34.01.000 (Duration: 00:00:01) (Frequency: 1)
+• Session 11: 2025.05.27_10.34.01.343 to 2025.05.27_10.34.01.401 (Duration: 00:00:00) (Frequency: 1)
+• Session 12: 2025.05.27_10.34.01.700 to 2025.05.27_10.34.01.750 (Duration: 00:00:00) (Frequency: 1)
+• Session 13: 2025.05.27_10.34.04.101 to 2025.05.27_10.34.04.200 (Duration: 00:00:00) (Frequency: 1)
+• Session 14: 2025.05.27_10.34.04.650 to 2025.05.27_10.34.04.694 (Duration: 00:00:00) (Frequency: 1)
+• Session 15: 2025.05.27_10.34.06.150 to 2025.05.27_10.34.06.200 (Duration: 00:00:00) (Frequency: 1)
+• Session 16: 2025.05.27_10.34.09.044 to 2025.05.27_10.34.09.094 (Duration: 00:00:00) (Frequency: 1)
+• Session 17: 2025.05.27_10.34.09.494 to 2025.05.27_10.34.09.544 (Duration: 00:00:00) (Frequency: 1)
+• Session 18: 2025.05.27_10.34.10.544 to 2025.05.27_10.34.10.650 (Duration: 00:00:00) (Frequency: 1)
+• Session 19: 2025.05.27_10.34.10.950 to 2025.05.27_10.34.10.994 (Duration: 00:00:00) (Frequency: 1)
+• Session 20: 2025.05.27_10.34.11.750 to 2025.05.27_10.34.11.794 (Duration: 00:00:00) (Frequency: 1)
+• Session 21: 2025.05.27_10.34.12.694 to 2025.05.27_10.34.12.750 (Duration: 00:00:00) (Frequency: 1)
+• Session 22: 2025.05.27_10.34.13.043 to 2025.05.27_10.34.13.101 (Duration: 00:00:00) (Frequency: 1)
+• Session 23: 2025.05.27_10.34.13.144 to 2025.05.27_10.34.13.232 (Duration: 00:00:00) (Frequency: 1)
+• Session 24: 2025.05.27_10.34.14.250 to 2025.05.27_10.34.14.294 (Duration: 00:00:00) (Frequency: 1)
+• Session 25: 2025.05.27_10.34.16.100 to 2025.05.27_10.34.16.200 (Duration: 00:00:00) (Frequency: 1)
+• Session 26: 2025.05.27_10.34.16.844 to 2025.05.27_10.34.16.900 (Duration: 00:00:00) (Frequency: 1)
+• Session 27: 2025.05.27_10.34.18.450 to 2025.05.27_10.34.18.494 (Duration: 00:00:00) (Frequency: 1)
+• Session 28: 2025.05.27_10.34.19.093 to 2025.05.27_10.34.19.144 (Duration: 00:00:00) (Frequency: 1)
+• Session 29: 2025.05.27_10.34.19.597 to 2025.05.27_10.34.19.650 (Duration: 00:00:00) (Frequency: 1)
+• Session 30: 2025.05.27_10.34.21.494 to 2025.05.27_10.34.21.543 (Duration: 00:00:00) (Frequency: 1)
+• Session 31: 2025.05.27_10.34.21.594 to 2025.05.27_10.34.21.654 (Duration: 00:00:00) (Frequency: 1)
+• Session 32: 2025.05.27_10.34.22.893 to 2025.05.27_10.34.22.950 (Duration: 00:00:00) (Frequency: 1)
+• Session 33: 2025.05.27_10.34.27.250 to 2025.05.27_10.34.27.293 (Duration: 00:00:00) (Frequency: 1)
+• Session 34: 2025.05.27_10.34.29.494 to 2025.05.27_10.34.29.551 (Duration: 00:00:00) (Frequency: 1)
+• Session 35: 2025.05.27_10.34.33.544 to 2025.05.27_10.34.33.593 (Duration: 00:00:00) (Frequency: 1)
+• Session 36: 2025.05.27_10.34.33.994 to 2025.05.27_10.34.34.044 (Duration: 00:00:01) (Frequency: 1)
+• Session 37: 2025.05.27_10.34.34.344 to 2025.05.27_10.34.34.394 (Duration: 00:00:00) (Frequency: 1)
+• Session 38: 2025.05.27_10.34.34.695 to 2025.05.27_10.34.34.744 (Duration: 00:00:00) (Frequency: 1)
+• Session 39: 2025.05.27_10.34.37.594 to 2025.05.27_10.34.37.644 (Duration: 00:00:00) (Frequency: 1)
+• Session 40: 2025.05.27_10.34.37.744 to 2025.05.27_10.34.37.800 (Duration: 00:00:00) (Frequency: 1)
+• Session 41: 2025.05.27_10.34.38.494 to 2025.05.27_10.34.38.550 (Duration: 00:00:00) (Frequency: 1)
+• Session 42: 2025.05.27_10.34.39.643 to 2025.05.27_10.34.39.700 (Duration: 00:00:00) (Frequency: 1)
+• Session 43: 2025.05.27_10.34.39.744 to 2025.05.27_10.34.39.800 (Duration: 00:00:00) (Frequency: 1)
+• Session 44: 2025.05.27_10.34.41.444 to 2025.05.27_10.34.41.494 (Duration: 00:00:00) (Frequency: 1)
+• Session 45: 2025.05.27_10.34.42.851 to 2025.05.27_10.34.42.893 (Duration: 00:00:00) (Frequency: 1)
+• Session 46: 2025.05.27_10.34.43.293 to 2025.05.27_10.34.43.401 (Duration: 00:00:00) (Frequency: 1)
+• Session 47: 2025.05.27_10.34.43.593 to 2025.05.27_10.34.43.650 (Duration: 00:00:00) (Frequency: 1)
+• Session 48: 2025.05.27_10.34.45.144 to 2025.05.27_10.34.45.244 (Duration: 00:00:00) (Frequency: 1)
+• Session 49: 2025.05.27_10.34.46.844 to 2025.05.27_10.34.46.901 (Duration: 00:00:00) (Frequency: 1)
+• Session 50: 2025.05.27_10.34.47.000 to 2025.05.27_10.34.47.044 (Duration: 00:00:00) (Frequency: 1)
+• Session 51: 2025.05.27_10.34.47.294 to 2025.05.27_10.34.47.343 (Duration: 00:00:00) (Frequency: 1)
+• Session 52: 2025.05.27_10.34.49.294 to 2025.05.27_10.34.49.350 (Duration: 00:00:00) (Frequency: 1)
+• Session 53: 2025.05.27_10.34.49.394 to 2025.05.27_10.34.49.494 (Duration: 00:00:00) (Frequency: 1)
+• Session 54: 2025.05.27_10.34.51.000 to 2025.05.27_10.34.51.043 (Duration: 00:00:00) (Frequency: 1)
+• Session 55: 2025.05.27_10.34.51.644 to 2025.05.27_10.34.51.694 (Duration: 00:00:00) (Frequency: 1)
+• Session 56: 2025.05.27_10.34.54.100 to 2025.05.27_10.34.54.144 (Duration: 00:00:00) (Frequency: 1)
+• Session 57: 2025.05.27_10.34.56.193 to 2025.05.27_10.34.56.244 (Duration: 00:00:00) (Frequency: 1)
+• Session 58: 2025.05.27_10.34.57.300 to 2025.05.27_10.34.57.344 (Duration: 00:00:00) (Frequency: 1)
+• Session 59: 2025.05.27_10.34.57.650 to 2025.05.27_10.34.57.694 (Duration: 00:00:00) (Frequency: 1)
+• Session 60: 2025.05.27_10.34.58.593 to 2025.05.27_10.34.58.650 (Duration: 00:00:00) (Frequency: 1)
+• Session 61: 2025.05.27_10.34.58.751 to 2025.05.27_10.34.58.850 (Duration: 00:00:00) (Frequency: 1)
+• Session 62: 2025.05.27_10.34.59.744 to 2025.05.27_10.34.59.794 (Duration: 00:00:00) (Frequency: 1)
+• Session 63: 2025.05.27_10.35.00.000 to 2025.05.27_10.35.00.043 (Duration: 00:00:00) (Frequency: 1)
+• Session 64: 2025.05.27_10.35.00.651 to 2025.05.27_10.35.00.694 (Duration: 00:00:00) (Frequency: 1)
+• Session 65: 2025.05.27_10.35.00.794 to 2025.05.27_10.35.00.850 (Duration: 00:00:00) (Frequency: 1)
+• Session 66: 2025.05.27_10.35.01.300 to 2025.05.27_10.35.01.343 (Duration: 00:00:00) (Frequency: 1)
+• Session 67: 2025.05.27_10.35.02.000 to 2025.05.27_10.35.02.101 (Duration: 00:00:00) (Frequency: 1)
+• Session 68: 2025.05.27_10.35.03.644 to 2025.05.27_10.35.03.694 (Duration: 00:00:00) (Frequency: 1)
+• Session 69: 2025.05.27_10.35.03.944 to 2025.05.27_10.35.03.994 (Duration: 00:00:00) (Frequency: 1)
+• Session 70: 2025.05.27_10.35.04.194 to 2025.05.27_10.35.04.244 (Duration: 00:00:00) (Frequency: 1)
+• Session 71: 2025.05.27_10.35.05.444 to 2025.05.27_10.35.05.501 (Duration: 00:00:00) (Frequency: 1)
+• Session 72: 2025.05.27_10.35.05.544 to 2025.05.27_10.35.05.594 (Duration: 00:00:00) (Frequency: 1)
+• Session 73: 2025.05.27_10.35.05.694 to 2025.05.27_10.35.05.743 (Duration: 00:00:00) (Frequency: 1)
+• Session 74: 2025.05.27_10.35.06.294 to 2025.05.27_10.35.06.351 (Duration: 00:00:00) (Frequency: 1)
+• Session 75: 2025.05.27_10.35.07.694 to 2025.05.27_10.35.07.744 (Duration: 00:00:00) (Frequency: 1)
+• Session 76: 2025.05.27_10.35.08.093 to 2025.05.27_10.35.08.144 (Duration: 00:00:00) (Frequency: 1)
+• Session 77: 2025.05.27_10.35.08.300 to 2025.05.27_10.35.08.344 (Duration: 00:00:00) (Frequency: 1)
+• Session 78: 2025.05.27_10.35.08.394 to 2025.05.27_10.35.08.493 (Duration: 00:00:00) (Frequency: 1)
+• Session 79: 2025.05.27_10.35.08.860 to 2025.05.27_10.35.08.894 (Duration: 00:00:00) (Frequency: 1)
+• Session 80: 2025.05.27_10.35.09.644 to 2025.05.27_10.35.09.693 (Duration: 00:00:00) (Frequency: 1)
+• Session 81: 2025.05.27_10.35.09.894 to 2025.05.27_10.35.09.944 (Duration: 00:00:00) (Frequency: 1)
+• Session 82: 2025.05.27_10.35.11.043 to 2025.05.27_10.35.11.094 (Duration: 00:00:00) (Frequency: 1)
+• Session 83: 2025.05.27_10.35.11.443 to 2025.05.27_10.35.11.543 (Duration: 00:00:00) (Frequency: 1)
+• Session 84: 2025.05.27_10.35.11.850 to 2025.05.27_10.35.11.901 (Duration: 00:00:00) (Frequency: 1)
+• Session 85: 2025.05.27_10.35.13.243 to 2025.05.27_10.35.13.301 (Duration: 00:00:00) (Frequency: 1)
+• Session 86: 2025.05.27_10.35.13.450 to 2025.05.27_10.35.13.519 (Duration: 00:00:00) (Frequency: 1)
+• Session 87: 2025.05.27_10.35.14.350 to 2025.05.27_10.35.14.400 (Duration: 00:00:00) (Frequency: 1)
+• Session 88: 2025.05.27_10.35.14.850 to 2025.05.27_10.35.14.900 (Duration: 00:00:00) (Frequency: 1)
+• Session 89: 2025.05.27_10.35.16.250 to 2025.05.27_10.35.16.300 (Duration: 00:00:00) (Frequency: 1)
+• Session 90: 2025.05.27_10.35.17.249 to 2025.05.27_10.35.17.300 (Duration: 00:00:00) (Frequency: 1)
+• Session 91: 2025.05.27_10.35.17.401 to 2025.05.27_10.35.17.450 (Duration: 00:00:00) (Frequency: 1)
+• Session 92: 2025.05.27_10.35.18.400 to 2025.05.27_10.35.18.500 (Duration: 00:00:00) (Frequency: 1)
+• Session 93: 2025.05.27_10.35.19.794 to 2025.05.27_10.35.19.843 (Duration: 00:00:00) (Frequency: 1)
+• Session 94: 2025.05.27_10.35.20.144 to 2025.05.27_10.35.20.343 (Duration: 00:00:00) (Frequency: 1)
+• Session 95: 2025.05.27_10.35.21.251 to 2025.05.27_10.35.21.350 (Duration: 00:00:00) (Frequency: 1)
+• Session 96: 2025.05.27_10.35.21.943 to 2025.05.27_10.35.21.993 (Duration: 00:00:00) (Frequency: 1)
+• Session 97: 2025.05.27_10.35.22.694 to 2025.05.27_10.35.22.743 (Duration: 00:00:00) (Frequency: 1)
+• Session 98: 2025.05.27_10.35.23.947 to 2025.05.27_10.35.23.994 (Duration: 00:00:00) (Frequency: 1)
+• Session 99: 2025.05.27_10.35.25.694 to 2025.05.27_10.35.25.744 (Duration: 00:00:00) (Frequency: 1)
+• Session 100: 2025.05.27_10.35.26.443 to 2025.05.27_10.35.26.493 (Duration: 00:00:00) (Frequency: 1)
+• Session 101: 2025.05.27_10.35.26.643 to 2025.05.27_10.35.26.694 (Duration: 00:00:00) (Frequency: 1)
+• Session 102: 2025.05.27_10.35.26.801 to 2025.05.27_10.35.26.843 (Duration: 00:00:00) (Frequency: 1)
+• Session 103: 2025.05.27_10.35.26.894 to 2025.05.27_10.35.26.978 (Duration: 00:00:00) (Frequency: 1)
+• Session 104: 2025.05.27_10.35.28.200 to 2025.05.27_10.35.28.244 (Duration: 00:00:00) (Frequency: 1)
+• Session 105: 2025.05.27_10.35.29.400 to 2025.05.27_10.35.29.450 (Duration: 00:00:00) (Frequency: 1)
+• Session 106: 2025.05.27_10.35.30.143 to 2025.05.27_10.35.30.201 (Duration: 00:00:00) (Frequency: 1)
+• Session 107: 2025.05.27_10.35.30.243 to 2025.05.27_10.35.30.300 (Duration: 00:00:00) (Frequency: 1)
+• Session 108: 2025.05.27_10.35.30.343 to 2025.05.27_10.35.30.401 (Duration: 00:00:00) (Frequency: 1)
+• Session 109: 2025.05.27_10.35.33.143 to 2025.05.27_10.35.33.202 (Duration: 00:00:00) (Frequency: 1)
+• Session 110: 2025.05.27_10.35.33.343 to 2025.05.27_10.35.33.393 (Duration: 00:00:00) (Frequency: 1)
+• Session 111: 2025.05.27_10.35.33.744 to 2025.05.27_10.35.33.794 (Duration: 00:00:00) (Frequency: 1)
+• Session 112: 2025.05.27_10.35.36.800 to 2025.05.27_10.35.36.843 (Duration: 00:00:00) (Frequency: 1)
+• Session 113: 2025.05.27_10.35.38.250 to 2025.05.27_10.35.38.294 (Duration: 00:00:00) (Frequency: 1)
+• Session 114: 2025.05.27_10.35.41.593 to 2025.05.27_10.35.41.694 (Duration: 00:00:00) (Frequency: 1)
+• Session 115: 2025.05.27_10.35.41.993 to 2025.05.27_10.35.42.051 (Duration: 00:00:01) (Frequency: 1)
+• Session 116: 2025.05.27_10.35.42.751 to 2025.05.27_10.35.42.843 (Duration: 00:00:00) (Frequency: 1)
+• Session 117: 2025.05.27_10.35.43.694 to 2025.05.27_10.35.43.750 (Duration: 00:00:00) (Frequency: 1)
+• Session 118: 2025.05.27_10.35.44.044 to 2025.05.27_10.35.44.093 (Duration: 00:00:00) (Frequency: 1)
+• Session 119: 2025.05.27_10.35.44.700 to 2025.05.27_10.35.44.744 (Duration: 00:00:00) (Frequency: 1)
+• Session 120: 2025.05.27_10.35.45.294 to 2025.05.27_10.35.45.343 (Duration: 00:00:00) (Frequency: 1)
+• Session 121: 2025.05.27_10.35.45.543 to 2025.05.27_10.35.45.594 (Duration: 00:00:00) (Frequency: 1)
+• Session 122: 2025.05.27_10.35.46.394 to 2025.05.27_10.35.46.444 (Duration: 00:00:00) (Frequency: 1)
+• Session 123: 2025.05.27_10.35.46.544 to 2025.05.27_10.35.46.600 (Duration: 00:00:00) (Frequency: 1)
+• Session 124: 2025.05.27_10.35.46.650 to 2025.05.27_10.35.46.694 (Duration: 00:00:00) (Frequency: 1)
+• Session 125: 2025.05.27_10.35.47.094 to 2025.05.27_10.35.47.193 (Duration: 00:00:00) (Frequency: 1)
+• Session 126: 2025.05.27_10.35.47.344 to 2025.05.27_10.35.47.401 (Duration: 00:00:00) (Frequency: 1)
+• Session 127: 2025.05.27_10.35.47.700 to 2025.05.27_10.35.47.743 (Duration: 00:00:00) (Frequency: 1)
+• Session 128: 2025.05.27_10.35.50.494 to 2025.05.27_10.35.50.594 (Duration: 00:00:00) (Frequency: 1)
+• Session 129: 2025.05.27_10.35.51.200 to 2025.05.27_10.35.51.244 (Duration: 00:00:00) (Frequency: 1)
+• Session 130: 2025.05.27_10.35.52.593 to 2025.05.27_10.35.52.650 (Duration: 00:00:00) (Frequency: 1)
+• Session 131: 2025.05.27_10.35.53.344 to 2025.05.27_10.35.53.401 (Duration: 00:00:00) (Frequency: 1)
+• Session 132: 2025.05.27_10.35.54.994 to 2025.05.27_10.35.55.050 (Duration: 00:00:01) (Frequency: 1)
+• Session 133: 2025.05.27_10.35.55.400 to 2025.05.27_10.35.55.451 (Duration: 00:00:00) (Frequency: 1)
+• Session 134: 2025.05.27_10.35.55.594 to 2025.05.27_10.35.55.651 (Duration: 00:00:00) (Frequency: 1)
+• Session 135: 2025.05.27_10.35.57.994 to 2025.05.27_10.35.58.044 (Duration: 00:00:01) (Frequency: 1)
+• Session 136: 2025.05.27_10.35.59.894 to 2025.05.27_10.35.59.950 (Duration: 00:00:00) (Frequency: 1)
+• Session 137: 2025.05.27_10.36.01.900 to 2025.05.27_10.36.01.944 (Duration: 00:00:00) (Frequency: 1)
+• Session 138: 2025.05.27_10.36.01.994 to 2025.05.27_10.36.02.043 (Duration: 00:00:01) (Frequency: 1)
+• Session 139: 2025.05.27_10.36.03.343 to 2025.05.27_10.36.03.394 (Duration: 00:00:00) (Frequency: 1)
+• Session 140: 2025.05.27_10.36.03.601 to 2025.05.27_10.36.03.644 (Duration: 00:00:00) (Frequency: 1)
+• Session 141: 2025.05.27_10.36.03.700 to 2025.05.27_10.36.03.743 (Duration: 00:00:00) (Frequency: 1)
+• Session 142: 2025.05.27_10.36.04.251 to 2025.05.27_10.36.04.294 (Duration: 00:00:00) (Frequency: 1)
+• Session 143: 2025.05.27_10.36.04.501 to 2025.05.27_10.36.04.544 (Duration: 00:00:00) (Frequency: 1)
+• Session 144: 2025.05.27_10.36.04.601 to 2025.05.27_10.36.04.700 (Duration: 00:00:00) (Frequency: 1)
+• Session 145: 2025.05.27_10.36.05.194 to 2025.05.27_10.36.05.293 (Duration: 00:00:00) (Frequency: 1)
+• Session 146: 2025.05.27_10.36.08.344 to 2025.05.27_10.36.08.400 (Duration: 00:00:00) (Frequency: 1)
+• Session 147: 2025.05.27_10.36.08.752 to 2025.05.27_10.36.08.800 (Duration: 00:00:00) (Frequency: 1)
+• Session 148: 2025.05.27_10.36.09.150 to 2025.05.27_10.36.09.194 (Duration: 00:00:00) (Frequency: 1)
+• Session 149: 2025.05.27_10.36.10.494 to 2025.05.27_10.36.10.550 (Duration: 00:00:00) (Frequency: 1)
+• Session 150: 2025.05.27_10.36.11.344 to 2025.05.27_10.36.11.394 (Duration: 00:00:00) (Frequency: 1)
+• Session 151: 2025.05.27_10.36.11.450 to 2025.05.27_10.36.11.494 (Duration: 00:00:00) (Frequency: 1)
+• Session 152: 2025.05.27_10.36.11.650 to 2025.05.27_10.36.11.694 (Duration: 00:00:00) (Frequency: 1)
+• Session 153: 2025.05.27_10.36.12.244 to 2025.05.27_10.36.12.294 (Duration: 00:00:00) (Frequency: 1)
+• Session 154: 2025.05.27_10.36.13.000 to 2025.05.27_10.36.13.044 (Duration: 00:00:00) (Frequency: 1)
+• Session 155: 2025.05.27_10.36.14.044 to 2025.05.27_10.36.14.100 (Duration: 00:00:00) (Frequency: 1)
+• Session 156: 2025.05.27_10.36.14.294 to 2025.05.27_10.36.14.401 (Duration: 00:00:00) (Frequency: 1)
+• Session 157: 2025.05.27_10.36.14.844 to 2025.05.27_10.36.14.901 (Duration: 00:00:00) (Frequency: 1)
+• Session 158: 2025.05.27_10.36.15.900 to 2025.05.27_10.36.15.944 (Duration: 00:00:00) (Frequency: 1)
+• Session 159: 2025.05.27_10.36.17.501 to 2025.05.27_10.36.17.544 (Duration: 00:00:00) (Frequency: 1)
+• Session 160: 2025.05.27_10.36.18.294 to 2025.05.27_10.36.18.344 (Duration: 00:00:00) (Frequency: 1)
+• Session 161: 2025.05.27_10.36.18.593 to 2025.05.27_10.36.18.650 (Duration: 00:00:00) (Frequency: 1)
+• Session 162: 2025.05.27_10.36.18.794 to 2025.05.27_10.36.18.851 (Duration: 00:00:00) (Frequency: 1)
+• Session 163: 2025.05.27_10.36.19.800 to 2025.05.27_10.36.19.851 (Duration: 00:00:00) (Frequency: 1)
+• Session 164: 2025.05.27_10.36.20.194 to 2025.05.27_10.36.20.243 (Duration: 00:00:00) (Frequency: 1)
+• Session 165: 2025.05.27_10.36.20.343 to 2025.05.27_10.36.20.394 (Duration: 00:00:00) (Frequency: 1)
+• Session 166: 2025.05.27_10.36.21.394 to 2025.05.27_10.36.21.450 (Duration: 00:00:00) (Frequency: 1)
+• Session 167: 2025.05.27_10.36.22.700 to 2025.05.27_10.36.22.744 (Duration: 00:00:00) (Frequency: 1)
+• Session 168: 2025.05.27_10.36.23.944 to 2025.05.27_10.36.24.000 (Duration: 00:00:01) (Frequency: 1)
+• Session 169: 2025.05.27_10.36.29.343 to 2025.05.27_10.36.29.394 (Duration: 00:00:00) (Frequency: 1)
+• Session 170: 2025.05.27_10.36.29.744 to 2025.05.27_10.36.29.794 (Duration: 00:00:00) (Frequency: 1)
+• Session 171: 2025.05.27_10.36.30.144 to 2025.05.27_10.36.30.194 (Duration: 00:00:00) (Frequency: 1)
+• Session 172: 2025.05.27_10.36.31.593 to 2025.05.27_10.36.31.644 (Duration: 00:00:00) (Frequency: 1)
+• Session 173: 2025.05.27_10.36.31.743 to 2025.05.27_10.36.31.794 (Duration: 00:00:00) (Frequency: 1)
+• Session 174: 2025.05.27_10.36.32.800 to 2025.05.27_10.36.32.843 (Duration: 00:00:00) (Frequency: 1)
+• Session 175: 2025.05.27_10.36.34.150 to 2025.05.27_10.36.34.200 (Duration: 00:00:00) (Frequency: 1)
+• Session 176: 2025.05.27_10.36.34.800 to 2025.05.27_10.36.34.850 (Duration: 00:00:00) (Frequency: 1)
+• Session 177: 2025.05.27_10.36.36.301 to 2025.05.27_10.36.36.355 (Duration: 00:00:00) (Frequency: 1)
+• Session 178: 2025.05.27_10.36.37.550 to 2025.05.27_10.36.37.600 (Duration: 00:00:00) (Frequency: 1)
+• Session 179: 2025.05.27_10.36.38.200 to 2025.05.27_10.36.38.250 (Duration: 00:00:00) (Frequency: 1)
+• Session 180: 2025.05.27_10.36.39.100 to 2025.05.27_10.36.39.150 (Duration: 00:00:00) (Frequency: 1)
+• Session 181: 2025.05.27_10.36.39.650 to 2025.05.27_10.36.39.700 (Duration: 00:00:00) (Frequency: 1)
+• Session 182: 2025.05.27_10.36.41.794 to 2025.05.27_10.36.41.850 (Duration: 00:00:00) (Frequency: 1)
+• Session 183: 2025.05.27_10.36.42.443 to 2025.05.27_10.36.42.494 (Duration: 00:00:00) (Frequency: 1)
+• Session 184: 2025.05.27_10.36.44.150 to 2025.05.27_10.36.44.194 (Duration: 00:00:00) (Frequency: 1)
+• Session 185: 2025.05.27_10.36.47.644 to 2025.05.27_10.36.47.693 (Duration: 00:00:00) (Frequency: 1)
+• Session 186: 2025.05.27_10.36.49.894 to 2025.05.27_10.36.49.944 (Duration: 00:00:00) (Frequency: 1)
+• Session 187: 2025.05.27_10.36.51.700 to 2025.05.27_10.36.51.744 (Duration: 00:00:00) (Frequency: 1)
+• Session 188: 2025.05.27_10.36.55.801 to 2025.05.27_10.36.55.843 (Duration: 00:00:00) (Frequency: 1)
+• Session 189: 2025.05.27_10.36.56.443 to 2025.05.27_10.36.56.494 (Duration: 00:00:00) (Frequency: 1)
+• Session 190: 2025.05.27_10.36.56.843 to 2025.05.27_10.36.56.900 (Duration: 00:00:00) (Frequency: 1)
+• Session 191: 2025.05.27_10.36.58.500 to 2025.05.27_10.36.58.544 (Duration: 00:00:00) (Frequency: 1)
+• Session 192: 2025.05.27_10.37.00.245 to 2025.05.27_10.37.00.300 (Duration: 00:00:00) (Frequency: 1)
+• Session 193: 2025.05.27_10.37.03.501 to 2025.05.27_10.37.03.543 (Duration: 00:00:00) (Frequency: 1)
+• Session 194: 2025.05.27_10.37.04.244 to 2025.05.27_10.37.04.294 (Duration: 00:00:00) (Frequency: 1)
+• Session 195: 2025.05.27_10.37.09.200 to 2025.05.27_10.37.09.244 (Duration: 00:00:00) (Frequency: 1)
+• Session 196: 2025.05.27_10.37.09.394 to 2025.05.27_10.37.09.450 (Duration: 00:00:00) (Frequency: 1)
+• Session 197: 2025.05.27_10.37.12.493 to 2025.05.27_10.37.12.550 (Duration: 00:00:00) (Frequency: 1)
+• Session 198: 2025.05.27_10.37.15.393 to 2025.05.27_10.37.15.444 (Duration: 00:00:00) (Frequency: 1)
+• Session 199: 2025.05.27_10.37.15.994 to 2025.05.27_10.37.16.043 (Duration: 00:00:01) (Frequency: 1)
+• Session 200: 2025.05.27_10.37.17.101 to 2025.05.27_10.37.17.144 (Duration: 00:00:00) (Frequency: 1)
+• Session 201: 2025.05.27_10.37.19.600 to 2025.05.27_10.37.19.643 (Duration: 00:00:00) (Frequency: 1)
+• Session 202: 2025.05.27_10.37.19.894 to 2025.05.27_10.37.19.950 (Duration: 00:00:00) (Frequency: 1)
+• Session 203: 2025.05.27_10.37.20.344 to 2025.05.27_10.37.20.394 (Duration: 00:00:00) (Frequency: 1)
+• Session 204: 2025.05.27_10.37.21.300 to 2025.05.27_10.37.21.344 (Duration: 00:00:00) (Frequency: 1)
+• Session 205: 2025.05.27_10.37.21.694 to 2025.05.27_10.37.21.750 (Duration: 00:00:00) (Frequency: 1)
+• Session 206: 2025.05.27_10.37.25.001 to 2025.05.27_10.37.25.043 (Duration: 00:00:00) (Frequency: 1)
+• Session 207: 2025.05.27_10.37.25.494 to 2025.05.27_10.37.25.550 (Duration: 00:00:00) (Frequency: 1)
+• Session 208: 2025.05.27_10.37.26.109 to 2025.05.27_10.37.26.144 (Duration: 00:00:00) (Frequency: 1)
+• Session 209: 2025.05.27_10.37.26.201 to 2025.05.27_10.37.26.244 (Duration: 00:00:00) (Frequency: 1)
+• Session 210: 2025.05.27_10.37.26.993 to 2025.05.27_10.37.27.044 (Duration: 00:00:01) (Frequency: 1)
+• Session 211: 2025.05.27_10.37.27.344 to 2025.05.27_10.37.27.395 (Duration: 00:00:00) (Frequency: 1)
+• Session 212: 2025.05.27_10.37.28.144 to 2025.05.27_10.37.28.193 (Duration: 00:00:00) (Frequency: 1)
+• Session 213: 2025.05.27_10.37.28.544 to 2025.05.27_10.37.28.601 (Duration: 00:00:00) (Frequency: 1)
+• Session 214: 2025.05.27_10.37.28.794 to 2025.05.27_10.37.28.844 (Duration: 00:00:00) (Frequency: 1)
+• Session 215: 2025.05.27_10.37.32.200 to 2025.05.27_10.37.32.244 (Duration: 00:00:00) (Frequency: 1)
+• Session 216: 2025.05.27_10.37.32.500 to 2025.05.27_10.37.32.544 (Duration: 00:00:00) (Frequency: 1)
+• Session 217: 2025.05.27_10.37.33.093 to 2025.05.27_10.37.33.150 (Duration: 00:00:00) (Frequency: 1)
+• Session 218: 2025.05.27_10.37.33.494 to 2025.05.27_10.37.33.550 (Duration: 00:00:00) (Frequency: 1)
+• Session 219: 2025.05.27_10.37.33.850 to 2025.05.27_10.37.33.943 (Duration: 00:00:00) (Frequency: 1)
+• Session 220: 2025.05.27_10.37.34.244 to 2025.05.27_10.37.34.294 (Duration: 00:00:00) (Frequency: 1)
+• Session 221: 2025.05.27_10.37.35.750 to 2025.05.27_10.37.35.794 (Duration: 00:00:00) (Frequency: 1)
+• Session 222: 2025.05.27_10.37.35.994 to 2025.05.27_10.37.36.044 (Duration: 00:00:01) (Frequency: 1)
+• Session 223: 2025.05.27_10.37.36.445 to 2025.05.27_10.37.36.494 (Duration: 00:00:00) (Frequency: 1)
+• Session 224: 2025.05.27_10.37.37.400 to 2025.05.27_10.37.37.500 (Duration: 00:00:00) (Frequency: 1)
+• Session 225: 2025.05.27_10.37.37.543 to 2025.05.27_10.37.37.694 (Duration: 00:00:00) (Frequency: 1)
+• Session 226: 2025.05.27_10.37.37.743 to 2025.05.27_10.37.37.844 (Duration: 00:00:00) (Frequency: 1)
+• Session 227: 2025.05.27_10.37.37.944 to 2025.05.27_10.37.38.650 (Duration: 00:00:01) (Frequency: 1)
+• Session 228: 2025.05.27_10.37.38.694 to 2025.05.27_10.37.38.750 (Duration: 00:00:00) (Frequency: 1)
+• Session 229: 2025.05.27_10.37.39.444 to 2025.05.27_10.37.39.494 (Duration: 00:00:00) (Frequency: 1)
+• Session 230: 2025.05.27_10.37.39.594 to 2025.05.27_10.37.39.844 (Duration: 00:00:00) (Frequency: 1)
+• Session 231: 2025.05.27_10.37.39.894 to 2025.05.27_10.37.40.250 (Duration: 00:00:01) (Frequency: 1)
+• Session 232: 2025.05.27_10.37.40.293 to 2025.05.27_10.37.40.394 (Duration: 00:00:00) (Frequency: 1)
+• Session 233: 2025.05.27_10.37.40.451 to 2025.05.27_10.37.40.744 (Duration: 00:00:00) (Frequency: 1)
+• Session 234: 2025.05.27_10.37.40.801 to 2025.05.27_10.37.40.900 (Duration: 00:00:00) (Frequency: 1)
+• Session 235: 2025.05.27_10.37.40.944 to 2025.05.27_10.37.41.344 (Duration: 00:00:01) (Frequency: 1)
+• Session 236: 2025.05.27_10.37.42.300 to 2025.05.27_10.37.42.694 (Duration: 00:00:00) (Frequency: 1)
+• Session 237: 2025.05.27_10.37.42.750 to 2025.05.27_10.37.42.993 (Duration: 00:00:00) (Frequency: 1)
+• Session 238: 2025.05.27_10.37.43.050 to 2025.05.27_10.37.43.150 (Duration: 00:00:00) (Frequency: 1)
+• Session 239: 2025.05.27_10.37.43.194 to 2025.05.27_10.37.43.350 (Duration: 00:00:00) (Frequency: 1)
+• Session 240: 2025.05.27_10.37.43.394 to 2025.05.27_10.37.43.746 (Duration: 00:00:00) (Frequency: 1)
+• Session 241: 2025.05.27_10.37.43.793 to 2025.05.27_10.37.44.055 (Duration: 00:00:01) (Frequency: 1)
+
+
+ERROR ID 1201:
+=============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 1201: Unknown error 1201
+First Occurrence: 2025.05.27_07.14.18.835
+Last Occurrence: 2025.05.27_08.58.23.183
+Error Frequency: 2 occurrences
+Event IDs: 1201
+Error IDs: 1201
+Total Duration: 01:44:05
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Session 1: 2025.05.27_07.14.18.835 to 2025.05.27_07.14.20.738 (Duration: 00:00:02) (Frequency: 1)
+• Session 2: 2025.05.27_07.14.20.788 to 2025.05.27_08.58.23.183 (Duration: 01:44:03) (Frequency: 1)
+
+
+ERROR ID 1210:
+=============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 1210: Unknown error 1210
+First Occurrence: 2025.05.27_09.00.45.479
+Last Occurrence: 2025.05.27_09.01.04.987
+Error Frequency: 1 occurrences
+Event IDs: 1210
+Error IDs: 1210
+Total Duration: 00:00:19
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Session 1: 2025.05.27_09.00.45.479 to 2025.05.27_09.01.04.987 (Duration: 00:00:19) (Frequency: 1)
+
+
+ERROR ID 139:
+============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 139: Unknown error 139
+First Occurrence: 2025.05.27_09.34.11.987
+Last Occurrence: 2025.05.27_11.05.38.503
+Error Frequency: 2 occurrences
+Event IDs: 139
+Error IDs: 139
+Total Duration: 01:31:27
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Session 1: 2025.05.27_09.34.11.987 to 2025.05.27_09.34.14.404 (Duration: 00:00:03) (Frequency: 1)
+• Session 2: 2025.05.27_11.05.37.002 to 2025.05.27_11.05.38.503 (Duration: 00:00:01) (Frequency: 1)
+
+
+ERROR ID 1500:
+=============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 1500: Unknown error 1500
+First Occurrence: 2025.05.27_09.54.47.453
+Last Occurrence: 2025.05.27_09.55.44.186
+Error Frequency: 1 occurrences
+Event IDs: 1500
+Error IDs: 1500
+Total Duration: 00:00:57
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Session 1: 2025.05.27_09.54.47.453 to 2025.05.27_09.55.44.186 (Duration: 00:00:57) (Frequency: 1)
+
+
+ERROR ID 2:
+==========
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 2: Communication error
+First Occurrence: 2025.05.27_07.13.03.739
+Last Occurrence: 2025.05.27_07.14.01.641
+Error Frequency: 1 occurrences
+Event IDs: 2
+Error IDs: 2
+Total Duration: 00:00:58
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Session 1: 2025.05.27_07.13.03.739 to 2025.05.27_07.14.01.641 (Duration: 00:00:58) (Frequency: 1)
+
+
+ERROR ID 200:
+============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 200: Unknown error 200
+First Occurrence: 2025.05.27_10.32.06.550
+Last Occurrence: 2025.05.27_10.37.36.137
+Error Frequency: 2 occurrences
+Event IDs: 200
+Error IDs: 200
+Total Duration: 00:05:30
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Session 1: 2025.05.27_10.32.06.550 to 2025.05.27_10.32.06.650 (Duration: 00:00:00) (Frequency: 1)
+• Session 2: 2025.05.27_10.37.35.987 to 2025.05.27_10.37.36.137 (Duration: 00:00:01) (Frequency: 1)
+
+
+ERROR ID 210:
+============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 210: Unknown error 210
+First Occurrence: 2025.05.27_10.32.06.650
+Last Occurrence: 2025.05.27_10.37.44.163
+Error Frequency: 2 occurrences
+Event IDs: 210
+Error IDs: 210
+Total Duration: 00:05:38
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Session 1: 2025.05.27_10.32.06.650 to 2025.05.27_10.32.13.300 (Duration: 00:00:07) (Frequency: 1)
+• Session 2: 2025.05.27_10.37.36.137 to 2025.05.27_10.37.44.163 (Duration: 00:00:08) (Frequency: 1)
+
+
+ERROR ID 215:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 215: Unknown error 215
+First Occurrence: 2025.05.27_10.32.54.439
+Last Occurrence: 2025.05.27_10.32.57.817
+Error Frequency: 1 occurrences
+Event IDs: 215
+Error IDs: 215
+Total Duration: 00:00:03
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Session 1: 2025.05.27_10.32.54.439 to 2025.05.27_10.32.57.817 (Duration: 00:00:03) (Frequency: 1)
+
+
+ERROR ID 216:
+============
+Total Events: 16 (Raw events)
+Actual Error Occurrences: 8
+Event Type: Error ID 216: Unknown error 216
+First Occurrence: 2025.05.27_10.33.43.966
+Last Occurrence: 2025.05.27_10.39.12.684
+Error Frequency: 8 occurrences
+Event IDs: 216
+Error IDs: 216
+Total Duration: 00:05:29
+
+Event Sessions:
+• SUMMARY: 8 actual error occurrences (from 16 events)
+• Session 1: 2025.05.27_10.33.43.966 to 2025.05.27_10.33.44.117 (Duration: 00:00:01) (Frequency: 1)
+• Session 2: 2025.05.27_10.33.44.466 to 2025.05.27_10.33.44.516 (Duration: 00:00:00) (Frequency: 1)
+• Session 3: 2025.05.27_10.33.50.639 to 2025.05.27_10.33.50.785 (Duration: 00:00:00) (Frequency: 1)
+• Session 4: 2025.05.27_10.33.51.188 to 2025.05.27_10.33.51.235 (Duration: 00:00:00) (Frequency: 1)
+• Session 5: 2025.05.27_10.39.05.539 to 2025.05.27_10.39.05.688 (Duration: 00:00:00) (Frequency: 1)
+• Session 6: 2025.05.27_10.39.06.037 to 2025.05.27_10.39.06.084 (Duration: 00:00:00) (Frequency: 1)
+• Session 7: 2025.05.27_10.39.10.238 to 2025.05.27_10.39.12.339 (Duration: 00:00:02) (Frequency: 1)
+• Session 8: 2025.05.27_10.39.12.640 to 2025.05.27_10.39.12.684 (Duration: 00:00:00) (Frequency: 1)
+
+
+ERROR ID 218:
+============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 218: Ablation system error
+First Occurrence: 2025.05.27_11.02.36.836
+Last Occurrence: 2025.05.27_11.05.50.427
+Error Frequency: 2 occurrences
+Event IDs: 218
+Error IDs: 218
+Total Duration: 00:03:14
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Session 1: 2025.05.27_11.02.36.836 to 2025.05.27_11.02.39.291 (Duration: 00:00:03) (Frequency: 1)
+• Session 2: 2025.05.27_11.02.42.638 to 2025.05.27_11.05.50.427 (Duration: 00:03:08) (Frequency: 1)
+
+
+ERROR ID 228:
+============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 228: Cable recognition/validation error
+First Occurrence: 2025.05.27_08.27.08.211
+Last Occurrence: 2025.05.27_10.33.27.302
+Error Frequency: 2 occurrences
+Event IDs: 228
+Error IDs: 228
+Total Duration: 02:06:19
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Session 1: 2025.05.27_08.27.08.211 to 2025.05.27_08.27.22.930 (Duration: 00:00:14) (Frequency: 1)
+• Session 2: 2025.05.27_10.33.14.451 to 2025.05.27_10.33.27.302 (Duration: 00:00:13) (Frequency: 1)
+
+
+ERROR ID 229:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 229: Unknown error 229
+First Occurrence: 2025.05.27_10.32.58.110
+Last Occurrence: 2025.05.27_10.33.04.463
+Error Frequency: 1 occurrences
+Event IDs: 229
+Error IDs: 229
+Total Duration: 00:00:06
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Session 1: 2025.05.27_10.32.58.110 to 2025.05.27_10.33.04.463 (Duration: 00:00:06) (Frequency: 1)
+
+
+ERROR ID 255:
+============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 255: Unknown error 255
+First Occurrence: 2025.05.27_09.20.21.403
+Last Occurrence: 2025.05.27_11.03.25.971
+Error Frequency: 2 occurrences
+Event IDs: 255
+Error IDs: 255
+Total Duration: 01:43:04
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Session 1: 2025.05.27_09.20.21.403 to 2025.05.27_09.20.22.433 (Duration: 00:00:01) (Frequency: 1)
+• Session 2: 2025.05.27_11.03.23.529 to 2025.05.27_11.03.25.971 (Duration: 00:00:02) (Frequency: 1)
+
+
+ERROR ID 258:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 258: Unknown error 258
+First Occurrence: 2025.05.27_11.05.50.427
+Last Occurrence: 2025.05.27_11.05.53.180
+Error Frequency: 1 occurrences
+Event IDs: 258
+Error IDs: 258
+Total Duration: 00:00:03
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Session 1: 2025.05.27_11.05.50.427 to 2025.05.27_11.05.53.180 (Duration: 00:00:03) (Frequency: 1)
+
+
+ERROR ID 2606:
+=============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 2606: Unknown error 2606
+First Occurrence: 2025.05.27_09.37.42.245
+Last Occurrence: 2025.05.27_09.39.19.245
+Error Frequency: 1 occurrences
+Event IDs: 2606
+Error IDs: 2606
+Total Duration: 00:01:37
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Session 1: 2025.05.27_09.37.42.245 to 2025.05.27_09.39.19.245 (Duration: 00:01:37) (Frequency: 1)
+
+
+ERROR ID 2607:
+=============
+Total Events: 22 (Raw events)
+Actual Error Occurrences: 11
+Event Type: Error ID 2607: Unknown error 2607
+First Occurrence: 2025.05.27_09.20.21.403
+Last Occurrence: 2025.05.27_11.05.50.427
+Error Frequency: 11 occurrences
+Event IDs: 2607
+Error IDs: 2607
+Total Duration: 01:45:29
+
+Event Sessions:
+• SUMMARY: 11 actual error occurrences (from 22 events)
+• Session 1: 2025.05.27_09.20.21.403 to 2025.05.27_09.37.42.245 (Duration: 00:17:21) (Frequency: 1)
+• Session 2: 2025.05.27_10.29.12.245 to 2025.05.27_10.31.10.745 (Duration: 00:01:58) (Frequency: 1)
+• Session 3: 2025.05.27_10.31.24.245 to 2025.05.27_10.31.26.745 (Duration: 00:00:02) (Frequency: 1)
+• Session 4: 2025.05.27_10.32.06.745 to 2025.05.27_10.32.14.745 (Duration: 00:00:08) (Frequency: 1)
+• Session 5: 2025.05.27_10.32.52.751 to 2025.05.27_10.32.57.817 (Duration: 00:00:05) (Frequency: 1)
+• Session 6: 2025.05.27_10.33.41.925 to 2025.05.27_10.34.36.745 (Duration: 00:00:55) (Frequency: 1)
+• Session 7: 2025.05.27_10.35.33.745 to 2025.05.27_10.37.44.311 (Duration: 00:02:11) (Frequency: 1)
+• Session 8: 2025.05.27_10.38.45.251 to 2025.05.27_10.39.17.745 (Duration: 00:00:32) (Frequency: 1)
+• Session 9: 2025.05.27_10.46.08.745 to 2025.05.27_10.46.22.245 (Duration: 00:00:14) (Frequency: 1)
+• Session 10: 2025.05.27_10.54.49.246 to 2025.05.27_10.55.01.245 (Duration: 00:00:12) (Frequency: 1)
+• Session 11: 2025.05.27_10.58.41.745 to 2025.05.27_11.05.50.427 (Duration: 00:07:09) (Frequency: 1)
+
+
+ERROR ID 2608:
+=============
+Total Events: 14 (Raw events)
+Actual Error Occurrences: 7
+Event Type: Error ID 2608: Unknown error 2608
+First Occurrence: 2025.05.27_10.31.10.745
+Last Occurrence: 2025.05.27_10.55.18.745
+Error Frequency: 7 occurrences
+Event IDs: 2608
+Error IDs: 2608
+Total Duration: 00:24:08
+
+Event Sessions:
+• SUMMARY: 7 actual error occurrences (from 14 events)
+• Session 1: 2025.05.27_10.31.10.745 to 2025.05.27_10.31.24.245 (Duration: 00:00:14) (Frequency: 1)
+• Session 2: 2025.05.27_10.31.26.745 to 2025.05.27_10.31.44.245 (Duration: 00:00:18) (Frequency: 1)
+• Session 3: 2025.05.27_10.32.14.745 to 2025.05.27_10.32.32.745 (Duration: 00:00:18) (Frequency: 1)
+• Session 4: 2025.05.27_10.34.36.745 to 2025.05.27_10.34.54.746 (Duration: 00:00:18) (Frequency: 1)
+• Session 5: 2025.05.27_10.39.17.745 to 2025.05.27_10.39.35.245 (Duration: 00:00:18) (Frequency: 1)
+• Session 6: 2025.05.27_10.46.22.245 to 2025.05.27_10.46.40.245 (Duration: 00:00:18) (Frequency: 1)
+• Session 7: 2025.05.27_10.55.01.245 to 2025.05.27_10.55.18.745 (Duration: 00:00:17) (Frequency: 1)
+
+
+ERROR ID 261:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 261: Unknown error 261
+First Occurrence: 2025.05.27_09.20.21.404
+Last Occurrence: 2025.05.27_09.21.07.399
+Error Frequency: 1 occurrences
+Event IDs: 261
+Error IDs: 261
+Total Duration: 00:00:46
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Session 1: 2025.05.27_09.20.21.404 to 2025.05.27_09.21.07.399 (Duration: 00:00:46) (Frequency: 1)
+
+
+ERROR ID 2611:
+=============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 2611: Unknown error 2611
+First Occurrence: 2025.05.27_08.57.11.853
+Last Occurrence: 2025.05.27_09.55.53.233
+Error Frequency: 2 occurrences
+Event IDs: 2611
+Error IDs: 2611
+Total Duration: 00:58:42
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Session 1: 2025.05.27_08.57.11.853 to 2025.05.27_08.57.58.796 (Duration: 00:00:47) (Frequency: 1)
+• Session 2: 2025.05.27_09.20.21.403 to 2025.05.27_09.55.53.233 (Duration: 00:35:32) (Frequency: 1)
+
+
+ERROR ID 268:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 268: Unknown error 268
+First Occurrence: 2025.05.27_11.05.50.427
+Last Occurrence: 2025.05.27_11.05.53.180
+Error Frequency: 1 occurrences
+Event IDs: 268
+Error IDs: 268
+Total Duration: 00:00:03
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Session 1: 2025.05.27_11.05.50.427 to 2025.05.27_11.05.53.180 (Duration: 00:00:03) (Frequency: 1)
+
+
+ERROR ID 278:
+============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 278: Unknown error 278
+First Occurrence: 2025.05.27_07.14.20.738
+Last Occurrence: 2025.05.27_11.05.53.180
+Error Frequency: 2 occurrences
+Event IDs: 278
+Error IDs: 278
+Total Duration: 03:51:33
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Session 1: 2025.05.27_07.14.20.738 to 2025.05.27_07.14.20.788 (Duration: 00:00:00) (Frequency: 1)
+• Session 2: 2025.05.27_11.05.50.463 to 2025.05.27_11.05.53.180 (Duration: 00:00:03) (Frequency: 1)
+
+
+ERROR ID 279:
+============
+Total Events: 10 (Raw events)
+Actual Error Occurrences: 5
+Event Type: Error ID 279: Unknown error 279
+First Occurrence: 2025.05.27_10.32.06.500
+Last Occurrence: 2025.05.27_10.39.16.995
+Error Frequency: 5 occurrences
+Event IDs: 279
+Error IDs: 279
+Total Duration: 00:07:10
+
+Event Sessions:
+• SUMMARY: 5 actual error occurrences (from 10 events)
+• Session 1: 2025.05.27_10.32.06.500 to 2025.05.27_10.32.09.379 (Duration: 00:00:03) (Frequency: 1)
+• Session 2: 2025.05.27_10.32.54.450 to 2025.05.27_10.32.54.900 (Duration: 00:00:00) (Frequency: 1)
+• Session 3: 2025.05.27_10.32.55.020 to 2025.05.27_10.32.57.378 (Duration: 00:00:02) (Frequency: 1)
+• Session 4: 2025.05.27_10.33.49.590 to 2025.05.27_10.33.57.590 (Duration: 00:00:08) (Frequency: 1)
+• Session 5: 2025.05.27_10.38.49.007 to 2025.05.27_10.39.16.995 (Duration: 00:00:27) (Frequency: 1)
+
+
+ERROR ID 3:
+==========
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 3: Hardware error
+First Occurrence: 2025.05.27_07.14.01.645
+Last Occurrence: 2025.05.27_07.14.18.835
+Error Frequency: 1 occurrences
+Event IDs: 3
+Error IDs: 3
+Total Duration: 00:00:17
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Session 1: 2025.05.27_07.14.01.645 to 2025.05.27_07.14.18.835 (Duration: 00:00:17) (Frequency: 1)
+
+
+ERROR ID 318:
+============
+Total Events: 36 (Raw events)
+Actual Error Occurrences: 18
+Event Type: Error ID 318: Catheter positioning error
+First Occurrence: 2025.05.27_09.37.43.704
+Last Occurrence: 2025.05.27_10.58.41.305
+Error Frequency: 18 occurrences
+Event IDs: 318
+Error IDs: 318
+Total Duration: 01:20:58
+
+Event Sessions:
+• SUMMARY: 18 actual error occurrences (from 36 events)
+• Session 1: 2025.05.27_09.37.43.704 to 2025.05.27_09.37.45.873 (Duration: 00:00:02) (Frequency: 1)
+• Session 2: 2025.05.27_10.29.11.503 to 2025.05.27_10.29.11.536 (Duration: 00:00:00) (Frequency: 1)
+• Session 3: 2025.05.27_10.31.11.572 to 2025.05.27_10.31.23.736 (Duration: 00:00:12) (Frequency: 1)
+• Session 4: 2025.05.27_10.31.27.430 to 2025.05.27_10.31.28.319 (Duration: 00:00:01) (Frequency: 1)
+• Session 5: 2025.05.27_10.32.50.519 to 2025.05.27_10.32.52.219 (Duration: 00:00:02) (Frequency: 1)
+• Session 6: 2025.05.27_10.34.37.730 to 2025.05.27_10.34.39.819 (Duration: 00:00:02) (Frequency: 1)
+• Session 7: 2025.05.27_10.34.43.557 to 2025.05.27_10.34.48.130 (Duration: 00:00:05) (Frequency: 1)
+• Session 8: 2025.05.27_10.35.33.119 to 2025.05.27_10.35.33.187 (Duration: 00:00:00) (Frequency: 1)
+• Session 9: 2025.05.27_10.39.18.637 to 2025.05.27_10.39.18.769 (Duration: 00:00:00) (Frequency: 1)
+• Session 10: 2025.05.27_10.46.08.270 to 2025.05.27_10.46.08.320 (Duration: 00:00:00) (Frequency: 1)
+• Session 11: 2025.05.27_10.46.23.161 to 2025.05.27_10.46.23.710 (Duration: 00:00:00) (Frequency: 1)
+• Session 12: 2025.05.27_10.46.24.639 to 2025.05.27_10.46.26.237 (Duration: 00:00:02) (Frequency: 1)
+• Session 13: 2025.05.27_10.46.28.720 to 2025.05.27_10.46.30.502 (Duration: 00:00:02) (Frequency: 1)
+• Session 14: 2025.05.27_10.46.42.855 to 2025.05.27_10.46.45.431 (Duration: 00:00:03) (Frequency: 1)
+• Session 15: 2025.05.27_10.46.45.519 to 2025.05.27_10.46.47.504 (Duration: 00:00:02) (Frequency: 1)
+• Session 16: 2025.05.27_10.54.48.631 to 2025.05.27_10.54.48.704 (Duration: 00:00:00) (Frequency: 1)
+• Session 17: 2025.05.27_10.55.02.027 to 2025.05.27_10.55.02.227 (Duration: 00:00:00) (Frequency: 1)
+• Session 18: 2025.05.27_10.58.41.254 to 2025.05.27_10.58.41.305 (Duration: 00:00:00) (Frequency: 1)
+
+
+ERROR ID 319:
+============
+Total Events: 20 (Raw events)
+Actual Error Occurrences: 10
+Event Type: Error ID 319: Catheter tracking error
+First Occurrence: 2025.05.27_09.20.21.866
+Last Occurrence: 2025.05.27_11.05.50.427
+Error Frequency: 10 occurrences
+Event IDs: 319
+Error IDs: 319
+Total Duration: 01:45:29
+
+Event Sessions:
+• SUMMARY: 10 actual error occurrences (from 20 events)
+• Session 1: 2025.05.27_09.20.21.866 to 2025.05.27_09.37.43.704 (Duration: 00:17:22) (Frequency: 1)
+• Session 2: 2025.05.27_10.29.11.536 to 2025.05.27_10.31.11.572 (Duration: 00:02:00) (Frequency: 1)
+• Session 3: 2025.05.27_10.31.23.736 to 2025.05.27_10.31.27.430 (Duration: 00:00:04) (Frequency: 1)
+• Session 4: 2025.05.27_10.32.52.219 to 2025.05.27_10.32.54.700 (Duration: 00:00:02) (Frequency: 1)
+• Session 5: 2025.05.27_10.33.46.701 to 2025.05.27_10.34.37.730 (Duration: 00:00:51) (Frequency: 1)
+• Session 6: 2025.05.27_10.35.33.187 to 2025.05.27_10.37.35.891 (Duration: 00:02:02) (Frequency: 1)
+• Session 7: 2025.05.27_10.39.08.271 to 2025.05.27_10.39.18.637 (Duration: 00:00:10) (Frequency: 1)
+• Session 8: 2025.05.27_10.46.08.320 to 2025.05.27_10.46.23.161 (Duration: 00:00:15) (Frequency: 1)
+• Session 9: 2025.05.27_10.54.48.703 to 2025.05.27_10.55.02.027 (Duration: 00:00:14) (Frequency: 1)
+• Session 10: 2025.05.27_10.58.41.304 to 2025.05.27_11.05.50.427 (Duration: 00:07:09) (Frequency: 1)
+
+
+ERROR ID 370:
+============
+Total Events: 6 (Raw events)
+Actual Error Occurrences: 3
+Event Type: Error ID 370: RF delivery error
+First Occurrence: 2025.05.27_09.34.14.403
+Last Occurrence: 2025.05.27_10.38.45.251
+Error Frequency: 3 occurrences
+Event IDs: 370
+Error IDs: 370
+Total Duration: 01:04:31
+
+Event Sessions:
+• SUMMARY: 3 actual error occurrences (from 6 events)
+• Session 1: 2025.05.27_09.34.14.403 to 2025.05.27_09.34.22.360 (Duration: 00:00:08) (Frequency: 1)
+• Session 2: 2025.05.27_10.32.57.817 to 2025.05.27_10.33.41.925 (Duration: 00:00:44) (Frequency: 1)
+• Session 3: 2025.05.27_10.37.44.163 to 2025.05.27_10.38.45.251 (Duration: 00:01:01) (Frequency: 1)
+
+
+ERROR ID 371:
+============
+Total Events: 6 (Raw events)
+Actual Error Occurrences: 3
+Event Type: Error ID 371: Mapping system validation error
+First Occurrence: 2025.05.27_09.20.21.403
+Last Occurrence: 2025.05.27_09.34.23.603
+Error Frequency: 3 occurrences
+Event IDs: 371
+Error IDs: 371
+Total Duration: 00:14:02
+
+Event Sessions:
+• SUMMARY: 3 actual error occurrences (from 6 events)
+• Session 1: 2025.05.27_09.20.21.403 to 2025.05.27_09.20.23.398 (Duration: 00:00:02) (Frequency: 1)
+• Session 2: 2025.05.27_09.34.10.507 to 2025.05.27_09.34.14.403 (Duration: 00:00:04) (Frequency: 1)
+• Session 3: 2025.05.27_09.34.22.360 to 2025.05.27_09.34.23.603 (Duration: 00:00:01) (Frequency: 1)
+
+
+ERROR ID 382:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 382: Unknown error 382
+First Occurrence: 2025.05.27_10.09.20.350
+Last Occurrence: 2025.05.27_10.09.20.705
+Error Frequency: 1 occurrences
+Event IDs: 382
+Error IDs: 382
+Total Duration: 00:00:00
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Session 1: 2025.05.27_10.09.20.350 to 2025.05.27_10.09.20.705 (Duration: 00:00:00) (Frequency: 1)
+
+
+ERROR ID 400:
+============
+Total Events: 6 (Raw events)
+Actual Error Occurrences: 3
+Event Type: Error ID 400: Unknown error 400
+First Occurrence: 2025.05.27_10.06.12.968
+Last Occurrence: 2025.05.27_11.05.50.427
+Error Frequency: 3 occurrences
+Event IDs: 400
+Error IDs: 400
+Total Duration: 00:59:38
+
+Event Sessions:
+• SUMMARY: 3 actual error occurrences (from 6 events)
+• Session 1: 2025.05.27_10.06.12.968 to 2025.05.27_10.06.13.050 (Duration: 00:00:01) (Frequency: 1)
+• Session 2: 2025.05.27_10.09.19.968 to 2025.05.27_10.09.20.707 (Duration: 00:00:01) (Frequency: 1)
+• Session 3: 2025.05.27_11.05.47.968 to 2025.05.27_11.05.50.427 (Duration: 00:00:03) (Frequency: 1)
+
+
+ERROR ID 401:
+============
+Total Events: 104 (Raw events)
+Actual Error Occurrences: 52
+Event Type: Error ID 401: Map points cannot be acquired
+First Occurrence: 2025.05.27_09.20.23.398
+Last Occurrence: 2025.05.27_11.05.47.968
+Error Frequency: 52 occurrences
+Event IDs: 401
+Error IDs: 401
+Total Duration: 01:45:24
+
+Event Sessions:
+• SUMMARY: 52 actual error occurrences (from 104 events)
+• Session 1: 2025.05.27_09.20.23.398 to 2025.05.27_09.20.26.229 (Duration: 00:00:03) (Frequency: 1)
+• Session 2: 2025.05.27_09.20.31.101 to 2025.05.27_09.20.34.155 (Duration: 00:00:03) (Frequency: 1)
+• Session 3: 2025.05.27_09.20.35.750 to 2025.05.27_09.20.36.499 (Duration: 00:00:01) (Frequency: 1)
+• Session 4: 2025.05.27_09.20.37.028 to 2025.05.27_09.20.38.048 (Duration: 00:00:01) (Frequency: 1)
+• Session 5: 2025.05.27_09.20.46.727 to 2025.05.27_09.20.47.565 (Duration: 00:00:01) (Frequency: 1)
+• Session 6: 2025.05.27_09.24.09.439 to 2025.05.27_09.24.09.815 (Duration: 00:00:00) (Frequency: 1)
+• Session 7: 2025.05.27_09.25.24.252 to 2025.05.27_09.25.24.867 (Duration: 00:00:00) (Frequency: 1)
+• Session 8: 2025.05.27_09.26.00.544 to 2025.05.27_09.26.01.328 (Duration: 00:00:01) (Frequency: 1)
+• Session 9: 2025.05.27_09.33.56.678 to 2025.05.27_09.33.57.657 (Duration: 00:00:01) (Frequency: 1)
+• Session 10: 2025.05.27_09.34.23.603 to 2025.05.27_09.34.25.878 (Duration: 00:00:02) (Frequency: 1)
+• Session 11: 2025.05.27_09.35.31.474 to 2025.05.27_09.35.31.658 (Duration: 00:00:00) (Frequency: 1)
+• Session 12: 2025.05.27_09.36.15.744 to 2025.05.27_09.36.16.049 (Duration: 00:00:01) (Frequency: 1)
+• Session 13: 2025.05.27_09.42.34.479 to 2025.05.27_09.42.36.885 (Duration: 00:00:02) (Frequency: 1)
+• Session 14: 2025.05.27_09.42.41.668 to 2025.05.27_09.42.44.056 (Duration: 00:00:03) (Frequency: 1)
+• Session 15: 2025.05.27_09.43.09.679 to 2025.05.27_09.43.10.525 (Duration: 00:00:01) (Frequency: 1)
+• Session 16: 2025.05.27_09.43.14.381 to 2025.05.27_09.43.16.656 (Duration: 00:00:02) (Frequency: 1)
+• Session 17: 2025.05.27_10.06.13.051 to 2025.05.27_10.06.13.522 (Duration: 00:00:00) (Frequency: 1)
+• Session 18: 2025.05.27_10.09.20.707 to 2025.05.27_10.09.21.219 (Duration: 00:00:01) (Frequency: 1)
+• Session 19: 2025.05.27_10.17.56.144 to 2025.05.27_10.17.56.210 (Duration: 00:00:00) (Frequency: 1)
+• Session 20: 2025.05.27_10.29.09.090 to 2025.05.27_10.31.14.186 (Duration: 00:02:05) (Frequency: 1)
+• Session 21: 2025.05.27_10.31.24.858 to 2025.05.27_10.31.32.338 (Duration: 00:00:08) (Frequency: 1)
+• Session 22: 2025.05.27_10.32.07.636 to 2025.05.27_10.32.17.977 (Duration: 00:00:10) (Frequency: 1)
+• Session 23: 2025.05.27_10.32.50.840 to 2025.05.27_10.32.57.817 (Duration: 00:00:07) (Frequency: 1)
+• Session 24: 2025.05.27_10.33.41.925 to 2025.05.27_10.34.44.958 (Duration: 00:01:03) (Frequency: 1)
+• Session 25: 2025.05.27_10.34.48.610 to 2025.05.27_10.34.53.631 (Duration: 00:00:05) (Frequency: 1)
+• Session 26: 2025.05.27_10.35.33.758 to 2025.05.27_10.37.44.163 (Duration: 00:02:11) (Frequency: 1)
+• Session 27: 2025.05.27_10.38.45.251 to 2025.05.27_10.39.21.771 (Duration: 00:00:36) (Frequency: 1)
+• Session 28: 2025.05.27_10.39.28.410 to 2025.05.27_10.39.30.639 (Duration: 00:00:02) (Frequency: 1)
+• Session 29: 2025.05.27_10.40.06.772 to 2025.05.27_10.40.10.559 (Duration: 00:00:04) (Frequency: 1)
+• Session 30: 2025.05.27_10.40.14.465 to 2025.05.27_10.40.16.704 (Duration: 00:00:02) (Frequency: 1)
+• Session 31: 2025.05.27_10.40.26.233 to 2025.05.27_10.40.27.021 (Duration: 00:00:01) (Frequency: 1)
+• Session 32: 2025.05.27_10.40.33.921 to 2025.05.27_10.40.38.453 (Duration: 00:00:05) (Frequency: 1)
+• Session 33: 2025.05.27_10.40.44.522 to 2025.05.27_10.40.45.160 (Duration: 00:00:01) (Frequency: 1)
+• Session 34: 2025.05.27_10.40.56.534 to 2025.05.27_10.41.01.121 (Duration: 00:00:05) (Frequency: 1)
+• Session 35: 2025.05.27_10.41.08.506 to 2025.05.27_10.41.09.537 (Duration: 00:00:01) (Frequency: 1)
+• Session 36: 2025.05.27_10.41.16.705 to 2025.05.27_10.41.19.177 (Duration: 00:00:03) (Frequency: 1)
+• Session 37: 2025.05.27_10.41.23.322 to 2025.05.27_10.41.26.621 (Duration: 00:00:03) (Frequency: 1)
+• Session 38: 2025.05.27_10.41.46.823 to 2025.05.27_10.41.47.532 (Duration: 00:00:01) (Frequency: 1)
+• Session 39: 2025.05.27_10.42.23.234 to 2025.05.27_10.42.26.204 (Duration: 00:00:03) (Frequency: 1)
+• Session 40: 2025.05.27_10.42.29.773 to 2025.05.27_10.42.32.058 (Duration: 00:00:03) (Frequency: 1)
+• Session 41: 2025.05.27_10.42.33.706 to 2025.05.27_10.42.34.505 (Duration: 00:00:01) (Frequency: 1)
+• Session 42: 2025.05.27_10.43.48.972 to 2025.05.27_10.43.51.088 (Duration: 00:00:03) (Frequency: 1)
+• Session 43: 2025.05.27_10.44.43.806 to 2025.05.27_10.44.44.558 (Duration: 00:00:01) (Frequency: 1)
+• Session 44: 2025.05.27_10.44.51.511 to 2025.05.27_10.44.56.932 (Duration: 00:00:05) (Frequency: 1)
+• Session 45: 2025.05.27_10.46.09.157 to 2025.05.27_10.46.27.161 (Duration: 00:00:18) (Frequency: 1)
+• Session 46: 2025.05.27_10.46.53.854 to 2025.05.27_10.46.54.577 (Duration: 00:00:01) (Frequency: 1)
+• Session 47: 2025.05.27_10.47.14.672 to 2025.05.27_10.47.15.471 (Duration: 00:00:01) (Frequency: 1)
+• Session 48: 2025.05.27_10.53.05.827 to 2025.05.27_10.53.06.433 (Duration: 00:00:01) (Frequency: 1)
+• Session 49: 2025.05.27_10.54.48.977 to 2025.05.27_10.55.05.578 (Duration: 00:00:17) (Frequency: 1)
+• Session 50: 2025.05.27_10.55.15.306 to 2025.05.27_10.55.17.605 (Duration: 00:00:02) (Frequency: 1)
+• Session 51: 2025.05.27_10.55.58.078 to 2025.05.27_10.55.58.135 (Duration: 00:00:00) (Frequency: 1)
+• Session 52: 2025.05.27_10.58.42.032 to 2025.05.27_11.05.47.968 (Duration: 00:07:05) (Frequency: 1)
+
+
+ERROR ID 503:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 503: Unknown error 503
+First Occurrence: 2025.05.27_08.57.58.796
+Last Occurrence: 2025.05.27_08.57.58.801
+Error Frequency: 1 occurrences
+Event IDs: 503
+Error IDs: 503
+Total Duration: 00:00:00
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Session 1: 2025.05.27_08.57.58.796 to 2025.05.27_08.57.58.801 (Duration: 00:00:00) (Frequency: 1)
+
+
+ERROR ID 505:
+============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 505: Communication timeout
+First Occurrence: 2025.05.27_08.57.58.801
+Last Occurrence: 2025.05.27_09.20.21.403
+Error Frequency: 2 occurrences
+Event IDs: 505
+Error IDs: 505
+Total Duration: 00:22:23
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Session 1: 2025.05.27_08.57.58.801 to 2025.05.27_08.57.59.098 (Duration: 00:00:01) (Frequency: 1)
+• Session 2: 2025.05.27_09.20.21.275 to 2025.05.27_09.20.21.403 (Duration: 00:00:00) (Frequency: 1)
+
+
+ERROR ID 80:
+===========
+Total Events: 342 (Raw events)
+Actual Error Occurrences: 171
+Event Type: Error ID 80: Force measurement accuracy error
+First Occurrence: 2025.05.27_09.20.23.446
+Last Occurrence: 2025.05.27_11.05.50.427
+Error Frequency: 171 occurrences
+Event IDs: 80
+Error IDs: 80
+Total Duration: 01:45:27
+
+Event Sessions:
+• SUMMARY: 171 actual error occurrences (from 342 events)
+• Session 1: 2025.05.27_09.20.23.446 to 2025.05.27_09.37.26.447 (Duration: 00:17:03) (Frequency: 1)
+• Session 2: 2025.05.27_10.29.11.794 to 2025.05.27_10.29.22.850 (Duration: 00:00:11) (Frequency: 1)
+• Session 3: 2025.05.27_10.32.54.450 to 2025.05.27_10.32.54.900 (Duration: 00:00:00) (Frequency: 1)
+• Session 4: 2025.05.27_10.32.55.020 to 2025.05.27_10.32.57.667 (Duration: 00:00:02) (Frequency: 1)
+• Session 5: 2025.05.27_10.33.54.993 to 2025.05.27_10.33.57.894 (Duration: 00:00:03) (Frequency: 1)
+• Session 6: 2025.05.27_10.33.57.951 to 2025.05.27_10.33.58.106 (Duration: 00:00:01) (Frequency: 1)
+• Session 7: 2025.05.27_10.33.58.150 to 2025.05.27_10.33.58.944 (Duration: 00:00:00) (Frequency: 1)
+• Session 8: 2025.05.27_10.33.59.000 to 2025.05.27_10.33.59.450 (Duration: 00:00:00) (Frequency: 1)
+• Session 9: 2025.05.27_10.33.59.500 to 2025.05.27_10.33.59.901 (Duration: 00:00:00) (Frequency: 1)
+• Session 10: 2025.05.27_10.33.59.950 to 2025.05.27_10.34.00.150 (Duration: 00:00:01) (Frequency: 1)
+• Session 11: 2025.05.27_10.34.00.200 to 2025.05.27_10.34.00.944 (Duration: 00:00:00) (Frequency: 1)
+• Session 12: 2025.05.27_10.34.01.000 to 2025.05.27_10.34.01.343 (Duration: 00:00:00) (Frequency: 1)
+• Session 13: 2025.05.27_10.34.01.401 to 2025.05.27_10.34.01.700 (Duration: 00:00:00) (Frequency: 1)
+• Session 14: 2025.05.27_10.34.01.750 to 2025.05.27_10.34.04.101 (Duration: 00:00:03) (Frequency: 1)
+• Session 15: 2025.05.27_10.34.04.200 to 2025.05.27_10.34.04.650 (Duration: 00:00:00) (Frequency: 1)
+• Session 16: 2025.05.27_10.34.04.694 to 2025.05.27_10.34.06.150 (Duration: 00:00:02) (Frequency: 1)
+• Session 17: 2025.05.27_10.34.06.200 to 2025.05.27_10.34.09.044 (Duration: 00:00:03) (Frequency: 1)
+• Session 18: 2025.05.27_10.34.09.094 to 2025.05.27_10.34.09.494 (Duration: 00:00:00) (Frequency: 1)
+• Session 19: 2025.05.27_10.34.09.544 to 2025.05.27_10.34.10.544 (Duration: 00:00:01) (Frequency: 1)
+• Session 20: 2025.05.27_10.34.10.650 to 2025.05.27_10.34.10.950 (Duration: 00:00:00) (Frequency: 1)
+• Session 21: 2025.05.27_10.34.10.994 to 2025.05.27_10.34.11.750 (Duration: 00:00:01) (Frequency: 1)
+• Session 22: 2025.05.27_10.34.11.794 to 2025.05.27_10.34.12.694 (Duration: 00:00:01) (Frequency: 1)
+• Session 23: 2025.05.27_10.34.12.750 to 2025.05.27_10.34.13.043 (Duration: 00:00:01) (Frequency: 1)
+• Session 24: 2025.05.27_10.34.13.101 to 2025.05.27_10.34.13.144 (Duration: 00:00:00) (Frequency: 1)
+• Session 25: 2025.05.27_10.34.13.231 to 2025.05.27_10.34.14.250 (Duration: 00:00:01) (Frequency: 1)
+• Session 26: 2025.05.27_10.34.14.294 to 2025.05.27_10.34.16.100 (Duration: 00:00:02) (Frequency: 1)
+• Session 27: 2025.05.27_10.34.16.200 to 2025.05.27_10.34.16.844 (Duration: 00:00:00) (Frequency: 1)
+• Session 28: 2025.05.27_10.34.16.900 to 2025.05.27_10.34.18.450 (Duration: 00:00:02) (Frequency: 1)
+• Session 29: 2025.05.27_10.34.18.494 to 2025.05.27_10.34.19.093 (Duration: 00:00:01) (Frequency: 1)
+• Session 30: 2025.05.27_10.34.19.144 to 2025.05.27_10.34.19.597 (Duration: 00:00:00) (Frequency: 1)
+• Session 31: 2025.05.27_10.34.19.650 to 2025.05.27_10.34.21.494 (Duration: 00:00:02) (Frequency: 1)
+• Session 32: 2025.05.27_10.34.21.543 to 2025.05.27_10.34.21.594 (Duration: 00:00:00) (Frequency: 1)
+• Session 33: 2025.05.27_10.34.21.654 to 2025.05.27_10.34.22.893 (Duration: 00:00:01) (Frequency: 1)
+• Session 34: 2025.05.27_10.34.22.950 to 2025.05.27_10.34.27.250 (Duration: 00:00:05) (Frequency: 1)
+• Session 35: 2025.05.27_10.34.27.293 to 2025.05.27_10.34.29.494 (Duration: 00:00:02) (Frequency: 1)
+• Session 36: 2025.05.27_10.34.29.551 to 2025.05.27_10.34.33.544 (Duration: 00:00:04) (Frequency: 1)
+• Session 37: 2025.05.27_10.34.33.593 to 2025.05.27_10.34.33.994 (Duration: 00:00:00) (Frequency: 1)
+• Session 38: 2025.05.27_10.35.35.143 to 2025.05.27_10.35.36.800 (Duration: 00:00:01) (Frequency: 1)
+• Session 39: 2025.05.27_10.35.36.843 to 2025.05.27_10.35.38.250 (Duration: 00:00:02) (Frequency: 1)
+• Session 40: 2025.05.27_10.35.38.294 to 2025.05.27_10.35.41.593 (Duration: 00:00:03) (Frequency: 1)
+• Session 41: 2025.05.27_10.35.41.694 to 2025.05.27_10.35.41.993 (Duration: 00:00:00) (Frequency: 1)
+• Session 42: 2025.05.27_10.35.42.051 to 2025.05.27_10.35.42.751 (Duration: 00:00:00) (Frequency: 1)
+• Session 43: 2025.05.27_10.35.42.843 to 2025.05.27_10.35.43.694 (Duration: 00:00:01) (Frequency: 1)
+• Session 44: 2025.05.27_10.35.43.750 to 2025.05.27_10.35.44.044 (Duration: 00:00:01) (Frequency: 1)
+• Session 45: 2025.05.27_10.35.44.093 to 2025.05.27_10.35.44.700 (Duration: 00:00:00) (Frequency: 1)
+• Session 46: 2025.05.27_10.35.44.744 to 2025.05.27_10.35.45.294 (Duration: 00:00:01) (Frequency: 1)
+• Session 47: 2025.05.27_10.35.45.343 to 2025.05.27_10.35.45.543 (Duration: 00:00:00) (Frequency: 1)
+• Session 48: 2025.05.27_10.35.45.594 to 2025.05.27_10.35.46.394 (Duration: 00:00:01) (Frequency: 1)
+• Session 49: 2025.05.27_10.35.46.444 to 2025.05.27_10.35.46.544 (Duration: 00:00:00) (Frequency: 1)
+• Session 50: 2025.05.27_10.35.46.600 to 2025.05.27_10.35.46.650 (Duration: 00:00:00) (Frequency: 1)
+• Session 51: 2025.05.27_10.35.46.694 to 2025.05.27_10.35.47.094 (Duration: 00:00:01) (Frequency: 1)
+• Session 52: 2025.05.27_10.35.47.193 to 2025.05.27_10.35.47.344 (Duration: 00:00:00) (Frequency: 1)
+• Session 53: 2025.05.27_10.35.47.401 to 2025.05.27_10.35.47.700 (Duration: 00:00:00) (Frequency: 1)
+• Session 54: 2025.05.27_10.35.47.743 to 2025.05.27_10.35.50.494 (Duration: 00:00:03) (Frequency: 1)
+• Session 55: 2025.05.27_10.35.50.594 to 2025.05.27_10.35.51.200 (Duration: 00:00:01) (Frequency: 1)
+• Session 56: 2025.05.27_10.35.51.244 to 2025.05.27_10.35.52.594 (Duration: 00:00:01) (Frequency: 1)
+• Session 57: 2025.05.27_10.35.52.650 to 2025.05.27_10.35.53.344 (Duration: 00:00:01) (Frequency: 1)
+• Session 58: 2025.05.27_10.35.53.401 to 2025.05.27_10.35.54.994 (Duration: 00:00:01) (Frequency: 1)
+• Session 59: 2025.05.27_10.35.55.050 to 2025.05.27_10.35.55.400 (Duration: 00:00:00) (Frequency: 1)
+• Session 60: 2025.05.27_10.35.55.451 to 2025.05.27_10.35.55.594 (Duration: 00:00:00) (Frequency: 1)
+• Session 61: 2025.05.27_10.35.55.651 to 2025.05.27_10.35.57.994 (Duration: 00:00:02) (Frequency: 1)
+• Session 62: 2025.05.27_10.35.58.044 to 2025.05.27_10.35.59.894 (Duration: 00:00:01) (Frequency: 1)
+• Session 63: 2025.05.27_10.35.59.950 to 2025.05.27_10.36.01.900 (Duration: 00:00:02) (Frequency: 1)
+• Session 64: 2025.05.27_10.36.01.944 to 2025.05.27_10.36.01.994 (Duration: 00:00:00) (Frequency: 1)
+• Session 65: 2025.05.27_10.36.02.043 to 2025.05.27_10.36.03.344 (Duration: 00:00:01) (Frequency: 1)
+• Session 66: 2025.05.27_10.36.03.394 to 2025.05.27_10.36.03.601 (Duration: 00:00:00) (Frequency: 1)
+• Session 67: 2025.05.27_10.36.03.644 to 2025.05.27_10.36.03.700 (Duration: 00:00:00) (Frequency: 1)
+• Session 68: 2025.05.27_10.36.03.743 to 2025.05.27_10.36.04.251 (Duration: 00:00:01) (Frequency: 1)
+• Session 69: 2025.05.27_10.36.04.294 to 2025.05.27_10.36.04.501 (Duration: 00:00:00) (Frequency: 1)
+• Session 70: 2025.05.27_10.36.04.544 to 2025.05.27_10.36.04.601 (Duration: 00:00:00) (Frequency: 1)
+• Session 71: 2025.05.27_10.36.04.700 to 2025.05.27_10.36.05.194 (Duration: 00:00:01) (Frequency: 1)
+• Session 72: 2025.05.27_10.36.05.293 to 2025.05.27_10.36.08.344 (Duration: 00:00:03) (Frequency: 1)
+• Session 73: 2025.05.27_10.36.08.400 to 2025.05.27_10.36.08.752 (Duration: 00:00:00) (Frequency: 1)
+• Session 74: 2025.05.27_10.36.08.800 to 2025.05.27_10.36.09.150 (Duration: 00:00:01) (Frequency: 1)
+• Session 75: 2025.05.27_10.36.09.194 to 2025.05.27_10.36.10.494 (Duration: 00:00:01) (Frequency: 1)
+• Session 76: 2025.05.27_10.36.10.550 to 2025.05.27_10.36.11.344 (Duration: 00:00:01) (Frequency: 1)
+• Session 77: 2025.05.27_10.36.11.394 to 2025.05.27_10.36.11.450 (Duration: 00:00:00) (Frequency: 1)
+• Session 78: 2025.05.27_10.36.11.494 to 2025.05.27_10.36.11.650 (Duration: 00:00:00) (Frequency: 1)
+• Session 79: 2025.05.27_10.36.11.694 to 2025.05.27_10.36.12.244 (Duration: 00:00:01) (Frequency: 1)
+• Session 80: 2025.05.27_10.36.12.294 to 2025.05.27_10.36.13.000 (Duration: 00:00:01) (Frequency: 1)
+• Session 81: 2025.05.27_10.36.13.044 to 2025.05.27_10.36.14.044 (Duration: 00:00:01) (Frequency: 1)
+• Session 82: 2025.05.27_10.36.14.100 to 2025.05.27_10.36.14.294 (Duration: 00:00:00) (Frequency: 1)
+• Session 83: 2025.05.27_10.36.14.401 to 2025.05.27_10.36.14.844 (Duration: 00:00:00) (Frequency: 1)
+• Session 84: 2025.05.27_10.36.14.901 to 2025.05.27_10.36.15.900 (Duration: 00:00:01) (Frequency: 1)
+• Session 85: 2025.05.27_10.36.15.944 to 2025.05.27_10.36.17.501 (Duration: 00:00:02) (Frequency: 1)
+• Session 86: 2025.05.27_10.36.17.544 to 2025.05.27_10.36.18.294 (Duration: 00:00:01) (Frequency: 1)
+• Session 87: 2025.05.27_10.36.18.344 to 2025.05.27_10.36.18.593 (Duration: 00:00:00) (Frequency: 1)
+• Session 88: 2025.05.27_10.36.18.650 to 2025.05.27_10.36.18.794 (Duration: 00:00:00) (Frequency: 1)
+• Session 89: 2025.05.27_10.36.18.851 to 2025.05.27_10.36.19.800 (Duration: 00:00:01) (Frequency: 1)
+• Session 90: 2025.05.27_10.36.19.851 to 2025.05.27_10.36.20.194 (Duration: 00:00:01) (Frequency: 1)
+• Session 91: 2025.05.27_10.36.20.243 to 2025.05.27_10.36.20.343 (Duration: 00:00:00) (Frequency: 1)
+• Session 92: 2025.05.27_10.36.20.394 to 2025.05.27_10.36.21.394 (Duration: 00:00:01) (Frequency: 1)
+• Session 93: 2025.05.27_10.36.21.450 to 2025.05.27_10.36.22.700 (Duration: 00:00:01) (Frequency: 1)
+• Session 94: 2025.05.27_10.36.22.744 to 2025.05.27_10.36.23.944 (Duration: 00:00:01) (Frequency: 1)
+• Session 95: 2025.05.27_10.36.24.000 to 2025.05.27_10.36.29.343 (Duration: 00:00:05) (Frequency: 1)
+• Session 96: 2025.05.27_10.36.29.394 to 2025.05.27_10.36.29.744 (Duration: 00:00:00) (Frequency: 1)
+• Session 97: 2025.05.27_10.36.29.794 to 2025.05.27_10.36.30.144 (Duration: 00:00:01) (Frequency: 1)
+• Session 98: 2025.05.27_10.36.30.194 to 2025.05.27_10.36.31.593 (Duration: 00:00:01) (Frequency: 1)
+• Session 99: 2025.05.27_10.36.31.644 to 2025.05.27_10.36.31.743 (Duration: 00:00:00) (Frequency: 1)
+• Session 100: 2025.05.27_10.36.31.794 to 2025.05.27_10.36.32.800 (Duration: 00:00:01) (Frequency: 1)
+• Session 101: 2025.05.27_10.36.32.843 to 2025.05.27_10.36.34.150 (Duration: 00:00:02) (Frequency: 1)
+• Session 102: 2025.05.27_10.36.34.200 to 2025.05.27_10.36.34.800 (Duration: 00:00:00) (Frequency: 1)
+• Session 103: 2025.05.27_10.36.34.850 to 2025.05.27_10.36.36.301 (Duration: 00:00:02) (Frequency: 1)
+• Session 104: 2025.05.27_10.36.36.355 to 2025.05.27_10.36.37.550 (Duration: 00:00:01) (Frequency: 1)
+• Session 105: 2025.05.27_10.36.37.600 to 2025.05.27_10.36.38.200 (Duration: 00:00:01) (Frequency: 1)
+• Session 106: 2025.05.27_10.36.38.250 to 2025.05.27_10.36.39.100 (Duration: 00:00:01) (Frequency: 1)
+• Session 107: 2025.05.27_10.36.39.150 to 2025.05.27_10.36.39.650 (Duration: 00:00:00) (Frequency: 1)
+• Session 108: 2025.05.27_10.36.39.700 to 2025.05.27_10.36.41.794 (Duration: 00:00:02) (Frequency: 1)
+• Session 109: 2025.05.27_10.36.41.850 to 2025.05.27_10.36.42.443 (Duration: 00:00:01) (Frequency: 1)
+• Session 110: 2025.05.27_10.36.42.494 to 2025.05.27_10.36.44.150 (Duration: 00:00:02) (Frequency: 1)
+• Session 111: 2025.05.27_10.36.44.194 to 2025.05.27_10.36.47.644 (Duration: 00:00:03) (Frequency: 1)
+• Session 112: 2025.05.27_10.36.47.693 to 2025.05.27_10.36.49.894 (Duration: 00:00:02) (Frequency: 1)
+• Session 113: 2025.05.27_10.36.49.944 to 2025.05.27_10.36.51.700 (Duration: 00:00:02) (Frequency: 1)
+• Session 114: 2025.05.27_10.36.51.744 to 2025.05.27_10.36.55.801 (Duration: 00:00:04) (Frequency: 1)
+• Session 115: 2025.05.27_10.36.55.843 to 2025.05.27_10.36.56.444 (Duration: 00:00:01) (Frequency: 1)
+• Session 116: 2025.05.27_10.36.56.494 to 2025.05.27_10.36.56.843 (Duration: 00:00:00) (Frequency: 1)
+• Session 117: 2025.05.27_10.36.56.900 to 2025.05.27_10.36.58.500 (Duration: 00:00:02) (Frequency: 1)
+• Session 118: 2025.05.27_10.36.58.544 to 2025.05.27_10.37.00.245 (Duration: 00:00:02) (Frequency: 1)
+• Session 119: 2025.05.27_10.37.00.300 to 2025.05.27_10.37.03.501 (Duration: 00:00:03) (Frequency: 1)
+• Session 120: 2025.05.27_10.37.03.543 to 2025.05.27_10.37.04.244 (Duration: 00:00:01) (Frequency: 1)
+• Session 121: 2025.05.27_10.37.04.294 to 2025.05.27_10.37.09.200 (Duration: 00:00:05) (Frequency: 1)
+• Session 122: 2025.05.27_10.37.09.244 to 2025.05.27_10.37.09.394 (Duration: 00:00:00) (Frequency: 1)
+• Session 123: 2025.05.27_10.37.09.450 to 2025.05.27_10.37.12.493 (Duration: 00:00:03) (Frequency: 1)
+• Session 124: 2025.05.27_10.37.12.550 to 2025.05.27_10.37.15.393 (Duration: 00:00:03) (Frequency: 1)
+• Session 125: 2025.05.27_10.37.15.444 to 2025.05.27_10.37.15.994 (Duration: 00:00:00) (Frequency: 1)
+• Session 126: 2025.05.27_10.37.16.043 to 2025.05.27_10.37.17.101 (Duration: 00:00:01) (Frequency: 1)
+• Session 127: 2025.05.27_10.37.17.144 to 2025.05.27_10.37.19.600 (Duration: 00:00:02) (Frequency: 1)
+• Session 128: 2025.05.27_10.37.19.643 to 2025.05.27_10.37.19.894 (Duration: 00:00:00) (Frequency: 1)
+• Session 129: 2025.05.27_10.37.19.950 to 2025.05.27_10.37.20.344 (Duration: 00:00:01) (Frequency: 1)
+• Session 130: 2025.05.27_10.37.20.394 to 2025.05.27_10.37.21.300 (Duration: 00:00:01) (Frequency: 1)
+• Session 131: 2025.05.27_10.37.21.344 to 2025.05.27_10.37.21.694 (Duration: 00:00:00) (Frequency: 1)
+• Session 132: 2025.05.27_10.37.21.750 to 2025.05.27_10.37.25.001 (Duration: 00:00:04) (Frequency: 1)
+• Session 133: 2025.05.27_10.37.25.043 to 2025.05.27_10.37.25.494 (Duration: 00:00:00) (Frequency: 1)
+• Session 134: 2025.05.27_10.37.25.550 to 2025.05.27_10.37.26.109 (Duration: 00:00:01) (Frequency: 1)
+• Session 135: 2025.05.27_10.37.26.144 to 2025.05.27_10.37.26.201 (Duration: 00:00:00) (Frequency: 1)
+• Session 136: 2025.05.27_10.37.26.244 to 2025.05.27_10.37.26.993 (Duration: 00:00:00) (Frequency: 1)
+• Session 137: 2025.05.27_10.37.27.044 to 2025.05.27_10.37.27.344 (Duration: 00:00:00) (Frequency: 1)
+• Session 138: 2025.05.27_10.37.27.395 to 2025.05.27_10.37.28.144 (Duration: 00:00:01) (Frequency: 1)
+• Session 139: 2025.05.27_10.37.28.193 to 2025.05.27_10.37.28.544 (Duration: 00:00:00) (Frequency: 1)
+• Session 140: 2025.05.27_10.37.28.601 to 2025.05.27_10.37.28.794 (Duration: 00:00:00) (Frequency: 1)
+• Session 141: 2025.05.27_10.37.28.844 to 2025.05.27_10.37.32.200 (Duration: 00:00:04) (Frequency: 1)
+• Session 142: 2025.05.27_10.37.32.244 to 2025.05.27_10.37.32.500 (Duration: 00:00:00) (Frequency: 1)
+• Session 143: 2025.05.27_10.37.32.544 to 2025.05.27_10.37.33.093 (Duration: 00:00:01) (Frequency: 1)
+• Session 144: 2025.05.27_10.37.33.150 to 2025.05.27_10.37.33.494 (Duration: 00:00:00) (Frequency: 1)
+• Session 145: 2025.05.27_10.37.33.550 to 2025.05.27_10.37.33.850 (Duration: 00:00:00) (Frequency: 1)
+• Session 146: 2025.05.27_10.37.33.943 to 2025.05.27_10.37.34.244 (Duration: 00:00:01) (Frequency: 1)
+• Session 147: 2025.05.27_10.37.34.294 to 2025.05.27_10.37.35.750 (Duration: 00:00:01) (Frequency: 1)
+• Session 148: 2025.05.27_10.37.35.794 to 2025.05.27_10.37.35.994 (Duration: 00:00:00) (Frequency: 1)
+• Session 149: 2025.05.27_10.37.36.044 to 2025.05.27_10.37.36.445 (Duration: 00:00:00) (Frequency: 1)
+• Session 150: 2025.05.27_10.37.36.494 to 2025.05.27_10.37.37.400 (Duration: 00:00:01) (Frequency: 1)
+• Session 151: 2025.05.27_10.37.37.500 to 2025.05.27_10.37.37.543 (Duration: 00:00:00) (Frequency: 1)
+• Session 152: 2025.05.27_10.37.37.694 to 2025.05.27_10.37.37.744 (Duration: 00:00:00) (Frequency: 1)
+• Session 153: 2025.05.27_10.37.37.844 to 2025.05.27_10.37.37.944 (Duration: 00:00:00) (Frequency: 1)
+• Session 154: 2025.05.27_10.37.38.650 to 2025.05.27_10.37.38.694 (Duration: 00:00:00) (Frequency: 1)
+• Session 155: 2025.05.27_10.37.38.750 to 2025.05.27_10.37.39.444 (Duration: 00:00:01) (Frequency: 1)
+• Session 156: 2025.05.27_10.37.39.494 to 2025.05.27_10.37.39.594 (Duration: 00:00:00) (Frequency: 1)
+• Session 157: 2025.05.27_10.37.39.844 to 2025.05.27_10.37.39.894 (Duration: 00:00:00) (Frequency: 1)
+• Session 158: 2025.05.27_10.37.40.250 to 2025.05.27_10.37.40.293 (Duration: 00:00:00) (Frequency: 1)
+• Session 159: 2025.05.27_10.37.40.394 to 2025.05.27_10.37.40.451 (Duration: 00:00:00) (Frequency: 1)
+• Session 160: 2025.05.27_10.37.40.744 to 2025.05.27_10.37.40.801 (Duration: 00:00:00) (Frequency: 1)
+• Session 161: 2025.05.27_10.37.40.900 to 2025.05.27_10.37.40.944 (Duration: 00:00:00) (Frequency: 1)
+• Session 162: 2025.05.27_10.37.41.343 to 2025.05.27_10.37.42.300 (Duration: 00:00:01) (Frequency: 1)
+• Session 163: 2025.05.27_10.37.42.694 to 2025.05.27_10.37.42.750 (Duration: 00:00:00) (Frequency: 1)
+• Session 164: 2025.05.27_10.37.42.993 to 2025.05.27_10.37.43.050 (Duration: 00:00:01) (Frequency: 1)
+• Session 165: 2025.05.27_10.37.43.150 to 2025.05.27_10.37.43.194 (Duration: 00:00:00) (Frequency: 1)
+• Session 166: 2025.05.27_10.37.43.350 to 2025.05.27_10.37.43.394 (Duration: 00:00:00) (Frequency: 1)
+• Session 167: 2025.05.27_10.37.43.746 to 2025.05.27_10.37.43.793 (Duration: 00:00:00) (Frequency: 1)
+• Session 168: 2025.05.27_10.46.08.644 to 2025.05.27_10.46.18.647 (Duration: 00:00:10) (Frequency: 1)
+• Session 169: 2025.05.27_10.54.49.254 to 2025.05.27_10.54.57.201 (Duration: 00:00:08) (Frequency: 1)
+• Session 170: 2025.05.27_10.54.57.451 to 2025.05.27_10.54.57.501 (Duration: 00:00:00) (Frequency: 1)
+• Session 171: 2025.05.27_10.58.44.059 to 2025.05.27_11.05.50.427 (Duration: 00:07:06) (Frequency: 1)
+
+
+ERROR ID 85:
+===========
+Total Events: 10 (Raw events)
+Actual Error Occurrences: 5
+Event Type: Error ID 85: Force sensor communication error
+First Occurrence: 2025.05.27_10.35.09.743
+Last Occurrence: 2025.05.27_10.35.23.294
+Error Frequency: 5 occurrences
+Event IDs: 85
+Error IDs: 85
+Total Duration: 00:00:14
+
+Event Sessions:
+• SUMMARY: 5 actual error occurrences (from 10 events)
+• Session 1: 2025.05.27_10.35.09.743 to 2025.05.27_10.35.09.794 (Duration: 00:00:00) (Frequency: 1)
+• Session 2: 2025.05.27_10.35.18.100 to 2025.05.27_10.35.18.150 (Duration: 00:00:00) (Frequency: 1)
+• Session 3: 2025.05.27_10.35.18.751 to 2025.05.27_10.35.18.800 (Duration: 00:00:00) (Frequency: 1)
+• Session 4: 2025.05.27_10.35.21.844 to 2025.05.27_10.35.21.894 (Duration: 00:00:00) (Frequency: 1)
+• Session 5: 2025.05.27_10.35.23.244 to 2025.05.27_10.35.23.294 (Duration: 00:00:00) (Frequency: 1)
+
+
+ERROR ID 86:
+===========
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 86: Unknown error 86
+First Occurrence: 2025.05.27_09.20.21.403
+Last Occurrence: 2025.05.27_10.47.50.595
+Error Frequency: 2 occurrences
+Event IDs: 86
+Error IDs: 86
+Total Duration: 01:27:29
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Session 1: 2025.05.27_09.20.21.403 to 2025.05.27_09.43.34.397 (Duration: 00:23:13) (Frequency: 1)
+• Session 2: 2025.05.27_10.39.16.851 to 2025.05.27_10.47.50.595 (Duration: 00:08:34) (Frequency: 1)
+
+
+ERROR ID 88:
+===========
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 88: Unknown error 88
+First Occurrence: 2025.05.27_10.35.20.393
+Last Occurrence: 2025.05.27_10.55.25.602
+Error Frequency: 2 occurrences
+Event IDs: 88
+Error IDs: 88
+Total Duration: 00:20:05
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Session 1: 2025.05.27_10.35.20.393 to 2025.05.27_10.35.20.450 (Duration: 00:00:00) (Frequency: 1)
+• Session 2: 2025.05.27_10.55.24.251 to 2025.05.27_10.55.25.602 (Duration: 00:00:01) (Frequency: 1)
+
+
+ERROR ID 89:
+===========
+Total Events: 74 (Raw events)
+Actual Error Occurrences: 37
+Event Type: Error ID 89: Force sensor validation error
+First Occurrence: 2025.05.27_09.46.28.448
+Last Occurrence: 2025.05.27_10.49.08.851
+Error Frequency: 37 occurrences
+Event IDs: 89
+Error IDs: 89
+Total Duration: 01:02:40
+
+Event Sessions:
+• SUMMARY: 37 actual error occurrences (from 74 events)
+• Session 1: 2025.05.27_09.46.28.448 to 2025.05.27_09.46.28.547 (Duration: 00:00:00) (Frequency: 1)
+• Session 2: 2025.05.27_09.46.29.591 to 2025.05.27_09.46.29.748 (Duration: 00:00:00) (Frequency: 1)
+• Session 3: 2025.05.27_09.47.51.047 to 2025.05.27_09.47.51.191 (Duration: 00:00:00) (Frequency: 1)
+• Session 4: 2025.05.27_09.48.23.398 to 2025.05.27_09.48.23.441 (Duration: 00:00:00) (Frequency: 1)
+• Session 5: 2025.05.27_09.48.31.741 to 2025.05.27_09.48.31.798 (Duration: 00:00:00) (Frequency: 1)
+• Session 6: 2025.05.27_09.49.03.347 to 2025.05.27_09.49.03.448 (Duration: 00:00:00) (Frequency: 1)
+• Session 7: 2025.05.27_09.49.48.191 to 2025.05.27_09.49.48.298 (Duration: 00:00:00) (Frequency: 1)
+• Session 8: 2025.05.27_09.49.48.398 to 2025.05.27_09.49.48.440 (Duration: 00:00:00) (Frequency: 1)
+• Session 9: 2025.05.27_09.51.42.891 to 2025.05.27_09.51.42.947 (Duration: 00:00:00) (Frequency: 1)
+• Session 10: 2025.05.27_09.51.46.841 to 2025.05.27_09.51.46.991 (Duration: 00:00:00) (Frequency: 1)
+• Session 11: 2025.05.27_09.51.51.098 to 2025.05.27_09.51.51.141 (Duration: 00:00:00) (Frequency: 1)
+• Session 12: 2025.05.27_09.51.53.198 to 2025.05.27_09.51.53.241 (Duration: 00:00:00) (Frequency: 1)
+• Session 13: 2025.05.27_09.53.34.748 to 2025.05.27_09.53.34.891 (Duration: 00:00:00) (Frequency: 1)
+• Session 14: 2025.05.27_09.53.35.248 to 2025.05.27_09.53.35.391 (Duration: 00:00:00) (Frequency: 1)
+• Session 15: 2025.05.27_09.53.35.748 to 2025.05.27_09.53.35.948 (Duration: 00:00:00) (Frequency: 1)
+• Session 16: 2025.05.27_09.53.36.248 to 2025.05.27_09.53.36.391 (Duration: 00:00:00) (Frequency: 1)
+• Session 17: 2025.05.27_10.02.25.742 to 2025.05.27_10.02.26.293 (Duration: 00:00:01) (Frequency: 1)
+• Session 18: 2025.05.27_10.03.21.098 to 2025.05.27_10.03.21.198 (Duration: 00:00:00) (Frequency: 1)
+• Session 19: 2025.05.27_10.03.26.098 to 2025.05.27_10.03.26.198 (Duration: 00:00:00) (Frequency: 1)
+• Session 20: 2025.05.27_10.08.42.049 to 2025.05.27_10.08.42.249 (Duration: 00:00:00) (Frequency: 1)
+• Session 21: 2025.05.27_10.08.51.343 to 2025.05.27_10.08.51.399 (Duration: 00:00:00) (Frequency: 1)
+• Session 22: 2025.05.27_10.15.55.643 to 2025.05.27_10.15.55.799 (Duration: 00:00:00) (Frequency: 1)
+• Session 23: 2025.05.27_10.16.23.850 to 2025.05.27_10.16.24.000 (Duration: 00:00:01) (Frequency: 1)
+• Session 24: 2025.05.27_10.27.17.800 to 2025.05.27_10.27.18.307 (Duration: 00:00:01) (Frequency: 1)
+• Session 25: 2025.05.27_10.27.18.344 to 2025.05.27_10.27.19.449 (Duration: 00:00:01) (Frequency: 1)
+• Session 26: 2025.05.27_10.35.20.500 to 2025.05.27_10.35.20.543 (Duration: 00:00:00) (Frequency: 1)
+• Session 27: 2025.05.27_10.35.23.744 to 2025.05.27_10.35.23.793 (Duration: 00:00:00) (Frequency: 1)
+• Session 28: 2025.05.27_10.35.23.994 to 2025.05.27_10.35.24.043 (Duration: 00:00:01) (Frequency: 1)
+• Session 29: 2025.05.27_10.35.29.694 to 2025.05.27_10.35.29.745 (Duration: 00:00:00) (Frequency: 1)
+• Session 30: 2025.05.27_10.48.58.901 to 2025.05.27_10.48.59.101 (Duration: 00:00:01) (Frequency: 1)
+• Session 31: 2025.05.27_10.48.59.601 to 2025.05.27_10.48.59.900 (Duration: 00:00:00) (Frequency: 1)
+• Session 32: 2025.05.27_10.49.00.401 to 2025.05.27_10.49.00.651 (Duration: 00:00:00) (Frequency: 1)
+• Session 33: 2025.05.27_10.49.01.251 to 2025.05.27_10.49.01.301 (Duration: 00:00:00) (Frequency: 1)
+• Session 34: 2025.05.27_10.49.06.251 to 2025.05.27_10.49.06.301 (Duration: 00:00:00) (Frequency: 1)
+• Session 35: 2025.05.27_10.49.07.051 to 2025.05.27_10.49.07.251 (Duration: 00:00:00) (Frequency: 1)
+• Session 36: 2025.05.27_10.49.07.851 to 2025.05.27_10.49.08.051 (Duration: 00:00:01) (Frequency: 1)
+• Session 37: 2025.05.27_10.49.08.644 to 2025.05.27_10.49.08.851 (Duration: 00:00:00) (Frequency: 1)
+
+
+ERROR ID 901:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 901: System communication breakdown
+First Occurrence: 2025.05.27_08.57.59.098
+Last Occurrence: 2025.05.27_09.20.21.275
+Error Frequency: 1 occurrences
+Event IDs: 901
+Error IDs: 901
+Total Duration: 00:22:22
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Session 1: 2025.05.27_08.57.59.098 to 2025.05.27_09.20.21.275 (Duration: 00:22:22) (Frequency: 1)
+
+
+ERROR ID 912:
+============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 912: Hardware interface error
+First Occurrence: 2025.05.27_07.14.18.835
+Last Occurrence: 2025.05.27_08.57.58.796
+Error Frequency: 2 occurrences
+Event IDs: 912
+Error IDs: 912
+Total Duration: 01:43:40
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Session 1: 2025.05.27_07.14.18.835 to 2025.05.27_07.14.20.738 (Duration: 00:00:02) (Frequency: 1)
+• Session 2: 2025.05.27_07.14.20.788 to 2025.05.27_08.57.58.796 (Duration: 01:43:38) (Frequency: 1)
+
+
+ERROR ID 940:
+============
+Total Events: 8 (Raw events)
+Actual Error Occurrences: 4
+Event Type: Error ID 940: Unknown error 940
+First Occurrence: 2025.05.27_09.20.30.805
+Last Occurrence: 2025.05.27_11.00.13.880
+Error Frequency: 4 occurrences
+Event IDs: 940
+Error IDs: 940
+Total Duration: 01:39:43
+
+Event Sessions:
+• SUMMARY: 4 actual error occurrences (from 8 events)
+• Session 1: 2025.05.27_09.20.30.805 to 2025.05.27_09.20.33.347 (Duration: 00:00:03) (Frequency: 1)
+• Session 2: 2025.05.27_09.20.56.616 to 2025.05.27_09.20.58.699 (Duration: 00:00:02) (Frequency: 1)
+• Session 3: 2025.05.27_09.21.04.264 to 2025.05.27_09.21.06.432 (Duration: 00:00:02) (Frequency: 1)
+• Session 4: 2025.05.27_11.00.13.870 to 2025.05.27_11.00.13.880 (Duration: 00:00:00) (Frequency: 1)
+
+
+ERROR ID 942:
+============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 942: Unknown error 942
+First Occurrence: 2025.05.27_09.34.10.498
+Last Occurrence: 2025.05.27_11.05.37.002
+Error Frequency: 2 occurrences
+Event IDs: 942
+Error IDs: 942
+Total Duration: 01:31:27
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Session 1: 2025.05.27_09.34.10.498 to 2025.05.27_09.34.11.987 (Duration: 00:00:01) (Frequency: 1)
+• Session 2: 2025.05.27_11.00.13.880 to 2025.05.27_11.05.37.002 (Duration: 00:05:24) (Frequency: 1)
+
+
+ERROR ID 95:
+===========
+Total Events: 192 (Raw events)
+Actual Error Occurrences: 96
+Event Type: Error ID 95: Force sensor calibration error
+First Occurrence: 2025.05.27_09.51.42.847
+Last Occurrence: 2025.05.27_10.35.35.143
+Error Frequency: 96 occurrences
+Event IDs: 95
+Error IDs: 95
+Total Duration: 00:43:53
+
+Event Sessions:
+• SUMMARY: 96 actual error occurrences (from 192 events)
+• Session 1: 2025.05.27_09.51.42.847 to 2025.05.27_09.51.42.891 (Duration: 00:00:00) (Frequency: 1)
+• Session 2: 2025.05.27_09.51.42.947 to 2025.05.27_09.51.42.991 (Duration: 00:00:00) (Frequency: 1)
+• Session 3: 2025.05.27_09.51.44.248 to 2025.05.27_09.51.44.298 (Duration: 00:00:00) (Frequency: 1)
+• Session 4: 2025.05.27_09.51.49.647 to 2025.05.27_09.51.49.747 (Duration: 00:00:00) (Frequency: 1)
+• Session 5: 2025.05.27_09.51.51.056 to 2025.05.27_09.51.51.098 (Duration: 00:00:00) (Frequency: 1)
+• Session 6: 2025.05.27_09.51.51.141 to 2025.05.27_09.51.51.198 (Duration: 00:00:00) (Frequency: 1)
+• Session 7: 2025.05.27_09.51.53.141 to 2025.05.27_09.51.53.198 (Duration: 00:00:00) (Frequency: 1)
+• Session 8: 2025.05.27_09.51.54.548 to 2025.05.27_09.51.54.659 (Duration: 00:00:00) (Frequency: 1)
+• Session 9: 2025.05.27_10.32.09.379 to 2025.05.27_10.32.11.743 (Duration: 00:00:02) (Frequency: 1)
+• Session 10: 2025.05.27_10.34.34.044 to 2025.05.27_10.34.34.344 (Duration: 00:00:00) (Frequency: 1)
+• Session 11: 2025.05.27_10.34.34.394 to 2025.05.27_10.34.34.695 (Duration: 00:00:00) (Frequency: 1)
+• Session 12: 2025.05.27_10.34.34.744 to 2025.05.27_10.34.37.594 (Duration: 00:00:03) (Frequency: 1)
+• Session 13: 2025.05.27_10.34.37.644 to 2025.05.27_10.34.37.744 (Duration: 00:00:00) (Frequency: 1)
+• Session 14: 2025.05.27_10.34.37.800 to 2025.05.27_10.34.38.494 (Duration: 00:00:01) (Frequency: 1)
+• Session 15: 2025.05.27_10.34.38.550 to 2025.05.27_10.34.39.643 (Duration: 00:00:01) (Frequency: 1)
+• Session 16: 2025.05.27_10.34.39.700 to 2025.05.27_10.34.39.744 (Duration: 00:00:00) (Frequency: 1)
+• Session 17: 2025.05.27_10.34.39.800 to 2025.05.27_10.34.41.444 (Duration: 00:00:02) (Frequency: 1)
+• Session 18: 2025.05.27_10.34.41.494 to 2025.05.27_10.34.42.851 (Duration: 00:00:01) (Frequency: 1)
+• Session 19: 2025.05.27_10.34.42.893 to 2025.05.27_10.34.43.293 (Duration: 00:00:01) (Frequency: 1)
+• Session 20: 2025.05.27_10.34.43.401 to 2025.05.27_10.34.43.593 (Duration: 00:00:00) (Frequency: 1)
+• Session 21: 2025.05.27_10.34.43.650 to 2025.05.27_10.34.45.144 (Duration: 00:00:02) (Frequency: 1)
+• Session 22: 2025.05.27_10.34.45.244 to 2025.05.27_10.34.46.844 (Duration: 00:00:01) (Frequency: 1)
+• Session 23: 2025.05.27_10.34.46.901 to 2025.05.27_10.34.47.000 (Duration: 00:00:01) (Frequency: 1)
+• Session 24: 2025.05.27_10.34.47.044 to 2025.05.27_10.34.47.294 (Duration: 00:00:00) (Frequency: 1)
+• Session 25: 2025.05.27_10.34.47.343 to 2025.05.27_10.34.49.294 (Duration: 00:00:02) (Frequency: 1)
+• Session 26: 2025.05.27_10.34.49.350 to 2025.05.27_10.34.49.394 (Duration: 00:00:00) (Frequency: 1)
+• Session 27: 2025.05.27_10.34.49.494 to 2025.05.27_10.34.51.000 (Duration: 00:00:02) (Frequency: 1)
+• Session 28: 2025.05.27_10.34.51.043 to 2025.05.27_10.34.51.644 (Duration: 00:00:00) (Frequency: 1)
+• Session 29: 2025.05.27_10.34.51.694 to 2025.05.27_10.34.54.100 (Duration: 00:00:03) (Frequency: 1)
+• Session 30: 2025.05.27_10.34.54.143 to 2025.05.27_10.34.56.193 (Duration: 00:00:02) (Frequency: 1)
+• Session 31: 2025.05.27_10.34.56.243 to 2025.05.27_10.34.57.300 (Duration: 00:00:01) (Frequency: 1)
+• Session 32: 2025.05.27_10.34.57.344 to 2025.05.27_10.34.57.650 (Duration: 00:00:00) (Frequency: 1)
+• Session 33: 2025.05.27_10.34.57.694 to 2025.05.27_10.34.58.593 (Duration: 00:00:01) (Frequency: 1)
+• Session 34: 2025.05.27_10.34.58.650 to 2025.05.27_10.34.58.751 (Duration: 00:00:00) (Frequency: 1)
+• Session 35: 2025.05.27_10.34.58.850 to 2025.05.27_10.34.59.744 (Duration: 00:00:01) (Frequency: 1)
+• Session 36: 2025.05.27_10.34.59.794 to 2025.05.27_10.35.00.000 (Duration: 00:00:01) (Frequency: 1)
+• Session 37: 2025.05.27_10.35.00.043 to 2025.05.27_10.35.00.651 (Duration: 00:00:00) (Frequency: 1)
+• Session 38: 2025.05.27_10.35.00.693 to 2025.05.27_10.35.00.794 (Duration: 00:00:00) (Frequency: 1)
+• Session 39: 2025.05.27_10.35.00.850 to 2025.05.27_10.35.01.300 (Duration: 00:00:01) (Frequency: 1)
+• Session 40: 2025.05.27_10.35.01.343 to 2025.05.27_10.35.02.000 (Duration: 00:00:01) (Frequency: 1)
+• Session 41: 2025.05.27_10.35.02.101 to 2025.05.27_10.35.03.644 (Duration: 00:00:01) (Frequency: 1)
+• Session 42: 2025.05.27_10.35.03.694 to 2025.05.27_10.35.03.944 (Duration: 00:00:00) (Frequency: 1)
+• Session 43: 2025.05.27_10.35.03.994 to 2025.05.27_10.35.04.194 (Duration: 00:00:01) (Frequency: 1)
+• Session 44: 2025.05.27_10.35.04.244 to 2025.05.27_10.35.05.444 (Duration: 00:00:01) (Frequency: 1)
+• Session 45: 2025.05.27_10.35.05.501 to 2025.05.27_10.35.05.544 (Duration: 00:00:00) (Frequency: 1)
+• Session 46: 2025.05.27_10.35.05.594 to 2025.05.27_10.35.05.694 (Duration: 00:00:00) (Frequency: 1)
+• Session 47: 2025.05.27_10.35.05.743 to 2025.05.27_10.35.06.294 (Duration: 00:00:01) (Frequency: 1)
+• Session 48: 2025.05.27_10.35.06.351 to 2025.05.27_10.35.07.694 (Duration: 00:00:01) (Frequency: 1)
+• Session 49: 2025.05.27_10.35.07.744 to 2025.05.27_10.35.08.093 (Duration: 00:00:01) (Frequency: 1)
+• Session 50: 2025.05.27_10.35.08.144 to 2025.05.27_10.35.08.300 (Duration: 00:00:00) (Frequency: 1)
+• Session 51: 2025.05.27_10.35.08.344 to 2025.05.27_10.35.08.394 (Duration: 00:00:00) (Frequency: 1)
+• Session 52: 2025.05.27_10.35.08.493 to 2025.05.27_10.35.08.860 (Duration: 00:00:00) (Frequency: 1)
+• Session 53: 2025.05.27_10.35.08.894 to 2025.05.27_10.35.09.644 (Duration: 00:00:01) (Frequency: 1)
+• Session 54: 2025.05.27_10.35.09.693 to 2025.05.27_10.35.09.743 (Duration: 00:00:00) (Frequency: 1)
+• Session 55: 2025.05.27_10.35.09.794 to 2025.05.27_10.35.09.894 (Duration: 00:00:00) (Frequency: 1)
+• Session 56: 2025.05.27_10.35.09.944 to 2025.05.27_10.35.11.043 (Duration: 00:00:02) (Frequency: 1)
+• Session 57: 2025.05.27_10.35.11.094 to 2025.05.27_10.35.11.443 (Duration: 00:00:00) (Frequency: 1)
+• Session 58: 2025.05.27_10.35.11.543 to 2025.05.27_10.35.11.850 (Duration: 00:00:00) (Frequency: 1)
+• Session 59: 2025.05.27_10.35.11.901 to 2025.05.27_10.35.13.243 (Duration: 00:00:02) (Frequency: 1)
+• Session 60: 2025.05.27_10.35.13.301 to 2025.05.27_10.35.13.450 (Duration: 00:00:00) (Frequency: 1)
+• Session 61: 2025.05.27_10.35.13.519 to 2025.05.27_10.35.14.350 (Duration: 00:00:01) (Frequency: 1)
+• Session 62: 2025.05.27_10.35.14.400 to 2025.05.27_10.35.14.850 (Duration: 00:00:00) (Frequency: 1)
+• Session 63: 2025.05.27_10.35.14.900 to 2025.05.27_10.35.16.250 (Duration: 00:00:02) (Frequency: 1)
+• Session 64: 2025.05.27_10.35.16.300 to 2025.05.27_10.35.17.000 (Duration: 00:00:01) (Frequency: 1)
+• Session 65: 2025.05.27_10.35.17.050 to 2025.05.27_10.35.17.250 (Duration: 00:00:00) (Frequency: 1)
+• Session 66: 2025.05.27_10.35.17.300 to 2025.05.27_10.35.17.401 (Duration: 00:00:00) (Frequency: 1)
+• Session 67: 2025.05.27_10.35.17.450 to 2025.05.27_10.35.18.100 (Duration: 00:00:01) (Frequency: 1)
+• Session 68: 2025.05.27_10.35.18.150 to 2025.05.27_10.35.18.400 (Duration: 00:00:00) (Frequency: 1)
+• Session 69: 2025.05.27_10.35.18.500 to 2025.05.27_10.35.18.751 (Duration: 00:00:00) (Frequency: 1)
+• Session 70: 2025.05.27_10.35.18.800 to 2025.05.27_10.35.19.794 (Duration: 00:00:01) (Frequency: 1)
+• Session 71: 2025.05.27_10.35.19.843 to 2025.05.27_10.35.20.144 (Duration: 00:00:01) (Frequency: 1)
+• Session 72: 2025.05.27_10.35.20.343 to 2025.05.27_10.35.20.393 (Duration: 00:00:00) (Frequency: 1)
+• Session 73: 2025.05.27_10.35.20.450 to 2025.05.27_10.35.20.500 (Duration: 00:00:00) (Frequency: 1)
+• Session 74: 2025.05.27_10.35.20.543 to 2025.05.27_10.35.21.251 (Duration: 00:00:01) (Frequency: 1)
+• Session 75: 2025.05.27_10.35.21.350 to 2025.05.27_10.35.21.844 (Duration: 00:00:00) (Frequency: 1)
+• Session 76: 2025.05.27_10.35.21.894 to 2025.05.27_10.35.21.943 (Duration: 00:00:00) (Frequency: 1)
+• Session 77: 2025.05.27_10.35.21.993 to 2025.05.27_10.35.22.694 (Duration: 00:00:01) (Frequency: 1)
+• Session 78: 2025.05.27_10.35.22.743 to 2025.05.27_10.35.23.244 (Duration: 00:00:01) (Frequency: 1)
+• Session 79: 2025.05.27_10.35.23.294 to 2025.05.27_10.35.23.744 (Duration: 00:00:00) (Frequency: 1)
+• Session 80: 2025.05.27_10.35.23.793 to 2025.05.27_10.35.23.947 (Duration: 00:00:00) (Frequency: 1)
+• Session 81: 2025.05.27_10.35.24.043 to 2025.05.27_10.35.25.144 (Duration: 00:00:01) (Frequency: 1)
+• Session 82: 2025.05.27_10.35.25.194 to 2025.05.27_10.35.25.695 (Duration: 00:00:00) (Frequency: 1)
+• Session 83: 2025.05.27_10.35.25.744 to 2025.05.27_10.35.26.443 (Duration: 00:00:01) (Frequency: 1)
+• Session 84: 2025.05.27_10.35.26.493 to 2025.05.27_10.35.26.644 (Duration: 00:00:00) (Frequency: 1)
+• Session 85: 2025.05.27_10.35.26.694 to 2025.05.27_10.35.26.801 (Duration: 00:00:00) (Frequency: 1)
+• Session 86: 2025.05.27_10.35.26.843 to 2025.05.27_10.35.26.894 (Duration: 00:00:00) (Frequency: 1)
+• Session 87: 2025.05.27_10.35.26.978 to 2025.05.27_10.35.28.200 (Duration: 00:00:02) (Frequency: 1)
+• Session 88: 2025.05.27_10.35.28.244 to 2025.05.27_10.35.29.400 (Duration: 00:00:01) (Frequency: 1)
+• Session 89: 2025.05.27_10.35.29.450 to 2025.05.27_10.35.29.694 (Duration: 00:00:00) (Frequency: 1)
+• Session 90: 2025.05.27_10.35.29.745 to 2025.05.27_10.35.30.143 (Duration: 00:00:01) (Frequency: 1)
+• Session 91: 2025.05.27_10.35.30.201 to 2025.05.27_10.35.30.243 (Duration: 00:00:00) (Frequency: 1)
+• Session 92: 2025.05.27_10.35.30.300 to 2025.05.27_10.35.30.344 (Duration: 00:00:00) (Frequency: 1)
+• Session 93: 2025.05.27_10.35.30.401 to 2025.05.27_10.35.33.143 (Duration: 00:00:03) (Frequency: 1)
+• Session 94: 2025.05.27_10.35.33.202 to 2025.05.27_10.35.33.343 (Duration: 00:00:00) (Frequency: 1)
+• Session 95: 2025.05.27_10.35.33.393 to 2025.05.27_10.35.33.744 (Duration: 00:00:00) (Frequency: 1)
+• Session 96: 2025.05.27_10.35.33.794 to 2025.05.27_10.35.35.143 (Duration: 00:00:02) (Frequency: 1)
+
+
+ERROR ID 982:
+============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 982: Unknown error 982
+First Occurrence: 2025.05.27_07.14.51.806
+Last Occurrence: 2025.05.27_09.18.22.666
+Error Frequency: 2 occurrences
+Event IDs: 982
+Error IDs: 982
+Total Duration: 02:03:31
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Session 1: 2025.05.27_07.14.51.806 to 2025.05.27_07.14.53.794 (Duration: 00:00:02) (Frequency: 1)
+• Session 2: 2025.05.27_09.18.07.097 to 2025.05.27_09.18.22.666 (Duration: 00:00:15) (Frequency: 1)
+
+
+ERROR ID 996:
+============
+Total Events: 12 (Raw events)
+Actual Error Occurrences: 6
+Event Type: Error ID 996: Unknown error 996
+First Occurrence: 2025.05.27_07.14.53.794
+Last Occurrence: 2025.05.27_09.18.07.097
+Error Frequency: 6 occurrences
+Event IDs: 996
+Error IDs: 996
+Total Duration: 02:03:14
+
+Event Sessions:
+• SUMMARY: 6 actual error occurrences (from 12 events)
+• Session 1: 2025.05.27_07.14.53.794 to 2025.05.27_07.15.00.539 (Duration: 00:00:07) (Frequency: 1)
+• Session 2: 2025.05.27_08.58.08.045 to 2025.05.27_08.58.10.747 (Duration: 00:00:02) (Frequency: 1)
+• Session 3: 2025.05.27_08.58.11.398 to 2025.05.27_08.58.12.496 (Duration: 00:00:01) (Frequency: 1)
+• Session 4: 2025.05.27_08.58.12.797 to 2025.05.27_08.58.19.397 (Duration: 00:00:07) (Frequency: 1)
+• Session 5: 2025.05.27_08.58.19.899 to 2025.05.27_08.58.26.897 (Duration: 00:00:07) (Frequency: 1)
+• Session 6: 2025.05.27_09.18.06.398 to 2025.05.27_09.18.07.097 (Duration: 00:00:01) (Frequency: 1)
+

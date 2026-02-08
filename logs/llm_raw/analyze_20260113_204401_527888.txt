@@ -1,0 +1,245 @@
+}
+
+ANSWER:
+```json
+{
+  "issue_id": "PC-001927524",
+  "issue_title": "Unknown error 278",
+  "severity": "3",
+  "target_error_id": "278",
+  "evidence": [
+    {"evidence_id": "E2", "claim": "Error ID 278: Unknown error 278 occurred 4 times."},
+    {"evidence_id": "E14", "claim": "Error ID 278: Unknown error 278 occurred 6 times in a different case."},
+    {"evidence_id": "E15", "claim": "Error ID 278: Unknown error 278 occurred 2 times in a different case."},
+    {"evidence_id": "E13", "claim": "Error and warning events occurred 2362 times."},
+    {"evidence_id": "E16", "claim": "Error and warning events occurred 1022 times in a different case."},
+    {"evidence_id": "E17", "claim": "Error and warning events occurred 1484 times in a different case."}
+  ],
+  "probable_root_causes": [
+    "The catheter may be malfunctioning, causing the error.",
+    "The system may be experiencing a software issue, causing the error."
+  ],
+  "proposed_fix_plan": [
+    "Replace the catheter or check its functionality.",
+    "Update the system software or restart the system."
+  ],
+  "verification_rule": "Needs human review due to uncertainty.",
+  "requested_event_keys": ["1115,304"],
+  "requested_event_types": ["Error and warning events"]
+}
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```json
+``` ```

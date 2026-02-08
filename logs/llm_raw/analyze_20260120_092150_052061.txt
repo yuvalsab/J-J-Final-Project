@@ -1,0 +1,123 @@
+}
+
+
+Return a JSON object with the following structure:
+{"issue_id": "string", "issue_title": "string", "severity": "1|2|3", "target_error_id": "string", "evidence": [{"evidence_id": "E#", "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...)"}], "probable_root_causes": ["ONE complete sentence, max 140 chars"], "proposed_fix_plan": ["ONE complete sentence, max 140 chars"], "verification_rule": "string", "requested_event_keys": ["string(optional)"], "requested_event_types": ["string(optional)"]}
+
+Note: The JSON object should only contain the required keys and values. The "evidence" key should contain at least one valid evidence item. If there are no valid evidence items, the "probable_root_causes" and "proposed_fix_plan" keys should contain hypothesis-only guidance and the "verification_rule" key should indicate that the issue needs human review. 
+
+Here is a sample JSON object:
+{"issue_id": "PC-001927524", "issue_title": "Target Error 1", "severity": "2", "target_error_id": "1", "evidence": [{"evidence_id": "E1", "claim": "The procedure had no system versions."}], "probable_root_causes": ["The catheter's capabilities may be the root cause."], "proposed_fix_plan": ["Check the catheter's capabilities and update the system versions."], "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=unknown_evidence).", "requested_event_keys": ["1115,304"], "requested_event_types": ["Error and warning events"]}
+
+Please provide the JSON object based on the given evidence map and the provided payload. 
+
+```json
+{
+  "issue_id": "PC-001927524",
+  "issue_title": "Target Error 1",
+  "severity": "2",
+  "target_error_id": "1",
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "claim": "The procedure had no system versions."
+    },
+    {
+      "evidence_id": "E2",
+      "claim": "There were 4 occurrences of the target error."
+    }
+  ],
+  "probable_root_causes": [
+    "The catheter's capabilities may be the root cause.",
+    "The catheter's electrodes may be the root cause."
+  ],
+  "proposed_fix_plan": [
+    "Check the catheter's capabilities and update the system versions.",
+    "Check the catheter's electrodes and update the system versions."
+  ],
+  "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=unknown_evidence).",
+  "requested_event_keys": ["1115,304"],
+  "requested_event_types": ["Error and warning events"]
+}
+```
+
+
+```json
+{
+  "issue_id": "PC-001927524",
+  "issue_title": "Target Error 1",
+  "severity": "2",
+  "target_error_id": "1",
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "claim": "The procedure had no system versions."
+    },
+    {
+      "evidence_id": "E2",
+      "claim": "There were 4 occurrences of the target error."
+    }
+  ],
+  "probable_root_causes": [
+    "The catheter's capabilities may be the root cause.",
+    "The catheter's electrodes may be the root cause."
+  ],
+  "proposed_fix_plan": [
+    "Check the catheter's capabilities and update the system versions.",
+    "Check the catheter's electrodes and update the system versions."
+  ],
+  "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=unknown_evidence).",
+  "requested_event_keys": ["1115,304"],
+  "requested_event_types": ["Error and warning events"]
+}
+```
+
+
+```json
+{
+  "issue_id": "PC-001927524",
+  "issue_title": "Target Error 1",
+  "severity": "2",
+  "target_error_id": "1",
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "claim": "The procedure had no system versions."
+    },
+    {
+      "evidence_id": "E2",
+      "claim": "There were 4 occurrences of the target error."
+    }
+  ],
+  "probable_root_causes": [
+    "The catheter's capabilities may be the root cause.",
+    "The catheter's electrodes may be the root cause."
+  ],
+  "proposed_fix_plan": [
+    "Check the catheter's capabilities and update the system versions.",
+    "Check the catheter's electrodes and update the system versions."
+  ],
+  "verification_rule": "NEEDS_HUMAN_REVIEW: insufficient evidence for verified RCA (reason=unknown_evidence).",
+  "requested_event_keys": ["1115,304"],
+  "requested_event_types": ["Error and warning events"]
+}
+```
+
+
+```json
+{
+  "issue_id": "PC-001927524",
+  "issue_title": "Target Error 1",
+  "severity": "2",
+  "target_error_id": "1",
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "claim": "The procedure had no system versions."
+    },
+    {
+      "evidence_id": "E2",
+      "claim": "There were 4 occurrences of the target error."
+    }
+  ],
+  "probable_root_causes

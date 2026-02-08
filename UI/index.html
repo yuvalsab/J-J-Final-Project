@@ -1,0 +1,1773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CARTO 3 RCA Report (Rich)</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    :root{
+      --primary:#0b5ed7;
+      --primary-2:#0a58ca;
+      --primary-light:#e8f1ff;
+      --secondary:#2c3e50;
+      --accent:#e74c3c;
+      --success:#2ecc71;
+      --warning:#f39c12;
+      --danger:#dc3545;
+      --critical:#8b0000;
+      --bg:#f4f7fb;
+      --card:#ffffff;
+      --muted:#6c757d;
+      --border:rgba(0,0,0,0.08);
+      --shadow:0 10px 24px rgba(13, 38, 76, 0.08);
+      --shadow2:0 6px 16px rgba(13, 38, 76, 0.10);
+      --radius:14px;
+    }
+
+    body{
+      background: radial-gradient(1200px 600px at 80% -10%, rgba(11,94,215,0.10), transparent 60%),
+                  radial-gradient(900px 500px at 10% 0%, rgba(46,204,113,0.06), transparent 55%),
+                  var(--bg);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      font-size: 14px;
+      color:#0b1b33;
+    }
+
+    .header{
+      background: linear-gradient(135deg, #0b5ed7, #063a8b);
+      color:#fff;
+      padding: 1.35rem 0 1.15rem;
+      position: sticky;
+      top: 0;
+      z-index: 1020;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+    }
+
+    .brand-title{
+      letter-spacing: 0.2px;
+      font-weight: 800;
+      font-size: 28px;
+      margin-bottom: 2px;
+      line-height: 1.15;
+    }
+
+    .headerSub{
+      opacity: 0.88;
+      font-size: 13px;
+    }
+
+    .mono{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .muted{ color: rgba(255,255,255,0.86); }
+    .muted2{ color: var(--muted); }
+
+    .card{
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      background: var(--card);
+      overflow: hidden;
+    }
+
+    .card-header{
+      background: linear-gradient(180deg, rgba(11,94,215,0.10), rgba(11,94,215,0.04));
+      border-bottom: 1px solid var(--border);
+      color: var(--primary-2);
+      font-weight: 800;
+    }
+
+    .soft{
+      background: rgba(255,255,255,0.70);
+      border: 1px solid rgba(0,0,0,0.06);
+      border-radius: 12px;
+    }
+
+    .nav-tabs{
+      border-bottom: 0;
+      gap: 10px;
+      background: rgba(255,255,255,0.50);
+      padding: 10px;
+      border-radius: 14px;
+      border: 1px solid rgba(0,0,0,0.06);
+      box-shadow: var(--shadow2);
+    }
+    .nav-tabs .nav-link{
+      border-radius: 12px !important;
+      border: 1px solid rgba(0,0,0,0.08);
+      color: #0b335f;
+      font-weight: 700;
+      padding: 10px 14px;
+      background: rgba(255,255,255,0.70);
+    }
+    .nav-tabs .nav-link:hover{
+      background: rgba(11,94,215,0.08);
+      border-color: rgba(11,94,215,0.25);
+    }
+    .nav-tabs .nav-link.active{
+      background: linear-gradient(135deg, rgba(11,94,215,0.95), rgba(11,94,215,0.78));
+      color: #fff;
+      border-color: rgba(255,255,255,0.22);
+      box-shadow: 0 10px 18px rgba(11,94,215,0.25);
+    }
+
+    .kpi{
+      border-radius: 16px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(255,255,255,0.65));
+      border: 1px solid rgba(0,0,0,0.06);
+      box-shadow: var(--shadow2);
+      padding: 14px 14px;
+      height: 100%;
+    }
+    .kpi .label{ color:#4b617a; font-weight: 700; font-size: 12px; }
+    .kpi .value{ font-weight: 900; font-size: 22px; letter-spacing: 0.2px; }
+    .kpi .sub{ color:#6c7a89; font-size: 12px; }
+
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(0,0,0,0.10);
+      background: rgba(255,255,255,0.70);
+      font-size: 12px;
+      font-weight: 800;
+      color:#0b335f;
+      user-select: none;
+      white-space: nowrap;
+    }
+    .pill .dot{
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #94a3b8;
+      display: inline-block;
+      box-shadow: 0 0 0 3px rgba(148,163,184,0.25);
+    }
+    .pill.success .dot{ background: var(--success); box-shadow: 0 0 0 3px rgba(46,204,113,0.20); }
+    .pill.warning .dot{ background: var(--warning); box-shadow: 0 0 0 3px rgba(243,156,18,0.20); }
+    .pill.danger  .dot{ background: var(--danger);  box-shadow: 0 0 0 3px rgba(220,53,69,0.20); }
+
+    .top-controls{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content:flex-end;
+    }
+
+    .case-pill{
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.25);
+      color: white;
+      border-radius: 999px;
+      padding: 7px 11px;
+      font-size: 12px;
+      cursor: pointer;
+      user-select: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .case-pill .badge{
+      font-weight: 900;
+      border-radius: 999px;
+      padding: 4px 8px;
+      background: rgba(255,255,255,0.14);
+      border: 1px solid rgba(255,255,255,0.20);
+    }
+    .case-pill.active{
+      background: rgba(255,255,255,0.26);
+      border-color: rgba(255,255,255,0.55);
+      font-weight: 900;
+    }
+    .pill-muted{
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.18);
+      color: rgba(255,255,255,0.94);
+      border-radius: 999px;
+      padding: 7px 11px;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .hidden{ display:none !important; }
+
+    .section-title{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .section-title h5{
+      margin:0;
+      font-weight: 900;
+      color:#0b335f;
+      letter-spacing: 0.2px;
+    }
+    .section-title .right{
+      display:flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .alert-soft{
+      border-radius: 14px;
+      border: 1px solid rgba(0,0,0,0.06);
+      background: rgba(255,255,255,0.70);
+      box-shadow: var(--shadow2);
+    }
+    .alert-soft.success{ border-color: rgba(46,204,113,0.25); background: rgba(46,204,113,0.08); }
+    .alert-soft.warning{ border-color: rgba(243,156,18,0.25); background: rgba(243,156,18,0.08); }
+    .alert-soft.danger{ border-color: rgba(220,53,69,0.25); background: rgba(220,53,69,0.07); }
+
+    .table{
+      border-color: rgba(0,0,0,0.08);
+    }
+    .table thead th{
+      background: rgba(11,94,215,0.08);
+      color:#0b335f;
+      font-weight: 900;
+      border-bottom: 1px solid rgba(0,0,0,0.08);
+    }
+
+    .chip{
+      display:inline-flex;
+      align-items:center;
+      gap: 8px;
+      padding: 7px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(0,0,0,0.10);
+      background: rgba(255,255,255,0.75);
+      font-size: 12px;
+      font-weight: 800;
+      color:#0b335f;
+      margin: 4px 6px 0 0;
+    }
+    .chip small{ color:#59718b; font-weight: 800; }
+
+    .metric-grid{
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 12px;
+    }
+    .metric-grid > div{ grid-column: span 3; }
+    @media (max-width: 992px){
+      .metric-grid > div{ grid-column: span 6; }
+    }
+    @media (max-width: 576px){
+      .metric-grid > div{ grid-column: span 12; }
+    }
+
+    .timeline-container{
+      position: relative;
+      padding-left: 2.25rem;
+    }
+    .timeline-line{
+      position:absolute;
+      left: 1.05rem;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(180deg, rgba(11,94,215,0.75), rgba(11,94,215,0.15));
+    }
+    .timeline-item{
+      position: relative;
+      margin-bottom: 1rem;
+      border-radius: 14px;
+      border: 1px solid rgba(0,0,0,0.06);
+      box-shadow: var(--shadow2);
+      background: rgba(255,255,255,0.82);
+      padding: 12px 12px 10px;
+    }
+    .timeline-item::before{
+      content:'';
+      position:absolute;
+      left: -2.55rem;
+      top: 16px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: rgba(148,163,184,1);
+      border: 3px solid rgba(255,255,255,1);
+      box-shadow: 0 0 0 3px rgba(148,163,184,0.22);
+    }
+    .timeline-item.success::before{ background: var(--success); box-shadow: 0 0 0 3px rgba(46,204,113,0.22); }
+    .timeline-item.warning::before{ background: var(--warning); box-shadow: 0 0 0 3px rgba(243,156,18,0.22); }
+    .timeline-item.danger::before{ background: var(--danger); box-shadow: 0 0 0 3px rgba(220,53,69,0.22); }
+
+    .timeline-time{
+      font-weight: 900;
+      color:#0b335f;
+      font-size: 12px;
+    }
+    .timeline-title{
+      font-weight: 900;
+      margin: 6px 0 6px;
+      font-size: 14px;
+      color:#0b335f;
+    }
+    .timeline-details{
+      color:#3a4d63;
+      font-size: 12px;
+      white-space: pre-line;
+    }
+
+    .kv{
+      display:grid;
+      grid-template-columns: 140px 1fr;
+      gap: 6px 10px;
+      font-size: 13px;
+    }
+    .kv .k{ color:#5a7088; font-weight: 800; }
+    .kv .v{ color:#0b1b33; font-weight: 800; word-break: break-word; }
+
+    .hardware-data{
+      background: rgba(11,94,215,0.05);
+      border: 1px solid rgba(11,94,215,0.10);
+      border-radius: 12px;
+      padding: 10px 12px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 12px;
+      white-space: pre-wrap;
+      word-break: break-word;
+      margin: 0;
+    }
+
+    .btn-ghost{
+      background: rgba(255,255,255,0.70);
+      border: 1px solid rgba(0,0,0,0.10);
+      border-radius: 12px;
+      font-weight: 800;
+    }
+    .btn-ghost:hover{
+      background: rgba(11,94,215,0.08);
+      border-color: rgba(11,94,215,0.25);
+    }
+
+    .mini{
+      font-size: 12px;
+      color:#5a7088;
+      font-weight: 800;
+    }
+
+    .badge-soft{
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-weight: 900;
+      letter-spacing: 0.2px;
+      border: 1px solid rgba(0,0,0,0.10);
+      background: rgba(255,255,255,0.60);
+      color:#0b335f;
+      display: inline-flex;
+      align-items:center;
+      gap:8px;
+    }
+    .badge-soft .dot{
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #94a3b8;
+      box-shadow: 0 0 0 3px rgba(148,163,184,0.18);
+    }
+    .badge-soft.success .dot{ background: var(--success); box-shadow: 0 0 0 3px rgba(46,204,113,0.18); }
+    .badge-soft.warning .dot{ background: var(--warning); box-shadow: 0 0 0 3px rgba(243,156,18,0.18); }
+    .badge-soft.danger  .dot{ background: var(--danger);  box-shadow: 0 0 0 3px rgba(220,53,69,0.18); }
+
+    .divider{
+      height: 1px;
+      background: rgba(0,0,0,0.07);
+      margin: 12px 0;
+    }
+
+    .accordion-button{
+      font-weight: 900;
+      color:#0b335f;
+      background: rgba(255,255,255,0.75);
+    }
+    .accordion-item{
+      border-radius: 14px !important;
+      overflow: hidden;
+      border: 1px solid rgba(0,0,0,0.08);
+      box-shadow: var(--shadow2);
+      background: rgba(255,255,255,0.70);
+      margin-bottom: 10px;
+    }
+    .accordion-button:not(.collapsed){
+      background: rgba(11,94,215,0.08);
+      color:#0b335f;
+    }
+
+    .searchbox{
+      border-radius: 12px;
+      border: 1px solid rgba(0,0,0,0.10);
+      background: rgba(255,255,255,0.70);
+      padding: 10px 12px;
+      font-weight: 700;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col-lg-7">
+          <div class="brand-title">CARTO 3 RCA Report</div>
+          <div class="headerSub" id="headerSubline">Load JSON or fetch from Mongo via API.</div>
+          <div class="mt-3 d-flex gap-2 flex-wrap" id="headerBadges"></div>
+        </div>
+
+        <div class="col-lg-5 text-end mt-3 mt-lg-0">
+          <div class="top-controls">
+            <label class="btn btn-light btn-sm mb-0" id="btnLoadJson" style="border-radius:12px;font-weight:800;">
+              Load JSON
+              <input id="jsonFile" type="file" accept=".json,application/json" hidden />
+            </label>
+
+            <input id="procInput" class="form-control form-control-sm" style="max-width:190px;border-radius:12px;font-weight:800;" placeholder="procedure_id" />
+            <button id="fetchLatestBtn" class="btn btn-warning btn-sm" style="border-radius:12px;font-weight:900;">Fetch Latest</button>
+
+            <select id="caseSelect" class="form-select form-select-sm" style="max-width: 220px;border-radius:12px;font-weight:900;"></select>
+          </div>
+
+          <div class="row text-center mt-3">
+            <div class="col-6">
+              <div style="font-weight:900;font-size:16px;" id="lightningName">—</div>
+              <div class="muted">Lightning</div>
+            </div>
+            <div class="col-6">
+              <div style="font-weight:900;font-size:16px;" id="procedureId">—</div>
+              <div class="muted">Procedure</div>
+            </div>
+          </div>
+
+          <div class="mt-2 d-flex justify-content-end gap-2 flex-wrap">
+            <div id="runModePill" class="pill-muted hidden">RUN MODE: EMBEDDED</div>
+            <div id="casePills" class="d-flex justify-content-end gap-2 flex-wrap"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-4 pb-5">
+    <div id="noDataAlert" class="alert alert-soft" style="padding:16px;">
+      <div style="font-weight:900;font-size:16px;">No data loaded.</div>
+      <div class="muted2">Load a JSON file or fetch from Mongo to render a richer report.</div>
+    </div>
+
+    <ul class="nav nav-tabs mb-3" id="myTab" role="tablist" style="display:none;">
+      <li class="nav-item" role="presentation"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#overview" type="button">📊 Overview</button></li>
+      <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#timeline" type="button">⏱️ Timeline</button></li>
+      <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#error-analysis" type="button">⚠️ Error Analysis</button></li>
+      <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#root-cause" type="button">🔍 Root Cause</button></li>
+      <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#evidence" type="button">🧾 Evidence</button></li>
+      <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#raw" type="button">🧬 Raw JSON</button></li>
+    </ul>
+
+    <div class="tab-content" id="myTabContent" style="display:none;">
+      <div class="tab-pane fade show active" id="overview" role="tabpanel"><div id="overviewRoot"></div></div>
+      <div class="tab-pane fade" id="timeline" role="tabpanel"><div id="timelineRoot"></div></div>
+      <div class="tab-pane fade" id="error-analysis" role="tabpanel"><div id="errorRoot"></div></div>
+      <div class="tab-pane fade" id="root-cause" role="tabpanel"><div id="rootCauseRoot"></div></div>
+      <div class="tab-pane fade" id="evidence" role="tabpanel"><div id="evidenceRoot"></div></div>
+      <div class="tab-pane fade" id="raw" role="tabpanel"><div id="rawRoot"></div></div>
+    </div>
+  </div>
+
+  <script>
+    let REPORT = null
+    let CURRENT_CASE_KEY = "case1"
+    const CHARTS = new Map()
+
+    const $ = (id) => document.getElementById(id)
+
+    function esc(s){
+      return String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;" }[c]))
+    }
+    function asArray(x){ return Array.isArray(x) ? x : (x ? [x] : []) }
+    function isObj(x){ return x && typeof x === "object" && !Array.isArray(x) }
+    function clamp(n, a, b){ return Math.max(a, Math.min(b, n)) }
+
+    function statusTone(status){
+      if (status === "SUCCESS") return "success"
+      if (status === "NEEDS_HUMAN_REVIEW") return "warning"
+      return "danger"
+    }
+
+    function toBadgeSoft(status){
+      const t = statusTone(status)
+      return `<span class="badge-soft ${t}"><span class="dot"></span>${esc(status || "UNKNOWN")}</span>`
+    }
+
+    function tabShow(){
+      $("noDataAlert").style.display = "none"
+      $("myTab").style.display = ""
+      $("myTabContent").style.display = ""
+    }
+
+    function readJsonFile(file){
+      return new Promise((resolve, reject) => {
+        const r = new FileReader()
+        r.onload = () => { try { resolve(JSON.parse(r.result)) } catch(e){ reject(e) } }
+        r.onerror = reject
+        r.readAsText(file)
+      })
+    }
+
+    function normalizeReport(json){
+      return json || {}
+    }
+
+    function getCaseKeys(report){
+      const keys = []
+      if (report && typeof report === "object"){
+        Object.keys(report).forEach(k => {
+          if (/^case\d+$/i.test(k) && isObj(report[k])) keys.push(k)
+        })
+        if (!keys.length){
+          if (report.case1) keys.push("case1")
+          if (report.case2) keys.push("case2")
+        }
+      }
+      keys.sort((a,b) => a.localeCompare(b, undefined, { numeric: true }))
+      return keys.length ? keys : ["case1"]
+    }
+
+    function setHeader(report){
+      $("lightningName").textContent = report.lightning_name || "—"
+      $("procedureId").textContent = report.procedure_id || "—"
+
+      const ts = report.run_timestamp_utc || ""
+      const iters = report.config?.max_iters ?? ""
+      const w = report.config ? `weights(f=${report.config.weight_freq}, d=${report.config.weight_dur}, r=${report.config.weight_recency})` : ""
+      $("headerSubline").textContent = [ts ? `Run: ${ts}` : "", iters !== "" ? `max_iters=${iters}` : "", w].filter(Boolean).join(" · ")
+
+      const badges = []
+      const keys = getCaseKeys(report)
+      const totalCases = keys.length
+      const statuses = keys.map(k => report[k]?.decision?.status).filter(Boolean)
+      const ok = statuses.filter(s => s === "SUCCESS").length
+      const hr = statuses.filter(s => s === "NEEDS_HUMAN_REVIEW").length
+      badges.push(`<span class="pill"><span class="dot"></span>Cases: ${esc(totalCases)}</span>`)
+      badges.push(`<span class="pill success"><span class="dot"></span>SUCCESS: ${esc(ok)}</span>`)
+      badges.push(`<span class="pill warning"><span class="dot"></span>HUMAN_REVIEW: ${esc(hr)}</span>`)
+      if (report.config){
+        badges.push(`<span class="pill"><span class="dot"></span>evidence_item_max_tokens: ${esc(report.config.evidence_item_max_tokens ?? "—")}</span>`)
+      }
+      $("headerBadges").innerHTML = badges.join("")
+    }
+
+    function buildCaseSelect(report){
+      const keys = getCaseKeys(report)
+      const sel = $("caseSelect")
+      sel.innerHTML = ""
+      keys.forEach(k => {
+        const d = report[k]?.decision || {}
+        const errId = d.target_error_id ?? "—"
+        const status = d.status ?? "—"
+        const opt = document.createElement("option")
+        opt.value = k
+        opt.textContent = `${k} · Error ${errId} · ${status}`
+        sel.appendChild(opt)
+      })
+      if (!keys.includes(CURRENT_CASE_KEY)) CURRENT_CASE_KEY = keys[0]
+      sel.value = CURRENT_CASE_KEY
+    }
+
+    function buildCasePills(report){
+      const root = $("casePills")
+      root.innerHTML = ""
+      const keys = getCaseKeys(report)
+      keys.forEach(k => {
+        const d = report[k]?.decision || {}
+        const errId = d.target_error_id ?? "—"
+        const status = d.status ?? "—"
+        const tone = statusTone(status)
+        const pill = document.createElement("div")
+        pill.className = "case-pill" + (k === CURRENT_CASE_KEY ? " active" : "")
+        pill.innerHTML = `<span>${esc(k)} · ${esc(errId)}</span><span class="badge">${esc(status)}</span>`
+        pill.onclick = () => {
+          CURRENT_CASE_KEY = k
+          $("caseSelect").value = k
+          renderAll()
+          buildCasePills(REPORT)
+        }
+        root.appendChild(pill)
+      })
+    }
+
+    function getCase(report, caseKey){
+      return report?.[caseKey] || {}
+    }
+
+    function getDecision(report, caseKey){
+      return getCase(report, caseKey)?.decision || {}
+    }
+
+    function getRelatedEvents(report, caseKey){
+      const rel = asArray(getCase(report, caseKey)?.related_events)
+      return rel.filter(x => isObj(x))
+    }
+
+    function parseFirstIntFromText(text){
+      const m = String(text || "").match(/(\d+)/)
+      return m ? parseInt(m[1], 10) : null
+    }
+
+    function parseOccurrencesFromEvidence(evidenceArr){
+      const e = asArray(evidenceArr)
+      for (const item of e){
+        const claim = item?.claim || ""
+        if (/occurrences/i.test(claim)){
+          const n = parseFirstIntFromText(claim)
+          if (Number.isFinite(n)) return n
+        }
+      }
+      return null
+    }
+
+    function summarizeRelatedEvents(related){
+      const keys = new Set()
+      const types = new Set()
+      let sumTotalEvents = 0
+      let hasTotal = 0
+      const durations = []
+      let first = null
+      let last = null
+
+      related.forEach(ev => {
+        if (ev.event_key) keys.add(String(ev.event_key))
+        if (ev.event_type) types.add(String(ev.event_type))
+        const te = parseFirstIntFromText(ev.total_events)
+        if (Number.isFinite(te)){
+          sumTotalEvents += te
+          hasTotal++
+        }
+        if (ev.total_duration) durations.push(String(ev.total_duration))
+        const fo = ev.first_occurrence ? String(ev.first_occurrence) : null
+        const lo = ev.last_occurrence ? String(ev.last_occurrence) : null
+        if (fo && (!first || fo < first)) first = fo
+        if (lo && (!last || lo > last)) last = lo
+      })
+
+      return {
+        unique_keys: keys.size,
+        unique_types: types.size,
+        keys: Array.from(keys),
+        types: Array.from(types),
+        sum_total_events: hasTotal ? sumTotalEvents : null,
+        durations,
+        first,
+        last
+      }
+    }
+
+    function getQualityMeta(decision){
+      const qm = decision?.quality_meta
+      return isObj(qm) ? qm : null
+    }
+
+    function evidenceCoverage(report, caseKey){
+      const d = getDecision(report, caseKey)
+      const evidence = asArray(d.evidence)
+      const ids = evidence.map(x => x?.evidence_id || x?.id).filter(Boolean)
+      const evidenceMap = report.evidence_map || report.evidenceMap
+      if (!evidenceMap) return { haveMap: false, covered: 0, total: ids.length, pct: 0, missing: ids }
+      const byId = new Map(asArray(evidenceMap).map(x => [x?.id, x]).filter(x => x[0]))
+      const covered = ids.filter(id => byId.has(id)).length
+      const missing = ids.filter(id => !byId.has(id))
+      const total = ids.length
+      const pct = total ? Math.round((covered / total) * 100) : 0
+      return { haveMap: true, covered, total, pct, missing }
+    }
+
+    function caseCompletenessScore(report, caseKey){
+      const d = getDecision(report, caseKey)
+      const rel = getRelatedEvents(report, caseKey)
+      const cov = evidenceCoverage(report, caseKey)
+      const qm = getQualityMeta(d)
+      let score = 0
+      let max = 7
+
+      const hasEvidence = asArray(d.evidence).length > 0
+      const hasRoot = asArray(d.probable_root_causes).length > 0
+      const hasPlan = asArray(d.proposed_fix_plan).length > 0
+      const hasRel = rel.length > 0
+      const hasRule = !!d.verification_rule
+      const hasQm = !!qm
+      const hasMap = cov.haveMap
+
+      score += hasEvidence ? 1 : 0
+      score += hasRoot ? 1 : 0
+      score += hasPlan ? 1 : 0
+      score += hasRel ? 1 : 0
+      score += hasRule ? 1 : 0
+      score += hasQm ? 1 : 0
+      score += hasMap ? 1 : 0
+
+      const pct = Math.round((score / max) * 100)
+      return { score, max, pct }
+    }
+
+    function confidenceFromQualityMeta(decision){
+      const qm = getQualityMeta(decision)
+      if (!qm) return null
+      const min = qm.min
+      const usedOk = asArray(qm.used_ok)
+      if (!Number.isFinite(min)) return null
+      const ratio = min ? clamp(usedOk.length / min, 0, 1) : 0
+      return Math.round(ratio * 100)
+    }
+
+    function buildTopSummaryBadges(report, caseKey){
+      const d = getDecision(report, caseKey)
+      const related = getRelatedEvents(report, caseKey)
+      const relSum = summarizeRelatedEvents(related)
+      const cov = evidenceCoverage(report, caseKey)
+
+      const chips = []
+      chips.push(`<span class="chip"><small>Target Error</small>${esc(d.target_error_id ?? "—")}</span>`)
+      chips.push(`<span class="chip"><small>Severity</small>${esc(d.severity ?? "—")}</span>`)
+      chips.push(`<span class="chip"><small>Status</small>${toBadgeSoft(d.status)}</span>`)
+      chips.push(`<span class="chip"><small>Related Events</small>${esc(related.length)}</span>`)
+      chips.push(`<span class="chip"><small>Event Keys</small>${esc(relSum.unique_keys)}</span>`)
+      chips.push(`<span class="chip"><small>Event Types</small>${esc(relSum.unique_types)}</span>`)
+      chips.push(`<span class="chip"><small>Evidence Traceability</small>${cov.haveMap ? esc(cov.pct + "%") : "No map"}</span>`)
+      return chips.join("")
+    }
+
+    function renderOverview(report, caseKey){
+      const root = $("overviewRoot")
+      const c = getCase(report, caseKey)
+      const d = getDecision(report, caseKey)
+      const verify = c.verify || {}
+      const action = c.action_doc || {}
+      const rel = getRelatedEvents(report, caseKey)
+      const relSum = summarizeRelatedEvents(rel)
+
+      const status = d.status || "UNKNOWN"
+      const sev = d.severity ?? action.severity ?? "—"
+      const errId = d.target_error_id ?? "—"
+      const issue = d.issue_title || d.issue_id || "—"
+      const occ = parseOccurrencesFromEvidence(d.evidence)
+
+      const evidenceCount = asArray(d.evidence).length
+      const rcCount = asArray(d.probable_root_causes).length
+      const planCount = asArray(d.proposed_fix_plan).length
+
+      const cov = evidenceCoverage(report, caseKey)
+      const comp = caseCompletenessScore(report, caseKey)
+      const conf = confidenceFromQualityMeta(d)
+
+      const requestedKeys = asArray(d.requested_event_keys)
+      const requestedTypes = asArray(d.requested_event_types)
+
+      const rule = d.verification_rule || "—"
+      const humanAlert = (d.human_alert ?? action.human_alert ?? false) ? "true" : "false"
+
+      const compare = getCaseKeys(report).map(k => {
+        const dd = getDecision(report, k)
+        const r = getRelatedEvents(report, k)
+        const rr = summarizeRelatedEvents(r)
+        const cv = evidenceCoverage(report, k)
+        const cc = caseCompletenessScore(report, k)
+        return {
+          k,
+          status: dd.status || "UNKNOWN",
+          err: dd.target_error_id ?? "—",
+          sev: dd.severity ?? "—",
+          rel: r.length,
+          keys: rr.unique_keys,
+          types: rr.unique_types,
+          cov: cv.haveMap ? cv.pct : null,
+          comp: cc.pct
+        }
+      })
+
+      root.innerHTML = `
+        <div class="card">
+          <div class="card-header">
+            <div class="section-title">
+              <h5>Executive Summary</h5>
+              <div class="right">
+                <button class="btn btn-ghost btn-sm" onclick="copyText(window.location.href)">Copy Link</button>
+                <button class="btn btn-ghost btn-sm" onclick="downloadJson()">Export JSON</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="alert alert-soft ${statusTone(status)}">
+              <div class="d-flex flex-wrap justify-content-between align-items-start gap-2">
+                <div>
+                  <div style="font-weight:900;font-size:16px;">
+                    ${esc(caseKey)} · <span class="mono">Error ${esc(errId)}</span> · Severity ${esc(sev)}
+                  </div>
+                  <div class="mt-1 mini">
+                    Issue: <span class="mono">${esc(issue)}</span> · Human Alert: <span class="mono">${esc(humanAlert)}</span>
+                  </div>
+                </div>
+                <div class="d-flex flex-wrap gap-2 justify-content-end align-items-center">
+                  ${toBadgeSoft(status)}
+                  <span class="badge-soft ${cov.haveMap ? "success" : "warning"}"><span class="dot"></span>Traceability: ${cov.haveMap ? esc(cov.pct + "%") : "missing evidence_map"}</span>
+                  <span class="badge-soft"><span class="dot"></span>Completeness: ${esc(comp.pct)}%</span>
+                  ${conf !== null ? `<span class="badge-soft"><span class="dot"></span>Quality Confidence: ${esc(conf)}%</span>` : ``}
+                </div>
+              </div>
+
+              <div class="divider"></div>
+
+              <div class="kv">
+                <div class="k">Verification Rule</div>
+                <div class="v">${esc(rule)}</div>
+                <div class="k">Run Timestamp</div>
+                <div class="v mono">${esc(report.run_timestamp_utc || "—")}</div>
+                <div class="k">Model / Source</div>
+                <div class="v">${esc(action.source || d.source || "—")}</div>
+              </div>
+            </div>
+
+            <div class="soft p-3 mb-3">
+              <div class="section-title">
+                <h5>Case Snapshot</h5>
+                <div class="right">${buildTopSummaryBadges(report, caseKey)}</div>
+              </div>
+
+              <div class="metric-grid">
+                <div class="kpi">
+                  <div class="label">Evidence Items</div>
+                  <div class="value">${esc(evidenceCount)}</div>
+                  <div class="sub">E# refs in decision</div>
+                </div>
+                <div class="kpi">
+                  <div class="label">Root Causes</div>
+                  <div class="value">${esc(rcCount)}</div>
+                  <div class="sub">hypotheses</div>
+                </div>
+                <div class="kpi">
+                  <div class="label">Fix Plan Steps</div>
+                  <div class="value">${esc(planCount)}</div>
+                  <div class="sub">actionable checks</div>
+                </div>
+                <div class="kpi">
+                  <div class="label">Related Events</div>
+                  <div class="value">${esc(rel.length)}</div>
+                  <div class="sub">around target error</div>
+                </div>
+                <div class="kpi">
+                  <div class="label">Total Events</div>
+                  <div class="value">${esc(relSum.sum_total_events ?? "—")}</div>
+                  <div class="sub">sum(total_events) if present</div>
+                </div>
+                <div class="kpi">
+                  <div class="label">Time Range</div>
+                  <div class="value">${esc(relSum.first && relSum.last ? "Yes" : "—")}</div>
+                  <div class="sub mono">${esc(relSum.first || "—")} → ${esc(relSum.last || "—")}</div>
+                </div>
+                <div class="kpi">
+                  <div class="label">Occurrences</div>
+                  <div class="value">${esc(occ ?? "—")}</div>
+                  <div class="sub">parsed from evidence claim</div>
+                </div>
+                <div class="kpi">
+                  <div class="label">Verified</div>
+                  <div class="value">${esc(verify?.verified === true ? "Yes" : "No")}</div>
+                  <div class="sub">${esc(verify?.method || "—")}</div>
+                </div>
+              </div>
+
+              <div class="divider"></div>
+
+              <div class="row g-3">
+                <div class="col-lg-6">
+                  <div class="soft p-3 h-100">
+                    <div class="section-title">
+                      <h5>Requested Context</h5>
+                      <div class="right">
+                        <span class="pill"><span class="dot"></span>keys: ${esc(requestedKeys.length)}</span>
+                        <span class="pill"><span class="dot"></span>types: ${esc(requestedTypes.length)}</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="mini mb-1">requested_event_keys</div>
+                      ${requestedKeys.length ? requestedKeys.map(x => `<span class="chip"><small>key</small>${esc(x)}</span>`).join("") : `<div class="muted2">None.</div>`}
+                    </div>
+                    <div class="mt-2">
+                      <div class="mini mb-1">requested_event_types</div>
+                      ${requestedTypes.length ? requestedTypes.map(x => `<span class="chip"><small>type</small>${esc(x)}</span>`).join("") : `<div class="muted2">None.</div>`}
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="soft p-3 h-100">
+                    <div class="section-title">
+                      <h5>Quality Meta</h5>
+                      <div class="right">
+                        <button class="btn btn-ghost btn-sm" onclick="copyText(JSON.stringify(getDecision(REPORT, CURRENT_CASE_KEY).quality_meta || {}, null, 2))">Copy</button>
+                      </div>
+                    </div>
+                    <pre class="hardware-data">${esc(JSON.stringify(d.quality_meta || {}, null, 2))}</pre>
+
+                    ${cov.haveMap ? `
+                      <div class="mt-2 mini">
+                        Evidence map coverage: <span style="font-weight:900;">${esc(cov.covered)}/${esc(cov.total)}</span> (${esc(cov.pct)}%)
+                      </div>
+                    ` : `
+                      <div class="mt-2 alert alert-soft warning p-3 mb-0">
+                        <div style="font-weight:900;">Traceability is limited</div>
+                        <div class="mini">Add <span class="mono">evidence_map</span> (E# → snippet/source) to enable “click-to-proof” evidence.</div>
+                      </div>
+                    `}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row g-3">
+              <div class="col-lg-7">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="section-title">
+                      <h5>Case Comparison (quick)</h5>
+                      <div class="right"><span class="mini">All cases inside this report</span></div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="table-responsive">
+                      <table class="table table-sm align-middle">
+                        <thead>
+                          <tr>
+                            <th>Case</th>
+                            <th>Status</th>
+                            <th>Error</th>
+                            <th>Severity</th>
+                            <th>Related</th>
+                            <th>Keys</th>
+                            <th>Types</th>
+                            <th>Trace</th>
+                            <th>Completeness</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          ${compare.map(x => `
+                            <tr style="${x.k === caseKey ? "font-weight:900;" : ""}">
+                              <td class="mono">${esc(x.k)}</td>
+                              <td>${toBadgeSoft(x.status)}</td>
+                              <td class="mono">${esc(x.err)}</td>
+                              <td class="mono">${esc(x.sev)}</td>
+                              <td class="mono">${esc(x.rel)}</td>
+                              <td class="mono">${esc(x.keys)}</td>
+                              <td class="mono">${esc(x.types)}</td>
+                              <td class="mono">${x.cov === null ? `<span class="text-warning fw-bold">No map</span>` : esc(x.cov + "%")}</td>
+                              <td class="mono">${esc(x.comp + "%")}</td>
+                            </tr>
+                          `).join("")}
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="mini mt-1">Tip: improve richness by populating <span class="mono">related_events.extra</span> and adding a global <span class="mono">evidence_map</span>.</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-5">
+                <div class="card h-100">
+                  <div class="card-header">
+                    <div class="section-title">
+                      <h5>Report Health</h5>
+                      <div class="right"><span class="mini">Derived from current JSON only</span></div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <canvas id="chartHealth" height="140"></canvas>
+                    <div class="divider"></div>
+                    <div class="mini">
+                      Health combines: evidence presence, root causes, plan, related events, verification rule, quality meta, and evidence_map.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      `
+
+      renderOrUpdateChart("chartHealth", "doughnut",
+        ["Completeness", "Missing"],
+        [comp.pct, 100 - comp.pct],
+        "Case Completeness"
+      )
+    }
+
+    function inferEventTime(ev){
+      const t = ev.timestamp || ev.time || ev.event_time || ev.occur_time || ev.first_occurrence || ev.last_occurrence
+      return t ? String(t) : ""
+    }
+    function inferEventTitle(ev){
+      const t = ev.event_type || ev.type || ev.eventType || ev.name
+      if (t) return String(t)
+      const k = ev.event_key || ev.key || ev.eventKey
+      return k ? `Event ${k}` : "Event"
+    }
+    function inferEventDetails(ev){
+      const parts = []
+      if (ev.event_key || ev.eventKey) parts.push(`event_key: ${ev.event_key || ev.eventKey}`)
+      if (ev.total_events) parts.push(`total_events: ${ev.total_events}`)
+      if (ev.total_duration) parts.push(`total_duration: ${ev.total_duration}`)
+      if (ev.first_occurrence) parts.push(`first_occurrence: ${ev.first_occurrence}`)
+      if (ev.last_occurrence) parts.push(`last_occurrence: ${ev.last_occurrence}`)
+      if (ev.subsystem) parts.push(`subsystem: ${ev.subsystem}`)
+      if (ev.uls_mode || ev.ulsMode) parts.push(`uls_mode: ${ev.uls_mode || ev.ulsMode}`)
+      if (ev.catheter || ev.catheter_model || ev.catheterModel) parts.push(`catheter: ${ev.catheter || ev.catheter_model || ev.catheterModel}`)
+      if (ev.error_id || ev.errorId) parts.push(`error_id: ${ev.error_id || ev.errorId}`)
+      if (ev.extra && typeof ev.extra === "object" && Object.keys(ev.extra).length){
+        parts.push(`extra: ${JSON.stringify(ev.extra, null, 2)}`)
+      }
+      return parts.join("\n") || JSON.stringify(ev, null, 2)
+    }
+
+    function renderTimeline(report, caseKey){
+      const root = $("timelineRoot")
+      const c = getCase(report, caseKey)
+      const d = getDecision(report, caseKey)
+      const related = getRelatedEvents(report, caseKey)
+      const tone = statusTone(d.status)
+
+      const relSum = summarizeRelatedEvents(related)
+
+      const topBar = `
+        <div class="soft p-3 mb-3">
+          <div class="section-title">
+            <h5>Timeline Summary</h5>
+            <div class="right">
+              <span class="badge-soft ${tone}"><span class="dot"></span>${esc(d.status || "UNKNOWN")}</span>
+              <span class="badge-soft"><span class="dot"></span>Events: ${esc(related.length)}</span>
+              <span class="badge-soft"><span class="dot"></span>Keys: ${esc(relSum.unique_keys)}</span>
+              <span class="badge-soft"><span class="dot"></span>Types: ${esc(relSum.unique_types)}</span>
+            </div>
+          </div>
+          <div class="kv">
+            <div class="k">Range</div>
+            <div class="v mono">${esc(relSum.first || "—")} → ${esc(relSum.last || "—")}</div>
+            <div class="k">Total Events (sum)</div>
+            <div class="v mono">${esc(relSum.sum_total_events ?? "—")}</div>
+            <div class="k">Unique Event Keys</div>
+            <div class="v mono">${esc(relSum.keys.join(" · ") || "—")}</div>
+            <div class="k">Unique Event Types</div>
+            <div class="v">${esc(relSum.types.join(" · ") || "—")}</div>
+          </div>
+        </div>
+      `
+
+      const items = []
+      if (related.length){
+        related.forEach(ev => {
+          items.push({
+            cls: tone,
+            time: inferEventTime(ev) || "—",
+            title: inferEventTitle(ev),
+            details: inferEventDetails(ev)
+          })
+        })
+      } else {
+        if (c.action_doc?.timestamp){
+          items.push({
+            cls: tone,
+            time: c.action_doc.timestamp,
+            title: `AI Action (${c.action_doc.status || d.status || "—"})`,
+            details: `Issue: ${c.action_doc.issue_title || "—"}\nTarget Error: ${c.action_doc.target_error_id || "—"}`
+          })
+        }
+        if (c.resolution_doc?.timestamp){
+          items.push({
+            cls: tone,
+            time: c.resolution_doc.timestamp,
+            title: `Resolution (${c.resolution_doc.type || "—"})`,
+            details: `Source: ${c.resolution_doc.source || "—"}`
+          })
+        }
+        if (!items.length){
+          items.push({
+            cls: tone,
+            time: "—",
+            title: "No timeline data in JSON",
+            details: "No related_events[] found for this case."
+          })
+        }
+      }
+
+      root.innerHTML = `
+        <div class="card">
+          <div class="card-header">
+            <div class="section-title">
+              <h5>Timeline</h5>
+              <div class="right">
+                <input id="timelineFilter" class="searchbox" style="max-width:260px;" placeholder="Filter events (key/type/time)" />
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            ${topBar}
+
+            <div class="timeline-container">
+              <div class="timeline-line"></div>
+              <div id="timelineItems">
+                ${items.map((it, idx) => `
+                  <div class="timeline-item ${esc(it.cls)}" data-search="${esc((it.time + " " + it.title + " " + it.details).toLowerCase())}">
+                    <div class="d-flex justify-content-between align-items-start gap-2">
+                      <div>
+                        <div class="timeline-time mono">${esc(it.time)}</div>
+                        <div class="timeline-title">${esc(it.title)}</div>
+                      </div>
+                      <div class="mini">#${esc(idx + 1)}</div>
+                    </div>
+                    <div class="timeline-details">${esc(it.details)}</div>
+                  </div>
+                `).join("")}
+              </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="row g-3">
+              <div class="col-lg-6">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="section-title">
+                      <h5>Event Keys Breakdown</h5>
+                      <div class="right"><span class="mini">counts per event_key</span></div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <canvas id="chartEventKeys" height="140"></canvas>
+                    <div class="mini mt-2">If event_key is missing, this chart will be sparse.</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="section-title">
+                      <h5>Event Types Breakdown</h5>
+                      <div class="right"><span class="mini">counts per event_type</span></div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <canvas id="chartEventTypes" height="140"></canvas>
+                    <div class="mini mt-2">Populate related_events.event_type for best results.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      `
+
+      const filter = $("timelineFilter")
+      if (filter){
+        filter.oninput = () => {
+          const q = (filter.value || "").trim().toLowerCase()
+          const itemsEl = $("timelineItems")
+          if (!itemsEl) return
+          Array.from(itemsEl.children).forEach(el => {
+            const hay = (el.getAttribute("data-search") || "")
+            el.style.display = hay.includes(q) ? "" : "none"
+          })
+        }
+      }
+
+      const keyCounts = countBy(related, x => x.event_key || x.key || x.eventKey || "Unknown")
+      const typeCounts = countBy(related, x => x.event_type || x.type || x.eventType || "Unknown")
+
+      renderOrUpdateChart(
+        "chartEventKeys",
+        "bar",
+        Array.from(keyCounts.keys()).slice(0, 12),
+        Array.from(keyCounts.values()).slice(0, 12),
+        "Event Keys"
+      )
+
+      renderOrUpdateChart(
+        "chartEventTypes",
+        "bar",
+        Array.from(typeCounts.keys()).slice(0, 10),
+        Array.from(typeCounts.values()).slice(0, 10),
+        "Event Types"
+      )
+    }
+
+    function countBy(arr, keyFn){
+      const m = new Map()
+      arr.forEach(x => {
+        const k = keyFn(x)
+        const kk = String(k || "Unknown")
+        m.set(kk, (m.get(kk) || 0) + 1)
+      })
+      return m
+    }
+
+    function renderErrorAnalysis(report, caseKey){
+      const root = $("errorRoot")
+      const c = getCase(report, caseKey)
+      const d = getDecision(report, caseKey)
+
+      const evidence = asArray(d.evidence)
+      const related = getRelatedEvents(report, caseKey)
+
+      const tone = statusTone(d.status)
+      const occ = parseOccurrencesFromEvidence(evidence)
+
+      const evIds = evidence.map(e => e?.evidence_id || e?.id).filter(Boolean)
+      const cov = evidenceCoverage(report, caseKey)
+
+      const eventTypeCounts = countBy(related, x => x.event_type || x.type || x.eventType || "Unknown")
+
+      root.innerHTML = `
+        <div class="card">
+          <div class="card-header">
+            <div class="section-title">
+              <h5>Error Analysis</h5>
+              <div class="right">
+                <span class="badge-soft ${tone}"><span class="dot"></span>${esc(d.status || "UNKNOWN")}</span>
+                <span class="badge-soft"><span class="dot"></span>Target: ${esc(d.target_error_id ?? "—")}</span>
+                <span class="badge-soft"><span class="dot"></span>Occurrences: ${esc(occ ?? "—")}</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="row g-3">
+              <div class="col-lg-8">
+                <div class="soft p-3">
+                  <div class="section-title">
+                    <h5>${related.length ? "Related Events" : "Evidence Items"}</h5>
+                    <div class="right">
+                      <input id="errorTableFilter" class="searchbox" style="max-width:260px;" placeholder="Filter table..." />
+                    </div>
+                  </div>
+
+                  ${related.length ? `
+                    <div class="table-responsive">
+                      <table class="table table-sm align-middle" id="errorTable">
+                        <thead>
+                          <tr>
+                            <th style="width:220px;">Time</th>
+                            <th>Type</th>
+                            <th style="width:160px;">Key</th>
+                            <th style="width:160px;">Totals</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          ${related.slice(0, 200).map(ev => `
+                            <tr data-search="${esc((inferEventTime(ev)+" "+inferEventTitle(ev)+" "+(ev.event_key||"")+" "+(ev.total_events||"")+" "+(ev.total_duration||"")).toLowerCase())}">
+                              <td class="mono">${esc(inferEventTime(ev) || "—")}</td>
+                              <td>${esc(inferEventTitle(ev))}</td>
+                              <td class="mono">${esc(ev.event_key || "—")}</td>
+                              <td class="mono">${esc((ev.total_events ? ("n="+ev.total_events) : "") + (ev.total_duration ? (" · dur="+ev.total_duration) : "")) || "—"}</td>
+                            </tr>
+                          `).join("")}
+                        </tbody>
+                      </table>
+                    </div>
+                  ` : `
+                    <div class="table-responsive">
+                      <table class="table table-sm align-middle" id="errorTable">
+                        <thead>
+                          <tr>
+                            <th style="width:120px;">E#</th>
+                            <th>Claim</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          ${evidence.length ? evidence.map(e => `
+                            <tr data-search="${esc(((e.evidence_id||e.id||"")+" "+(e.claim||e.text||"")).toLowerCase())}">
+                              <td class="mono">${esc(e.evidence_id || e.id || "—")}</td>
+                              <td>${esc(e.claim || e.text || "—")}</td>
+                            </tr>
+                          `).join("") : `
+                            <tr><td colspan="2" class="muted2">No evidence array in this case.</td></tr>
+                          `}
+                        </tbody>
+                      </table>
+                    </div>
+                  `}
+
+                  <div class="divider"></div>
+
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <div class="kpi">
+                        <div class="label">Evidence IDs</div>
+                        <div class="value">${esc(evIds.length)}</div>
+                        <div class="sub mono">${esc(evIds.slice(0, 8).join(" · ") + (evIds.length > 8 ? " · …" : "")) || "—"}</div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="kpi">
+                        <div class="label">Traceability</div>
+                        <div class="value">${cov.haveMap ? esc(cov.pct + "%") : "—"}</div>
+                        <div class="sub">${cov.haveMap ? esc(cov.covered + "/" + cov.total + " evidence mapped") : "Missing evidence_map"}</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="section-title">
+                      <h5>Breakdown</h5>
+                      <div class="right"><span class="mini">${related.length ? "event_type counts" : "evidence items"}</span></div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <canvas id="chartErrorBreakdown" height="190"></canvas>
+                    <div class="divider"></div>
+                    <div class="mini">
+                      <div style="font-weight:900;">Rule</div>
+                      <div>${esc(d.verification_rule || "—")}</div>
+                    </div>
+                    ${cov.haveMap ? "" : `
+                      <div class="mt-2 alert alert-soft warning p-3 mb-0">
+                        <div style="font-weight:900;">Tip</div>
+                        <div class="mini">Add <span class="mono">evidence_map</span> to show click-to-proof evidence sources.</div>
+                      </div>
+                    `}
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      `
+
+      const f = $("errorTableFilter")
+      if (f){
+        f.oninput = () => {
+          const q = (f.value || "").trim().toLowerCase()
+          const table = $("errorTable")
+          if (!table) return
+          const rows = table.querySelectorAll("tbody tr")
+          rows.forEach(r => {
+            const hay = r.getAttribute("data-search") || ""
+            r.style.display = hay.includes(q) ? "" : "none"
+          })
+        }
+      }
+
+      if (related.length){
+        renderOrUpdateChart(
+          "chartErrorBreakdown",
+          "bar",
+          Array.from(eventTypeCounts.keys()).slice(0, 10),
+          Array.from(eventTypeCounts.values()).slice(0, 10),
+          "Event Types"
+        )
+      } else {
+        renderOrUpdateChart(
+          "chartErrorBreakdown",
+          "bar",
+          evidence.map(e => e?.evidence_id || e?.id || "—"),
+          evidence.map(_ => 1),
+          "Evidence Items"
+        )
+      }
+    }
+
+    function renderRootCause(report, caseKey){
+      const root = $("rootCauseRoot")
+      const d = getDecision(report, caseKey)
+
+      const rc = asArray(d.probable_root_causes)
+      const plan = asArray(d.proposed_fix_plan)
+      const missing = asArray(d.missing_evidence)
+      const nextQ = asArray(d.suggested_next_queries)
+      const verifiedFindings = asArray(d.verified_findings)
+
+      const tone = statusTone(d.status)
+
+      root.innerHTML = `
+        <div class="card">
+          <div class="card-header">
+            <div class="section-title">
+              <h5>Root Cause</h5>
+              <div class="right">
+                <span class="badge-soft ${tone}"><span class="dot"></span>${esc(d.status || "UNKNOWN")}</span>
+                <span class="badge-soft"><span class="dot"></span>Error ${esc(d.target_error_id ?? "—")}</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="alert alert-soft ${tone}">
+              <div style="font-weight:900;">Verification Rule</div>
+              <div>${esc(d.verification_rule || "—")}</div>
+            </div>
+
+            <div class="row g-3">
+              <div class="col-lg-6">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="section-title">
+                      <h5>Probable Root Causes</h5>
+                      <div class="right"><span class="mini">${esc(rc.length)} items</span></div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    ${rc.length ? `
+                      <div class="accordion" id="rcAccordion">
+                        ${rc.map((x, i) => `
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="rcH${i}">
+                              <button class="accordion-button ${i===0 ? "" : "collapsed"}" type="button" data-bs-toggle="collapse" data-bs-target="#rcC${i}">
+                                Hypothesis #${i+1}
+                              </button>
+                            </h2>
+                            <div id="rcC${i}" class="accordion-collapse collapse ${i===0 ? "show" : ""}" data-bs-parent="#rcAccordion">
+                              <div class="accordion-body">
+                                <div style="font-weight:900;">${esc(x)}</div>
+                                <div class="mini mt-2">Tip: enrich with subsystem / catheter / ULS mode fields in JSON for stronger RCA.</div>
+                              </div>
+                            </div>
+                          </div>
+                        `).join("")}
+                      </div>
+                    ` : `<div class="muted2">None.</div>`}
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="section-title">
+                      <h5>Proposed Fix Plan</h5>
+                      <div class="right"><span class="mini">${esc(plan.length)} steps</span></div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    ${plan.length ? `
+                      <ol class="mb-0">
+                        ${plan.map(step => `<li style="font-weight:900;margin-bottom:8px;">${esc(step)}</li>`).join("")}
+                      </ol>
+                    ` : `<div class="muted2">None.</div>`}
+
+                    <div class="divider"></div>
+
+                    <div class="mini">
+                      <div style="font-weight:900;">Suggested Next Queries</div>
+                      ${nextQ.length ? `<ul class="mb-0">${nextQ.map(q => `<li>${esc(q)}</li>`).join("")}</ul>` : `<div class="muted2">None.</div>`}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row g-3 mt-1">
+              <div class="col-lg-6">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="section-title">
+                      <h5>Missing Evidence</h5>
+                      <div class="right"><span class="mini">${esc(missing.length)} items</span></div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    ${missing.length ? `<ul class="mb-0">${missing.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : `<div class="muted2">None.</div>`}
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="section-title">
+                      <h5>Verified Findings</h5>
+                      <div class="right"><span class="mini">${esc(verifiedFindings.length)} items</span></div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    ${verifiedFindings.length ? `<ul class="mb-0">${verifiedFindings.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : `<div class="muted2">None.</div>`}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      `
+    }
+
+    function renderEvidence(report, caseKey){
+      const root = $("evidenceRoot")
+      const d = getDecision(report, caseKey)
+      const evidence = asArray(d.evidence)
+
+      const evidenceMap = report.evidence_map || report.evidenceMap
+      const mapArr = asArray(evidenceMap)
+      const byId = new Map(mapArr.map(x => [x?.id, x]).filter(x => x[0]))
+
+      const cov = evidenceCoverage(report, caseKey)
+      const tone = cov.haveMap ? "success" : "warning"
+
+      root.innerHTML = `
+        <div class="card">
+          <div class="card-header">
+            <div class="section-title">
+              <h5>Evidence</h5>
+              <div class="right">
+                <span class="badge-soft ${tone}"><span class="dot"></span>Traceability: ${cov.haveMap ? esc(cov.pct + "%") : "No evidence_map"}</span>
+                ${cov.haveMap ? `<button class="btn btn-ghost btn-sm" onclick="copyText(JSON.stringify(REPORT.evidence_map || REPORT.evidenceMap, null, 2))">Copy evidence_map</button>` : ""}
+              </div>
+            </div>
+          </div>
+
+          <div class="card-body">
+            ${evidence.length ? `
+              <div class="table-responsive">
+                <table class="table table-sm align-middle">
+                  <thead>
+                    <tr>
+                      <th style="width:100px;">E#</th>
+                      <th>Claim</th>
+                      <th style="width:140px;">Label</th>
+                      <th style="width:360px;">Source</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${evidence.map(e => {
+                      const id = e.evidence_id || e.id || ""
+                      const claim = e.claim || e.text || ""
+                      const src = byId.get(id)
+                      const label = src?.label || "—"
+                      const text = src?.text || src?.snippet || ""
+                      const origin = src?.source || src?.origin || ""
+                      const show = (text || origin) ? `
+                        <details>
+                          <summary class="text-primary" style="cursor:pointer;font-weight:900;">Show</summary>
+                          ${origin ? `<div class="mini mt-2">origin: <span class="mono">${esc(origin)}</span></div>` : ""}
+                          ${text ? `<pre class="hardware-data mt-2">${esc(text)}</pre>` : ""}
+                        </details>
+                      ` : `<span class="text-warning fw-bold">No evidence_map provided</span>`
+                      return `
+                        <tr>
+                          <td class="mono">${esc(id || "—")}</td>
+                          <td>${esc(claim || "—")}</td>
+                          <td>${esc(label)}</td>
+                          <td>${show}</td>
+                        </tr>
+                      `
+                    }).join("")}
+                  </tbody>
+                </table>
+              </div>
+            ` : `<div class="muted2">No evidence for this case.</div>`}
+
+            <div class="divider"></div>
+
+            ${cov.haveMap ? `
+              <div class="alert alert-soft success p-3 mb-0">
+                <div style="font-weight:900;">Traceability enabled</div>
+                <div class="mini">Evidence items can be audited using snippets/sources from evidence_map.</div>
+              </div>
+            ` : `
+              <div class="alert alert-soft warning p-3 mb-0">
+                <div style="font-weight:900;">Traceability is limited</div>
+                <div class="mini">Add global <span class="mono">evidence_map</span> to make evidence clickable and auditable.</div>
+              </div>
+            `}
+          </div>
+        </div>
+      `
+    }
+
+    function renderRaw(report, caseKey){
+      $("rawRoot").innerHTML = `
+        <div class="card">
+          <div class="card-header">
+            <div class="section-title">
+              <h5>Raw JSON</h5>
+              <div class="right">
+                <button class="btn btn-ghost btn-sm" onclick="downloadJson()">Export JSON</button>
+                <button class="btn btn-ghost btn-sm" onclick="copyText(JSON.stringify(REPORT, null, 2))">Copy</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <details open>
+              <summary class="text-primary" style="cursor:pointer;font-weight:900;">Report</summary>
+              <pre class="hardware-data">${esc(JSON.stringify(report, null, 2))}</pre>
+            </details>
+            <details class="mt-2">
+              <summary class="text-primary" style="cursor:pointer;font-weight:900;">${esc(caseKey)}</summary>
+              <pre class="hardware-data">${esc(JSON.stringify(report[caseKey] || {}, null, 2))}</pre>
+            </details>
+          </div>
+        </div>
+      `
+    }
+
+    function renderOrUpdateChart(canvasId, type, labels, values, title){
+      const el = document.getElementById(canvasId)
+      if (!el) return
+
+      const prev = CHARTS.get(canvasId)
+      if (prev){
+        prev.data.labels = labels.length ? labels : ["—"]
+        prev.data.datasets[0].data = values.length ? values : [0]
+        prev.options.plugins.title.text = title || ""
+        prev.update()
+        return
+      }
+
+      const chart = new Chart(el, {
+        type,
+        data: {
+          labels: labels.length ? labels : ["—"],
+          datasets: [{
+            label: title || "Items",
+            data: values.length ? values : [0]
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: { title: { display: !!title, text: title || "" }, legend: { display: type !== "bar" } },
+          scales: type === "bar" ? { y: { beginAtZero: true } } : {}
+        }
+      })
+      CHARTS.set(canvasId, chart)
+    }
+
+    function destroyCharts(){
+      for (const [_, ch] of CHARTS.entries()){
+        try{ ch.destroy() } catch(_e){}
+      }
+      CHARTS.clear()
+    }
+
+    function renderAll(){
+      if (!REPORT) return
+      destroyCharts()
+
+      setHeader(REPORT)
+      buildCaseSelect(REPORT)
+      buildCasePills(REPORT)
+
+      renderOverview(REPORT, CURRENT_CASE_KEY)
+      renderTimeline(REPORT, CURRENT_CASE_KEY)
+      renderErrorAnalysis(REPORT, CURRENT_CASE_KEY)
+      renderRootCause(REPORT, CURRENT_CASE_KEY)
+      renderEvidence(REPORT, CURRENT_CASE_KEY)
+      renderRaw(REPORT, CURRENT_CASE_KEY)
+
+      tabShow()
+    }
+
+    async function fetchLatestFromApi(procedureId){
+      const url = `http://localhost:8000/api/run/latest?procedure_id=${encodeURIComponent(procedureId)}`
+      const res = await fetch(url)
+      if (!res.ok) throw new Error(`HTTP ${res.status}`)
+      return await res.json()
+    }
+
+    function setEmbeddedMode(on){
+      $("runModePill").classList.toggle("hidden", !on)
+      $("procInput").classList.toggle("hidden", on)
+      $("fetchLatestBtn").classList.toggle("hidden", on)
+      $("btnLoadJson").classList.toggle("hidden", on)
+      if (on) $("headerSubline").textContent = "Embedded report generated by the agent run."
+    }
+
+    function copyText(text){
+      const t = String(text ?? "")
+      navigator.clipboard?.writeText(t).catch(() => {
+        const ta = document.createElement("textarea")
+        ta.value = t
+        document.body.appendChild(ta)
+        ta.select()
+        document.execCommand("copy")
+        ta.remove()
+      })
+    }
+
+    function downloadJson(){
+      if (!REPORT) return
+      const blob = new Blob([JSON.stringify(REPORT, null, 2)], { type: "application/json" })
+      const a = document.createElement("a")
+      a.href = URL.createObjectURL(blob)
+      a.download = (REPORT.procedure_id || REPORT.lightning_name || "report") + ".json"
+      a.click()
+      URL.revokeObjectURL(a.href)
+    }
+
+    $("jsonFile").addEventListener("change", async (e) => {
+      const f = e.target.files && e.target.files[0]
+      if (!f) return
+      try{
+        const json = await readJsonFile(f)
+        REPORT = normalizeReport(json)
+        const keys = getCaseKeys(REPORT)
+        CURRENT_CASE_KEY = keys[0]
+        setEmbeddedMode(false)
+        renderAll()
+      } catch(err){
+        alert("Failed to parse JSON: " + (err?.message || err))
+      } finally {
+        e.target.value = ""
+      }
+    })
+
+    $("caseSelect").addEventListener("change", (e) => {
+      CURRENT_CASE_KEY = e.target.value || "case1"
+      renderAll()
+    })
+
+    $("fetchLatestBtn").addEventListener("click", async () => {
+      const pid = $("procInput").value.trim()
+      if (!pid){ alert("Enter procedure_id first"); return }
+      try{
+        const json = await fetchLatestFromApi(pid)
+        REPORT = normalizeReport(json)
+        const keys = getCaseKeys(REPORT)
+        CURRENT_CASE_KEY = keys[0]
+        setEmbeddedMode(false)
+        renderAll()
+      } catch(err){
+        alert("Fetch failed: " + (err?.message || err))
+      }
+    })
+
+    if (window.REPORT){
+      REPORT = normalizeReport(window.REPORT)
+      const keys = getCaseKeys(REPORT)
+      CURRENT_CASE_KEY = keys[0]
+      setEmbeddedMode(true)
+      renderAll()
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+

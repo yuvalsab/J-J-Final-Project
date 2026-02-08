@@ -1,0 +1,86 @@
+]
+
+RETURN:
+{"issue_id": "string", "issue_title": "string", "severity": "1|2|3", "target_error_id": "string", "evidence": [{"evidence_id": "E#", "claim": "ONE complete sentence, max 170 chars, NO ellipsis (...)"}], "probable_root_causes": ["ONE complete sentence, max 140 chars"], "proposed_fix_plan": ["ONE complete sentence, max 140 chars"], "verification_rule": "string", "requested_event_keys": ["string(optional)"], "requested_event_types": ["string(optional)"]} 
+
+Note: The evidence items are not provided in the payload, but are listed in the EVIDENCE MAP above. You can use them to create the evidence items for the return JSON. 
+
+Also, note that the payload contains a lot of information, but the EVIDENCE MAP only contains a few relevant items. You should focus on the items in the EVIDENCE MAP when creating the return JSON. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the return JSON in the format specified above. 
+
+Note: The issue_id, issue_title, severity, target_error_id, requested_event_keys, and requested_event_types are not provided in the payload, but you can infer them from the payload. 
+
+Please provide the

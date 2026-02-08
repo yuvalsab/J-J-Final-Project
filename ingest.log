@@ -1,0 +1,4 @@
+2025-12-15 11:02:03,872 | INFO | Using lightning_name=PC-001882522
+2025-12-15 11:02:03,880 | INFO | Extracted 64 blocks from TXT
+2025-12-15 11:02:07,207 | WARNING | Skipped block 1: header='RAW DATA ANALYSIS - STRUCTURED EVENT BREAKDOWN'
+2025-12-15 11:02:24,902 | INFO | Summary: 63/64 saved, 1 skipped

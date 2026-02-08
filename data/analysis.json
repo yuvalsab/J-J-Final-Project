@@ -1,0 +1,770 @@
+{
+  "uniqueErrors": "<span>106</span>",
+  "projectName": "CARTO-Investigations-S3",
+  "cartoVersion": "8.1.1.944",
+  "country": "USA",
+  "hospitalName": "Stanford Hospital and Clinics",
+  "workstationNumber": "FPH4033",
+  "workstationModel": "Precision 5820 Tower",
+  "generators": "nGen",
+  "piuNum": "14616",
+  "lpNum": "M004560",
+  "installDate": null,
+  "uploadDate": "06-Aug-2025 04:35:00",
+  "analysisDate": "25-Aug-2025 18:31:49",
+  "lightningName": "PC-001927524",
+  "lightningDescription": "Force Error 105",
+  "studyLocation": "L:\\Carto_Recording_14\\Lightning\\Investigations\\catheters\\stanford hospital\\twan1@its.jnj.com\\PC-001927524\\ExportedData_2025.07.31_18.39.21.707\\S1271765771\\Study.zip\\",
+  "studyUID": "2.16.840.1.114357.1.0.1415724224.255108.20471.161196898728921271",
+  "studySize": "29.38 GB",
+  "errorReportSize": "46.15 GB",
+  "studiesCount": "1",
+  "caseOverview": {
+    "findings": [
+      "Low Severity - Force Error"
+    ],
+    "procedureDate": "25-Jul-2025",
+    "cathetersUsed": [
+      {
+        "catheterID": "18091",
+        "name": "QDOT MICRO™ Catheter, DF",
+        "partNumber": "",
+        "lotNumber": "",
+        "connectionTimes": []
+      },
+      {
+        "catheterID": "7508",
+        "name": "OctaRay 20A 252",
+        "partNumber": "",
+        "lotNumber": "",
+        "connectionTimes": []
+      },
+      {
+        "catheterID": "4074",
+        "name": "DECA DYNAMIC TIP",
+        "partNumber": "6DYNTP001 GFUB3573",
+        "lotNumber": "",
+        "connectionTimes": [
+          {
+            "connect": "12:30",
+            "disConnect": "173:22",
+            "lotNumber": ""
+          }
+        ]
+      },
+      {
+        "catheterID": "18046",
+        "name": "SOUNDSTAR™ eco 8F",
+        "partNumber": "SOUNDSTAR80",
+        "lotNumber": "9496356001",
+        "connectionTimes": []
+      },
+      {
+        "catheterID": "8026",
+        "name": "WIRE FARAWAVE",
+        "partNumber": "123",
+        "lotNumber": "",
+        "connectionTimes": [
+          {
+            "connect": "12:39",
+            "disConnect": null,
+            "lotNumber": ""
+          },
+          {
+            "connect": "12:52",
+            "disConnect": "12:54",
+            "lotNumber": ""
+          }
+        ]
+      },
+      {
+        "catheterID": "18107",
+        "name": "THERMOCOOL SMARTTOUCH™ SF-5D Catheter, Micro Electrodes",
+        "partNumber": "",
+        "lotNumber": "",
+        "connectionTimes": []
+      },
+      {
+        "catheterID": "7603",
+        "name": "FARAWAVE™ 31mm Flower Model",
+        "partNumber": "FARAWAVE(TM) 31mm Flower Model",
+        "lotNumber": "",
+        "connectionTimes": [
+          {
+            "connect": "89:37",
+            "disConnect": "98:08",
+            "lotNumber": ""
+          },
+          {
+            "connect": "99:33",
+            "disConnect": "104:06",
+            "lotNumber": ""
+          },
+          {
+            "connect": "105:38",
+            "disConnect": "107:06",
+            "lotNumber": ""
+          },
+          {
+            "connect": "108:30",
+            "disConnect": "173:22",
+            "lotNumber": ""
+          }
+        ]
+      },
+      {
+        "catheterID": "6098",
+        "name": "QDOT MICRO™ Catheter, DF",
+        "partNumber": "D-1395-05-S",
+        "lotNumber": "31612544.019,31612544.019,31612544.019,31612544.013",
+        "connectionTimes": [
+          {
+            "connect": "76:14",
+            "disConnect": "123:37",
+            "lotNumber": "31612544.019"
+          },
+          {
+            "connect": "124:16",
+            "disConnect": "124:52",
+            "lotNumber": "31612544.019"
+          },
+          {
+            "connect": "125:30",
+            "disConnect": "125:53",
+            "lotNumber": "31612544.019"
+          },
+          {
+            "connect": "126:43",
+            "disConnect": "152:31",
+            "lotNumber": "31612544.013"
+          }
+        ]
+      },
+      {
+        "catheterID": "7102",
+        "name": "OCTARAY 2-5-2-5-2 mm, D",
+        "partNumber": "D-1609-02-S",
+        "lotNumber": "31644895.014",
+        "connectionTimes": [
+          {
+            "connect": "71:11",
+            "disConnect": "152:50",
+            "lotNumber": "31644895.014"
+          }
+        ]
+      }
+    ],
+    "targetedChamber": "Left Atrium",
+    "primaryArrhythmia": "Atrial Fibrillation - Persistent                  ",
+    "secondaryArrhythmia": "Atrial Flutter - Atypical                         ",
+    "featuresInUse": "PatternMatching, Complex",
+    "licences": "CARTOMERGE, ULS, PASO, CFAE, CF, VISITAG, CartoSeg_Extended_CT, DualMonitor, ConfiDENSE, CartoReplay, RippleMapping, FamDx, QDot, RfSurpointEpu, PrimeMapping, SOUNDFAM, PfaVariPulse, Carto3V8Activation, LateAnnotationMapping, AdvancedMapping, Carto3V8Ph3LMRActivation, PETALCatheterVisualization, CRYSTAL"
+  },
+  "mappingAndProcedureDetails": {
+    "numberOfMapsCreated": "15",
+    "totalPointsCollected": "55368",
+    "procedureTime": "172.36 minutes"
+  },
+  "ablationDetails": {
+    "numberOfAblationSessions": "13",
+    "totalAblationTime": "4.70 minutes",
+    "ablationType": "RF Focal"
+  },
+  "systemPerformanceAndErrorAnalysis": {
+    "crashErrorData": "false",
+    "complaintID": "001927524",
+    "complaintDescription": "QDOT ERROR MAYBE? ",
+    "complaintFromECM": {
+      "products": [
+        {
+          "productName": "QDOT MICRO, BI, TC, D-F",
+          "productFamily": "Qdot Micro",
+          "impactedProductNumber": "IP-02462917",
+          "serialNumber": "",
+          "productCode": "D139505",
+          "experienceCodeLevel1": "",
+          "experienceCodeLevel2": ""
+        }
+      ],
+      "complaintProcessingStatus": "Review Complete",
+      "accountName": "STANFORD HOSPITAL AND CLINICS",
+      "accountNumber": "00026775",
+      "eventDescription": "It was reported by the caller that they got a force streaming error # 106 When the QDot Micro catheter was connected to the PIU on the Carto 3 system. Changing out the catheter cable did not resolve the error. Changing out the catheter resolved the error and the procedure was continued and subsequently completed.",
+      "country": "USA",
+      "modality": "Phone",
+      "region": "NA"
+    },
+    "screenRecordings": {
+      "filesCount": "4",
+      "filesPathRelativeToStudy": "<br/><a href=\"L:\\Carto_Recording_14\\Lightning\\Investigations\\catheters\\stanford hospital\\twan1@its.jnj.com\\PC-001927524\\ExportedData_2025.07.31_18.39.21.707\\S1271765771\\Study.zip\\Recordings\\2025.07.23_19.04.06.974\\ScreenRecording\">Recordings\\2025.07.23_19.04.06.974\\ScreenRecording</a>",
+      "availableSequencies": "<ul><li>FullStudyScreenRecording_25_07_2025_07_27_40</li></ul>"
+    },
+    "userBookmarks": [],
+    "uniqueErrors": {
+      "beforeInitialize": {
+        "closedErrors": [
+          {
+            "errorId": 1,
+            "message": "No communication with PIU detected.",
+            "count": 1,
+            "totalDurationInMinutes": "00:00",
+            "maxDurationInMinutes": "00:00"
+          },
+          {
+            "errorId": 258,
+            "message": "Magnetic data streaming error.",
+            "count": 1,
+            "totalDurationInMinutes": "00:00",
+            "maxDurationInMinutes": "00:00"
+          },
+          {
+            "errorId": 268,
+            "message": "ACL data streaming error.",
+            "count": 1,
+            "totalDurationInMinutes": "00:00",
+            "maxDurationInMinutes": "00:00"
+          },
+          {
+            "errorId": 278,
+            "message": "ECG data streaming error.",
+            "count": 1,
+            "totalDurationInMinutes": "00:00",
+            "maxDurationInMinutes": "00:00"
+          }
+        ],
+        "unclosedErrors": []
+      },
+      "afterInitialize": {
+        "closedErrors": [
+          {
+            "errorId": 1,
+            "message": "No communication with PIU detected.",
+            "count": 3,
+            "totalDurationInMinutes": "01:00",
+            "maxDurationInMinutes": "01:00"
+          },
+          {
+            "errorId": 2,
+            "message": "The PIU is initializing. ",
+            "count": 1,
+            "totalDurationInMinutes": "00:05",
+            "maxDurationInMinutes": "00:05"
+          },
+          {
+            "errorId": 3,
+            "message": "The PIU is initializing. ",
+            "count": 1,
+            "totalDurationInMinutes": "00:21",
+            "maxDurationInMinutes": "00:21"
+          },
+          {
+            "errorId": 80,
+            "message": "Invalid force measurements.",
+            "count": 3,
+            "totalDurationInMinutes": "08:20",
+            "maxDurationInMinutes": "05:33"
+          },
+          {
+            "errorId": 85,
+            "message": "Force is not displayed due to high interference.",
+            "count": 10,
+            "totalDurationInMinutes": "00:07",
+            "maxDurationInMinutes": "00:02"
+          },
+          {
+            "errorId": 86,
+            "message": "Force catheter requires zeroing. ",
+            "count": 66,
+            "totalDurationInMinutes": "38:21",
+            "maxDurationInMinutes": "11:49"
+          },
+          {
+            "errorId": 88,
+            "message": "Force reading accuracy might be reduced.",
+            "count": 17,
+            "totalDurationInMinutes": "00:11",
+            "maxDurationInMinutes": "00:02"
+          },
+          {
+            "errorId": 89,
+            "message": "Force reading accuracy is reduced.",
+            "count": 2,
+            "totalDurationInMinutes": "00:01",
+            "maxDurationInMinutes": "00:00"
+          },
+          {
+            "errorId": 95,
+            "message": "Force is out of measurement range.",
+            "count": 10,
+            "totalDurationInMinutes": "00:04",
+            "maxDurationInMinutes": "00:01"
+          },
+          {
+            "errorId": 105,
+            "message": "MAP: catheter sensor error.",
+            "count": 5,
+            "totalDurationInMinutes": "47:49",
+            "maxDurationInMinutes": "46:53"
+          },
+          {
+            "errorId": 106,
+            "message": "Force Catheter sensor error.",
+            "count": 35,
+            "totalDurationInMinutes": "00:07",
+            "maxDurationInMinutes": "00:01"
+          },
+          {
+            "errorId": 116,
+            "message": "20 POLE A: catheter sensor error.",
+            "count": 1,
+            "totalDurationInMinutes": "00:06",
+            "maxDurationInMinutes": "00:06"
+          },
+          {
+            "errorId": 200,
+            "message": "MAP: Thermocouple is not available",
+            "count": 4,
+            "totalDurationInMinutes": "00:00",
+            "maxDurationInMinutes": "00:00"
+          },
+          {
+            "errorId": 202,
+            "message": "Temperature distribution display is disabled.",
+            "count": 1,
+            "totalDurationInMinutes": "00:02",
+            "maxDurationInMinutes": "00:02"
+          },
+          {
+            "errorId": 210,
+            "message": "MAP: eco cable test failed.",
+            "count": 5,
+            "totalDurationInMinutes": "00:23",
+            "maxDurationInMinutes": "00:08"
+          },
+          {
+            "errorId": 215,
+            "message": "MAP: communication with  eco cable timed out.",
+            "count": 1,
+            "totalDurationInMinutes": "00:03",
+            "maxDurationInMinutes": "00:03"
+          },
+          {
+            "errorId": 216,
+            "message": "MAP: Data streaming interruption from eco cable.",
+            "count": 16,
+            "totalDurationInMinutes": "00:01",
+            "maxDurationInMinutes": "00:00"
+          },
+          {
+            "errorId": 218,
+            "message": "MAP: RF generator incompatible with ablation catheter.",
+            "count": 1,
+            "totalDurationInMinutes": "00:23",
+            "maxDurationInMinutes": "00:23"
+          },
+          {
+            "errorId": 228,
+            "message": "Eco cable not  connected to QUAD or DECA socket.",
+            "count": 2,
+            "totalDurationInMinutes": "00:13",
+            "maxDurationInMinutes": "00:12"
+          },
+          {
+            "errorId": 229,
+            "message": "Eco cable not connected to MAP socket.",
+            "count": 1,
+            "totalDurationInMinutes": "00:06",
+            "maxDurationInMinutes": "00:06"
+          },
+          {
+            "errorId": 255,
+            "message": "Unstable Body Reference location.",
+            "count": 33,
+            "totalDurationInMinutes": "00:18",
+            "maxDurationInMinutes": "00:01"
+          },
+          {
+            "errorId": 258,
+            "message": "Magnetic data streaming error.",
+            "count": 2,
+            "totalDurationInMinutes": "00:01",
+            "maxDurationInMinutes": "00:01"
+          },
+          {
+            "errorId": 260,
+            "message": "Data synchronization error.",
+            "count": 1,
+            "totalDurationInMinutes": "00:00",
+            "maxDurationInMinutes": "00:00"
+          },
+          {
+            "errorId": 261,
+            "message": "Initializing catheter visualization",
+            "count": 1,
+            "totalDurationInMinutes": "00:45",
+            "maxDurationInMinutes": "00:45"
+          },
+          {
+            "errorId": 268,
+            "message": "ACL data streaming error.",
+            "count": 2,
+            "totalDurationInMinutes": "00:01",
+            "maxDurationInMinutes": "00:01"
+          },
+          {
+            "errorId": 278,
+            "message": "ECG data streaming error.",
+            "count": 3,
+            "totalDurationInMinutes": "00:00",
+            "maxDurationInMinutes": "00:00"
+          },
+          {
+            "errorId": 279,
+            "message": "Force data streaming error.",
+            "count": 4,
+            "totalDurationInMinutes": "01:47",
+            "maxDurationInMinutes": "00:44"
+          },
+          {
+            "errorId": 280,
+            "message": "TPI data streaming error.",
+            "count": 1,
+            "totalDurationInMinutes": "00:00",
+            "maxDurationInMinutes": "00:00"
+          },
+          {
+            "errorId": 318,
+            "message": "MAP: catheter in reduced accuracy zone.",
+            "count": 2,
+            "totalDurationInMinutes": "00:00",
+            "maxDurationInMinutes": "00:00"
+          },
+          {
+            "errorId": 319,
+            "message": "MAP: catheter out of mapping range.",
+            "count": 3,
+            "totalDurationInMinutes": "08:14",
+            "maxDurationInMinutes": "07:53"
+          },
+          {
+            "errorId": 370,
+            "message": "Mapping catheter not connected.",
+            "count": 2,
+            "totalDurationInMinutes": "00:26",
+            "maxDurationInMinutes": "00:19"
+          },
+          {
+            "errorId": 371,
+            "message": "Cannot acquire points with mapping catheter.",
+            "count": 34,
+            "totalDurationInMinutes": "28:17",
+            "maxDurationInMinutes": "05:43"
+          },
+          {
+            "errorId": 375,
+            "message": "No atrial Reference Annotations are detected. ",
+            "count": 14,
+            "totalDurationInMinutes": "05:26",
+            "maxDurationInMinutes": "01:41"
+          },
+          {
+            "errorId": 377,
+            "message": "No atrial Reference Annotations are detected. ",
+            "count": 7,
+            "totalDurationInMinutes": "00:42",
+            "maxDurationInMinutes": "00:17"
+          },
+          {
+            "errorId": 379,
+            "message": "Reference Annotation Algorithm is initializing. ",
+            "count": 1,
+            "totalDurationInMinutes": "00:22",
+            "maxDurationInMinutes": "00:22"
+          },
+          {
+            "errorId": 382,
+            "message": "Reference Annotations are momentarily unavailable",
+            "count": 13,
+            "totalDurationInMinutes": "00:25",
+            "maxDurationInMinutes": "00:09"
+          },
+          {
+            "errorId": 400,
+            "message": "No Reference Annotations are detected.",
+            "count": 14,
+            "totalDurationInMinutes": "00:29",
+            "maxDurationInMinutes": "00:09"
+          },
+          {
+            "errorId": 401,
+            "message": "Map points cannot be acquired.",
+            "count": 14,
+            "totalDurationInMinutes": "01:56",
+            "maxDurationInMinutes": "01:27"
+          },
+          {
+            "errorId": 433,
+            "message": "MAP: minor magnetic distortion.",
+            "count": 21,
+            "totalDurationInMinutes": "00:20",
+            "maxDurationInMinutes": "00:06"
+          },
+          {
+            "errorId": 437,
+            "message": "Patch 1: minor magnetic distortion.",
+            "count": 2,
+            "totalDurationInMinutes": "14:17",
+            "maxDurationInMinutes": "07:34"
+          },
+          {
+            "errorId": 503,
+            "message": "Noise is detected in Location Pad currents.",
+            "count": 41,
+            "totalDurationInMinutes": "00:00",
+            "maxDurationInMinutes": "00:00"
+          },
+          {
+            "errorId": 505,
+            "message": "Location Pad currents are insufficient.",
+            "count": 31,
+            "totalDurationInMinutes": "00:02",
+            "maxDurationInMinutes": "00:00"
+          },
+          {
+            "errorId": 901,
+            "message": "Location Pad appears disconnected.",
+            "count": 33,
+            "totalDurationInMinutes": "40:04",
+            "maxDurationInMinutes": "30:44"
+          },
+          {
+            "errorId": 912,
+            "message": "No map enabling catheter appears to be connected.",
+            "count": 3,
+            "totalDurationInMinutes": "38:56",
+            "maxDurationInMinutes": "20:20"
+          },
+          {
+            "errorId": 946,
+            "message": "ULTRASOUND: magnetic distortion.",
+            "count": 65,
+            "totalDurationInMinutes": "07:11",
+            "maxDurationInMinutes": "01:30"
+          },
+          {
+            "errorId": 947,
+            "message": "ULTRASOUND: severe magnetic distortion.",
+            "count": 72,
+            "totalDurationInMinutes": "06:53",
+            "maxDurationInMinutes": "05:27"
+          },
+          {
+            "errorId": 948,
+            "message": "ULTRASOUND: minor magnetic distortion.",
+            "count": 330,
+            "totalDurationInMinutes": "14:32",
+            "maxDurationInMinutes": "02:49"
+          },
+          {
+            "errorId": 950,
+            "message": "<Catheter Name> Catheter is in reduced accuracy zone.",
+            "count": 3,
+            "totalDurationInMinutes": "00:01",
+            "maxDurationInMinutes": "00:00"
+          },
+          {
+            "errorId": 952,
+            "message": "<Catheter Name> Catheter is out of mapping range.",
+            "count": 3,
+            "totalDurationInMinutes": "62:22",
+            "maxDurationInMinutes": "31:05"
+          },
+          {
+            "errorId": 955,
+            "message": "Severe magnetic distortion near <Catheter Name> Catheter.",
+            "count": 1,
+            "totalDurationInMinutes": "00:06",
+            "maxDurationInMinutes": "00:06"
+          },
+          {
+            "errorId": 956,
+            "message": "<Catheter Name> Catheter: unipolar reference not available.",
+            "count": 1,
+            "totalDurationInMinutes": "00:00",
+            "maxDurationInMinutes": "00:00"
+          },
+          {
+            "errorId": 982,
+            "message": "SPU: Synchronization error.",
+            "count": 22,
+            "totalDurationInMinutes": "08:04",
+            "maxDurationInMinutes": "06:32"
+          },
+          {
+            "errorId": 996,
+            "message": "SPU: Synchronization warning.",
+            "count": 82,
+            "totalDurationInMinutes": "06:32",
+            "maxDurationInMinutes": "00:14"
+          },
+          {
+            "errorId": 1008,
+            "message": "Back Patch disconnected or fully detached.",
+            "count": 2,
+            "totalDurationInMinutes": "15:29",
+            "maxDurationInMinutes": "15:28"
+          },
+          {
+            "errorId": 1009,
+            "message": "Chest Patch disconnected or fully detached.",
+            "count": 1,
+            "totalDurationInMinutes": "17:37",
+            "maxDurationInMinutes": "17:37"
+          },
+          {
+            "errorId": 1052,
+            "message": "Back Patches are out of mapping range.",
+            "count": 2,
+            "totalDurationInMinutes": "16:43",
+            "maxDurationInMinutes": "16:39"
+          },
+          {
+            "errorId": 1053,
+            "message": "Chest Patches are out of mapping range.",
+            "count": 2,
+            "totalDurationInMinutes": "17:44",
+            "maxDurationInMinutes": "17:37"
+          },
+          {
+            "errorId": 1054,
+            "message": "Chest Patch: partially detached or bad contact. ",
+            "count": 1,
+            "totalDurationInMinutes": "00:00",
+            "maxDurationInMinutes": "00:00"
+          },
+          {
+            "errorId": 1201,
+            "message": "ECG limb lead disconnection.",
+            "count": 5,
+            "totalDurationInMinutes": "19:29",
+            "maxDurationInMinutes": "19:15"
+          },
+          {
+            "errorId": 1210,
+            "message": "Acquisition disabled.",
+            "count": 2,
+            "totalDurationInMinutes": "04:57",
+            "maxDurationInMinutes": "04:53"
+          },
+          {
+            "errorId": 1500,
+            "message": "Respiration gating training is required.",
+            "count": 30,
+            "totalDurationInMinutes": "89:46",
+            "maxDurationInMinutes": "37:58"
+          },
+          {
+            "errorId": 2604,
+            "message": "Force values missing.",
+            "count": 6,
+            "totalDurationInMinutes": "34:15",
+            "maxDurationInMinutes": "26:08"
+          },
+          {
+            "errorId": 2607,
+            "message": "Stability+ data is invalid.",
+            "count": 35,
+            "totalDurationInMinutes": "47:54",
+            "maxDurationInMinutes": "12:35"
+          },
+          {
+            "errorId": 2608,
+            "message": "Stability+ reset is active.",
+            "count": 1,
+            "totalDurationInMinutes": "00:17",
+            "maxDurationInMinutes": "00:17"
+          },
+          {
+            "errorId": 2611,
+            "message": "",
+            "count": 31,
+            "totalDurationInMinutes": "94:34",
+            "maxDurationInMinutes": "37:58"
+          },
+          {
+            "errorId": 6951,
+            "message": "SOUNDSTAR® Catheter is in reduced accuracy zone.",
+            "count": 2,
+            "totalDurationInMinutes": "00:00",
+            "maxDurationInMinutes": "00:00"
+          }
+        ],
+        "unclosedErrors": [
+          {
+            "errorId": 912,
+            "message": "No map enabling catheter appears to be connected.",
+            "count": 1,
+            "totalDurationInMinutes": "-153:09",
+            "maxDurationInMinutes": "-153:09"
+          },
+          {
+            "errorId": 1008,
+            "message": "Back Patch disconnected or fully detached.",
+            "count": 1,
+            "totalDurationInMinutes": "-169:27",
+            "maxDurationInMinutes": "-169:27"
+          },
+          {
+            "errorId": 1009,
+            "message": "Chest Patch disconnected or fully detached.",
+            "count": 1,
+            "totalDurationInMinutes": "-163:29",
+            "maxDurationInMinutes": "-163:29"
+          },
+          {
+            "errorId": 1052,
+            "message": "Back Patches are out of mapping range.",
+            "count": 1,
+            "totalDurationInMinutes": "-169:26",
+            "maxDurationInMinutes": "-169:26"
+          },
+          {
+            "errorId": 1053,
+            "message": "Chest Patches are out of mapping range.",
+            "count": 1,
+            "totalDurationInMinutes": "-163:13",
+            "maxDurationInMinutes": "-163:13"
+          },
+          {
+            "errorId": 1201,
+            "message": "ECG limb lead disconnection.",
+            "count": 1,
+            "totalDurationInMinutes": "-165:24",
+            "maxDurationInMinutes": "-165:24"
+          },
+          {
+            "errorId": 1500,
+            "message": "Respiration gating training is required.",
+            "count": 1,
+            "totalDurationInMinutes": "-150:01",
+            "maxDurationInMinutes": "-150:01"
+          },
+          {
+            "errorId": 2604,
+            "message": "Force values missing.",
+            "count": 1,
+            "totalDurationInMinutes": "-153:28",
+            "maxDurationInMinutes": "-153:28"
+          },
+          {
+            "errorId": 2611,
+            "message": "",
+            "count": 1,
+            "totalDurationInMinutes": "-150:01",
+            "maxDurationInMinutes": "-150:01"
+          }
+        ]
+      }
+    }
+  }
+}

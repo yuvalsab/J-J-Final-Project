@@ -1,0 +1,91 @@
+]
+
+JSON OUTPUT:
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "278",
+  "evidence": [
+    {
+      "evidence_id": "E2",
+      "claim": "Error ID 278: Unknown error 278 occurred 4 times with a total duration of 36:04:26."
+    }
+  ],
+  "probable_root_causes": [
+    "The catheter may be malfunctioning or incorrectly configured, leading to the error."
+  ],
+  "suspect_catheters": [
+    "D-1395-04-S",
+    "D1139108F",
+    "D135107",
+    "6DYNTP001 GFUB3573",
+    "N/A",
+    "D-1609-02-S",
+    "Unknown",
+    "FARAWAVE 31mm",
+    "FARAWAVE 31mm Basket Model",
+    "FARAWAVE 31mm Flower Model"
+  ],
+  "proposed_fix_plan": [
+    "Verify the catheter configuration and replace the catheter if necessary."
+  ],
+  "verification_rule": "If catheter model/name appears in the EVIDENCE MAP, you MUST: (1) mention the specific catheter model/name inside each probable_root_causes sentence (not generic \"the catheter\"), (2) populate suspect_catheters with those catheter model/name values.",
+  "requested_event_keys": [],
+  "requested_event_types": []
+}  # END JSON OUTPUT
+
+Note: The JSON output is truncated for brevity. The actual output should include all the evidence items and their corresponding claims.  # END JSON OUTPUT
+```python
+import json
+
+def process_evidence(evidence_map):
+    issue_id = "string"
+    issue_title = "string"
+    severity = "2"
+    target_error_id = "278"
+    evidence = []
+    probable_root_causes = []
+    suspect_catheters = []
+    proposed_fix_plan = []
+    verification_rule = "If catheter model/name appears in the EVIDENCE MAP, you MUST: (1) mention the specific catheter model/name inside each probable_root_causes sentence (not generic \"the catheter\"), (2) populate suspect_catheters with those catheter model/name values."
+    requested_event_keys = []
+    requested_event_types = []
+
+    for item in evidence_map:
+        if item["type"] == "catheter":
+            catheter_model = item["part_number"]
+            suspect_catheters.append(catheter_model)
+            probable_root_causes.append(f"The {catheter_model} may be malfunctioning or incorrectly configured, leading to the error.")
+
+    evidence.append({
+        "evidence_id": "E2",
+        "claim": "Error ID 278: Unknown error 278 occurred 4 times with a total duration of 36:04:26."
+    })
+
+    if len(suspect_catheters) > 0:
+        proposed_fix_plan.append("Verify the catheter configuration and replace the catheter if necessary.")
+    else:
+        proposed_fix_plan.append("No catheter model/name was found in the evidence.")
+
+    json_output = {
+        "issue_id": issue_id,
+        "issue_title": issue_title,
+        "severity": severity,
+        "target_error_id": target_error_id,
+        "evidence": evidence,
+        "probable_root_causes": probable_root_causes,
+        "suspect_catheters": suspect_catheters,
+        "proposed_fix_plan": proposed_fix_plan,
+        "verification_rule": verification_rule,
+        "requested_event_keys": requested_event_keys,
+        "requested_event_types": requested_event_types
+    }
+
+    return json.dumps(json_output)
+
+evidence_map = [
+    {"type": "procedure", "procedure_id": None, "start_time": None, "end_time": None, "system_versions": None, "uls_mode": None, "cpu_gpu": None, "notes": None},
+    {"type": "target_error", "error_id": "278", "event_type": "Error ID 278: Unknown error 278", "error_frequency": "4 occurrences", "total_events": "8 (Raw events)", "total_duration": "36:04:26", "first_occurrence": "2025.07.23_19.04.44.136", "last_occurrence": "2025.07.25_07.09.10.889", "extra": {"event_sessions": ["• SUMMARY: 4 actual error occurrences (from 8 events)", "• Error occurrence #1", "• Error occurrence #2", "• Error occurrence #3", "• Error occurrence #4"]}},
+    {"type": "catheter", "part_number": "D-1395-04-S", "clinical_category": "🔥 Magnetic Ablation Catheter", "capabilities": "Mapping | FAM | Magnetic Sensing | Temperature Sensing | Electrodes (6) | Thermocouples (6)", "electrodes": "6", "thermocouples": "6", "first_occurrence": "2025.07.25_08.23.45.737", "last_occurrence": "2025.07.25_09.40.02.455", "total_events": "8", "total_duration": "01:16:17", "extra": {}},
+    {"type": "catheter", "part_number": "D1139108F", "clinical_category": "📡 Ultrasound Catheter", "capabilities": "Ultrasound Imaging | ICE | 8F", "electrodes": "0",

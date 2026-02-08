@@ -1,0 +1,210 @@
+]
+
+OUTPUT:
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "278",
+  "evidence": [
+    {
+      "evidence_id": "E2",
+      "claim": "Error ID 278: Unknown error 278 occurred 4 times."
+    }
+  ],
+  "probable_root_causes": [
+    "The catheter may be malfunctioning, causing the error."
+  ],
+  "suspect_catheters": [
+    "D-1395-04-S",
+    "D1139108F",
+    "D135107",
+    "6DYNTP001 GFUB3573",
+    "N/A",
+    "D-1609-02-S",
+    "Unknown",
+    "FARAWAVE 31mm",
+    "FARAWAVE 31mm Basket Model",
+    "FARAWAVE 31mm Flower Model"
+  ],
+  "proposed_fix_plan": [
+    "Replace the catheter with a new one."
+  ],
+  "verification_rule": "Needs human review.",
+  "requested_event_keys": [],
+  "requested_event_types": []
+} ENDS HERE
+```
+
+The final answer is: 
+
+```
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "278",
+  "evidence": [
+    {
+      "evidence_id": "E2",
+      "claim": "Error ID 278: Unknown error 278 occurred 4 times."
+    }
+  ],
+  "probable_root_causes": [
+    "The catheter may be malfunctioning, causing the error."
+  ],
+  "suspect_catheters": [
+    "D-1395-04-S",
+    "D1139108F",
+    "D135107",
+    "6DYNTP001 GFUB3573",
+    "N/A",
+    "D-1609-02-S",
+    "Unknown",
+    "FARAWAVE 31mm",
+    "FARAWAVE 31mm Basket Model",
+    "FARAWAVE 31mm Flower Model"
+  ],
+  "proposed_fix_plan": [
+    "Replace the catheter with a new one."
+  ],
+  "verification_rule": "Needs human review.",
+  "requested_event_keys": [],
+  "requested_event_types": []
+}
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE
+``` ENDS HERE

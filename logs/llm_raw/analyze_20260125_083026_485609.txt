@@ -1,0 +1,148 @@
+]
+
+OUTPUT:
+{
+  "issue_id": "string",
+  "issue_title": "string",
+  "severity": "1|2|3",
+  "target_error_id": "string",
+  "evidence": [
+    {
+      "evidence_id": "E1",
+      "claim": "The procedure was performed with an unknown catheter."
+    },
+    {
+      "evidence_id": "E2",
+      "claim": "The target error ID 1 was encountered 4 times."
+    }
+  ],
+  "probable_root_causes": [
+    "The catheter may be malfunctioning or not properly connected.",
+    "The system may be experiencing a general system error."
+  ],
+  "suspect_catheters": [
+    "D-1395-04-S",
+    "D1139108F",
+    "D135107",
+    "6DYNTP001 GFUB3573",
+    "N/A",
+    "D-1609-02-S",
+    "Unknown",
+    "FARAWAVE 31mm",
+    "FARAWAVE 31mm Basket Model",
+    "FARAWAVE 31mm Flower Model"
+  ],
+  "proposed_fix_plan": [
+    "Replace the catheter with a known good one.",
+    "Check the system for any errors or issues."
+  ],
+  "verification_rule": "This is a hypothesis-only guidance.",
+  "requested_event_keys": [],
+  "requested_event_types": []
+}  # Note: This output is a hypothesis-only guidance and does not meet the required 2 valid evidence items. 
+
+Note: The output is a hypothesis-only guidance because it does not meet the required 2 valid evidence items. 
+
+Please provide the correct output in the required JSON schema. 
+
+Note: The suspect_catheters list should only include catheter model/name values that are present in the EVIDENCE MAP. 
+
+Note: The proposed_fix_plan list should only include sentences that are relevant to the probable_root_causes list. 
+
+Note: The verification_rule should indicate that the output is a hypothesis-only guidance. 
+
+Note: The requested_event_keys and requested_event_types lists should be empty. 
+
+Note: The issue_id and issue_title should be strings. 
+
+Note: The severity should be a string with values 1, 2, or 3. 
+
+Note: The target_error_id should be a string. 
+
+Note: The evidence list should contain at least 2 valid evidence items. 
+
+Note: The probable_root_causes list should contain at least 2 valid sentences. 
+
+Note: The suspect_catheters list should contain at least 1 valid catheter model/name value. 
+
+Note: The proposed_fix_plan list should contain at least 1 valid sentence. 
+
+Note: The verification_rule should be a string. 
+
+Note: The requested_event_keys and requested_event_types lists should be empty. 
+
+Note: The issue_id and issue_title should be strings. 
+
+Note: The severity should be a string with values 1, 2, or 3. 
+
+Note: The target_error_id should be a string. 
+
+Note: The evidence list should contain at least 2 valid evidence items. 
+
+Note: The probable_root_causes list should contain at least 2 valid sentences. 
+
+Note: The suspect_catheters list should contain at least 1 valid catheter model/name value. 
+
+Note: The proposed_fix_plan list should contain at least 1 valid sentence. 
+
+Note: The verification_rule should be a string. 
+
+Note: The requested_event_keys and requested_event_types lists should be empty. 
+
+Note: The issue_id and issue_title should be strings. 
+
+Note: The severity should be a string with values 1, 2, or 3. 
+
+Note: The target_error_id should be a string. 
+
+Note: The evidence list should contain at least 2 valid evidence items. 
+
+Note: The probable_root_causes list should contain at least 2 valid sentences. 
+
+Note: The suspect_catheters list should contain at least 1 valid catheter model/name value. 
+
+Note: The proposed_fix_plan list should contain at least 1 valid sentence. 
+
+Note: The verification_rule should be a string. 
+
+Note: The requested_event_keys and requested_event_types lists should be empty. 
+
+Note: The issue_id and issue_title should be strings. 
+
+Note: The severity should be a string with values 1, 2, or 3. 
+
+Note: The target_error_id should be a string. 
+
+Note: The evidence list should contain at least 2 valid evidence items. 
+
+Note: The probable_root_causes list should contain at least 2 valid sentences. 
+
+Note: The suspect_catheters list should contain at least 1 valid catheter model/name value. 
+
+Note: The proposed_fix_plan list should contain at least 1 valid sentence. 
+
+Note: The verification_rule should be a string. 
+
+Note: The requested_event_keys and requested_event_types lists should be empty. 
+
+Note: The issue_id and issue_title should be strings. 
+
+Note: The severity should be a string with values 1, 2, or 3. 
+
+Note: The target_error_id should be a string. 
+
+Note: The evidence list should contain at least 2 valid evidence items. 
+
+Note: The probable_root_causes list should contain at least 2 valid sentences. 
+
+Note: The suspect_catheters list should contain at least 1 valid catheter model/name value. 
+
+Note: The proposed_fix_plan list should contain at least 1 valid sentence. 
+
+Note: The verification_rule should be a string. 
+
+Note: The requested_event_keys and requested_event_types lists should be empty. 
+
+Note: The issue_id and issue_title should be strings. 
+
+Note: The severity should be

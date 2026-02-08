@@ -1,0 +1,2890 @@
+RAW DATA ANALYSIS - STRUCTURED EVENT BREAKDOWN
+============================================================
+
+
+ABLATION EVENTS:
+===============
+Total Events: 26
+Ablation Sessions: 13 (from 26 events)
+Event Type: Ablation procedure events
+First Occurrence: 2025.07.25_09.20.00.312
+Last Occurrence: 2025.07.25_09.31.07.921
+Event IDs: 12
+Total Duration: 00:11:07
+
+Event Sessions:
+• SUMMARY: 13 actual ablation sessions (from 26 events)
+• Ablation Session Unknown
+• Ablation Session Unknown
+• Ablation Session Unknown
+• Ablation Session Unknown
+• Ablation Session Unknown
+• Ablation Session Unknown
+• Ablation Session Unknown
+• Ablation Session Unknown
+• Ablation Session Unknown
+• Ablation Session Unknown
+• Ablation Session Unknown
+• Ablation Session Unknown
+• Ablation Session Unknown
+
+
+PACING EVENTS:
+=============
+Total Events: 98
+Pacing Sessions: 11 (from 98 events)
+Event Type: Pacing procedure events
+First Occurrence: 2025.07.23_19.06.36.364
+Last Occurrence: 2025.07.25_10.00.43.902
+Event IDs: 130, 131, 132, 17
+Total Duration: 38:54:07
+
+Event Sessions:
+• SUMMARY: 11 actual pacing sessions (from 98 events)
+• Pacing Session Unknown
+• Pacing Session Unknown
+• Pacing Session Unknown
+• Pacing Session Unknown
+• Pacing Session Unknown
+• Pacing Session Unknown
+• Pacing Session Unknown
+• Pacing Session Unknown
+• Pacing Session Unknown
+• Pacing Session Unknown
+• Pacing Session Unknown
+
+
+MAGNETIC SENSOR EVENTS:
+======================
+Total Events: 75
+Channels Monitored: 30
+Critical Channels (18-20): Ch18: DISCONNECTED, Ch19: DISCONNECTED, Ch20: DISCONNECTED
+Event Type: Magnetic sensor status and impedance events
+First Occurrence: 2025.07.25_07.09.04.055
+Last Occurrence: 2025.07.25_09.41.09.186
+⚠️  ERROR 105 CORRELATION: Channel 18: DISCONNECTED at 2025.07.25_08.24.15.633; Channel 19: DISCONNECTED at 2025.07.25_09.11.03.850; Channel 20: DISCONNECTED at 2025.07.25_09.11.03.850; Channel 18: DISCONNECTED at 2025.07.25_09.11.03.983; Channel 19: DISCONNECTED at 2025.07.25_09.11.03.983; Channel 20: DISCONNECTED at 2025.07.25_09.11.03.983; Channel 18: DISCONNECTED at 2025.07.25_09.11.53.150; Channel 19: DISCONNECTED at 2025.07.25_09.12.18.616; Channel 20: DISCONNECTED at 2025.07.25_09.12.18.616; Channel 18: DISCONNECTED at 2025.07.25_09.12.18.683; Channel 19: DISCONNECTED at 2025.07.25_09.12.18.683; Channel 20: DISCONNECTED at 2025.07.25_09.12.18.683; Channel 19: SHORTED at 2025.07.25_09.12.22.350; Channel 20: SHORTED at 2025.07.25_09.12.22.350; Channel 18: SHORTED at 2025.07.25_09.12.22.384; Channel 18: DISCONNECTED at 2025.07.25_09.13.07.283; Channel 19: DISCONNECTED at 2025.07.25_09.13.19.884; Channel 20: DISCONNECTED at 2025.07.25_09.13.19.884; Channel 18: DISCONNECTED at 2025.07.25_09.13.20.017; Channel 19: DISCONNECTED at 2025.07.25_09.13.20.017; Channel 20: DISCONNECTED at 2025.07.25_09.13.20.017; Channel 18: DISCONNECTED at 2025.07.25_09.39.54.088; Channel 19: DISCONNECTED at 2025.07.25_09.39.54.088; Channel 20: DISCONNECTED at 2025.07.25_09.39.54.088
+Event IDs: 22
+Total Duration: 02:32:05
+
+Event Sessions:
+• SUMMARY: 30 channels monitored ⚠️ ERROR 105 CORRELATION DETECTED
+• Channel 0
+•   Impedance Timeline (Channel 0):
+• Event 3: 2025.07.25_07.09.04.055 -     First reading: 392.944031 (Range: None, Variance: None)
+• Event 4: 2025.07.25_08.46.42.379 -     Last reading: 614.049988 (Range: None, Variance: None)
+•   Coil State Changes (Channel 0):
+• Event 6: 2025.07.25_07.09.04.055 -     State: OK (Code: 0)
+• Event 7: 2025.07.25_08.46.42.246 -     State: OK (Code: 0)
+• Event 8: 2025.07.25_08.46.42.379 -     State: OK (Code: 0)
+• Channel 1
+•   Impedance Timeline (Channel 1):
+• Event 11: 2025.07.25_07.09.04.055 -     First reading: 261.416443 (Range: None, Variance: None)
+• Event 12: 2025.07.25_08.46.42.379 -     Last reading: 821.645874 (Range: None, Variance: None)
+•   Coil State Changes (Channel 1):
+• Event 14: 2025.07.25_07.09.04.055 -     State: OK (Code: 0)
+• Event 15: 2025.07.25_08.46.42.212 -     State: OK (Code: 0)
+• Event 16: 2025.07.25_08.46.42.379 -     State: OK (Code: 0)
+• Channel 2
+•   Impedance Timeline (Channel 2):
+• Event 19: 2025.07.25_07.09.04.055 -     First reading: 225.155090 (Range: None, Variance: None)
+• Event 20: 2025.07.25_08.46.42.379 -     Last reading: 378.728058 (Range: None, Variance: None)
+•   Coil State Changes (Channel 2):
+• Event 22: 2025.07.25_07.09.04.055 -     State: OK (Code: 0)
+• Event 23: 2025.07.25_08.46.42.212 -     State: OK (Code: 0)
+• Event 24: 2025.07.25_08.46.42.379 -     State: OK (Code: 0)
+• Event 25: 2025.07.25_07.09.04.055 - Channel 3
+• Event 26: 2025.07.25_07.09.04.055 - Channel 4
+• Event 27: 2025.07.25_07.09.04.055 - Channel 5
+• Event 28: 2025.07.25_07.09.04.055 - Channel 6
+• Event 29: 2025.07.25_07.09.04.055 - Channel 7
+• Event 30: 2025.07.25_07.09.04.055 - Channel 8
+• Event 31: 2025.07.25_07.09.06.156 - Channel 9
+• Event 32: 2025.07.25_07.09.06.421 - Channel 10
+• Event 33: 2025.07.25_07.09.06.456 - Channel 11
+• Event 34: 2025.07.25_07.09.06.489 - Channel 12
+• Event 35: 2025.07.25_07.09.06.489 - Channel 13
+• Event 36: 2025.07.25_07.09.06.489 - Channel 14
+• Event 37: 2025.07.25_07.09.06.489 - Channel 15
+• Event 38: 2025.07.25_07.09.06.489 - Channel 16
+• Event 39: 2025.07.25_07.09.06.489 - Channel 17
+• Channel 18 (CRITICAL - Error 105 correlation)
+•   Impedance Timeline (Channel 18):
+• Event 42: 2025.07.25_08.24.15.633 -     First reading: 6235.268066 (Range: None, Variance: None)
+• Event 43: 2025.07.25_09.12.22.384 -     Min value: 290.600067 (Range: None, Variance: None)
+• Event 44: 2025.07.25_09.13.20.017 -     Max value: 10093.690430 (Range: None, Variance: None)
+• Event 45: 2025.07.25_09.39.54.088 -     Last reading: 2057.160645 (Range: None, Variance: None)
+•   Coil State Changes (Channel 18):
+• Event 47: 2025.07.25_08.24.15.633 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 48: 2025.07.25_09.11.03.983 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 49: 2025.07.25_09.11.53.150 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 50: 2025.07.25_09.12.18.683 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 51: 2025.07.25_09.12.21.650 -     State: OK (Code: 0)
+• Event 52: 2025.07.25_09.12.22.384 -     ⚠️ State: SHORTED (Code: 1)
+• Event 53: 2025.07.25_09.13.07.283 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 54: 2025.07.25_09.13.20.017 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 55: 2025.07.25_09.14.45.884 -     State: OK (Code: 0)
+• Event 56: 2025.07.25_09.39.54.088 -     ⚠️ State: DISCONNECTED (Code: 2)
+•   ⚠️ CRITICAL EVENTS (Error 105 Risk - Channel 18):
+• Event 58: 2025.07.25_08.24.15.633 -     🚨 DISCONNECTED: Impedance=6235.268066, Range=None, Variance=None
+• Event 59: 2025.07.25_09.11.03.983 -     🚨 DISCONNECTED: Impedance=10019.873047, Range=None, Variance=None
+• Event 60: 2025.07.25_09.11.53.150 -     🚨 DISCONNECTED: Impedance=6241.825684, Range=None, Variance=None
+• Event 61: 2025.07.25_09.12.18.683 -     🚨 DISCONNECTED: Impedance=10074.449219, Range=None, Variance=None
+• Event 62: 2025.07.25_09.12.22.384 -     🚨 SHORTED: Impedance=290.600067, Range=None, Variance=None
+• Event 63: 2025.07.25_09.13.07.283 -     🚨 DISCONNECTED: Impedance=6230.204590, Range=None, Variance=None
+• Event 64: 2025.07.25_09.13.20.017 -     🚨 DISCONNECTED: Impedance=10093.690430, Range=None, Variance=None
+• Event 65: 2025.07.25_09.39.54.088 -     🚨 DISCONNECTED: Impedance=2057.160645, Range=None, Variance=None
+• Channel 19 (CRITICAL - Error 105 correlation)
+•   Impedance Timeline (Channel 19):
+• Event 68: 2025.07.25_08.24.15.633 -     First reading: 553.634705 (Range: None, Variance: None)
+• Event 69: 2025.07.25_09.12.22.350 -     Min value: 288.632111 (Range: None, Variance: None)
+• Event 70: 2025.07.25_09.13.20.017 -     Max value: 5662.791992 (Range: None, Variance: None)
+• Event 71: 2025.07.25_09.39.54.088 -     Last reading: 2029.693604 (Range: None, Variance: None)
+•   Coil State Changes (Channel 19):
+• Event 73: 2025.07.25_08.24.15.633 -     State: OK (Code: 0)
+• Event 74: 2025.07.25_09.11.03.850 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 75: 2025.07.25_09.11.03.983 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 76: 2025.07.25_09.11.53.150 -     State: OK (Code: 0)
+• Event 77: 2025.07.25_09.12.18.616 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 78: 2025.07.25_09.12.18.683 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 79: 2025.07.25_09.12.21.617 -     State: OK (Code: 0)
+• Event 80: 2025.07.25_09.12.22.350 -     ⚠️ State: SHORTED (Code: 1)
+• Event 81: 2025.07.25_09.13.07.283 -     State: OK (Code: 0)
+• Event 82: 2025.07.25_09.13.19.884 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 83: 2025.07.25_09.13.20.017 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 84: 2025.07.25_09.14.46.283 -     State: OK (Code: 0)
+• Event 85: 2025.07.25_09.39.54.088 -     ⚠️ State: DISCONNECTED (Code: 2)
+•   ⚠️ CRITICAL EVENTS (Error 105 Risk - Channel 19):
+• Event 87: 2025.07.25_09.11.03.850 -     🚨 DISCONNECTED: Impedance=1675.633057, Range=None, Variance=None
+• Event 88: 2025.07.25_09.11.03.983 -     🚨 DISCONNECTED: Impedance=5562.000488, Range=None, Variance=None
+• Event 89: 2025.07.25_09.12.18.616 -     🚨 DISCONNECTED: Impedance=2215.363037, Range=None, Variance=None
+• Event 90: 2025.07.25_09.12.18.683 -     🚨 DISCONNECTED: Impedance=5250.042480, Range=None, Variance=None
+• Event 91: 2025.07.25_09.12.22.350 -     🚨 SHORTED: Impedance=288.632111, Range=None, Variance=None
+• Event 92: 2025.07.25_09.13.19.884 -     🚨 DISCONNECTED: Impedance=1812.301025, Range=None, Variance=None
+• Event 93: 2025.07.25_09.13.20.017 -     🚨 DISCONNECTED: Impedance=5662.791992, Range=None, Variance=None
+• Event 94: 2025.07.25_09.39.54.088 -     🚨 DISCONNECTED: Impedance=2029.693604, Range=None, Variance=None
+• Channel 20 (CRITICAL - Error 105 correlation)
+•   Impedance Timeline (Channel 20):
+• Event 97: 2025.07.25_08.24.15.633 -     First reading: 437.071442 (Range: None, Variance: None)
+• Event 98: 2025.07.25_09.12.22.350 -     Min value: 288.001709 (Range: None, Variance: None)
+• Event 99: 2025.07.25_09.13.20.017 -     Max value: 5552.299316 (Range: None, Variance: None)
+• Event 100: 2025.07.25_09.39.54.088 -     Last reading: 1969.945801 (Range: None, Variance: None)
+•   Coil State Changes (Channel 20):
+• Event 102: 2025.07.25_08.24.15.633 -     State: OK (Code: 0)
+• Event 103: 2025.07.25_09.11.03.850 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 104: 2025.07.25_09.11.03.983 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 105: 2025.07.25_09.11.53.150 -     State: OK (Code: 0)
+• Event 106: 2025.07.25_09.12.18.616 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 107: 2025.07.25_09.12.18.683 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 108: 2025.07.25_09.12.21.617 -     State: OK (Code: 0)
+• Event 109: 2025.07.25_09.12.22.350 -     ⚠️ State: SHORTED (Code: 1)
+• Event 110: 2025.07.25_09.13.07.283 -     State: OK (Code: 0)
+• Event 111: 2025.07.25_09.13.19.884 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 112: 2025.07.25_09.13.20.017 -     ⚠️ State: DISCONNECTED (Code: 2)
+• Event 113: 2025.07.25_09.14.46.316 -     State: OK (Code: 0)
+• Event 114: 2025.07.25_09.39.54.088 -     ⚠️ State: DISCONNECTED (Code: 2)
+•   ⚠️ CRITICAL EVENTS (Error 105 Risk - Channel 20):
+• Event 116: 2025.07.25_09.11.03.850 -     🚨 DISCONNECTED: Impedance=1570.265381, Range=None, Variance=None
+• Event 117: 2025.07.25_09.11.03.983 -     🚨 DISCONNECTED: Impedance=5471.618164, Range=None, Variance=None
+• Event 118: 2025.07.25_09.12.18.616 -     🚨 DISCONNECTED: Impedance=2078.684570, Range=None, Variance=None
+• Event 119: 2025.07.25_09.12.18.683 -     🚨 DISCONNECTED: Impedance=5119.617188, Range=None, Variance=None
+• Event 120: 2025.07.25_09.12.22.350 -     🚨 SHORTED: Impedance=288.001709, Range=None, Variance=None
+• Event 121: 2025.07.25_09.13.19.884 -     🚨 DISCONNECTED: Impedance=1666.782959, Range=None, Variance=None
+• Event 122: 2025.07.25_09.13.20.017 -     🚨 DISCONNECTED: Impedance=5552.299316, Range=None, Variance=None
+• Event 123: 2025.07.25_09.39.54.088 -     🚨 DISCONNECTED: Impedance=1969.945801, Range=None, Variance=None
+• Channel 21
+•   Impedance Timeline (Channel 21):
+• Event 126: 2025.07.25_08.19.01.475 -     First reading: 438.959900 (Range: None, Variance: None)
+• Event 127: 2025.07.25_09.40.15.154 -     Last reading: 1015.570923 (Range: None, Variance: None)
+•   Coil State Changes (Channel 21):
+• Event 129: 2025.07.25_08.19.01.475 -     State: OK (Code: 0)
+• Event 130: 2025.07.25_09.40.15.154 -     State: DISCONNECTED (Code: 2)
+• Channel 22
+•   Impedance Timeline (Channel 22):
+• Event 133: 2025.07.25_08.19.01.475 -     First reading: 433.485504 (Range: None, Variance: None)
+• Event 134: 2025.07.25_09.40.15.187 -     Last reading: 1313.267212 (Range: None, Variance: None)
+•   Coil State Changes (Channel 22):
+• Event 136: 2025.07.25_08.19.01.475 -     State: OK (Code: 0)
+• Event 137: 2025.07.25_09.40.15.187 -     State: DISCONNECTED (Code: 2)
+• Channel 23
+•   Impedance Timeline (Channel 23):
+• Event 140: 2025.07.25_08.19.01.475 -     First reading: 434.192047 (Range: None, Variance: None)
+• Event 141: 2025.07.25_09.40.15.187 -     Last reading: 1319.346924 (Range: None, Variance: None)
+•   Coil State Changes (Channel 23):
+• Event 143: 2025.07.25_08.19.01.475 -     State: OK (Code: 0)
+• Event 144: 2025.07.25_09.40.15.187 -     State: DISCONNECTED (Code: 2)
+• Event 145: 2025.07.25_08.19.01.475 - Channel 24
+• Event 146: 2025.07.25_08.19.01.475 - Channel 25
+• Event 147: 2025.07.25_08.19.01.475 - Channel 26
+• Channel 30
+•   Impedance Timeline (Channel 30):
+• Event 150: 2025.07.25_07.58.09.104 -     First reading: 248.498611 (Range: None, Variance: None)
+• Event 151: 2025.07.25_09.41.09.145 -     Last reading: 512.110779 (Range: None, Variance: None)
+•   Coil State Changes (Channel 30):
+• Event 153: 2025.07.25_07.58.09.104 -     State: OK (Code: 0)
+• Event 154: 2025.07.25_09.41.09.145 -     State: DISCONNECTED (Code: 2)
+• Channel 31
+•   Impedance Timeline (Channel 31):
+• Event 157: 2025.07.25_07.58.09.104 -     First reading: 245.848648 (Range: None, Variance: None)
+• Event 158: 2025.07.25_09.41.09.145 -     Last reading: 505.755798 (Range: None, Variance: None)
+•   Coil State Changes (Channel 31):
+• Event 160: 2025.07.25_07.58.09.104 -     State: OK (Code: 0)
+• Event 161: 2025.07.25_09.41.09.145 -     State: DISCONNECTED (Code: 2)
+• Channel 32
+•   Impedance Timeline (Channel 32):
+• Event 164: 2025.07.25_07.58.09.104 -     First reading: 226.357117 (Range: None, Variance: None)
+• Event 165: 2025.07.25_09.41.09.186 -     Last reading: 578.655090 (Range: None, Variance: None)
+•   Coil State Changes (Channel 32):
+• Event 167: 2025.07.25_07.58.09.104 -     State: OK (Code: 0)
+• Event 168: 2025.07.25_09.41.09.186 -     State: DISCONNECTED (Code: 2)
+
+
+ERROR EVENTS:
+============
+Total Events: 2362
+Event Type: Error and warning events
+First Occurrence: 2025.07.23_19.04.10.487
+Last Occurrence: 2025.07.25_09.56.04.533
+Event IDs: 1115, 304
+Error IDs: 1, 1008, 1009, 105, 1052, 1053, 1054, 106, 116, 1201, 1210, 1500, 2, 200, 202, 210, 215, 216, 218, 228, 229, 255, 258, 260, 2604, 2607, 2608, 261, 2611, 268, 278, 279, 280, 3, 318, 319, 370, 371, 375, 377, 379, 382, 400, 401, 433, 437, 503, 505, 6951, 80, 85, 86, 88, 89, 901, 912, 946, 947, 948, 95, 950, 952, 955, 956, 982, 996
+Total Duration: 38:51:54
+
+Event Sessions:
+• Event cluster (5 events)
+• Event cluster (32 events)
+• Event cluster (28 events)
+• Event cluster (4 events)
+• Event cluster (2 events)
+• Event cluster (3 events)
+• Event cluster (16 events)
+• Event cluster (2 events)
+• Event cluster (11 events)
+• Event cluster (31 events)
+• Event cluster (3 events)
+• Event cluster (2 events)
+• Event cluster (15 events)
+• Event cluster (26 events)
+• Event cluster (6 events)
+• Event cluster (43 events)
+• Event cluster (9 events)
+• Event cluster (112 events)
+• Event cluster (1132 events)
+• Event cluster (4 events)
+• Event cluster (239 events)
+• Event cluster (6 events)
+• Event cluster (2 events)
+• Event cluster (36 events)
+• Event cluster (136 events)
+• Event cluster (2 events)
+• Event cluster (83 events)
+• Event cluster (318 events)
+• Event 29: 2025.07.25_09.43.42.661 - Error/Warning status change - system
+• Event cluster (4 events)
+• Event cluster (42 events)
+• Event cluster (3 events)
+• Event cluster (2 events)
+• Event cluster (2 events)
+
+
+CATHETER EVENTS:
+===============
+Total Events: 145
+Event Type: Catheter connection and management events
+First Occurrence: 2025.07.23_19.04.10.098
+Last Occurrence: 2025.07.25_10.00.43.910
+Catheter IDs: 18046 (SOUNDSTAR eco 8F (Part: D1139108F)), 18091 (QDOT MICRO Catheter (Part: D-1395-04-S)), 18107 (THERMOCOOL SMARTTOUCH SF-5D Catheter, Micro Electrodes (Part: D135107)), 4074 (DECA DYNAMIC TIP (Part: 6DYNTP001 GFUB3573)), 6098 (Unknown Catheter 6098), 7102 (OCTARAY 2-5-2-5-2 mm, D (Part: D-1609-02-S)), 7508 (OctaRay 20A 252 (Part: Unknown)), 7601 (FARAWAVE 31mm (Part: FARAWAVE 31mm)), 7602 (FARAWAVE 31mm Basket Model (Part: FARAWAVE 31mm Basket Model)), 7603 (FARAWAVE 31mm Flower Model (Part: FARAWAVE 31mm Flower Model)), 8026 (THERMOCOOL SMARTTOUCH UNIDIRECTIONAL CATHETER,D (Part: D-1336-01-S))
+Total Duration: 38:56:33
+
+Event Sessions:
+• Event cluster (2 events)
+• Event 2: 2025.07.23_19.06.47.935 - Communication Connection State Changed - system
+• Event cluster (2 events)
+• Event 4: 2025.07.25_05.59.45.886 - Communication Connection State Changed - system
+• Event cluster (17 events)
+• Event cluster (11 events)
+• Event cluster (12 events)
+• Event 8: 2025.07.25_07.35.31.476 - User Action: Mapping Connector Changed - system
+• Event cluster (2 events)
+• Event 10: 2025.07.25_08.17.05.994 - User Action: Mapping Connector Changed - system
+• Event cluster (5 events)
+• Event cluster (5 events)
+• Event cluster (3 events)
+• Event cluster (3 events)
+• Event cluster (3 events)
+• Event cluster (3 events)
+• Event cluster (3 events)
+• Event cluster (3 events)
+• Event cluster (3 events)
+• Event 20: 2025.07.25_09.08.47.541 - User Action: Mapping Connector Changed - system
+• Event cluster (26 events)
+• Event cluster (2 events)
+• Event cluster (12 events)
+• Event cluster (12 events)
+• Event cluster (7 events)
+• Event cluster (4 events)
+
+
+MAPPING EVENTS:
+==============
+Total Events: 366
+Event Type: Mapping and data acquisition events
+First Occurrence: 2025.07.25_07.06.31.762
+Last Occurrence: 2025.07.25_09.32.08.216
+Event IDs: 1101, 240, 601
+Total Duration: 02:25:37
+
+Event Sessions:
+• Event 1: 2025.07.25_07.06.31.762 - Mapping annotation configuration - user
+• Event cluster (4 events)
+• Event 3: 2025.07.25_08.17.16.965 - Mapping annotation configuration - user
+• Event cluster (3 events)
+• Event 5: 2025.07.25_08.24.31.980 - User Action: [FAM] Acquisition - system
+• Event cluster (92 events)
+• Event cluster (3 events)
+• Event cluster (7 events)
+• Event cluster (49 events)
+• Event cluster (205 events)
+
+
+HARDWARE EVENTS:
+===============
+Total Events: 33
+Event Type: Hardware and system events
+First Occurrence: 2025.07.23_19.04.18.902
+Last Occurrence: 2025.07.25_09.41.15.703
+Event IDs: 232, 233, 235, 24
+Total Duration: 38:36:57
+
+Event Sessions:
+• Event cluster (2 events)
+• Event cluster (2 events)
+• Event cluster (2 events)
+• Event cluster (5 events)
+• Event cluster (7 events)
+• Event 6: 2025.07.25_07.57.58.120 - Devices list - system
+• Event 7: 2025.07.25_08.18.38.333 - Devices list - system
+• Event 8: 2025.07.25_08.23.40.743 - Devices list - system
+• Event cluster (9 events)
+• Event cluster (3 events)
+
+
+PATCH EVENTS:
+============
+Total Events: 88
+Event Type: Patch and positioning events
+First Occurrence: 2025.07.23_19.06.47.935
+Last Occurrence: 2025.07.25_09.37.30.203
+Event IDs: 11, 13, 14
+Total Duration: 38:30:43
+
+Event Sessions:
+• Event cluster (4 events)
+• Event cluster (4 events)
+• Event cluster (12 events)
+• Event cluster (6 events)
+• Event 5: 2025.07.25_07.27.38.415 - Location pad disconnected - system
+• Event 6: 2025.07.25_07.58.23.120 - Location pad connected - system
+• Event cluster (8 events)
+• Event cluster (4 events)
+• Event cluster (46 events)
+• Event cluster (2 events)
+
+
+QDOT MICRO CATHETER:
+===================
+Total Events: 8
+Event Type: QDOT MICRO Catheter (IDs: 18091)
+First Occurrence: 2025.07.25_08.23.45.737
+Last Occurrence: 2025.07.25_09.40.02.455
+Catheter IDs: 18091
+Part Number: D-1395-04-S
+Clinical Category: 🔥 Magnetic Ablation Catheter
+Electrodes: 6
+Thermocouples: 6
+Capabilities: Mapping | FAM | Magnetic Sensing | Temperature Sensing | Electrodes (6) | Thermocouples (6)
+Total Duration: 01:16:17
+
+Catheter connection and disconnection event Sessions:
+• Session 1: 2025.07.25_08.23.45.737 to 2025.07.25_09.11.08.833 (Duration: 00:47:23)
+• Session 2: 2025.07.25_09.11.48.099 to 2025.07.25_09.12.24.083 (Duration: 00:00:36)
+• Session 3: 2025.07.25_09.13.02.248 to 2025.07.25_09.13.25.133 (Duration: 00:00:23)
+• Session 4: 2025.07.25_09.14.14.732 to 2025.07.25_09.40.02.455 (Duration: 00:25:48)
+
+
+CATHETER ID 18046 - SOUNDSTAR ECO 8F (PART: D1139108F):
+======================================================
+Total Events: 2
+Event Type: SOUNDSTAR eco 8F (Part: D1139108F) (ID: 18046)
+First Occurrence: 2025.07.25_07.58.00.274
+Last Occurrence: 2025.07.25_09.41.15.703
+Catheter IDs: 18046
+Part Number: D1139108F
+Clinical Category: 📡 Ultrasound Catheter
+Electrodes: 0
+Thermocouples: 0
+Capabilities: Ultrasound Imaging | ICE | 8F
+Total Duration: 01:43:15
+
+Catheter connection and disconnection event Sessions:
+• 2 events detected with total duration: 01:43:15
+• Attempting to extract connection sessions from event timeline...
+• No clear connection/disconnection patterns found - catheter activity inferred from event sequence
+
+Detailed event timeline:
+  - Event 1: 2025.07.25_07.58.00.274 - Connection: Catheter Connected [Catheter ID: 18046]
+  - Event 2: 2025.07.25_09.41.15.703 - Connection: Catheter disconnected [Catheter ID: 18046]
+
+
+CATHETER ID 18107 - THERMOCOOL SMARTTOUCH SF-5D CATHETER, MICRO ELECTRODES (PART: D135107):
+==========================================================================================
+Total Events: 2
+Event Type: THERMOCOOL SMARTTOUCH SF-5D Catheter, Micro Electrodes (Part: D135107) (ID: 18107)
+First Occurrence: 2025.07.25_09.12.30.419
+Last Occurrence: 2025.07.25_10.00.43.900
+Catheter IDs: 18107
+Part Number: D135107
+Clinical Category: 🔥 Contact Force Ablation Catheter
+Electrodes: 4
+Thermocouples: 1
+Capabilities: Ablation | Contact Force Sensing | Temperature Monitoring | Micro Electrodes (4) | Thermocouple (1)
+Total Duration: 00:48:13
+
+Catheter connection and disconnection event Sessions:
+• 2 events detected with total duration: 00:48:13
+• Attempting to extract connection sessions from event timeline...
+• No clear connection/disconnection patterns found - catheter activity inferred from event sequence
+
+Detailed event timeline:
+  - Event 1: 2025.07.25_09.12.30.419 - Connection: Catheter disconnected [Catheter ID: 18107]
+  - Event 2: 2025.07.25_10.00.43.900 - Connection: Catheter disconnected [Catheter ID: 18107]
+
+
+CATHETER ID 4074 - DECA DYNAMIC TIP (PART: 6DYNTP001 GFUB3573):
+==============================================================
+Total Events: 2
+Event Type: DECA DYNAMIC TIP (Part: 6DYNTP001 GFUB3573) (ID: 4074)
+First Occurrence: 2025.07.25_07.20.01.400
+Last Occurrence: 2025.07.25_10.00.43.902
+Catheter IDs: 4074
+Part Number: 6DYNTP001 GFUB3573
+Clinical Category: 🔧 General Purpose Catheter
+Electrodes: 0
+Thermocouples: 0
+Capabilities: Basic Catheter
+Total Duration: 02:40:42
+
+Catheter connection and disconnection event Sessions:
+• 2 events detected with total duration: 02:40:42
+• Attempting to extract connection sessions from event timeline...
+• No clear connection/disconnection patterns found - catheter activity inferred from event sequence
+
+Detailed event timeline:
+  - Event 1: 2025.07.25_07.20.01.400 - Connection: Catheter connected [Catheter ID: 4074]
+  - Event 2: 2025.07.25_10.00.43.902 - Connection: Catheter disconnected [Catheter ID: 4074]
+
+
+CATHETER ID 6098 - UNKNOWN CATHETER 6098:
+========================================
+Total Events: 8
+Event Type: Unknown Catheter 6098 (ID: 6098)
+First Occurrence: 2025.07.25_08.23.45.761
+Last Occurrence: 2025.07.25_09.40.02.458
+Catheter IDs: 6098
+Part Number: N/A
+Clinical Category: Unknown
+Electrodes: Unknown
+Thermocouples: Unknown
+Capabilities: Unknown
+Total Duration: 01:16:17
+
+Catheter connection and disconnection event Sessions:
+• Session 1: 2025.07.25_08.23.45.761 to 2025.07.25_09.11.08.837 (Duration: 00:47:23)
+• Session 2: 2025.07.25_09.11.48.113 to 2025.07.25_09.12.24.087 (Duration: 00:00:36)
+• Session 3: 2025.07.25_09.13.02.268 to 2025.07.25_09.13.25.137 (Duration: 00:00:23)
+• Session 4: 2025.07.25_09.14.14.747 to 2025.07.25_09.40.02.458 (Duration: 00:25:48)
+
+
+CATHETER ID 7102 - OCTARAY 2-5-2-5-2 MM, D (PART: D-1609-02-S):
+==============================================================
+Total Events: 2
+Event Type: OCTARAY 2-5-2-5-2 mm, D (Part: D-1609-02-S) (ID: 7102)
+First Occurrence: 2025.07.25_08.18.43.192
+Last Occurrence: 2025.07.25_09.40.21.907
+Catheter IDs: 7102
+Part Number: D-1609-02-S
+Clinical Category: 🗺️ Mapping Catheter
+Electrodes: 52
+Thermocouples: 0
+Capabilities: Mapping &#124; FAM &#124; Magnetic Sensing &#124; Electrodes (52)
+Total Duration: 01:21:38
+
+Catheter connection and disconnection event Sessions:
+• 2 events detected with total duration: 01:21:38
+• Attempting to extract connection sessions from event timeline...
+• No clear connection/disconnection patterns found - catheter activity inferred from event sequence
+
+Detailed event timeline:
+  - Event 1: 2025.07.25_08.18.43.192 - Connection: Catheter connected [Catheter ID: 7102]
+  - Event 2: 2025.07.25_09.40.21.907 - Connection: Catheter disconnected [Catheter ID: 7102]
+
+
+CATHETER ID 7508 - OCTARAY 20A 252 (PART: UNKNOWN):
+==================================================
+Total Events: 2
+Event Type: OctaRay 20A 252 (Part: Unknown) (ID: 7508)
+First Occurrence: 2025.07.25_08.18.43.145
+Last Occurrence: 2025.07.25_09.40.21.904
+Catheter IDs: 7508
+Part Number: Unknown
+Clinical Category: 🔧 General Purpose Catheter
+Electrodes: 0
+Thermocouples: 0
+Capabilities: Magnetic Sensing
+Total Duration: 01:21:38
+
+Catheter connection and disconnection event Sessions:
+• 2 events detected with total duration: 01:21:38
+• Attempting to extract connection sessions from event timeline...
+• No clear connection/disconnection patterns found - catheter activity inferred from event sequence
+
+Detailed event timeline:
+  - Event 1: 2025.07.25_08.18.43.145 - Connection: Catheter Connected [Catheter ID: 7508]
+  - Event 2: 2025.07.25_09.40.21.904 - Connection: Catheter disconnected [Catheter ID: 7508]
+
+
+CATHETER ID 7601 - FARAWAVE 31MM (PART: FARAWAVE 31MM):
+========================================================
+Total Events: 4
+Event Type: FARAWAVE 31mm (Part: FARAWAVE 31mm) (ID: 7601)
+First Occurrence: 2025.07.25_07.20.28.453
+Last Occurrence: 2025.07.25_08.37.06.258
+Catheter IDs: 7601
+Part Number: FARAWAVE 31mm
+Clinical Category: 🔧 General Purpose Catheter
+Electrodes: 0
+Thermocouples: 0
+Capabilities: Basic Catheter
+Total Duration: 01:16:38
+
+Catheter connection and disconnection event Sessions:
+• 4 events detected with total duration: 01:16:38
+• Attempting to extract connection sessions from event timeline...
+• No clear connection/disconnection patterns found - catheter activity inferred from event sequence
+
+Detailed event timeline:
+  - Event 1: 2025.07.25_07.20.28.453 - Connection: Catheter connected [Catheter ID: 7601]
+  - Event 2: 2025.07.25_07.20.31.359 - Connection: Catheter disconnected [Catheter ID: 7601]
+  - Event 3: 2025.07.25_07.20.35.923 - Connection: Catheter connected [Catheter ID: 7601]
+  - Event 4: 2025.07.25_08.37.06.258 - Connection: Catheter disconnected [Catheter ID: 7601]
+
+
+CATHETER ID 7602 - FARAWAVE 31MM BASKET MODEL (PART: FARAWAVE 31MM BASKET MODEL):
+==================================================================================
+Total Events: 6
+Event Type: FARAWAVE 31mm Basket Model (Part: FARAWAVE 31mm Basket Model) (ID: 7602)
+First Occurrence: 2025.07.25_08.45.43.440
+Last Occurrence: 2025.07.25_08.55.58.713
+Catheter IDs: 7602
+Part Number: FARAWAVE 31mm Basket Model
+Clinical Category: 🔧 General Purpose Catheter
+Electrodes: 0
+Thermocouples: 0
+Capabilities: Basic Catheter
+Total Duration: 00:10:15
+
+Catheter connection and disconnection event Sessions:
+• 6 events detected with total duration: 00:10:15
+• Attempting to extract connection sessions from event timeline...
+• No clear connection/disconnection patterns found - catheter activity inferred from event sequence
+
+Detailed event timeline:
+  - Event 1: 2025.07.25_08.45.43.440 - Connection: Catheter connected [Catheter ID: 7602]
+  - Event 2: 2025.07.25_08.47.02.017 - Connection: Catheter disconnected [Catheter ID: 7602]
+  - Event 3: 2025.07.25_08.51.41.777 - Connection: Catheter connected [Catheter ID: 7602]
+  - Event 4: 2025.07.25_08.53.05.249 - Connection: Catheter disconnected [Catheter ID: 7602]
+  - Event 5: 2025.07.25_08.54.44.625 - Connection: Catheter connected [Catheter ID: 7602]
+  - Event 6: 2025.07.25_08.55.58.713 - Connection: Catheter disconnected [Catheter ID: 7602]
+
+
+CATHETER ID 7603 - FARAWAVE 31MM FLOWER MODEL (PART: FARAWAVE 31MM FLOWER MODEL):
+==================================================================================
+Total Events: 8
+Event Type: FARAWAVE 31mm Flower Model (Part: FARAWAVE 31mm Flower Model) (ID: 7603)
+First Occurrence: 2025.07.25_08.37.09.334
+Last Occurrence: 2025.07.25_10.00.43.910
+Catheter IDs: 7603
+Part Number: FARAWAVE 31mm Flower Model
+Clinical Category: 🔧 General Purpose Catheter
+Electrodes: 0
+Thermocouples: 0
+Capabilities: Basic Catheter
+Total Duration: 01:23:34
+
+Catheter connection and disconnection event Sessions:
+• 8 events detected with total duration: 01:23:34
+• Attempting to extract connection sessions from event timeline...
+• No clear connection/disconnection patterns found - catheter activity inferred from event sequence
+
+Detailed event timeline:
+  - Event 1: 2025.07.25_08.37.09.334 - Connection: Catheter connected [Catheter ID: 7603]
+  - Event 2: 2025.07.25_08.45.39.849 - Connection: Catheter disconnected [Catheter ID: 7603]
+  - Event 3: 2025.07.25_08.47.05.179 - Connection: Catheter connected [Catheter ID: 7603]
+  - Event 4: 2025.07.25_08.51.38.332 - Connection: Catheter disconnected [Catheter ID: 7603]
+  - Event 5: 2025.07.25_08.53.09.715 - Connection: Catheter connected [Catheter ID: 7603]
+  - Event 6: 2025.07.25_08.54.38.184 - Connection: Catheter disconnected [Catheter ID: 7603]
+  - Event 7: 2025.07.25_08.56.01.827 - Connection: Catheter connected [Catheter ID: 7603]
+  - Event 8: 2025.07.25_10.00.43.910 - Connection: Catheter disconnected [Catheter ID: 7603]
+
+
+CATHETER ID 8026 - THERMOCOOL SMARTTOUCH UNIDIRECTIONAL CATHETER,D (PART: D-1336-01-S):
+========================================================================================
+Total Events: 4
+Event Type: THERMOCOOL SMARTTOUCH UNIDIRECTIONAL CATHETER,D (Part: D-1336-01-S) (ID: 8026)
+First Occurrence: 2025.07.25_07.20.10.757
+Last Occurrence: 2025.07.25_10.00.43.907
+Catheter IDs: 8026
+Part Number: D-1336-01-S
+Clinical Category: 🔥 Magnetic Ablation Catheter
+Electrodes: 6
+Thermocouples: 0
+Capabilities: Mapping &#124; FAM &#124; Magnetic Sensing &#124; Electrodes (6)
+Total Duration: 02:40:33
+
+Catheter connection and disconnection event Sessions:
+• Session 1: 2025.07.25_07.20.23.428 to 2025.07.25_07.20.25.392 (Duration: 00:00:02)
+• Session 2: 2025.07.25_07.20.10.757 to 2025.07.25_10.00.43.907 (Duration: 02:40:33)
+
+
+ERROR ID 1:
+==========
+Total Events: 8 (Raw events)
+Actual Error Occurrences: 4
+Event Type: Error ID 1: General system error
+First Occurrence: 2025.07.23_19.04.10.487
+Last Occurrence: 2025.07.25_07.08.42.475
+Error Frequency: 4 occurrences
+Event IDs: 1
+Error IDs: 1
+Total Duration: 36:04:32
+
+Event Sessions:
+• SUMMARY: 4 actual error occurrences (from 8 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+
+
+ERROR ID 1008:
+=============
+Total Events: 5 (Raw events)
+Actual Error Occurrences: 3
+Event Type: Error ID 1008: Unknown error 1008
+First Occurrence: 2025.07.25_07.09.12.491
+Last Occurrence: 2025.07.25_09.56.04.233
+Error Frequency: 3 occurrences
+Event IDs: 1008
+Error IDs: 1008
+Total Duration: 02:46:52
+
+Event Sessions:
+• SUMMARY: 3 actual error occurrences (from 5 events)
+• Error occurrence #1
+• Error occurrence #2
+• Event 3: 2025.07.25_09.56.04.233 - Error occurrence #3 (ongoing) (Frequency: 1)
+
+
+ERROR ID 1009:
+=============
+Total Events: 3 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 1009: Unknown error 1009
+First Occurrence: 2025.07.25_07.09.12.491
+Last Occurrence: 2025.07.25_09.50.01.683
+Error Frequency: 2 occurrences
+Event IDs: 1009
+Error IDs: 1009
+Total Duration: 02:40:49
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 3 events)
+• Error occurrence #1
+• Event 2: 2025.07.25_09.50.01.683 - Error occurrence #2 (ongoing) (Frequency: 1)
+
+
+ERROR ID 105:
+============
+Total Events: 10 (Raw events)
+Actual Error Occurrences: 5
+Event Type: Error ID 105: MAP: catheter sensor error
+First Occurrence: 2025.07.25_08.24.15.633
+Last Occurrence: 2025.07.25_09.40.02.542
+Error Frequency: 5 occurrences
+Event IDs: 105
+Error IDs: 105
+Total Duration: 01:15:47
+
+Event Sessions:
+• SUMMARY: 5 actual error occurrences (from 10 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+
+
+ERROR ID 1052:
+=============
+Total Events: 5 (Raw events)
+Actual Error Occurrences: 3
+Event Type: Error ID 1052: Unknown error 1052
+First Occurrence: 2025.07.25_07.09.06.472
+Last Occurrence: 2025.07.25_09.56.04.533
+Error Frequency: 3 occurrences
+Event IDs: 1052
+Error IDs: 1052
+Total Duration: 02:46:58
+
+Event Sessions:
+• SUMMARY: 3 actual error occurrences (from 5 events)
+• Error occurrence #1
+• Error occurrence #2
+• Event 3: 2025.07.25_09.56.04.533 - Error occurrence #3 (ongoing) (Frequency: 1)
+
+
+ERROR ID 1053:
+=============
+Total Events: 5 (Raw events)
+Actual Error Occurrences: 3
+Event Type: Error ID 1053: Unknown error 1053
+First Occurrence: 2025.07.25_07.09.04.055
+Last Occurrence: 2025.07.25_09.50.18.132
+Error Frequency: 3 occurrences
+Event IDs: 1053
+Error IDs: 1053
+Total Duration: 02:41:14
+
+Event Sessions:
+• SUMMARY: 3 actual error occurrences (from 5 events)
+• Error occurrence #1
+• Error occurrence #2
+• Event 3: 2025.07.25_09.50.18.132 - Error occurrence #3 (ongoing) (Frequency: 1)
+
+
+ERROR ID 1054:
+=============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 1054: Unknown error 1054
+First Occurrence: 2025.07.25_07.26.49.935
+Last Occurrence: 2025.07.25_07.26.50.503
+Error Frequency: 1 occurrences
+Event IDs: 1054
+Error IDs: 1054
+Total Duration: 00:00:01
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Error occurrence #1
+
+
+ERROR ID 106:
+============
+Total Events: 70 (Raw events)
+Actual Error Occurrences: 35
+Event Type: Error ID 106: Force Catheter sensor error (QDOT/SMARTTOUCH)
+First Occurrence: 2025.07.25_09.11.03.917
+Last Occurrence: 2025.07.25_09.13.25.133
+Error Frequency: 35 occurrences
+Event IDs: 106
+Error IDs: 106
+Total Duration: 00:02:22
+
+Event Sessions:
+• SUMMARY: 35 actual error occurrences (from 70 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+• Error occurrence #17
+• Error occurrence #18
+• Error occurrence #19
+• Error occurrence #20
+• Error occurrence #21
+• Error occurrence #22
+• Error occurrence #23
+• Error occurrence #24
+• Error occurrence #25
+• Error occurrence #26
+• Error occurrence #27
+• Error occurrence #28
+• Error occurrence #29
+• Error occurrence #30
+• Error occurrence #31
+• Error occurrence #32
+• Error occurrence #33
+• Error occurrence #34
+• Error occurrence #35
+
+
+ERROR ID 116:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 116: Unknown error 116
+First Occurrence: 2025.07.25_09.40.15.154
+Last Occurrence: 2025.07.25_09.40.22.003
+Error Frequency: 1 occurrences
+Event IDs: 116
+Error IDs: 116
+Total Duration: 00:00:07
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Error occurrence #1
+
+
+ERROR ID 1201:
+=============
+Total Events: 11 (Raw events)
+Actual Error Occurrences: 6
+Event Type: Error ID 1201: Unknown error 1201
+First Occurrence: 2025.07.25_07.06.37.877
+Last Occurrence: 2025.07.25_09.52.06.964
+Error Frequency: 6 occurrences
+Event IDs: 1201
+Error IDs: 1201
+Total Duration: 02:45:29
+
+Event Sessions:
+• SUMMARY: 6 actual error occurrences (from 11 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Event 6: 2025.07.25_09.52.06.964 - Error occurrence #6 (ongoing) (Frequency: 1)
+
+
+ERROR ID 1210:
+=============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 1210: Unknown error 1210
+First Occurrence: 2025.07.25_07.29.47.937
+Last Occurrence: 2025.07.25_09.43.42.661
+Error Frequency: 2 occurrences
+Event IDs: 1210
+Error IDs: 1210
+Total Duration: 02:13:55
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Error occurrence #1
+• Error occurrence #2
+
+
+ERROR ID 1500:
+=============
+Total Events: 61 (Raw events)
+Actual Error Occurrences: 31
+Event Type: Error ID 1500: Unknown error 1500
+First Occurrence: 2025.07.25_07.58.23.121
+Last Occurrence: 2025.07.25_09.37.30.272
+Error Frequency: 31 occurrences
+Event IDs: 1500
+Error IDs: 1500
+Total Duration: 01:39:07
+
+Event Sessions:
+• SUMMARY: 31 actual error occurrences (from 61 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+• Error occurrence #17
+• Error occurrence #18
+• Error occurrence #19
+• Error occurrence #20
+• Error occurrence #21
+• Error occurrence #22
+• Error occurrence #23
+• Error occurrence #24
+• Error occurrence #25
+• Error occurrence #26
+• Error occurrence #27
+• Error occurrence #28
+• Error occurrence #29
+• Error occurrence #30
+• Event 31: 2025.07.25_09.37.30.272 - Error occurrence #31 (ongoing) (Frequency: 1)
+
+
+ERROR ID 2:
+==========
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 2: Communication error
+First Occurrence: 2025.07.25_07.07.18.188
+Last Occurrence: 2025.07.25_07.08.42.469
+Error Frequency: 1 occurrences
+Event IDs: 2
+Error IDs: 2
+Total Duration: 00:01:24
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Error occurrence #1
+
+
+ERROR ID 200:
+============
+Total Events: 8 (Raw events)
+Actual Error Occurrences: 4
+Event Type: Error ID 200: Unknown error 200
+First Occurrence: 2025.07.25_09.11.03.918
+Last Occurrence: 2025.07.25_09.39.54.272
+Error Frequency: 4 occurrences
+Event IDs: 200
+Error IDs: 200
+Total Duration: 00:28:51
+
+Event Sessions:
+• SUMMARY: 4 actual error occurrences (from 8 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+
+
+ERROR ID 202:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 202: Unknown error 202
+First Occurrence: 2025.07.25_09.17.04.604
+Last Occurrence: 2025.07.25_09.17.07.396
+Error Frequency: 1 occurrences
+Event IDs: 202
+Error IDs: 202
+Total Duration: 00:00:03
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Error occurrence #1
+
+
+ERROR ID 210:
+============
+Total Events: 10 (Raw events)
+Actual Error Occurrences: 5
+Event Type: Error ID 210: Unknown error 210
+First Occurrence: 2025.07.25_09.11.03.966
+Last Occurrence: 2025.07.25_09.40.02.542
+Error Frequency: 5 occurrences
+Event IDs: 210
+Error IDs: 210
+Total Duration: 00:28:59
+
+Event Sessions:
+• SUMMARY: 5 actual error occurrences (from 10 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+
+
+ERROR ID 215:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 215: Unknown error 215
+First Occurrence: 2025.07.25_09.12.20.583
+Last Occurrence: 2025.07.25_09.12.24.198
+Error Frequency: 1 occurrences
+Event IDs: 215
+Error IDs: 215
+Total Duration: 00:00:04
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Error occurrence #1
+
+
+ERROR ID 216:
+============
+Total Events: 32 (Raw events)
+Actual Error Occurrences: 16
+Event Type: Error ID 216: Unknown error 216
+First Occurrence: 2025.07.25_08.24.11.426
+Last Occurrence: 2025.07.25_09.14.51.919
+Error Frequency: 16 occurrences
+Event IDs: 216
+Error IDs: 216
+Total Duration: 00:50:40
+
+Event Sessions:
+• SUMMARY: 16 actual error occurrences (from 32 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+
+
+ERROR ID 218:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 218: Ablation system error
+First Occurrence: 2025.07.25_09.17.24.590
+Last Occurrence: 2025.07.25_09.17.47.620
+Error Frequency: 1 occurrences
+Event IDs: 218
+Error IDs: 218
+Total Duration: 00:00:23
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Error occurrence #1
+
+
+ERROR ID 228:
+============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 228: Cable recognition/validation error
+First Occurrence: 2025.07.25_07.09.01.648
+Last Occurrence: 2025.07.25_09.12.45.499
+Error Frequency: 2 occurrences
+Event IDs: 228
+Error IDs: 228
+Total Duration: 02:03:44
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Error occurrence #1
+• Error occurrence #2
+
+
+ERROR ID 229:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 229: Unknown error 229
+First Occurrence: 2025.07.25_09.12.24.264
+Last Occurrence: 2025.07.25_09.12.30.607
+Error Frequency: 1 occurrences
+Event IDs: 229
+Error IDs: 229
+Total Duration: 00:00:06
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Error occurrence #1
+
+
+ERROR ID 255:
+============
+Total Events: 66 (Raw events)
+Actual Error Occurrences: 33
+Event Type: Error ID 255: Unknown error 255
+First Occurrence: 2025.07.25_07.58.23.121
+Last Occurrence: 2025.07.25_09.50.10.599
+Error Frequency: 33 occurrences
+Event IDs: 255
+Error IDs: 255
+Total Duration: 01:51:47
+
+Event Sessions:
+• SUMMARY: 33 actual error occurrences (from 66 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+• Error occurrence #17
+• Error occurrence #18
+• Error occurrence #19
+• Error occurrence #20
+• Error occurrence #21
+• Error occurrence #22
+• Error occurrence #23
+• Error occurrence #24
+• Error occurrence #25
+• Error occurrence #26
+• Error occurrence #27
+• Error occurrence #28
+• Error occurrence #29
+• Error occurrence #30
+• Error occurrence #31
+• Error occurrence #32
+• Error occurrence #33
+
+
+ERROR ID 258:
+============
+Total Events: 6 (Raw events)
+Actual Error Occurrences: 3
+Event Type: Error ID 258: Unknown error 258
+First Occurrence: 2025.07.23_19.04.44.134
+Last Occurrence: 2025.07.25_07.06.58.914
+Error Frequency: 3 occurrences
+Event IDs: 258
+Error IDs: 258
+Total Duration: 36:02:14
+
+Event Sessions:
+• SUMMARY: 3 actual error occurrences (from 6 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+
+
+ERROR ID 260:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 260: Unknown error 260
+First Occurrence: 2025.07.25_07.06.38.364
+Last Occurrence: 2025.07.25_07.06.38.427
+Error Frequency: 1 occurrences
+Event IDs: 260
+Error IDs: 260
+Total Duration: 00:00:00
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Error occurrence #1
+
+
+ERROR ID 2604:
+=============
+Total Events: 13 (Raw events)
+Actual Error Occurrences: 7
+Event Type: Error ID 2604: Unknown error 2604
+First Occurrence: 2025.07.25_07.22.50.017
+Last Occurrence: 2025.07.25_09.40.02.989
+Error Frequency: 7 occurrences
+Event IDs: 2604
+Error IDs: 2604
+Total Duration: 02:17:12
+
+Event Sessions:
+• SUMMARY: 7 actual error occurrences (from 13 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Event 7: 2025.07.25_09.40.02.989 - Error occurrence #7 (ongoing) (Frequency: 1)
+
+
+ERROR ID 2607:
+=============
+Total Events: 70 (Raw events)
+Actual Error Occurrences: 35
+Event Type: Error ID 2607: Unknown error 2607
+First Occurrence: 2025.07.25_08.23.45.989
+Last Occurrence: 2025.07.25_09.40.02.542
+Error Frequency: 35 occurrences
+Event IDs: 2607
+Error IDs: 2607
+Total Duration: 01:16:17
+
+Event Sessions:
+• SUMMARY: 35 actual error occurrences (from 70 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+• Error occurrence #17
+• Error occurrence #18
+• Error occurrence #19
+• Error occurrence #20
+• Error occurrence #21
+• Error occurrence #22
+• Error occurrence #23
+• Error occurrence #24
+• Error occurrence #25
+• Error occurrence #26
+• Error occurrence #27
+• Error occurrence #28
+• Error occurrence #29
+• Error occurrence #30
+• Error occurrence #31
+• Error occurrence #32
+• Error occurrence #33
+• Error occurrence #34
+• Error occurrence #35
+
+
+ERROR ID 2608:
+=============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 2608: Unknown error 2608
+First Occurrence: 2025.07.25_09.15.06.488
+Last Occurrence: 2025.07.25_09.15.23.988
+Error Frequency: 1 occurrences
+Event IDs: 2608
+Error IDs: 2608
+Total Duration: 00:00:17
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Error occurrence #1
+
+
+ERROR ID 261:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 261: Unknown error 261
+First Occurrence: 2025.07.25_07.58.23.121
+Last Occurrence: 2025.07.25_07.59.08.969
+Error Frequency: 1 occurrences
+Event IDs: 261
+Error IDs: 261
+Total Duration: 00:00:45
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Error occurrence #1
+
+
+ERROR ID 2611:
+=============
+Total Events: 63 (Raw events)
+Actual Error Occurrences: 32
+Event Type: Error ID 2611: Unknown error 2611
+First Occurrence: 2025.07.25_07.22.50.017
+Last Occurrence: 2025.07.25_09.37.30.272
+Error Frequency: 32 occurrences
+Event IDs: 2611
+Error IDs: 2611
+Total Duration: 02:14:40
+
+Event Sessions:
+• SUMMARY: 32 actual error occurrences (from 63 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+• Error occurrence #17
+• Error occurrence #18
+• Error occurrence #19
+• Error occurrence #20
+• Error occurrence #21
+• Error occurrence #22
+• Error occurrence #23
+• Error occurrence #24
+• Error occurrence #25
+• Error occurrence #26
+• Error occurrence #27
+• Error occurrence #28
+• Error occurrence #29
+• Error occurrence #30
+• Error occurrence #31
+• Event 32: 2025.07.25_09.37.30.272 - Error occurrence #32 (ongoing) (Frequency: 1)
+
+
+ERROR ID 268:
+============
+Total Events: 6 (Raw events)
+Actual Error Occurrences: 3
+Event Type: Error ID 268: Unknown error 268
+First Occurrence: 2025.07.23_19.04.44.136
+Last Occurrence: 2025.07.25_07.06.58.914
+Error Frequency: 3 occurrences
+Event IDs: 268
+Error IDs: 268
+Total Duration: 36:02:14
+
+Event Sessions:
+• SUMMARY: 3 actual error occurrences (from 6 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+
+
+ERROR ID 278:
+============
+Total Events: 8 (Raw events)
+Actual Error Occurrences: 4
+Event Type: Error ID 278: Unknown error 278
+First Occurrence: 2025.07.23_19.04.44.136
+Last Occurrence: 2025.07.25_07.09.10.889
+Error Frequency: 4 occurrences
+Event IDs: 278
+Error IDs: 278
+Total Duration: 36:04:26
+
+Event Sessions:
+• SUMMARY: 4 actual error occurrences (from 8 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+
+
+ERROR ID 279:
+============
+Total Events: 8 (Raw events)
+Actual Error Occurrences: 4
+Event Type: Error ID 279: Unknown error 279
+First Occurrence: 2025.07.25_08.23.49.773
+Last Occurrence: 2025.07.25_09.14.58.746
+Error Frequency: 4 occurrences
+Event IDs: 279
+Error IDs: 279
+Total Duration: 00:51:09
+
+Event Sessions:
+• SUMMARY: 4 actual error occurrences (from 8 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+
+
+ERROR ID 280:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 280: Unknown error 280
+First Occurrence: 2025.07.25_07.06.45.247
+Last Occurrence: 2025.07.25_07.06.58.914
+Error Frequency: 1 occurrences
+Event IDs: 280
+Error IDs: 280
+Total Duration: 00:00:13
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Error occurrence #1
+
+
+ERROR ID 3:
+==========
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 3: Hardware error
+First Occurrence: 2025.07.25_07.08.42.475
+Last Occurrence: 2025.07.25_07.09.01.648
+Error Frequency: 1 occurrences
+Event IDs: 3
+Error IDs: 3
+Total Duration: 00:00:19
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Error occurrence #1
+
+
+ERROR ID 318:
+============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 318: Catheter positioning error
+First Occurrence: 2025.07.25_09.15.07.134
+Last Occurrence: 2025.07.25_09.32.00.190
+Error Frequency: 2 occurrences
+Event IDs: 318
+Error IDs: 318
+Total Duration: 00:16:53
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Error occurrence #1
+• Error occurrence #2
+
+
+ERROR ID 319:
+============
+Total Events: 6 (Raw events)
+Actual Error Occurrences: 3
+Event Type: Error ID 319: Catheter tracking error
+First Occurrence: 2025.07.25_09.12.22.155
+Last Occurrence: 2025.07.25_09.39.54.088
+Error Frequency: 3 occurrences
+Event IDs: 319
+Error IDs: 319
+Total Duration: 00:27:32
+
+Event Sessions:
+• SUMMARY: 3 actual error occurrences (from 6 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+
+
+ERROR ID 370:
+============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 370: RF delivery error
+First Occurrence: 2025.07.25_08.18.43.276
+Last Occurrence: 2025.07.25_09.40.22.003
+Error Frequency: 2 occurrences
+Event IDs: 370
+Error IDs: 370
+Total Duration: 01:21:39
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Error occurrence #1
+• Error occurrence #2
+
+
+ERROR ID 371:
+============
+Total Events: 68 (Raw events)
+Actual Error Occurrences: 34
+Event Type: Error ID 371: Mapping system validation error
+First Occurrence: 2025.07.25_08.18.50.491
+Last Occurrence: 2025.07.25_09.14.52.538
+Error Frequency: 34 occurrences
+Event IDs: 371
+Error IDs: 371
+Total Duration: 00:56:02
+
+Event Sessions:
+• SUMMARY: 34 actual error occurrences (from 68 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+• Error occurrence #17
+• Error occurrence #18
+• Error occurrence #19
+• Error occurrence #20
+• Error occurrence #21
+• Error occurrence #22
+• Error occurrence #23
+• Error occurrence #24
+• Error occurrence #25
+• Error occurrence #26
+• Error occurrence #27
+• Error occurrence #28
+• Error occurrence #29
+• Error occurrence #30
+• Error occurrence #31
+• Error occurrence #32
+• Error occurrence #33
+• Error occurrence #34
+
+
+ERROR ID 375:
+============
+Total Events: 28 (Raw events)
+Actual Error Occurrences: 14
+Event Type: Error ID 375: Unknown error 375
+First Occurrence: 2025.07.25_09.04.06.095
+Last Occurrence: 2025.07.25_09.40.02.542
+Error Frequency: 14 occurrences
+Event IDs: 375
+Error IDs: 375
+Total Duration: 00:35:56
+
+Event Sessions:
+• SUMMARY: 14 actual error occurrences (from 28 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+
+
+ERROR ID 377:
+============
+Total Events: 14 (Raw events)
+Actual Error Occurrences: 7
+Event Type: Error ID 377: Unknown error 377
+First Occurrence: 2025.07.25_09.33.55.376
+Last Occurrence: 2025.07.25_09.39.58.977
+Error Frequency: 7 occurrences
+Event IDs: 377
+Error IDs: 377
+Total Duration: 00:06:03
+
+Event Sessions:
+• SUMMARY: 7 actual error occurrences (from 14 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+
+
+ERROR ID 379:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 379: Unknown error 379
+First Occurrence: 2025.07.25_08.23.40.950
+Last Occurrence: 2025.07.25_08.24.03.864
+Error Frequency: 1 occurrences
+Event IDs: 379
+Error IDs: 379
+Total Duration: 00:00:23
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Error occurrence #1
+
+
+ERROR ID 382:
+============
+Total Events: 26 (Raw events)
+Actual Error Occurrences: 13
+Event Type: Error ID 382: Unknown error 382
+First Occurrence: 2025.07.25_08.24.04.214
+Last Occurrence: 2025.07.25_09.39.42.827
+Error Frequency: 13 occurrences
+Event IDs: 382
+Error IDs: 382
+Total Duration: 01:15:38
+
+Event Sessions:
+• SUMMARY: 13 actual error occurrences (from 26 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+
+
+ERROR ID 400:
+============
+Total Events: 28 (Raw events)
+Actual Error Occurrences: 14
+Event Type: Error ID 400: Unknown error 400
+First Occurrence: 2025.07.25_08.24.03.864
+Last Occurrence: 2025.07.25_09.39.42.827
+Error Frequency: 14 occurrences
+Event IDs: 400
+Error IDs: 400
+Total Duration: 01:15:39
+
+Event Sessions:
+• SUMMARY: 14 actual error occurrences (from 28 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+
+
+ERROR ID 401:
+============
+Total Events: 28 (Raw events)
+Actual Error Occurrences: 14
+Event Type: Error ID 401: Map points cannot be acquired
+First Occurrence: 2025.07.25_08.19.43.814
+Last Occurrence: 2025.07.25_09.38.02.417
+Error Frequency: 14 occurrences
+Event IDs: 401
+Error IDs: 401
+Total Duration: 01:18:19
+
+Event Sessions:
+• SUMMARY: 14 actual error occurrences (from 28 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+
+
+ERROR ID 433:
+============
+Total Events: 42 (Raw events)
+Actual Error Occurrences: 21
+Event Type: Error ID 433: Unknown error 433
+First Occurrence: 2025.07.25_09.19.03.637
+Last Occurrence: 2025.07.25_09.31.35.423
+Error Frequency: 21 occurrences
+Event IDs: 433
+Error IDs: 433
+Total Duration: 00:12:32
+
+Event Sessions:
+• SUMMARY: 21 actual error occurrences (from 42 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+• Error occurrence #17
+• Error occurrence #18
+• Error occurrence #19
+• Error occurrence #20
+• Error occurrence #21
+
+
+ERROR ID 437:
+============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 437: Unknown error 437
+First Occurrence: 2025.07.25_07.58.27.954
+Last Occurrence: 2025.07.25_08.12.46.022
+Error Frequency: 2 occurrences
+Event IDs: 437
+Error IDs: 437
+Total Duration: 00:14:19
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Error occurrence #1
+• Error occurrence #2
+
+
+ERROR ID 503:
+============
+Total Events: 82 (Raw events)
+Actual Error Occurrences: 41
+Event Type: Error ID 503: Unknown error 503
+First Occurrence: 2025.07.25_07.27.38.084
+Last Occurrence: 2025.07.25_09.00.00.789
+Error Frequency: 41 occurrences
+Event IDs: 503
+Error IDs: 503
+Total Duration: 01:32:22
+
+Event Sessions:
+• SUMMARY: 41 actual error occurrences (from 82 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+• Error occurrence #17
+• Error occurrence #18
+• Error occurrence #19
+• Error occurrence #20
+• Error occurrence #21
+• Error occurrence #22
+• Error occurrence #23
+• Error occurrence #24
+• Error occurrence #25
+• Error occurrence #26
+• Error occurrence #27
+• Error occurrence #28
+• Error occurrence #29
+• Error occurrence #30
+• Error occurrence #31
+• Error occurrence #32
+• Error occurrence #33
+• Error occurrence #34
+• Error occurrence #35
+• Error occurrence #36
+• Error occurrence #37
+• Error occurrence #38
+• Error occurrence #39
+• Error occurrence #40
+• Error occurrence #41
+
+
+ERROR ID 505:
+============
+Total Events: 62 (Raw events)
+Actual Error Occurrences: 31
+Event Type: Error ID 505: Communication timeout
+First Occurrence: 2025.07.25_07.27.38.100
+Last Occurrence: 2025.07.25_09.37.30.272
+Error Frequency: 31 occurrences
+Event IDs: 505
+Error IDs: 505
+Total Duration: 02:09:52
+
+Event Sessions:
+• SUMMARY: 31 actual error occurrences (from 62 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+• Error occurrence #17
+• Error occurrence #18
+• Error occurrence #19
+• Error occurrence #20
+• Error occurrence #21
+• Error occurrence #22
+• Error occurrence #23
+• Error occurrence #24
+• Error occurrence #25
+• Error occurrence #26
+• Error occurrence #27
+• Error occurrence #28
+• Error occurrence #29
+• Error occurrence #30
+• Error occurrence #31
+
+
+ERROR ID 6951:
+=============
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 6951: Unknown error 6951
+First Occurrence: 2025.07.25_08.04.08.982
+Last Occurrence: 2025.07.25_09.32.57.772
+Error Frequency: 2 occurrences
+Event IDs: 6951
+Error IDs: 6951
+Total Duration: 01:28:49
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Error occurrence #1
+• Error occurrence #2
+
+
+ERROR ID 80:
+===========
+Total Events: 6 (Raw events)
+Actual Error Occurrences: 3
+Event Type: Error ID 80: Force measurement accuracy error
+First Occurrence: 2025.07.25_09.14.56.466
+Last Occurrence: 2025.07.25_09.40.02.455
+Error Frequency: 3 occurrences
+Event IDs: 80
+Error IDs: 80
+Total Duration: 00:25:06
+
+Event Sessions:
+• SUMMARY: 3 actual error occurrences (from 6 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+
+
+ERROR ID 85:
+===========
+Total Events: 20 (Raw events)
+Actual Error Occurrences: 10
+Event Type: Error ID 85: Force sensor communication error
+First Occurrence: 2025.07.25_09.26.32.768
+Last Occurrence: 2025.07.25_09.27.03.868
+Error Frequency: 10 occurrences
+Event IDs: 85
+Error IDs: 85
+Total Duration: 00:00:31
+
+Event Sessions:
+• SUMMARY: 10 actual error occurrences (from 20 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+
+
+ERROR ID 86:
+===========
+Total Events: 132 (Raw events)
+Actual Error Occurrences: 66
+Event Type: Error ID 86: Unknown error 86
+First Occurrence: 2025.07.25_08.24.31.759
+Last Occurrence: 2025.07.25_09.15.40.218
+Error Frequency: 66 occurrences
+Event IDs: 86
+Error IDs: 86
+Total Duration: 00:51:09
+
+Event Sessions:
+• SUMMARY: 66 actual error occurrences (from 132 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+• Error occurrence #17
+• Error occurrence #18
+• Error occurrence #19
+• Error occurrence #20
+• Error occurrence #21
+• Error occurrence #22
+• Error occurrence #23
+• Error occurrence #24
+• Error occurrence #25
+• Error occurrence #26
+• Error occurrence #27
+• Error occurrence #28
+• Error occurrence #29
+• Error occurrence #30
+• Error occurrence #31
+• Error occurrence #32
+• Error occurrence #33
+• Error occurrence #34
+• Error occurrence #35
+• Error occurrence #36
+• Error occurrence #37
+• Error occurrence #38
+• Error occurrence #39
+• Error occurrence #40
+• Error occurrence #41
+• Error occurrence #42
+• Error occurrence #43
+• Error occurrence #44
+• Error occurrence #45
+• Error occurrence #46
+• Error occurrence #47
+• Error occurrence #48
+• Error occurrence #49
+• Error occurrence #50
+• Error occurrence #51
+• Error occurrence #52
+• Error occurrence #53
+• Error occurrence #54
+• Error occurrence #55
+• Error occurrence #56
+• Error occurrence #57
+• Error occurrence #58
+• Error occurrence #59
+• Error occurrence #60
+• Error occurrence #61
+• Error occurrence #62
+• Error occurrence #63
+• Error occurrence #64
+• Error occurrence #65
+• Error occurrence #66
+
+
+ERROR ID 88:
+===========
+Total Events: 34 (Raw events)
+Actual Error Occurrences: 17
+Event Type: Error ID 88: Unknown error 88
+First Occurrence: 2025.07.25_09.26.32.219
+Last Occurrence: 2025.07.25_09.30.02.869
+Error Frequency: 17 occurrences
+Event IDs: 88
+Error IDs: 88
+Total Duration: 00:03:30
+
+Event Sessions:
+• SUMMARY: 17 actual error occurrences (from 34 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+• Error occurrence #17
+
+
+ERROR ID 89:
+===========
+Total Events: 4 (Raw events)
+Actual Error Occurrences: 2
+Event Type: Error ID 89: Force sensor validation error
+First Occurrence: 2025.07.25_09.26.47.968
+Last Occurrence: 2025.07.25_09.26.49.068
+Error Frequency: 2 occurrences
+Event IDs: 89
+Error IDs: 89
+Total Duration: 00:00:02
+
+Event Sessions:
+• SUMMARY: 2 actual error occurrences (from 4 events)
+• Error occurrence #1
+• Error occurrence #2
+
+
+ERROR ID 901:
+============
+Total Events: 66 (Raw events)
+Actual Error Occurrences: 33
+Event Type: Error ID 901: System communication breakdown
+First Occurrence: 2025.07.25_07.06.37.877
+Last Occurrence: 2025.07.25_09.37.30.204
+Error Frequency: 33 occurrences
+Event IDs: 901
+Error IDs: 901
+Total Duration: 02:30:53
+
+Event Sessions:
+• SUMMARY: 33 actual error occurrences (from 66 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+• Error occurrence #17
+• Error occurrence #18
+• Error occurrence #19
+• Error occurrence #20
+• Error occurrence #21
+• Error occurrence #22
+• Error occurrence #23
+• Error occurrence #24
+• Error occurrence #25
+• Error occurrence #26
+• Error occurrence #27
+• Error occurrence #28
+• Error occurrence #29
+• Error occurrence #30
+• Error occurrence #31
+• Error occurrence #32
+• Error occurrence #33
+
+
+ERROR ID 912:
+============
+Total Events: 7 (Raw events)
+Actual Error Occurrences: 4
+Event Type: Error ID 912: Hardware interface error
+First Occurrence: 2025.07.25_07.09.01.648
+Last Occurrence: 2025.07.25_09.40.22.003
+Error Frequency: 4 occurrences
+Event IDs: 912
+Error IDs: 912
+Total Duration: 02:31:21
+
+Event Sessions:
+• SUMMARY: 4 actual error occurrences (from 7 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Event 4: 2025.07.25_09.40.22.003 - Error occurrence #4 (ongoing) (Frequency: 1)
+
+
+ERROR ID 946:
+============
+Total Events: 130 (Raw events)
+Actual Error Occurrences: 65
+Event Type: Error ID 946: Unknown error 946
+First Occurrence: 2025.07.25_08.03.51.940
+Last Occurrence: 2025.07.25_09.40.14.206
+Error Frequency: 65 occurrences
+Event IDs: 946
+Error IDs: 946
+Total Duration: 01:36:23
+
+Event Sessions:
+• SUMMARY: 65 actual error occurrences (from 130 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+• Error occurrence #17
+• Error occurrence #18
+• Error occurrence #19
+• Error occurrence #20
+• Error occurrence #21
+• Error occurrence #22
+• Error occurrence #23
+• Error occurrence #24
+• Error occurrence #25
+• Error occurrence #26
+• Error occurrence #27
+• Error occurrence #28
+• Error occurrence #29
+• Error occurrence #30
+• Error occurrence #31
+• Error occurrence #32
+• Error occurrence #33
+• Error occurrence #34
+• Error occurrence #35
+• Error occurrence #36
+• Error occurrence #37
+• Error occurrence #38
+• Error occurrence #39
+• Error occurrence #40
+• Error occurrence #41
+• Error occurrence #42
+• Error occurrence #43
+• Error occurrence #44
+• Error occurrence #45
+• Error occurrence #46
+• Error occurrence #47
+• Error occurrence #48
+• Error occurrence #49
+• Error occurrence #50
+• Error occurrence #51
+• Error occurrence #52
+• Error occurrence #53
+• Error occurrence #54
+• Error occurrence #55
+• Error occurrence #56
+• Error occurrence #57
+• Error occurrence #58
+• Error occurrence #59
+• Error occurrence #60
+• Error occurrence #61
+• Error occurrence #62
+• Error occurrence #63
+• Error occurrence #64
+• Error occurrence #65
+
+
+ERROR ID 947:
+============
+Total Events: 144 (Raw events)
+Actual Error Occurrences: 72
+Event Type: Error ID 947: Unknown error 947
+First Occurrence: 2025.07.25_07.58.23.379
+Last Occurrence: 2025.07.25_09.41.15.778
+Error Frequency: 72 occurrences
+Event IDs: 947
+Error IDs: 947
+Total Duration: 01:42:52
+
+Event Sessions:
+• SUMMARY: 72 actual error occurrences (from 144 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+• Error occurrence #17
+• Error occurrence #18
+• Error occurrence #19
+• Error occurrence #20
+• Error occurrence #21
+• Error occurrence #22
+• Error occurrence #23
+• Error occurrence #24
+• Error occurrence #25
+• Error occurrence #26
+• Error occurrence #27
+• Error occurrence #28
+• Error occurrence #29
+• Error occurrence #30
+• Error occurrence #31
+• Error occurrence #32
+• Error occurrence #33
+• Error occurrence #34
+• Error occurrence #35
+• Error occurrence #36
+• Error occurrence #37
+• Error occurrence #38
+• Error occurrence #39
+• Error occurrence #40
+• Error occurrence #41
+• Error occurrence #42
+• Error occurrence #43
+• Error occurrence #44
+• Error occurrence #45
+• Error occurrence #46
+• Error occurrence #47
+• Error occurrence #48
+• Error occurrence #49
+• Error occurrence #50
+• Error occurrence #51
+• Error occurrence #52
+• Error occurrence #53
+• Error occurrence #54
+• Error occurrence #55
+• Error occurrence #56
+• Error occurrence #57
+• Error occurrence #58
+• Error occurrence #59
+• Error occurrence #60
+• Error occurrence #61
+• Error occurrence #62
+• Error occurrence #63
+• Error occurrence #64
+• Error occurrence #65
+• Error occurrence #66
+• Error occurrence #67
+• Error occurrence #68
+• Error occurrence #69
+• Error occurrence #70
+• Error occurrence #71
+• Error occurrence #72
+
+
+ERROR ID 948:
+============
+Total Events: 660 (Raw events)
+Actual Error Occurrences: 330
+Event Type: Error ID 948: Unknown error 948
+First Occurrence: 2025.07.25_08.03.54.756
+Last Occurrence: 2025.07.25_09.32.58.122
+Error Frequency: 330 occurrences
+Event IDs: 948
+Error IDs: 948
+Total Duration: 01:29:04
+
+Event Sessions:
+• SUMMARY: 330 actual error occurrences (from 660 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+• Error occurrence #17
+• Error occurrence #18
+• Error occurrence #19
+• Error occurrence #20
+• Error occurrence #21
+• Error occurrence #22
+• Error occurrence #23
+• Error occurrence #24
+• Error occurrence #25
+• Error occurrence #26
+• Error occurrence #27
+• Error occurrence #28
+• Error occurrence #29
+• Error occurrence #30
+• Error occurrence #31
+• Error occurrence #32
+• Error occurrence #33
+• Error occurrence #34
+• Error occurrence #35
+• Error occurrence #36
+• Error occurrence #37
+• Error occurrence #38
+• Error occurrence #39
+• Error occurrence #40
+• Error occurrence #41
+• Error occurrence #42
+• Error occurrence #43
+• Error occurrence #44
+• Error occurrence #45
+• Error occurrence #46
+• Error occurrence #47
+• Error occurrence #48
+• Error occurrence #49
+• Error occurrence #50
+• Error occurrence #51
+• Error occurrence #52
+• Error occurrence #53
+• Error occurrence #54
+• Error occurrence #55
+• Error occurrence #56
+• Error occurrence #57
+• Error occurrence #58
+• Error occurrence #59
+• Error occurrence #60
+• Error occurrence #61
+• Error occurrence #62
+• Error occurrence #63
+• Error occurrence #64
+• Error occurrence #65
+• Error occurrence #66
+• Error occurrence #67
+• Error occurrence #68
+• Error occurrence #69
+• Error occurrence #70
+• Error occurrence #71
+• Error occurrence #72
+• Error occurrence #73
+• Error occurrence #74
+• Error occurrence #75
+• Error occurrence #76
+• Error occurrence #77
+• Error occurrence #78
+• Error occurrence #79
+• Error occurrence #80
+• Error occurrence #81
+• Error occurrence #82
+• Error occurrence #83
+• Error occurrence #84
+• Error occurrence #85
+• Error occurrence #86
+• Error occurrence #87
+• Error occurrence #88
+• Error occurrence #89
+• Error occurrence #90
+• Error occurrence #91
+• Error occurrence #92
+• Error occurrence #93
+• Error occurrence #94
+• Error occurrence #95
+• Error occurrence #96
+• Error occurrence #97
+• Error occurrence #98
+• Error occurrence #99
+• Error occurrence #100
+• Error occurrence #101
+• Error occurrence #102
+• Error occurrence #103
+• Error occurrence #104
+• Error occurrence #105
+• Error occurrence #106
+• Error occurrence #107
+• Error occurrence #108
+• Error occurrence #109
+• Error occurrence #110
+• Error occurrence #111
+• Error occurrence #112
+• Error occurrence #113
+• Error occurrence #114
+• Error occurrence #115
+• Error occurrence #116
+• Error occurrence #117
+• Error occurrence #118
+• Error occurrence #119
+• Error occurrence #120
+• Error occurrence #121
+• Error occurrence #122
+• Error occurrence #123
+• Error occurrence #124
+• Error occurrence #125
+• Error occurrence #126
+• Error occurrence #127
+• Error occurrence #128
+• Error occurrence #129
+• Error occurrence #130
+• Error occurrence #131
+• Error occurrence #132
+• Error occurrence #133
+• Error occurrence #134
+• Error occurrence #135
+• Error occurrence #136
+• Error occurrence #137
+• Error occurrence #138
+• Error occurrence #139
+• Error occurrence #140
+• Error occurrence #141
+• Error occurrence #142
+• Error occurrence #143
+• Error occurrence #144
+• Error occurrence #145
+• Error occurrence #146
+• Error occurrence #147
+• Error occurrence #148
+• Error occurrence #149
+• Error occurrence #150
+• Error occurrence #151
+• Error occurrence #152
+• Error occurrence #153
+• Error occurrence #154
+• Error occurrence #155
+• Error occurrence #156
+• Error occurrence #157
+• Error occurrence #158
+• Error occurrence #159
+• Error occurrence #160
+• Error occurrence #161
+• Error occurrence #162
+• Error occurrence #163
+• Error occurrence #164
+• Error occurrence #165
+• Error occurrence #166
+• Error occurrence #167
+• Error occurrence #168
+• Error occurrence #169
+• Error occurrence #170
+• Error occurrence #171
+• Error occurrence #172
+• Error occurrence #173
+• Error occurrence #174
+• Error occurrence #175
+• Error occurrence #176
+• Error occurrence #177
+• Error occurrence #178
+• Error occurrence #179
+• Error occurrence #180
+• Error occurrence #181
+• Error occurrence #182
+• Error occurrence #183
+• Error occurrence #184
+• Error occurrence #185
+• Error occurrence #186
+• Error occurrence #187
+• Error occurrence #188
+• Error occurrence #189
+• Error occurrence #190
+• Error occurrence #191
+• Error occurrence #192
+• Error occurrence #193
+• Error occurrence #194
+• Error occurrence #195
+• Error occurrence #196
+• Error occurrence #197
+• Error occurrence #198
+• Error occurrence #199
+• Error occurrence #200
+• Error occurrence #201
+• Error occurrence #202
+• Error occurrence #203
+• Error occurrence #204
+• Error occurrence #205
+• Error occurrence #206
+• Error occurrence #207
+• Error occurrence #208
+• Error occurrence #209
+• Error occurrence #210
+• Error occurrence #211
+• Error occurrence #212
+• Error occurrence #213
+• Error occurrence #214
+• Error occurrence #215
+• Error occurrence #216
+• Error occurrence #217
+• Error occurrence #218
+• Error occurrence #219
+• Error occurrence #220
+• Error occurrence #221
+• Error occurrence #222
+• Error occurrence #223
+• Error occurrence #224
+• Error occurrence #225
+• Error occurrence #226
+• Error occurrence #227
+• Error occurrence #228
+• Error occurrence #229
+• Error occurrence #230
+• Error occurrence #231
+• Error occurrence #232
+• Error occurrence #233
+• Error occurrence #234
+• Error occurrence #235
+• Error occurrence #236
+• Error occurrence #237
+• Error occurrence #238
+• Error occurrence #239
+• Error occurrence #240
+• Error occurrence #241
+• Error occurrence #242
+• Error occurrence #243
+• Error occurrence #244
+• Error occurrence #245
+• Error occurrence #246
+• Error occurrence #247
+• Error occurrence #248
+• Error occurrence #249
+• Error occurrence #250
+• Error occurrence #251
+• Error occurrence #252
+• Error occurrence #253
+• Error occurrence #254
+• Error occurrence #255
+• Error occurrence #256
+• Error occurrence #257
+• Error occurrence #258
+• Error occurrence #259
+• Error occurrence #260
+• Error occurrence #261
+• Error occurrence #262
+• Error occurrence #263
+• Error occurrence #264
+• Error occurrence #265
+• Error occurrence #266
+• Error occurrence #267
+• Error occurrence #268
+• Error occurrence #269
+• Error occurrence #270
+• Error occurrence #271
+• Error occurrence #272
+• Error occurrence #273
+• Error occurrence #274
+• Error occurrence #275
+• Error occurrence #276
+• Error occurrence #277
+• Error occurrence #278
+• Error occurrence #279
+• Error occurrence #280
+• Error occurrence #281
+• Error occurrence #282
+• Error occurrence #283
+• Error occurrence #284
+• Error occurrence #285
+• Error occurrence #286
+• Error occurrence #287
+• Error occurrence #288
+• Error occurrence #289
+• Error occurrence #290
+• Error occurrence #291
+• Error occurrence #292
+• Error occurrence #293
+• Error occurrence #294
+• Error occurrence #295
+• Error occurrence #296
+• Error occurrence #297
+• Error occurrence #298
+• Error occurrence #299
+• Error occurrence #300
+• Error occurrence #301
+• Error occurrence #302
+• Error occurrence #303
+• Error occurrence #304
+• Error occurrence #305
+• Error occurrence #306
+• Error occurrence #307
+• Error occurrence #308
+• Error occurrence #309
+• Error occurrence #310
+• Error occurrence #311
+• Error occurrence #312
+• Error occurrence #313
+• Error occurrence #314
+• Error occurrence #315
+• Error occurrence #316
+• Error occurrence #317
+• Error occurrence #318
+• Error occurrence #319
+• Error occurrence #320
+• Error occurrence #321
+• Error occurrence #322
+• Error occurrence #323
+• Error occurrence #324
+• Error occurrence #325
+• Error occurrence #326
+• Error occurrence #327
+• Error occurrence #328
+• Error occurrence #329
+• Error occurrence #330
+
+
+ERROR ID 95:
+===========
+Total Events: 20 (Raw events)
+Actual Error Occurrences: 10
+Event Type: Error ID 95: Force sensor calibration error
+First Occurrence: 2025.07.25_09.26.32.119
+Last Occurrence: 2025.07.25_09.27.02.818
+Error Frequency: 10 occurrences
+Event IDs: 95
+Error IDs: 95
+Total Duration: 00:00:30
+
+Event Sessions:
+• SUMMARY: 10 actual error occurrences (from 20 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+
+
+ERROR ID 950:
+============
+Total Events: 6 (Raw events)
+Actual Error Occurrences: 3
+Event Type: Error ID 950: Unknown error 950
+First Occurrence: 2025.07.25_08.19.24.830
+Last Occurrence: 2025.07.25_09.09.10.519
+Error Frequency: 3 occurrences
+Event IDs: 950
+Error IDs: 950
+Total Duration: 00:49:46
+
+Event Sessions:
+• SUMMARY: 3 actual error occurrences (from 6 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+
+
+ERROR ID 952:
+============
+Total Events: 6 (Raw events)
+Actual Error Occurrences: 3
+Event Type: Error ID 952: Unknown error 952
+First Occurrence: 2025.07.25_08.19.01.960
+Last Occurrence: 2025.07.25_09.40.15.622
+Error Frequency: 3 occurrences
+Event IDs: 952
+Error IDs: 952
+Total Duration: 01:21:14
+
+Event Sessions:
+• SUMMARY: 3 actual error occurrences (from 6 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+
+
+ERROR ID 955:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 955: Unknown error 955
+First Occurrence: 2025.07.25_09.40.15.622
+Last Occurrence: 2025.07.25_09.40.22.003
+Error Frequency: 1 occurrences
+Event IDs: 955
+Error IDs: 955
+Total Duration: 00:00:07
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Error occurrence #1
+
+
+ERROR ID 956:
+============
+Total Events: 2 (Raw events)
+Actual Error Occurrences: 1
+Event Type: Error ID 956: Unknown error 956
+First Occurrence: 2025.07.25_08.18.48.777
+Last Occurrence: 2025.07.25_08.18.48.792
+Error Frequency: 1 occurrences
+Event IDs: 956
+Error IDs: 956
+Total Duration: 00:00:00
+
+Event Sessions:
+• SUMMARY: 1 actual error occurrences (from 2 events)
+• Error occurrence #1
+
+
+ERROR ID 982:
+============
+Total Events: 44 (Raw events)
+Actual Error Occurrences: 22
+Event Type: Error ID 982: Unknown error 982
+First Occurrence: 2025.07.25_07.09.33.261
+Last Occurrence: 2025.07.25_08.59.31.184
+Error Frequency: 22 occurrences
+Event IDs: 982
+Error IDs: 982
+Total Duration: 01:49:58
+
+Event Sessions:
+• SUMMARY: 22 actual error occurrences (from 44 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+• Error occurrence #17
+• Error occurrence #18
+• Error occurrence #19
+• Error occurrence #20
+• Error occurrence #21
+• Error occurrence #22
+
+
+ERROR ID 996:
+============
+Total Events: 164 (Raw events)
+Actual Error Occurrences: 82
+Event Type: Error ID 996: Unknown error 996
+First Occurrence: 2025.07.25_07.09.35.254
+Last Occurrence: 2025.07.25_09.54.26.266
+Error Frequency: 82 occurrences
+Event IDs: 996
+Error IDs: 996
+Total Duration: 02:44:51
+
+Event Sessions:
+• SUMMARY: 82 actual error occurrences (from 164 events)
+• Error occurrence #1
+• Error occurrence #2
+• Error occurrence #3
+• Error occurrence #4
+• Error occurrence #5
+• Error occurrence #6
+• Error occurrence #7
+• Error occurrence #8
+• Error occurrence #9
+• Error occurrence #10
+• Error occurrence #11
+• Error occurrence #12
+• Error occurrence #13
+• Error occurrence #14
+• Error occurrence #15
+• Error occurrence #16
+• Error occurrence #17
+• Error occurrence #18
+• Error occurrence #19
+• Error occurrence #20
+• Error occurrence #21
+• Error occurrence #22
+• Error occurrence #23
+• Error occurrence #24
+• Error occurrence #25
+• Error occurrence #26
+• Error occurrence #27
+• Error occurrence #28
+• Error occurrence #29
+• Error occurrence #30
+• Error occurrence #31
+• Error occurrence #32
+• Error occurrence #33
+• Error occurrence #34
+• Error occurrence #35
+• Error occurrence #36
+• Error occurrence #37
+• Error occurrence #38
+• Error occurrence #39
+• Error occurrence #40
+• Error occurrence #41
+• Error occurrence #42
+• Error occurrence #43
+• Error occurrence #44
+• Error occurrence #45
+• Error occurrence #46
+• Error occurrence #47
+• Error occurrence #48
+• Error occurrence #49
+• Error occurrence #50
+• Error occurrence #51
+• Error occurrence #52
+• Error occurrence #53
+• Error occurrence #54
+• Error occurrence #55
+• Error occurrence #56
+• Error occurrence #57
+• Error occurrence #58
+• Error occurrence #59
+• Error occurrence #60
+• Error occurrence #61
+• Error occurrence #62
+• Error occurrence #63
+• Error occurrence #64
+• Error occurrence #65
+• Error occurrence #66
+• Error occurrence #67
+• Error occurrence #68
+• Error occurrence #69
+• Error occurrence #70
+• Error occurrence #71
+• Error occurrence #72
+• Error occurrence #73
+• Error occurrence #74
+• Error occurrence #75
+• Error occurrence #76
+• Error occurrence #77
+• Error occurrence #78
+• Error occurrence #79
+• Error occurrence #80
+• Error occurrence #81
+• Error occurrence #82
+
